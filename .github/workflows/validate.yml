@@ -1,0 +1,32 @@
+name: Validate scanner and Worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scan.py"
+      - "verify.py"
+      - "worker/**"
+      - ".github/workflows/validate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Python tools
+        run: python -m py_compile scan.py verify.py
+      - name: Install Worker dependencies
+        working-directory: worker
+        run: npm install --no-audit --no-fund
+      - name: Cloudflare Worker dry-run bundle
+        working-directory: worker
+        run: npx wrangler deploy --dry-run --outdir dist
