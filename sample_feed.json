@@ -1,0 +1,60 @@
+{
+  "product": "verified-bounty-radar",
+  "version": "0.1.0",
+  "generated_at": "2026-09-02T20:05:23Z",
+  "status": "public-preview",
+  "entries": [
+    {
+      "id": "github:notforhumansfun-rgb/not-for-humans-mcp#6",
+      "url": "https://github.com/notforhumansfun-rgb/not-for-humans-mcp/issues/6",
+      "title": "[BOUNTY] Break the NFH Wake holder gate — 25 USDC",
+      "canonical_state": "closed",
+      "closed_at": "2026-08-26T06:46:05Z",
+      "reward_text": "25 USDC",
+      "labels": ["security", "bounty"],
+      "decision": "skip",
+      "decision_reasons": [
+        "Canonical GitHub issue is closed.",
+        "A secondary bounty mirror surfaced it as open later, demonstrating stale discovery data."
+      ],
+      "verification_confidence": "high"
+    },
+    {
+      "id": "github:shaiananvari8/zeroeye#1",
+      "url": "https://github.com/shaiananvari8/zeroeye/issues/1",
+      "title": "[$35 BOUNTY] [TypeScript] Add single-flight token refresh handling",
+      "canonical_state": "open",
+      "reward_text": "$35 (LT)",
+      "labels": ["bounty", "good first issue", "help wanted", "language:typescript"],
+      "matching_open_pr_count": 7,
+      "matching_open_pr_numbers": [4, 6, 8, 9, 12, 17, 19],
+      "decision": "skip",
+      "decision_reasons": [
+        "Seven currently open PRs explicitly reference issue #1.",
+        "Expected-value is poor despite the issue still being open."
+      ],
+      "verification_confidence": "high",
+      "reward_note": "Issuer-stated reward; settlement and convertibility of LT not independently verified."
+    },
+    {
+      "id": "github:Ikalus1988/MisakaNet#1401",
+      "url": "https://github.com/Ikalus1988/MisakaNet/issues/1401",
+      "title": "[Bounty] Test dsh plugin installation methods",
+      "canonical_state": "open",
+      "reward_text": null,
+      "labels": ["good first issue", "ready", "bounty", "agent-friendly", "has-test", "status:competition"],
+      "claim_rule": "Issue bot states /claim grants an 8-hour exclusive window.",
+      "observed_claims": [
+        {"actor": "muhammed3372", "created_at": "2026-09-02T13:40:12Z"},
+        {"actor": "muhammed3372", "created_at": "2026-09-02T13:41:41Z"}
+      ],
+      "decision": "hold",
+      "decision_reasons": [
+        "Canonical issue is open but an exclusive-claim signal is active/recent.",
+        "Reward amount is not established in the issue body; do not assign a cash value until verified.",
+        "Recheck the thread immediately before attempting work because claim-window semantics may reset or expire."
+      ],
+      "verification_confidence": "high"
+    }
+  ]
+}

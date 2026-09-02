@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified Bounty Radar Feed",
+  "type": "object",
+  "required": ["product", "version", "generated_at", "entries"],
+  "properties": {
+    "product": {"const": "verified-bounty-radar"},
+    "version": {"type": "string"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "status": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "title", "canonical_state", "decision", "decision_reasons", "verification_confidence"],
+        "properties": {
+          "id": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "title": {"type": "string"},
+          "canonical_state": {"enum": ["open", "closed", "unknown"]},
+          "closed_at": {"type": ["string", "null"], "format": "date-time"},
+          "reward_text": {"type": ["string", "null"]},
+          "labels": {"type": "array", "items": {"type": "string"}},
+          "matching_open_pr_count": {"type": "integer", "minimum": 0},
+          "matching_open_pr_numbers": {"type": "array", "items": {"type": "integer"}},
+          "claim_rule": {"type": "string"},
+          "observed_claims": {"type": "array"},
+          "decision": {"enum": ["pursue", "hold", "skip", "manual_review"]},
+          "decision_reasons": {"type": "array", "items": {"type": "string"}},
+          "verification_confidence": {"enum": ["low", "medium", "high"]}
+        }
+      }
+    }
+  }
+}
