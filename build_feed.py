@@ -92,15 +92,21 @@ def claim_state(owner, repo, number, issue_body):
 
     claims = []
     releases = []
+    attempt_count = 0
+    submission_signals = 0
     for c in comments:
         body = (c.get("body") or "").strip().lower()
+        if re.search(r"(?m)^/attempt\b", body):
+            attempt_count += 1
+        if "submission completed" in body or re.search(r"github\.com/[^/]+/[^/]+/pull/\d+", body):
+            submission_signals += 1
         if re.search(r"(?m)^/claim\b", body):
             claims.append(c)
         if re.search(r"(?m)^/(?:unclaim|release)\b", body) or "claim withdrawn" in body:
             releases.append(c)
 
     if not claims:
-        return {"state": "none"}
+        return {"state": "none", "attempt_count": attempt_count, "submission_signals": submission_signals}
 
     last_claim = claims[-1]
     claim_time = datetime.fromisoformat(last_claim["created_at"].replace("Z", "+00:00"))
@@ -114,6 +120,8 @@ def claim_state(owner, repo, number, issue_body):
         "state": "present_unknown",
         "claimed_at": last_claim["created_at"],
         "claimant": (last_claim.get("user") or {}).get("login"),
+        "attempt_count": attempt_count,
+        "submission_signals": submission_signals,
     }
     if window_hours:
         expires = claim_time + timedelta(hours=window_hours)
@@ -133,6 +141,10 @@ def recommendation(state, reward, pr_count, claim, assignees):
         return "skip_assigned"
     if claim.get("state") == "active":
         return "skip_claimed"
+    if claim.get("submission_signals", 0) > 0:
+        return "avoid_active_submissions"
+    if claim.get("attempt_count", 0) >= 3:
+        return "avoid_crowded"
     if pr_count is not None and pr_count >= 5:
         return "avoid_crowded"
     if not reward:
@@ -233,9 +245,10 @@ def main():
         "verify_reward": 2,
         "avoid_crowded": 3,
         "skip_claimed": 4,
-        "skip_assigned": 5,
-        "skip_closed": 6,
-        "skip_unverifiable": 7,
+        "avoid_active_submissions": 5,
+        "skip_assigned": 6,
+        "skip_closed": 7,
+        "skip_unverifiable": 8,
     }
     records.sort(key=lambda x: (priority.get(x.get("recommendation"), 9), -(x.get("value_per_competitor") or 0)))
     output = {
