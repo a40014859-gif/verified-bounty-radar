@@ -22,7 +22,7 @@ jobs:
         run: python build_feed.py
       - name: Commit changed feed
         run: |
-          if git diff --quiet -- feed.json; then
+          if [ -z "$(git status --porcelain -- feed.json)" ]; then
             echo "No feed changes"
             exit 0
           fi
