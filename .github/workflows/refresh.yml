@@ -1,0 +1,38 @@
+name: Refresh verified bounty feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scan canonical bounty state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RADAR_MAX_CANDIDATES: "15"
+          RADAR_LOOKBACK_DAYS: "3"
+          RADAR_CLAIM_HOURS: "8"
+          RADAR_PR_SKIP_THRESHOLD: "3"
+        run: python scan.py
+      - name: Publish refreshed feed when changed
+        run: |
+          git config user.name "verified-bounty-radar[bot]"
+          git config user.email "verified-bounty-radar[bot]@users.noreply.github.com"
+          git add live_feed.json
+          if git diff --cached --quiet; then
+            echo "No feed change"
+            exit 0
+          fi
+          git commit -m "Refresh verified bounty feed"
+          git push
