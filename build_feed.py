@@ -44,22 +44,28 @@ def canonical_from_body(issue):
 def reward_from_text(title, body):
     clean_body = (body or "").split("<details", 1)[0][:1200]
     text = f"{title}\n{clean_body}"
+    num = r"([0-9][0-9,]*(?:\.[0-9]+)?)"
     patterns = [
-        r"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*\$\s*([0-9]+(?:\.[0-9]+)?)",
-        r"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*([0-9]+(?:\.[0-9]+)?)\s*(USDC|USD)",
-        r"(?i)\$\s*([0-9]+(?:\.[0-9]+)?)\s*(?:bounty|prize|reward)?",
-        r"(?i)([0-9]+(?:\.[0-9]+)?)\s*(USDC|USD)\b",
+        rf"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*\$\s*{num}",
+        rf"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*{num}\s*(USDC|USD)",
+        rf"(?i)\$\s*{num}\s*(?:bounty|prize|reward)?",
+        rf"(?i){num}\s*(USDC|USD)\b",
     ]
     for p in patterns:
         m = re.search(p, text)
-        if m:
-            amount = float(m.group(1))
-            currency = "USD"
-            if m.lastindex and m.lastindex >= 2 and m.group(2):
-                currency = m.group(2).upper()
-            elif "USDC" in m.group(0).upper():
-                currency = "USDC"
-            return {"amount": amount, "currency": currency, "evidence": m.group(0)[:120]}
+        if not m:
+            continue
+        amount_text = m.group(1).replace(",", "")
+        try:
+            amount = float(amount_text)
+        except ValueError:
+            continue
+        currency = "USD"
+        if m.lastindex and m.lastindex >= 2 and m.group(2):
+            currency = m.group(2).upper()
+        elif "USDC" in m.group(0).upper():
+            currency = "USDC"
+        return {"amount": amount, "currency": currency, "evidence": m.group(0)[:120]}
     return None
 
 
@@ -179,17 +185,33 @@ def verify(candidate):
     }
 
 
+def discover():
+    queries = [
+        "bounty in:title is:issue",
+        "label:bounty is:issue",
+    ]
+    merged = []
+    seen = set()
+    for q in queries:
+        data = request("/search/issues", {
+            "q": q,
+            "sort": "updated",
+            "order": "desc",
+            "per_page": 30,
+        })
+        for item in data.get("items", []):
+            key = item.get("html_url")
+            if key and key not in seen:
+                seen.add(key)
+                merged.append(item)
+    merged.sort(key=lambda x: x.get("updated_at") or "", reverse=True)
+    return merged
+
+
 def main():
-    query = 'bounty in:title,body is:issue'
-    data = request("/search/issues", {
-        "q": query,
-        "sort": "updated",
-        "order": "desc",
-        "per_page": 30,
-    })
     records = []
     seen = set()
-    for candidate in data.get("items", []):
+    for candidate in discover():
         record = verify(candidate)
         if not record:
             continue
@@ -198,7 +220,7 @@ def main():
             continue
         seen.add(key)
         records.append(record)
-        if len(records) >= 20:
+        if len(records) >= 25:
             break
 
     priority = {
@@ -215,7 +237,7 @@ def main():
         "product": "Verified Bounty Radar",
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "record_count": len(records),
-        "method": "Canonical GitHub issue verification, open-PR competition search, and claim-window detection.",
+        "method": "Bounty-title/label discovery, canonical GitHub verification, open-PR competition search, and claim-window detection.",
         "records": records,
     }
     with open("feed.json", "w", encoding="utf-8") as f:
