@@ -126,9 +126,11 @@ def claim_state(owner, repo, number, issue_body):
     return result
 
 
-def recommendation(state, reward, pr_count, claim):
+def recommendation(state, reward, pr_count, claim, assignees):
     if state != "open":
         return "skip_closed"
+    if assignees:
+        return "skip_assigned"
     if claim.get("state") == "active":
         return "skip_claimed"
     if pr_count is not None and pr_count >= 5:
@@ -160,6 +162,7 @@ def verify(candidate):
         return None
 
     state = canonical.get("state")
+    assignees = [a.get("login") for a in (canonical.get("assignees") or []) if a.get("login")]
     reward = reward_from_text(canonical.get("title") or "", canonical.get("body") or "")
     pr_count = competition(owner, repo, number) if state == "open" else 0
     claim = claim_state(owner, repo, number, canonical.get("body") or "") if state == "open" else {"state": "none"}
@@ -178,9 +181,10 @@ def verify(candidate):
         "closed_at": canonical.get("closed_at"),
         "reward": reward,
         "open_pr_competition": pr_count,
+        "assignees": assignees,
         "claim": claim,
         "value_per_competitor": score,
-        "recommendation": recommendation(state, reward, pr_count, claim),
+        "recommendation": recommendation(state, reward, pr_count, claim, assignees),
         "verified_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
 
@@ -229,8 +233,9 @@ def main():
         "verify_reward": 2,
         "avoid_crowded": 3,
         "skip_claimed": 4,
-        "skip_closed": 5,
-        "skip_unverifiable": 6,
+        "skip_assigned": 5,
+        "skip_closed": 6,
+        "skip_unverifiable": 7,
     }
     records.sort(key=lambda x: (priority.get(x.get("recommendation"), 9), -(x.get("value_per_competitor") or 0)))
     output = {
