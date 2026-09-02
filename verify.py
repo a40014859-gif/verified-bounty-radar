@@ -9,14 +9,15 @@ import urllib.parse
 import urllib.request
 
 URL_RE = re.compile(r"^https://github\.com/([^/]+)/([^/]+)/issues/(\d+)(?:$|[?#])")
-REWARD_RE = re.compile(r"(?i)(?:\$\s?\d+(?:\.\d+)?|\d+(?:\.\d+)?\s?(?:USDC|USD|EUR|BTC|ETH|SOL|RTC|LT))")
+NUMBER = r"\d[\d,]*(?:\.\d+)?"
+REWARD_RE = re.compile(rf"(?i)(?:\$\s?{NUMBER}(?:\s?(?:USD|USDC))?|{NUMBER}\s?(?:USDC|USD|EUR|BTC|ETH|SOL|RTC|LT))")
 CLAIM_RE = re.compile(r"(?im)^\s*/(?:claim|try|attempt)\b.*$")
 
 
 def api_get(path):
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "verified-bounty-radar/0.1",
+        "User-Agent": "verified-bounty-radar/0.2",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.getenv("GITHUB_TOKEN")
@@ -38,8 +39,6 @@ def all_comments(owner, repo, number):
 
 
 def matching_prs(owner, repo, number):
-    # Search explicit issue-number references in open PRs. This is a lower-bound,
-    # not a perfect semantic linker; callers should treat it as competition evidence.
     q = f'repo:{owner}/{repo} is:pr is:open "#{number}"'
     data = api_get("/search/issues?q=" + urllib.parse.quote(q) + "&per_page=100")
     return [

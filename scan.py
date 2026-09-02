@@ -23,9 +23,11 @@ PR_SKIP_THRESHOLD = int(os.getenv("RADAR_PR_SKIP_THRESHOLD", "3"))
 CLAIM_HOURS = int(os.getenv("RADAR_CLAIM_HOURS", "8"))
 
 ISSUE_URL_RE = re.compile(r"https://github\.com/([^/\s]+)/([^/\s]+)/issues/(\d+)", re.I)
+NUMBER = r"\d[\d,]*(?:\.\d+)?"
 REWARD_RE = re.compile(
-    r"(?i)(?:\$\s?\d+(?:\.\d+)?(?:\s?(?:USD|USDC))?|\d+(?:\.\d+)?\s?(?:USDC|USD|EUR|BTC|ETH|SOL|RTC|LT))"
+    rf"(?i)(?:\$\s?{NUMBER}(?:\s?(?:USD|USDC))?|{NUMBER}\s?(?:USDC|USD|EUR|BTC|ETH|SOL|RTC|LT))"
 )
+USD_REWARD_RE = re.compile(rf"(?i)(?:\$\s*({NUMBER})|({NUMBER})\s*(?:USD|USDC)\b)")
 CLAIM_RE = re.compile(r"(?im)^\s*/(claim|try|attempt)\b.*$")
 CLOSING_RE_TEMPLATE = r"(?i)(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?|claim(?:s|ed)?|issue)\s*:?[ \t]*#%d\b"
 
@@ -80,7 +82,6 @@ def get_issue(url: str):
 
 
 def comments_for(owner: str, repo: str, number: int):
-    # Bounty threads are normally small. Cap at 200 comments to bound cost.
     out = []
     for page in (1, 2):
         batch = api_get(f"/repos/{owner}/{repo}/issues/{number}/comments?per_page=100&page={page}")
@@ -101,10 +102,25 @@ def strip_boilerplate(text: str) -> str:
     return "\n".join(keep)
 
 
+def issuer_reward_text(issue: dict) -> str:
+    return strip_boilerplate((issue.get("title") or "") + "\n" + (issue.get("body") or ""))
+
+
 def reward_mentions(issue: dict) -> list[str]:
-    # Prefer issuer-authored title/body. Do not infer reward from generic bot boilerplate/comments.
-    text = strip_boilerplate((issue.get("title") or "") + "\n" + (issue.get("body") or ""))
+    text = issuer_reward_text(issue)
     return list(dict.fromkeys(m.group(0).strip() for m in REWARD_RE.finditer(text)))[:8]
+
+
+def reward_usd_max(issue: dict) -> float | None:
+    """Return only explicit $ / USD / USDC amounts. Do not guess conversion for RTC/LT/crypto."""
+    values = []
+    for match in USD_REWARD_RE.finditer(issuer_reward_text(issue)):
+        raw = match.group(1) or match.group(2)
+        try:
+            values.append(float(raw.replace(",", "")))
+        except ValueError:
+            pass
+    return max(values) if values else None
 
 
 def claim_signals(comments: list[dict]):
@@ -162,6 +178,7 @@ def verify(candidate: dict) -> dict:
     number = int(canonical["number"])
 
     rewards = reward_mentions(canonical)
+    usd_max = reward_usd_max(canonical)
     labels = [x.get("name") for x in canonical.get("labels", [])]
     comments = comments_for(owner, repo, number) if canonical.get("comments", 0) else []
     claims = claim_signals(comments)
@@ -198,6 +215,7 @@ def verify(candidate: dict) -> dict:
         "updated_at": canonical.get("updated_at"),
         "labels": labels,
         "reward_mentions": rewards,
+        "reward_usd_max": usd_max,
         "recent_claim_count": sum(1 for c in claims if c["recent"]),
         "claim_signals": claims[-10:],
         "matching_open_pr_count": len(prs),
@@ -207,6 +225,7 @@ def verify(candidate: dict) -> dict:
         "verification_confidence": "high" if decision in ("skip", "hold") else "medium",
         "caveats": [
             "Reward text is not proof of escrow, payment, or asset convertibility.",
+            "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
             "PR competition is a lower bound based on explicit issue references.",
             "Claim commands are signals; project-specific reservation semantics may differ."
         ],
@@ -229,7 +248,6 @@ def main():
     for candidate in discover():
         try:
             item = verify(candidate)
-            # Mirrors can collapse to the same canonical issue.
             if item["id"] in seen:
                 continue
             seen.add(item["id"])
@@ -241,7 +259,7 @@ def main():
     entries.sort(key=lambda x: (rank.get(x["decision"], 9), x.get("matching_open_pr_count", 0)))
     payload = {
         "product": "verified-bounty-radar",
-        "version": "0.2.0",
+        "version": "0.2.1",
         "generated_at": now_utc().isoformat().replace("+00:00", "Z"),
         "policy": {
             "lookback_days": LOOKBACK_DAYS,

@@ -29,9 +29,7 @@ function filterFeed(feed, query) {
       if (!haystack.includes(language)) return false;
     }
     if (minReward > 0) {
-      const rewardText = (entry.reward_mentions || []).join(" ");
-      const amounts = [...rewardText.matchAll(/(?:\$\s*)?(\d+(?:\.\d+)?)/g)].map((m) => Number(m[1]));
-      if (!amounts.length || Math.max(...amounts) < minReward) return false;
+      if (entry.reward_usd_max == null || Number(entry.reward_usd_max) < minReward) return false;
     }
     return true;
   });
@@ -43,7 +41,7 @@ function filterFeed(feed, query) {
     query: Object.fromEntries(query.entries()),
     count: entries.length,
     entries,
-    caveat: "Reward text is not proof of payment; verify settlement terms before committing substantial work.",
+    caveat: "Reward text is not proof of payment; verify settlement terms before committing substantial work. min_reward applies only to explicit $, USD or USDC amounts.",
   };
 }
 
@@ -72,7 +70,7 @@ app.get("/.well-known/x402", (c) =>
 app.get("/openapi.json", (c) =>
   c.json({
     openapi: "3.1.0",
-    info: { title: "Verified Bounty Radar", version: "0.2.0" },
+    info: { title: "Verified Bounty Radar", version: "0.2.1" },
     paths: {
       "/health": { get: { summary: "Health check", responses: { "200": { description: "OK" } } } },
       "/v1/preview": { get: { summary: "Free preview", responses: { "200": { description: "Preview" } } } },
@@ -82,7 +80,7 @@ app.get("/openapi.json", (c) =>
           parameters: [
             { name: "decision", in: "query", schema: { type: "string", enum: ["pursue", "hold", "skip", "manual_review", "any"] } },
             { name: "language", in: "query", schema: { type: "string" } },
-            { name: "min_reward", in: "query", schema: { type: "number" } },
+            { name: "min_reward", in: "query", description: "Minimum explicit USD/USDC reward; non-USD assets are excluded from this numeric filter.", schema: { type: "number" } },
             { name: "max_open_prs", in: "query", schema: { type: "integer" } }
           ],
           responses: { "200": { description: "Verified feed results" }, "402": { description: "Payment Required" } }
@@ -100,6 +98,8 @@ app.get("/v1/preview", async (c) => {
       canonical_url: x.canonical_url,
       decision: x.decision,
       decision_reasons: x.decision_reasons,
+      reward_mentions: x.reward_mentions,
+      reward_usd_max: x.reward_usd_max,
       matching_open_pr_count: x.matching_open_pr_count,
     }));
     return c.json({ generated_at: feed.generated_at, count: entries.length, entries });
@@ -131,7 +131,6 @@ app.get("/v1/bounties", async (c) => {
     const feed = await loadFeed();
     return c.json(filterFeed(feed, new URL(c.req.url).searchParams));
   } catch (error) {
-    // x402 middleware should not settle a failed handler response; fail closed.
     return c.json({ error: "feed_unavailable", detail: String(error) }, 503);
   }
 });
