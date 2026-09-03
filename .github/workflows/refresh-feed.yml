@@ -1,4 +1,4 @@
-name: Refresh verified bounty feed
+name: Refresh public bounty feed
 
 on:
   workflow_dispatch:
@@ -7,6 +7,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: verified-bounty-radar-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
