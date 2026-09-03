@@ -3,7 +3,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -15,39 +15,51 @@ if TOKEN:
     HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
 
-def request(path, params=None):
+def api(path, params=None):
     url = API + path
     if params:
         url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.load(response)
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return json.load(r)
 
 
-def parse_issue_url(url):
+def issue_tuple(url):
     m = re.search(r"github\.com/([^/]+)/([^/]+)/issues/(\d+)", url or "")
-    if not m:
-        return None
-    return m.group(1), m.group(2), int(m.group(3))
+    return (m.group(1), m.group(2), int(m.group(3))) if m else None
 
 
-def canonical_from_body(issue):
+def github_issue_urls(text):
+    return re.findall(r"https://github\.com/[^\s)\]>]+/issues/\d+", text or "")
+
+
+def canonical_url(issue):
     body = issue.get("body") or ""
-    for line in body.splitlines():
-        if "source url" in line.lower() or "original" in line.lower() or "canonical" in line.lower():
-            m = re.search(r"https://github\.com/[^\s)]+/issues/\d+", line)
-            if m:
-                return m.group(0)
-    return issue.get("html_url")
+    source = issue.get("html_url")
+    lines = body.splitlines()
+    marker = re.compile(r"(?i)(source\s*url|original|canonical|upstream|原始链接)")
+    for i, line in enumerate(lines):
+        if marker.search(line):
+            window = "\n".join(lines[i:i + 4])
+            urls = github_issue_urls(window)
+            for url in urls:
+                if url != source:
+                    return url
+    # Aggregator fallback: only trust an early explicit GitHub issue link in obvious bounty mirrors.
+    repo_url = issue.get("repository_url") or ""
+    if re.search(r"(?i)(bounty|scout|plaza|board)", repo_url):
+        for url in github_issue_urls("\n".join(lines[:40])):
+            if url != source:
+                return url
+    return source
 
 
 def reward_from_text(title, body):
-    clean_body = (body or "").split("<details", 1)[0][:1200]
-    text = f"{title}\n{clean_body}"
+    text = f"{title}\n{(body or '')[:1800]}"
     num = r"([0-9][0-9,]*(?:\.[0-9]+)?)"
     patterns = [
         rf"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*\$\s*{num}",
-        rf"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*{num}\s*(USDC|USD)",
+        rf"(?i)(?:prize|reward|bounty)\s*[:\-]?\s*{num}\s*(USDC|USD)\b",
         rf"(?i)\$\s*{num}\s*(?:bounty|prize|reward)?",
         rf"(?i){num}\s*(USDC|USD)\b",
     ]
@@ -55,188 +67,163 @@ def reward_from_text(title, body):
         m = re.search(p, text)
         if not m:
             continue
-        amount_text = m.group(1).replace(",", "")
+        raw = m.group(1).replace(",", "")
         try:
-            amount = float(amount_text)
+            amount = float(raw)
         except ValueError:
             continue
-        currency = "USD"
-        if m.lastindex and m.lastindex >= 2 and m.group(2):
-            currency = m.group(2).upper()
-        elif "USDC" in m.group(0).upper():
-            currency = "USDC"
+        currency = "USDC" if "USDC" in m.group(0).upper() else "USD"
         return {"amount": amount, "currency": currency, "evidence": m.group(0)[:120]}
     return None
 
 
-def competition(owner, repo, number):
-    q = f'repo:{owner}/{repo} is:pr is:open "#{number}"'
+def open_pr_count(owner, repo, number):
     try:
-        data = request("/search/issues", {"q": q, "per_page": 1})
-        return int(data.get("total_count", 0))
+        q = f'repo:{owner}/{repo} is:pr is:open "#{number}"'
+        return int(api("/search/issues", {"q": q, "per_page": 1}).get("total_count", 0))
     except Exception:
         return None
 
 
-def claim_state(owner, repo, number, issue_body):
+def claim_state(owner, repo, number):
     try:
-        comments = request(f"/repos/{owner}/{repo}/issues/{number}/comments", {"per_page": 100})
+        comments = api(f"/repos/{owner}/{repo}/issues/{number}/comments", {"per_page": 100})
     except Exception:
         return {"state": "unknown"}
-
-    window_hours = None
-    all_text = (issue_body or "") + "\n" + "\n".join((c.get("body") or "") for c in comments)
-    m = re.search(r"(?i)(\d+)\s*[- ]?hour\s+exclusive", all_text)
-    if m:
-        window_hours = int(m.group(1))
-
-    claims = []
-    releases = []
-    attempt_count = 0
-    submission_signals = 0
+    latest_claim = None
+    latest_release = None
+    attempts = 0
+    submissions = 0
     for c in comments:
         body = (c.get("body") or "").strip().lower()
-        if re.search(r"(?m)^/attempt\b", body):
-            attempt_count += 1
-        if "submission completed" in body or re.search(r"github\.com/[^/]+/[^/]+/pull/\d+", body):
-            submission_signals += 1
         if re.search(r"(?m)^/claim\b", body):
-            claims.append(c)
+            latest_claim = c
         if re.search(r"(?m)^/(?:unclaim|release)\b", body) or "claim withdrawn" in body:
-            releases.append(c)
-
-    if not claims:
-        return {"state": "none", "attempt_count": attempt_count, "submission_signals": submission_signals}
-
-    last_claim = claims[-1]
-    claim_time = datetime.fromisoformat(last_claim["created_at"].replace("Z", "+00:00"))
-    release_time = None
-    if releases:
-        release_time = datetime.fromisoformat(releases[-1]["created_at"].replace("Z", "+00:00"))
-    if release_time and release_time > claim_time:
-        return {"state": "released", "claimed_at": last_claim["created_at"]}
-
-    result = {
-        "state": "present_unknown",
-        "claimed_at": last_claim["created_at"],
-        "claimant": (last_claim.get("user") or {}).get("login"),
-        "attempt_count": attempt_count,
-        "submission_signals": submission_signals,
-    }
-    if window_hours:
-        expires = claim_time + timedelta(hours=window_hours)
-        active = datetime.now(timezone.utc) < expires
-        result.update({
-            "state": "active" if active else "expired",
-            "window_hours": window_hours,
-            "expires_at": expires.isoformat().replace("+00:00", "Z"),
-        })
-    return result
+            latest_release = c
+        if re.search(r"(?m)^/attempt\b", body):
+            attempts += 1
+        if "submission completed" in body or re.search(r"github\.com/[^/]+/[^/]+/pull/\d+", body):
+            submissions += 1
+    if latest_claim:
+        claim_t = latest_claim.get("created_at") or ""
+        release_t = (latest_release or {}).get("created_at") or ""
+        if not release_t or release_t < claim_t:
+            return {
+                "state": "present",
+                "claimant": (latest_claim.get("user") or {}).get("login"),
+                "claimed_at": claim_t,
+                "attempt_count": attempts,
+                "submission_signals": submissions,
+            }
+    return {"state": "none", "attempt_count": attempts, "submission_signals": submissions}
 
 
-def recommendation(state, reward, pr_count, claim, assignees):
+def recommendation(state, reward, prs, assignees, claim):
     if state != "open":
         return "skip_closed"
     if assignees:
         return "skip_assigned"
-    if claim.get("state") == "active":
+    if claim.get("state") == "present":
         return "skip_claimed"
     if claim.get("submission_signals", 0) > 0:
         return "avoid_active_submissions"
     if claim.get("attempt_count", 0) >= 3:
         return "avoid_crowded"
-    if pr_count is not None and pr_count >= 5:
+    if prs is not None and prs >= 5:
         return "avoid_crowded"
-    if not reward:
+    if not reward or reward.get("amount", 0) <= 0:
         return "verify_reward"
-    if pr_count is not None and pr_count >= 2:
+    if prs is not None and prs >= 2:
         return "competitive"
     return "watch"
 
 
 def verify(candidate):
     source_url = candidate.get("html_url")
-    canonical_url = canonical_from_body(candidate)
-    parsed = parse_issue_url(canonical_url)
+    canon_url = canonical_url(candidate)
+    parsed = issue_tuple(canon_url)
     if not parsed:
         return None
     owner, repo, number = parsed
     try:
-        canonical = request(f"/repos/{owner}/{repo}/issues/{number}")
+        issue = api(f"/repos/{owner}/{repo}/issues/{number}")
     except Exception:
         return {
             "source_url": source_url,
-            "canonical_url": canonical_url,
-            "verification": "canonical_fetch_failed",
+            "canonical_url": canon_url,
             "recommendation": "skip_unverifiable",
         }
-    if "pull_request" in canonical:
+    if "pull_request" in issue:
         return None
-
-    state = canonical.get("state")
-    assignees = [a.get("login") for a in (canonical.get("assignees") or []) if a.get("login")]
-    reward = reward_from_text(canonical.get("title") or "", canonical.get("body") or "")
-    pr_count = competition(owner, repo, number) if state == "open" else 0
-    claim = claim_state(owner, repo, number, canonical.get("body") or "") if state == "open" else {"state": "none"}
-
+    state = issue.get("state")
+    assignees = [a.get("login") for a in issue.get("assignees") or [] if a.get("login")]
+    reward = reward_from_text(issue.get("title") or "", issue.get("body") or "")
+    prs = open_pr_count(owner, repo, number) if state == "open" else 0
+    claim = claim_state(owner, repo, number) if state == "open" else {"state": "none"}
+    rec = recommendation(state, reward, prs, assignees, claim)
     score = None
-    if reward and pr_count is not None:
-        score = round(reward["amount"] / (1 + pr_count), 2)
-
+    if reward and prs is not None:
+        score = round(reward["amount"] / (1 + prs), 2)
     return {
         "repository": f"{owner}/{repo}",
         "issue_number": number,
-        "title": canonical.get("title"),
+        "title": issue.get("title"),
         "source_url": source_url,
-        "canonical_url": canonical.get("html_url"),
+        "canonical_url": issue.get("html_url"),
         "state": state,
-        "closed_at": canonical.get("closed_at"),
+        "closed_at": issue.get("closed_at"),
         "reward": reward,
-        "open_pr_competition": pr_count,
+        "open_pr_competition": prs,
         "assignees": assignees,
         "claim": claim,
         "value_per_competitor": score,
-        "recommendation": recommendation(state, reward, pr_count, claim, assignees),
+        "recommendation": rec,
         "verified_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
 
 
 def discover():
     queries = [
-        "bounty in:title is:issue",
-        "label:bounty is:issue",
+        "bounty in:title is:issue is:open",
+        "label:bounty is:issue is:open",
     ]
-    merged = []
-    seen = set()
+    merged, seen = [], set()
     for q in queries:
-        data = request("/search/issues", {
-            "q": q,
-            "sort": "updated",
-            "order": "desc",
-            "per_page": 30,
-        })
-        for item in data.get("items", []):
-            key = item.get("html_url")
-            if key and key not in seen:
-                seen.add(key)
-                merged.append(item)
+        for page in (1, 2):
+            try:
+                data = api("/search/issues", {
+                    "q": q,
+                    "sort": "updated",
+                    "order": "desc",
+                    "per_page": 100,
+                    "page": page,
+                })
+            except Exception:
+                continue
+            items = data.get("items", [])
+            for item in items:
+                u = item.get("html_url")
+                if u and u not in seen:
+                    seen.add(u)
+                    merged.append(item)
+            if len(items) < 100:
+                break
     merged.sort(key=lambda x: x.get("updated_at") or "", reverse=True)
     return merged
 
 
 def main():
-    records = []
-    seen = set()
+    records, canonical_seen = [], set()
     for candidate in discover():
         record = verify(candidate)
         if not record:
             continue
         key = record.get("canonical_url") or record.get("source_url")
-        if key in seen:
+        if key in canonical_seen:
             continue
-        seen.add(key)
+        canonical_seen.add(key)
         records.append(record)
-        if len(records) >= 25:
+        if len(records) >= 100:
             break
 
     priority = {
@@ -244,19 +231,22 @@ def main():
         "competitive": 1,
         "verify_reward": 2,
         "avoid_crowded": 3,
-        "skip_claimed": 4,
-        "avoid_active_submissions": 5,
+        "avoid_active_submissions": 4,
+        "skip_claimed": 5,
         "skip_assigned": 6,
         "skip_closed": 7,
         "skip_unverifiable": 8,
     }
-    records.sort(key=lambda x: (priority.get(x.get("recommendation"), 9), -(x.get("value_per_competitor") or 0)))
+    records.sort(key=lambda x: (
+        priority.get(x.get("recommendation"), 9),
+        -(x.get("value_per_competitor") or 0),
+    ))
     output = {
         "product": "Verified Bounty Radar",
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "record_count": len(records),
-        "method": "Bounty-title/label discovery, canonical GitHub verification, open-PR competition search, and claim-window detection.",
-        "records": records,
+        "record_count": min(len(records), 50),
+        "method": "Deep bounty search; mirror-to-canonical tracing; canonical issue, reward, assignment, claim and PR verification.",
+        "records": records[:50],
     }
     with open("feed.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
