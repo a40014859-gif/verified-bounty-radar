@@ -1,47 +1,23 @@
 {
   "product": "Verified Bounty Radar",
-  "generated_at": "2026-09-03T11:30:37.276220Z",
+  "generated_at": "2026-09-03T12:39:19.421319Z",
   "record_count": 50,
   "method": "Deep bounty search; mirror-to-canonical tracing; canonical issue, reward, assignment, claim and PR verification.",
   "records": [
     {
       "repository": "tenstorrent/tt-metal",
-      "issue_number": 55346,
-      "title": "[Bounty $750] ttnn.argmax: FLOAT32 never selects a NaN and BFLOAT16 lets a later +0 beat an earlier -0, so the two dtypes return different indices and both differ from torch",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55346",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55346",
+      "issue_number": 55315,
+      "title": "[Bounty $1,000] Complex ttnn.reciprocal / ttnn.div lose the result for |z| > 2^63 and |z| < 2^-63 by forming |z|^2 first",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 750.0,
+        "amount": 1000.0,
         "currency": "USD",
-        "evidence": "Bounty $750"
+        "evidence": "Bounty $1,000"
       },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 750.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:24.310572Z"
-    },
-    {
-      "repository": "tenstorrent/tt-metal",
-      "issue_number": 55347,
-      "title": "[Bounty $500] ttnn.rms_norm on a rank-0 tensor computes x / |x|: epsilon is dropped, x = 0 gives NaN and every |x| < sqrt(eps) gives ±1",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55347",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55347",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 500.0,
-        "currency": "USD",
-        "evidence": "Bounty $500"
-      },
-      "open_pr_competition": 0,
+      "open_pr_competition": 1,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -50,14 +26,14 @@
       },
       "value_per_competitor": 500.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:22.619979Z"
+      "verified_at": "2026-09-03T12:38:09.192134Z"
     },
     {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 407,
-      "title": "[Bounty: $60] Report in-flight caller cancellation as `CANCELLED`, not `TIMEOUT`, in the fetch transport",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/407",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/407",
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 477,
+      "title": "[Bounty: $60] Export GlobalErrorPanel and correct the muted-text token in global-error.tsx",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/477",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/477",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -65,30 +41,6 @@
         "currency": "USD",
         "evidence": "Bounty: $60"
       },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 60.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:28.864516Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-backend",
-      "issue_number": 288,
-      "title": "[Bounty: $95] Bound and sweep the idempotency response store to prevent unbounded memory growth",
-      "source_url": "https://github.com/Lilly-Protocol/lily-backend/issues/288",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-backend/issues/288",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 95.0,
-        "currency": "USD",
-        "evidence": "Bounty: $95"
-      },
       "open_pr_competition": 1,
       "assignees": [],
       "claim": {
@@ -96,81 +48,9 @@
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 47.5,
+      "value_per_competitor": 30.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:08.536734Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 452,
-      "title": "[Bounty: $75] Correct docs/environment-variables.md to list only env vars the SDK reads",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/452",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/452",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 37.5,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:13.328673Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 447,
-      "title": "[Bounty: $55] Add CANCELLED and RESPONSE_VALIDATION_ERROR to the LILY_ERROR_CODES constants",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/447",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/447",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 55.0,
-        "currency": "USD",
-        "evidence": "Bounty: $55"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 27.5,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:30.448729Z"
-    },
-    {
-      "repository": "Scottcjn/rustchain-bounties",
-      "issue_number": 2155,
-      "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 0.2,
-        "currency": "USD",
-        "evidence": "$0.20"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 0.1,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:38.106224Z"
+      "verified_at": "2026-09-03T12:38:10.045757Z"
     },
     {
       "repository": "tenstorrent/tt-metal",
@@ -194,38 +74,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:45.694011Z"
+      "verified_at": "2026-09-03T12:38:14.379680Z"
     },
     {
       "repository": "tenstorrent/tt-metal",
-      "issue_number": 55315,
-      "title": "[Bounty $1,000] Complex ttnn.reciprocal / ttnn.div lose the result for |z| > 2^63 and |z| < 2^-63 by forming |z|^2 first",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 1000.0,
-        "currency": "USD",
-        "evidence": "Bounty $1,000"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:46.344373Z"
-    },
-    {
-      "repository": "tenstorrent/tt-metal",
-      "issue_number": 55291,
-      "title": "[Bounty $750] ttnn.hardswish_bw takes the wrong branch at exactly x = ±3 and uses 0.3333 for 1/3",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55291",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55291",
+      "issue_number": 55346,
+      "title": "[Bounty $750] ttnn.argmax: FLOAT32 never selects a NaN and BFLOAT16 lets a later +0 beat an earlier -0, so the two dtypes return different indices and both differ from torch",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55346",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55346",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -242,20 +98,20 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:46.988226Z"
+      "verified_at": "2026-09-03T12:38:16.319054Z"
     },
     {
       "repository": "tenstorrent/tt-metal",
-      "issue_number": 55289,
-      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "issue_number": 55347,
+      "title": "[Bounty $500] ttnn.rms_norm on a rank-0 tensor computes x / |x|: epsilon is dropped, x = 0 gives NaN and every |x| < sqrt(eps) gives ±1",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55347",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55347",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 1000.0,
+        "amount": 500.0,
         "currency": "USD",
-        "evidence": "Bounty $1,000"
+        "evidence": "Bounty $500"
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -266,92 +122,20 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:48.449422Z"
+      "verified_at": "2026-09-03T12:38:17.392539Z"
     },
     {
-      "repository": "freedom-winds/BountyScout",
-      "issue_number": 973,
-      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
-      "source_url": "https://github.com/vansh-09/BountyScout/issues/1052",
-      "canonical_url": "https://github.com/freedom-winds/BountyScout/issues/973",
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 478,
+      "title": "[Bounty: $90] Fix duplicate alternates key and undefined manifestPath in createSiteMetadata",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/478",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/478",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 1000.0,
+        "amount": 90.0,
         "currency": "USD",
-        "evidence": "Bounty $1,000"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:49.000612Z"
-    },
-    {
-      "repository": "Trauma-Station/Trauma-Station",
-      "issue_number": 4419,
-      "title": "BOUNTY - $10000 bug fix",
-      "source_url": "https://github.com/Trauma-Station/Trauma-Station/issues/4419",
-      "canonical_url": "https://github.com/Trauma-Station/Trauma-Station/issues/4419",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 10000.0,
-        "currency": "USD",
-        "evidence": "BOUNTY - $10000"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:53.573122Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 403,
-      "title": "[Bounty: $100] Stop `paginate` from re-fetching the same page; advance on cursor metadata instead",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/403",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/403",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "Bounty: $100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:54.955176Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 423,
-      "title": "[Bounty: $70] Test client construction from a resolved config object (`BaseClient` config path)",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/423",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/423",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 70.0,
-        "currency": "USD",
-        "evidence": "Bounty: $70"
+        "evidence": "Bounty: $90"
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -362,127 +146,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:55.610348Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 440,
-      "title": "[Bounty: $65] Guard process.env access in resolveCredential so SDK construction works in browsers",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 65.0,
-        "currency": "USD",
-        "evidence": "Bounty: $65"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:56.882554Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 446,
-      "title": "[Bounty: $100] Validate per-request timeoutMs values in the fetch transport",
-      "source_url": "https://github.com/2510034127qq-wq/BountyScout/issues/21",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "Bounty: $100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:29:58.824728Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 442,
-      "title": "[Bounty: $85] Preserve an injected custom HttpClient across LilySdk.withConfig",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/442",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/442",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 85.0,
-        "currency": "USD",
-        "evidence": "Bounty: $85"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:32.996381Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 434,
-      "title": "[Bounty: $80] Add the `test:integration` npm script the integration workflows reference",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/434",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/434",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 80.0,
-        "currency": "USD",
-        "evidence": "Bounty: $80"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:33.679143Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 454,
-      "title": "[Bounty: $75] Fix docs/error-handling.md hierarchy, imports, and error.status references",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/454",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/454",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:34.287500Z"
+      "verified_at": "2026-09-03T12:38:18.507721Z"
     },
     {
       "repository": "auscaster/frantic-board",
@@ -506,55 +170,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T11:30:35.049026Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 448,
-      "title": "[Bounty: $70] Allow LilySdk.withConfig overrides to clear inherited credentials",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 70.0,
-        "currency": "USD",
-        "evidence": "Bounty: $70"
-      },
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 23.33,
-      "recommendation": "competitive",
-      "verified_at": "2026-09-03T11:29:23.573694Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 491,
-      "title": "[Bounty: $70] Consume rootViewport from config/viewport.ts in the root layout",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 70.0,
-        "currency": "USD",
-        "evidence": "Bounty: $70"
-      },
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 23.33,
-      "recommendation": "competitive",
-      "verified_at": "2026-09-03T11:29:27.365555Z"
+      "verified_at": "2026-09-03T12:38:19.331261Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -569,16 +185,520 @@
         "currency": "USD",
         "evidence": "Bounty: $65"
       },
-      "open_pr_competition": 2,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 21.67,
-      "recommendation": "competitive",
-      "verified_at": "2026-09-03T11:29:21.837498Z"
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:38:52.454049Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 448,
+      "title": "[Bounty: $70] Allow LilySdk.withConfig overrides to clear inherited credentials",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 70.0,
+        "currency": "USD",
+        "evidence": "Bounty: $70"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:38:53.188326Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 491,
+      "title": "[Bounty: $70] Consume rootViewport from config/viewport.ts in the root layout",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 70.0,
+        "currency": "USD",
+        "evidence": "Bounty: $70"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:38:54.584163Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 2155,
+      "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 0.2,
+        "currency": "USD",
+        "evidence": "$0.20"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:00.013927Z"
+    },
+    {
+      "repository": "tenstorrent/tt-metal",
+      "issue_number": 55291,
+      "title": "[Bounty $750] ttnn.hardswish_bw takes the wrong branch at exactly x = ±3 and uses 0.3333 for 1/3",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55291",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55291",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 750.0,
+        "currency": "USD",
+        "evidence": "Bounty $750"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:05.308165Z"
+    },
+    {
+      "repository": "tenstorrent/tt-metal",
+      "issue_number": 55289,
+      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 1000.0,
+        "currency": "USD",
+        "evidence": "Bounty $1,000"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:06.527615Z"
+    },
+    {
+      "repository": "freedom-winds/BountyScout",
+      "issue_number": 973,
+      "title": "🎯 Bounty Alert: 13 New Opportunityies found",
+      "source_url": "https://github.com/vansh-09/BountyScout/issues/1052",
+      "canonical_url": "https://github.com/freedom-winds/BountyScout/issues/973",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 1000.0,
+        "currency": "USD",
+        "evidence": "Bounty $1,000"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:07.222144Z"
+    },
+    {
+      "repository": "Trauma-Station/Trauma-Station",
+      "issue_number": 4419,
+      "title": "BOUNTY - $10000 bug fix",
+      "source_url": "https://github.com/Trauma-Station/Trauma-Station/issues/4419",
+      "canonical_url": "https://github.com/Trauma-Station/Trauma-Station/issues/4419",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 10000.0,
+        "currency": "USD",
+        "evidence": "BOUNTY - $10000"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:10.452757Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 403,
+      "title": "[Bounty: $100] Stop `paginate` from re-fetching the same page; advance on cursor metadata instead",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/403",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/403",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 100.0,
+        "currency": "USD",
+        "evidence": "Bounty: $100"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:11.659546Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 423,
+      "title": "[Bounty: $70] Test client construction from a resolved config object (`BaseClient` config path)",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/423",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/423",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 70.0,
+        "currency": "USD",
+        "evidence": "Bounty: $70"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:12.276482Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 440,
+      "title": "[Bounty: $65] Guard process.env access in resolveCredential so SDK construction works in browsers",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 65.0,
+        "currency": "USD",
+        "evidence": "Bounty: $65"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:13.344640Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 446,
+      "title": "[Bounty: $100] Validate per-request timeoutMs values in the fetch transport",
+      "source_url": "https://github.com/2510034127qq-wq/BountyScout/issues/21",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 100.0,
+        "currency": "USD",
+        "evidence": "Bounty: $100"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T12:39:14.970707Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16681,
+      "title": "Bounty claim: BoTTube docstring PR #1819 (72 functions, 36.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16681",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16681",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:22.787654Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16679,
+      "title": "Bounty claim: BoTTube docstring PR #1817 (70 functions, 35.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16679",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16679",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:24.188201Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16676,
+      "title": "Bounty claim: BoTTube docstring PR #1814 (76 functions, 38.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16676",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16676",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:26.668808Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16672,
+      "title": "Bounty claim: BoTTube docstring PR #1813 (64 functions, 32.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16672",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16672",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:27.405708Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16668,
+      "title": "Bounty claim: BoTTube docstring PR #1808 (94 functions, 47.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16668",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16668",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:28.879985Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16635,
+      "title": "Bounty claim: BoTTube docstring PR #1775 batch 54 (30 functions, 15.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16635",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16635",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 2,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:32.248562Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16561,
+      "title": "Bounty claim: BoTTube docstring PR #1749 (18 functions, 9.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16561",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16561",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:38.365436Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16402,
+      "title": "Bounty claim: BoTTube docstring PR #1650 batch 18 (11 functions, 5.5 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16402",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16402",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:39.456985Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16401,
+      "title": "Bounty claim: BoTTube docstring PR #1649 batch 17 (12 functions, 6.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16401",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16401",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:40.620764Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16400,
+      "title": "Bounty claim: BoTTube docstring PR #1648 batch 16 (13 functions, 6.5 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16400",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16400",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:41.765048Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16399,
+      "title": "Bounty claim: BoTTube docstring PR #1647 batch 15 (15 functions, 7.5 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16399",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16399",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:42.725154Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 16398,
+      "title": "Bounty claim: BoTTube docstring PR #1646 batch 14 (18 functions, 9.0 RTC)",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16398",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16398",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T12:38:43.707046Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -598,7 +718,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:13.224993Z"
+      "verified_at": "2026-09-03T12:38:44.774618Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -618,7 +738,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:14.420529Z"
+      "verified_at": "2026-09-03T12:38:45.917157Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -638,7 +758,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:15.541727Z"
+      "verified_at": "2026-09-03T12:38:47.011223Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -658,7 +778,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:16.587640Z"
+      "verified_at": "2026-09-03T12:38:48.228061Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -669,7 +789,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -678,7 +798,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:17.620796Z"
+      "verified_at": "2026-09-03T12:38:49.066146Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -689,7 +809,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -698,7 +818,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:18.719204Z"
+      "verified_at": "2026-09-03T12:38:49.942054Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -709,7 +829,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -718,7 +838,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:19.811054Z"
+      "verified_at": "2026-09-03T12:38:50.799240Z"
     },
     {
       "repository": "XHToken/Spark-X2.5",
@@ -729,7 +849,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -738,7 +858,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:30.350988Z"
+      "verified_at": "2026-09-03T12:38:55.365205Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -758,7 +878,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:39.757355Z"
+      "verified_at": "2026-09-03T12:39:01.235695Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -778,7 +898,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:29:42.065072Z"
+      "verified_at": "2026-09-03T12:39:03.309686Z"
     },
     {
       "repository": "tenstorrent/tt-metal",
@@ -798,7 +918,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:00.906241Z"
+      "verified_at": "2026-09-03T12:39:16.868695Z"
     },
     {
       "repository": "Smartdevs17/stellarlend",
@@ -818,7 +938,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:03.731241Z"
+      "verified_at": "2026-09-03T12:39:18.859820Z"
     },
     {
       "repository": "Smartdevs17/stellarlend",
@@ -838,122 +958,38 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:04.361798Z"
+      "verified_at": "2026-09-03T12:39:19.420086Z"
     },
     {
-      "repository": "Smartdevs17/stellarlend",
-      "issue_number": 905,
-      "title": "[BUG BOUNTY] Missing access control on protocol config setters lets any user freeze withdrawals and overwrite protocol limits",
-      "source_url": "https://github.com/Smartdevs17/stellarlend/issues/905",
-      "canonical_url": "https://github.com/Smartdevs17/stellarlend/issues/905",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:05.000847Z"
-    },
-    {
-      "repository": "Scottcjn/rustchain-bounties",
-      "issue_number": 16338,
-      "title": "Bounty #16238 claim: Starred RustChain + bottube + grazer-mcp",
-      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16338",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16338",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:24.555924Z"
-    },
-    {
-      "repository": "Scottcjn/rustchain-bounties",
-      "issue_number": 16373,
-      "title": "Bounty #1102 claim: BoTTube #1620 wRTC Bridge TOCTOU Race Condition (bug report)",
-      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16373",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16373",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T11:30:27.083489Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 450,
-      "title": "[Bounty: $75] Export shared default timeout and retry constants as a single source of truth",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/450",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/450",
+      "repository": "commaai/opendbc",
+      "issue_number": 2017,
+      "title": "[$3000 bounty] BYD port",
+      "source_url": "https://github.com/commaai/opendbc/issues/2017",
+      "canonical_url": "https://github.com/commaai/opendbc/issues/2017",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 75.0,
+        "amount": 3000.0,
         "currency": "USD",
-        "evidence": "Bounty: $75"
+        "evidence": "$3000 bounty"
       },
-      "open_pr_competition": 1,
+      "open_pr_competition": 10,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 0,
-        "submission_signals": 1
+        "submission_signals": 0
       },
-      "value_per_competitor": 37.5,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:30:11.512120Z"
+      "value_per_competitor": 272.73,
+      "recommendation": "avoid_crowded",
+      "verified_at": "2026-09-03T12:38:10.906587Z"
     },
     {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 443,
-      "title": "[Bounty: $65] Reject empty and whitespace-only ids on agent, wallet, and payment get/update/delete methods",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/443",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/443",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 65.0,
-        "currency": "USD",
-        "evidence": "Bounty: $65"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 1
-      },
-      "value_per_competitor": 32.5,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:30:10.620665Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 419,
-      "title": "[Bounty: $95] Document `validateResponses`, `LilySdk.withConfig`, and env-var behavior in the README configuration docs",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/419",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/419",
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 472,
+      "title": "[Bounty: $95] Replace the Portuguese loading copy on the root loading screen and reconcile its two conflicting tests",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/472",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/472",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -961,88 +997,16 @@
         "currency": "USD",
         "evidence": "Bounty: $95"
       },
-      "open_pr_competition": 2,
+      "open_pr_competition": 3,
       "assignees": [],
       "claim": {
         "state": "none",
-        "attempt_count": 2,
+        "attempt_count": 1,
         "submission_signals": 1
       },
-      "value_per_competitor": 31.67,
+      "value_per_competitor": 23.75,
       "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:30:09.366482Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 436,
-      "title": "[Bounty: $90] Make verifyWebhookJSON signature verification independent of JSON key order",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/436",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/436",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 90.0,
-        "currency": "USD",
-        "evidence": "Bounty: $90"
-      },
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 1
-      },
-      "value_per_competitor": 30.0,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:30:07.663419Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 444,
-      "title": "[Bounty: $65] Make baseUrl env-var fallback consistent between the LilySdk constructor and LilySdk.create()",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/444",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/444",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 65.0,
-        "currency": "USD",
-        "evidence": "Bounty: $65"
-      },
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 1
-      },
-      "value_per_competitor": 21.67,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:30:12.370020Z"
-    },
-    {
-      "repository": "gougousongsong/abk-coding-test",
-      "issue_number": 1,
-      "title": "Add fibonacci function with edge case handling",
-      "source_url": "https://github.com/gougousongsong/abk-coding-test/issues/1",
-      "canonical_url": "https://github.com/gougousongsong/abk-coding-test/issues/1",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 50.0,
-        "currency": "USD",
-        "evidence": "$50"
-      },
-      "open_pr_competition": 10,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 3,
-        "submission_signals": 2
-      },
-      "value_per_competitor": 4.55,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:29:33.468101Z"
+      "verified_at": "2026-09-03T12:38:11.706831Z"
     },
     {
       "repository": "claude-builders-bounty/claude-builders-bounty",
@@ -1057,7 +1021,7 @@
         "currency": "USD",
         "evidence": "BOUNTY $200"
       },
-      "open_pr_competition": 648,
+      "open_pr_competition": 649,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1066,7 +1030,55 @@
       },
       "value_per_competitor": 0.31,
       "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:29:28.427523Z"
+      "verified_at": "2026-09-03T12:38:06.167272Z"
+    },
+    {
+      "repository": "claude-builders-bounty/claude-builders-bounty",
+      "issue_number": 1,
+      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+      "source_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 50.0,
+        "currency": "USD",
+        "evidence": "BOUNTY $50"
+      },
+      "open_pr_competition": 1198,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 3,
+        "submission_signals": 1
+      },
+      "value_per_competitor": 0.04,
+      "recommendation": "avoid_active_submissions",
+      "verified_at": "2026-09-03T12:38:13.715525Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 449,
+      "title": "[Bounty: $95] Add safe number-to-decimal-string helpers for building MoneyAmount values",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/449",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/449",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 95.0,
+        "currency": "USD",
+        "evidence": "Bounty: $95"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 1
+      },
+      "value_per_competitor": null,
+      "recommendation": "avoid_active_submissions",
+      "verified_at": "2026-09-03T12:38:18.016108Z"
     },
     {
       "repository": "claude-builders-bounty/claude-builders-bounty",
@@ -1081,64 +1093,16 @@
         "currency": "USD",
         "evidence": "BOUNTY $150"
       },
-      "open_pr_competition": 988,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 6,
         "submission_signals": 8
       },
-      "value_per_competitor": 0.15,
+      "value_per_competitor": null,
       "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:29:20.998213Z"
-    },
-    {
-      "repository": "claude-builders-bounty/claude-builders-bounty",
-      "issue_number": 3,
-      "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-      "source_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "BOUNTY $100"
-      },
-      "open_pr_competition": 1503,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 3,
-        "submission_signals": 9
-      },
-      "value_per_competitor": 0.07,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:29:32.543472Z"
-    },
-    {
-      "repository": "claude-builders-bounty/claude-builders-bounty",
-      "issue_number": 2,
-      "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
-      "source_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "BOUNTY $75"
-      },
-      "open_pr_competition": 1463,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 6,
-        "submission_signals": 5
-      },
-      "value_per_competitor": 0.05,
-      "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-09-03T11:29:31.402409Z"
+      "verified_at": "2026-09-03T12:38:51.755001Z"
     }
   ]
 }
