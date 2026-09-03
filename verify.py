@@ -17,15 +17,15 @@ CLAIM_RE = re.compile(r"(?im)^\s*/(?:claim|try|attempt)\b.*$")
 def api_get(path):
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "verified-bounty-radar/0.2",
+        "User-Agent": "verified-bounty-radar/0.3",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request("https://api.github.com" + path, headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+    with urllib.request.urlopen(req, timeout=20) as response:
+        return json.load(response)
 
 
 def all_comments(owner, repo, number):
@@ -39,34 +39,44 @@ def all_comments(owner, repo, number):
 
 
 def matching_prs(owner, repo, number):
-    q = f'repo:{owner}/{repo} is:pr is:open "#{number}"'
-    data = api_get("/search/issues?q=" + urllib.parse.quote(q) + "&per_page=100")
+    query = f'repo:{owner}/{repo} is:pr is:open "#{number}"'
+    data = api_get("/search/issues?q=" + urllib.parse.quote(query) + "&per_page=100")
     return [
-        {"number": i["number"], "title": i["title"], "url": i["html_url"], "created_at": i["created_at"]}
-        for i in data.get("items", [])
+        {
+            "number": item["number"],
+            "title": item["title"],
+            "url": item["html_url"],
+            "created_at": item["created_at"],
+        }
+        for item in data.get("items", [])
     ]
 
 
 def main(url):
-    m = URL_RE.match(url)
-    if not m:
+    match = URL_RE.match(url)
+    if not match:
         raise SystemExit("Expected https://github.com/OWNER/REPO/issues/NUMBER")
-    owner, repo, raw_number = m.groups()
+    owner, repo, raw_number = match.groups()
     number = int(raw_number)
     issue = api_get(f"/repos/{owner}/{repo}/issues/{number}")
     comments = all_comments(owner, repo, number)
-    text = "\n".join([issue.get("title", ""), issue.get("body") or ""] + [c.get("body") or "" for c in comments])
+    text = "\n".join(
+        [issue.get("title", ""), issue.get("body") or ""]
+        + [comment.get("body") or "" for comment in comments]
+    )
     reward_mentions = sorted(set(REWARD_RE.findall(text)))
     claims = []
-    for c in comments:
-        body = c.get("body") or ""
+    for comment in comments:
+        body = comment.get("body") or ""
         if CLAIM_RE.search(body):
-            claims.append({
-                "actor": (c.get("user") or {}).get("login"),
-                "created_at": c.get("created_at"),
-                "matches": CLAIM_RE.findall(body),
-                "url": c.get("html_url"),
-            })
+            claims.append(
+                {
+                    "actor": (comment.get("user") or {}).get("login"),
+                    "created_at": comment.get("created_at"),
+                    "matches": CLAIM_RE.findall(body),
+                    "url": comment.get("html_url"),
+                }
+            )
     prs = matching_prs(owner, repo, number)
     result = {
         "canonical": {
@@ -76,7 +86,8 @@ def main(url):
             "closed_at": issue.get("closed_at"),
             "updated_at": issue.get("updated_at"),
             "title": issue.get("title"),
-            "labels": [x.get("name") for x in issue.get("labels", [])],
+            "labels": [label.get("name") for label in issue.get("labels", [])],
+            "assignees": [user.get("login") for user in issue.get("assignees", [])],
         },
         "reward_mentions": reward_mentions,
         "claim_signals": claims,
@@ -84,7 +95,7 @@ def main(url):
         "matching_open_prs": prs,
         "notes": [
             "Reward text is issuer/community text, not proof of payment.",
-            "PR matching is a lower-bound heuristic based on explicit issue-number references."
+            "PR matching is a lower-bound heuristic based on explicit issue-number references.",
         ],
     }
     print(json.dumps(result, indent=2, sort_keys=True))
