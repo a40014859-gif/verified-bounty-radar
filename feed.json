@@ -1,9 +1,81 @@
 {
   "product": "Verified Bounty Radar",
-  "generated_at": "2026-09-03T07:32:31.264809Z",
+  "generated_at": "2026-09-03T08:34:25.168118Z",
   "record_count": 50,
   "method": "Deep bounty search; mirror-to-canonical tracing; canonical issue, reward, assignment, claim and PR verification.",
   "records": [
+    {
+      "repository": "tenstorrent/tt-metal",
+      "issue_number": 55315,
+      "title": "[Bounty $1,000] Complex ttnn.reciprocal / ttnn.div lose the result for |z| > 2^63 and |z| < 2^-63 by forming |z|^2 first",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 1000.0,
+        "currency": "USD",
+        "evidence": "Bounty $1,000"
+      },
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 1000.0,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:32:57.509111Z"
+    },
+    {
+      "repository": "tenstorrent/tt-metal",
+      "issue_number": 55316,
+      "title": "[Bounty $750] ttnn.xlogy_bw and ttnn.addcdiv_bw hard-code the sign of the infinity at a zero divisor and skip the NaN case",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55316",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55316",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 750.0,
+        "currency": "USD",
+        "evidence": "Bounty $750"
+      },
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 750.0,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:32:56.410560Z"
+    },
+    {
+      "repository": "tenstorrent/tt-metal",
+      "issue_number": 55289,
+      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
+      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 1000.0,
+        "currency": "USD",
+        "evidence": "Bounty $1,000"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 500.0,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:32:55.414623Z"
+    },
     {
       "repository": "tenstorrent/tt-metal",
       "issue_number": 55291,
@@ -26,20 +98,20 @@
       },
       "value_per_competitor": 375.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:14.065290Z"
+      "verified_at": "2026-09-03T08:32:58.735830Z"
     },
     {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 485,
-      "title": "[Bounty: $95] Declare the runtime packages that src/ imports but package.json omits",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/485",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/485",
+      "repository": "freedom-winds/BountyScout",
+      "issue_number": 972,
+      "title": "🎯 Bounty Alert: 10 New Opportunityies found",
+      "source_url": "https://github.com/vansh-09/BountyScout/issues/1051",
+      "canonical_url": "https://github.com/freedom-winds/BountyScout/issues/972",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 95.0,
+        "amount": 55.0,
         "currency": "USD",
-        "evidence": "Bounty: $95"
+        "evidence": "Bounty: $55"
       },
       "open_pr_competition": 0,
       "assignees": [],
@@ -48,201 +120,57 @@
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 95.0,
+      "value_per_competitor": 55.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:28.061764Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 489,
-      "title": "[Bounty: $80] Consolidate mirrored component test files between __tests__ folders and component folders",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/489",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/489",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 80.0,
-        "currency": "USD",
-        "evidence": "Bounty: $80"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 80.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:25.790596Z"
+      "verified_at": "2026-09-03T08:33:47.818751Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 435,
-      "title": "[Bounty: $75] Build the typedoc API docs in CI",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/435",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/435",
+      "issue_number": 446,
+      "title": "[Bounty: $100] Validate per-request timeoutMs values in the fetch transport",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 75.0,
+        "amount": 100.0,
         "currency": "USD",
-        "evidence": "Bounty: $75"
+        "evidence": "Bounty: $100"
       },
-      "open_pr_competition": 0,
+      "open_pr_competition": 1,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 75.0,
+      "value_per_competitor": 50.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:23.395743Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 481,
-      "title": "[Bounty: $75] Apply the legacyRedirects map via redirects() in next.config.ts",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/481",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/481",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 75.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:29.648490Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 479,
-      "title": "[Bounty: $75] Remove the duplicated figmaScope paragraph rendered twice in PageScaffold",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/479",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/479",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 75.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:31.263501Z"
+      "verified_at": "2026-09-03T08:32:49.164003Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 451,
-      "title": "[Bounty: $60] Publish a lightweight in-memory HttpClient for SDK consumer unit tests",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/451",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/451",
+      "issue_number": 411,
+      "title": "[Bounty: $100] Publish the pagination helpers and `CursorPage` type through a `./pagination` subpath",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/411",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/411",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 60.0,
+        "amount": 100.0,
         "currency": "USD",
-        "evidence": "Bounty: $60"
+        "evidence": "Bounty: $100"
       },
-      "open_pr_competition": 0,
+      "open_pr_competition": 1,
       "assignees": [],
       "claim": {
         "state": "none",
-        "attempt_count": 0,
+        "attempt_count": 1,
         "submission_signals": 0
       },
-      "value_per_competitor": 60.0,
+      "value_per_competitor": 50.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:20.234968Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 490,
-      "title": "[Bounty: $55] Align the agent not-found page with the design token system and remove inert dark: variants",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/490",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/490",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 55.0,
-        "currency": "USD",
-        "evidence": "Bounty: $55"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 55.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:24.977776Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 487,
-      "title": "[Bounty: $55] Align generate-icons.mjs with the committed public icon set and expose it as an npm script",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/487",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/487",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 55.0,
-        "currency": "USD",
-        "evidence": "Bounty: $55"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 55.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:26.545089Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 486,
-      "title": "[Bounty: $55] Declare msw, vitest-axe, and sharp as devDependencies",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/486",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/486",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 55.0,
-        "currency": "USD",
-        "evidence": "Bounty: $55"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 55.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:27.271953Z"
+      "verified_at": "2026-09-03T08:33:46.891319Z"
     },
     {
       "repository": "Lilly-Protocol/lily-backend",
@@ -266,38 +194,14 @@
       },
       "value_per_competitor": 47.5,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:17.819437Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 483,
-      "title": "[Bounty: $95] Source manifest.ts strings and colors from siteConfig and SURFACE_THEME_COLOR",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/483",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/483",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 95.0,
-        "currency": "USD",
-        "evidence": "Bounty: $95"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 47.5,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:28.926244Z"
+      "verified_at": "2026-09-03T08:33:02.226176Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 433,
-      "title": "[Bounty: $90] Add the `codegen` npm script that `contract-drift.yml` and CODEGEN.md reference",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/433",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/433",
+      "issue_number": 405,
+      "title": "[Bounty: $90] Make `LilySdk.withConfig` route requests through the overridden `baseUrl` and credentials",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/405",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/405",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -314,44 +218,20 @@
       },
       "value_per_competitor": 45.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:24.257562Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 480,
-      "title": "[Bounty: $45] Make useFormAction reset clear state without re-submitting the form action",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/480",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/480",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 45.0,
-        "currency": "USD",
-        "evidence": "Bounty: $45"
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 45.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:30.511417Z"
+      "verified_at": "2026-09-03T08:33:43.682486Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 437,
-      "title": "[Bounty: $85] Reconcile HealthStatus model type with the validateHealthStatus validator",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/437",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/437",
+      "issue_number": 453,
+      "title": "[Bounty: $80] Align Node.js version claims across README, runtime-requirements docs, package engines, and CI",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/453",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/453",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 85.0,
+        "amount": 80.0,
         "currency": "USD",
-        "evidence": "Bounty: $85"
+        "evidence": "Bounty: $80"
       },
       "open_pr_competition": 1,
       "assignees": [],
@@ -360,9 +240,9 @@
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 42.5,
+      "value_per_competitor": 40.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:22.657968Z"
+      "verified_at": "2026-09-03T08:33:41.516698Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -386,7 +266,31 @@
       },
       "value_per_competitor": 37.5,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:24.073797Z"
+      "verified_at": "2026-09-03T08:33:08.900575Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 410,
+      "title": "[Bounty: $75] Expose the webhook signature helpers via a public `./webhooks` export subpath",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/410",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/410",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 75.0,
+        "currency": "USD",
+        "evidence": "Bounty: $75"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 37.5,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:33:45.743641Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -410,62 +314,14 @@
       },
       "value_per_competitor": 35.0,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:16.951803Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 491,
-      "title": "[Bounty: $70] Consume rootViewport from config/viewport.ts in the root layout",
-      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 70.0,
-        "currency": "USD",
-        "evidence": "Bounty: $70"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 35.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:19.381618Z"
+      "verified_at": "2026-09-03T08:33:01.052784Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 448,
-      "title": "[Bounty: $70] Allow LilySdk.withConfig overrides to clear inherited credentials",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 70.0,
-        "currency": "USD",
-        "evidence": "Bounty: $70"
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 35.0,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:20.986659Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 439,
-      "title": "[Bounty: $65] Stop normalizeMoneyAmount from silently truncating sub-cent Stellar amounts",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/439",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/439",
+      "issue_number": 440,
+      "title": "[Bounty: $65] Guard process.env access in resolveCredential so SDK construction works in browsers",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -482,7 +338,79 @@
       },
       "value_per_competitor": 32.5,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:21.844662Z"
+      "verified_at": "2026-09-03T08:33:54.848206Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 484,
+      "title": "[Bounty: $55] Stop committing generated Playwright report and test-result output",
+      "source_url": "https://github.com/freedom-winds/BountyScout/issues/972",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/484",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 55.0,
+        "currency": "USD",
+        "evidence": "Bounty: $55"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 27.5,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:33:48.989454Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 409,
+      "title": "[Bounty: $50] Invoke request lifecycle hooks (`beforeRequest`/`afterResponse`/`onError`/`onRetry`) in `createFetchHttpClient`",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/409",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/409",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 50.0,
+        "currency": "USD",
+        "evidence": "Bounty: $50"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 25.0,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:33:44.732316Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-contracts",
+      "issue_number": 322,
+      "title": "[Bounty: $40] Fix the stale Rust 1.83 toolchain reference in CONTRIBUTING.md",
+      "source_url": "https://github.com/Lilly-Protocol/lily-contracts/issues/322",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-contracts/issues/322",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 40.0,
+        "currency": "USD",
+        "evidence": "Bounty: $40"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 20.0,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:33:55.888671Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -506,7 +434,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:39.903675Z"
+      "verified_at": "2026-09-03T08:33:27.371860Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -530,7 +458,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:41.230719Z"
+      "verified_at": "2026-09-03T08:33:29.148494Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -554,7 +482,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:44.994510Z"
+      "verified_at": "2026-09-03T08:33:32.857609Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -578,7 +506,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:45.659462Z"
+      "verified_at": "2026-09-03T08:33:33.746376Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
@@ -602,7 +530,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:46.328608Z"
+      "verified_at": "2026-09-03T08:33:34.603227Z"
     },
     {
       "repository": "auscaster/frantic-board",
@@ -626,308 +554,20 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:47.194313Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 449,
-      "title": "[Bounty: $95] Add safe number-to-decimal-string helpers for building MoneyAmount values",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/449",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/449",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 95.0,
-        "currency": "USD",
-        "evidence": "Bounty: $95"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:50.166147Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 436,
-      "title": "[Bounty: $90] Make verifyWebhookJSON signature verification independent of JSON key order",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/436",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/436",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 90.0,
-        "currency": "USD",
-        "evidence": "Bounty: $90"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:50.865615Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 446,
-      "title": "[Bounty: $100] Validate per-request timeoutMs values in the fetch transport",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/446",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "Bounty: $100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:51.524156Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 453,
-      "title": "[Bounty: $80] Align Node.js version claims across README, runtime-requirements docs, package engines, and CI",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/453",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/453",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 80.0,
-        "currency": "USD",
-        "evidence": "Bounty: $80"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:52.724092Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 405,
-      "title": "[Bounty: $90] Make `LilySdk.withConfig` route requests through the overridden `baseUrl` and credentials",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/405",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/405",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 90.0,
-        "currency": "USD",
-        "evidence": "Bounty: $90"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:54.167709Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 409,
-      "title": "[Bounty: $50] Invoke request lifecycle hooks (`beforeRequest`/`afterResponse`/`onError`/`onRetry`) in `createFetchHttpClient`",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/409",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/409",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 50.0,
-        "currency": "USD",
-        "evidence": "Bounty: $50"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:54.799958Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 410,
-      "title": "[Bounty: $75] Expose the webhook signature helpers via a public `./webhooks` export subpath",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/410",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/410",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:55.434068Z"
-    },
-    {
-      "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 411,
-      "title": "[Bounty: $100] Publish the pagination helpers and `CursorPage` type through a `./pagination` subpath",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/411",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/411",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "Bounty: $100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 1,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:56.118686Z"
-    },
-    {
-      "repository": "tenstorrent/tt-metal",
-      "issue_number": 55316,
-      "title": "[Bounty $750] ttnn.xlogy_bw and ttnn.addcdiv_bw hard-code the sign of the infinity at a zero divisor and skip the NaN case",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55316",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55316",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 750.0,
-        "currency": "USD",
-        "evidence": "Bounty $750"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:56.732990Z"
-    },
-    {
-      "repository": "tenstorrent/tt-metal",
-      "issue_number": 55315,
-      "title": "[Bounty $1,000] Complex ttnn.reciprocal / ttnn.div lose the result for |z| > 2^63 and |z| < 2^-63 by forming |z|^2 first",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55315",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 1000.0,
-        "currency": "USD",
-        "evidence": "Bounty $1,000"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:57.350278Z"
-    },
-    {
-      "repository": "tenstorrent/tt-metal",
-      "issue_number": 55289,
-      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
-      "source_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/55289",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 1000.0,
-        "currency": "USD",
-        "evidence": "Bounty $1,000"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:57.967407Z"
-    },
-    {
-      "repository": "freedom-winds/BountyScout",
-      "issue_number": 972,
-      "title": "🎯 Bounty Alert: 10 New Opportunityies found",
-      "source_url": "https://github.com/vansh-09/BountyScout/issues/1051",
-      "canonical_url": "https://github.com/freedom-winds/BountyScout/issues/972",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 55.0,
-        "currency": "USD",
-        "evidence": "Bounty: $55"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:58.572332Z"
+      "verified_at": "2026-09-03T08:33:35.745791Z"
     },
     {
       "repository": "Lilly-Protocol/lily-frontend",
-      "issue_number": 484,
-      "title": "[Bounty: $55] Stop committing generated Playwright report and test-result output",
-      "source_url": "https://github.com/freedom-winds/BountyScout/issues/972",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/484",
+      "issue_number": 491,
+      "title": "[Bounty: $70] Consume rootViewport from config/viewport.ts in the root layout",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/491",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 55.0,
+        "amount": 70.0,
         "currency": "USD",
-        "evidence": "Bounty: $55"
+        "evidence": "Bounty: $70"
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -938,14 +578,62 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:31:59.181883Z"
+      "verified_at": "2026-09-03T08:34:16.341123Z"
     },
     {
       "repository": "Lilly-Protocol/lily-sdk",
-      "issue_number": 440,
-      "title": "[Bounty: $65] Guard process.env access in resolveCredential so SDK construction works in browsers",
-      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/440",
+      "issue_number": 451,
+      "title": "[Bounty: $60] Publish a lightweight in-memory HttpClient for SDK consumer unit tests",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/451",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/451",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 60.0,
+        "currency": "USD",
+        "evidence": "Bounty: $60"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:17.229777Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 448,
+      "title": "[Bounty: $70] Allow LilySdk.withConfig overrides to clear inherited credentials",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/448",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 70.0,
+        "currency": "USD",
+        "evidence": "Bounty: $70"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:18.062983Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 439,
+      "title": "[Bounty: $65] Stop normalizeMoneyAmount from silently truncating sub-cent Stellar amounts",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/439",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/439",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -962,20 +650,20 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:02.673129Z"
+      "verified_at": "2026-09-03T08:34:18.928114Z"
     },
     {
-      "repository": "Lilly-Protocol/lily-contracts",
-      "issue_number": 322,
-      "title": "[Bounty: $40] Fix the stale Rust 1.83 toolchain reference in CONTRIBUTING.md",
-      "source_url": "https://github.com/Lilly-Protocol/lily-contracts/issues/322",
-      "canonical_url": "https://github.com/Lilly-Protocol/lily-contracts/issues/322",
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 437,
+      "title": "[Bounty: $85] Reconcile HealthStatus model type with the validateHealthStatus validator",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/437",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/437",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 40.0,
+        "amount": 85.0,
         "currency": "USD",
-        "evidence": "Bounty: $40"
+        "evidence": "Bounty: $85"
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -986,7 +674,211 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-09-03T07:32:03.317739Z"
+      "verified_at": "2026-09-03T08:34:19.807181Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 435,
+      "title": "[Bounty: $75] Build the typedoc API docs in CI",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/435",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/435",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 75.0,
+        "currency": "USD",
+        "evidence": "Bounty: $75"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:20.658693Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-sdk",
+      "issue_number": 433,
+      "title": "[Bounty: $90] Add the `codegen` npm script that `contract-drift.yml` and CODEGEN.md reference",
+      "source_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/433",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-sdk/issues/433",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 90.0,
+        "currency": "USD",
+        "evidence": "Bounty: $90"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:21.727824Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 490,
+      "title": "[Bounty: $55] Align the agent not-found page with the design token system and remove inert dark: variants",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/490",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/490",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 55.0,
+        "currency": "USD",
+        "evidence": "Bounty: $55"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:22.577099Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 489,
+      "title": "[Bounty: $80] Consolidate mirrored component test files between __tests__ folders and component folders",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/489",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/489",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 80.0,
+        "currency": "USD",
+        "evidence": "Bounty: $80"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:23.435735Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 487,
+      "title": "[Bounty: $55] Align generate-icons.mjs with the committed public icon set and expose it as an npm script",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/487",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/487",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 55.0,
+        "currency": "USD",
+        "evidence": "Bounty: $55"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:24.285107Z"
+    },
+    {
+      "repository": "Lilly-Protocol/lily-frontend",
+      "issue_number": 486,
+      "title": "[Bounty: $55] Declare msw, vitest-axe, and sharp as devDependencies",
+      "source_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/486",
+      "canonical_url": "https://github.com/Lilly-Protocol/lily-frontend/issues/486",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 55.0,
+        "currency": "USD",
+        "evidence": "Bounty: $55"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-09-03T08:34:25.166795Z"
+    },
+    {
+      "repository": "Smartdevs17/stellarlend",
+      "issue_number": 907,
+      "title": "[BUG BOUNTY] Median outlier defense defeated with <=2 active feeds: one corrupt price source gains unbounded upward price control",
+      "source_url": "https://github.com/Smartdevs17/stellarlend/issues/907",
+      "canonical_url": "https://github.com/Smartdevs17/stellarlend/issues/907",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:32:42.407587Z"
+    },
+    {
+      "repository": "Smartdevs17/stellarlend",
+      "issue_number": 906,
+      "title": "[BUG BOUNTY] Permanent channel DoS: anomaly_count never reset on reopen allows 1-tx re-close loop",
+      "source_url": "https://github.com/Smartdevs17/stellarlend/issues/906",
+      "canonical_url": "https://github.com/Smartdevs17/stellarlend/issues/906",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:32:43.459603Z"
+    },
+    {
+      "repository": "Smartdevs17/stellarlend",
+      "issue_number": 905,
+      "title": "[BUG BOUNTY] Missing access control on protocol config setters lets any user freeze withdrawals and overwrite protocol limits",
+      "source_url": "https://github.com/Smartdevs17/stellarlend/issues/905",
+      "canonical_url": "https://github.com/Smartdevs17/stellarlend/issues/905",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:32:45.664286Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1006,7 +898,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:31:36.447651Z"
+      "verified_at": "2026-09-03T08:33:22.914466Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1026,7 +918,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:31:38.485771Z"
+      "verified_at": "2026-09-03T08:33:25.602708Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1037,7 +929,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1046,7 +938,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:03.890495Z"
+      "verified_at": "2026-09-03T08:33:56.906035Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1057,7 +949,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1066,7 +958,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:04.692778Z"
+      "verified_at": "2026-09-03T08:33:57.833089Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1077,7 +969,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1086,7 +978,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:05.358673Z"
+      "verified_at": "2026-09-03T08:33:58.883290Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1097,7 +989,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1106,7 +998,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:06.004921Z"
+      "verified_at": "2026-09-03T08:33:59.874493Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1117,7 +1009,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1126,7 +1018,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:06.590669Z"
+      "verified_at": "2026-09-03T08:34:00.818873Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1137,7 +1029,7 @@
       "state": "open",
       "closed_at": null,
       "reward": null,
-      "open_pr_competition": null,
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -1146,7 +1038,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:07.266575Z"
+      "verified_at": "2026-09-03T08:34:01.783188Z"
     },
     {
       "repository": "Scottcjn/rustchain-bounties",
@@ -1166,7 +1058,87 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-09-03T07:32:08.043070Z"
+      "verified_at": "2026-09-03T08:34:03.091751Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 9963,
+      "title": "[Bounty Claim] PR Reviews Complete - All Ecosystem PRs (Bounty #73) - HCIE2054",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9963",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9963",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:34:04.070587Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 9962,
+      "title": "[Bounty Claim] Star + Review Open PR (Bounty #2782) - HCIE2054",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9962",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9962",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:34:05.116659Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 9951,
+      "title": "[Bounty Claim] PR Reviews - 58 PRs Total (Bounty #73) - HCIE2054 Final",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9951",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9951",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:34:06.226415Z"
+    },
+    {
+      "repository": "Scottcjn/rustchain-bounties",
+      "issue_number": 9943,
+      "title": "[Bounty Claim] PR Reviews - 100+ PRs (Bounty #73) - HCIE2054",
+      "source_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9943",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9943",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-09-03T08:34:07.227605Z"
     }
   ]
 }
