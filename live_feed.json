@@ -1,10 +1,10 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 3,
-    "manual_review": 4,
-    "pursue": 7,
-    "skip": 1
+    "hold": 10,
+    "manual_review": 1,
+    "pursue": 4,
+    "skip": 0
   },
   "entries": [
     {
@@ -29,6 +29,7 @@
         "bounty",
         "funded",
         "available",
+        "claimed",
         "delivered",
         "accepted",
         "paid"
@@ -41,12 +42,12 @@
       ],
       "reward_usd_max": 1.0,
       "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
-      "updated_at": "2026-09-06T00:27:50Z",
+      "updated_at": "2026-09-06T06:34:06Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -60,69 +61,271 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
-      "id": "github:Scottcjn/rustchain-bounties#100",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
+      "id": "github:Scottcjn/rustchain-bounties#71",
+      "labels": [
+        "bug",
+        "bounty",
+        "open"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "133 RTC",
+        "750 RTC",
+        "200 RTC",
+        "100 RTC",
+        "50 RTC",
+        "15 RTC",
+        "1 RTC",
+        "$0.10 USD"
+      ],
+      "reward_usd_max": 0.1,
+      "title": "[BOUNTY] Ongoing Bug Bounty Program \u2014 Find Bugs, Earn RTC (133 RTC Pool)",
+      "updated_at": "2026-09-06T05:00:16Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1109",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1109",
+      "id": "github:Scottcjn/rustchain-bounties#1109",
+      "labels": [
+        "bounty",
+        "easy",
+        "bottube"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "1 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[EASY BOUNTY: 1 RTC] BoTTube First Impression \u2014 Tell Us What You Think",
+      "updated_at": "2026-09-06T04:55:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16870",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16870",
+      "id": "github:Scottcjn/rustchain-bounties#16870",
+      "labels": [
+        "bounty",
+        "claimed"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-06T02:13:15Z",
+          "number": 16871,
+          "title": "feat(x402): integration retest v2 matrix verification, paid roundtrip engine, and defect reports (#16870)",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16871"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "15 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 15 RTC] x402 integration retest v2 \u2014 corrected endpoint matrix (successor to #351)",
+      "updated_at": "2026-09-06T06:31:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "waterWang",
+          "command": "/attempt #16472",
+          "created_at": "2026-08-10T22:36:27Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5246806482"
+        },
+        {
+          "actor": "phoenix7956",
+          "command": "/claim #16472",
+          "created_at": "2026-08-12T08:10:56Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5264092291"
+        },
+        {
+          "actor": "yaegerbomb42",
+          "command": "/attempt",
+          "created_at": "2026-08-28T21:45:11Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5458086762"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim #16472",
+          "created_at": "2026-09-02T03:14:16Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5503770953"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T03:53:33Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5504097133"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:42:48Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5531875352"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:22:52Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472#issuecomment-5556866241"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16472",
+      "id": "github:Scottcjn/rustchain-bounties#16472",
+      "labels": [
+        "bounty",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "20 RTC",
+        "5 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 20 RTC] BoTTube CI jobs hang to a 15-minute timeout and blame the contributor",
+      "updated_at": "2026-09-06T04:23:02Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Zubi-fix",
+          "command": "/claim #16275",
+          "created_at": "2026-07-20T15:43:56Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5024158473"
+        },
+        {
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #16275",
+          "created_at": "2026-07-20T15:44:01Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5024159428"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/claim I would like to work on this bounty.",
+          "created_at": "2026-07-25T15:33:21Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5079074661"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T16:45:09Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5513070469"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:49:18Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5531948310"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:15:05Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275#issuecomment-5556832470"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16275",
+      "id": "github:Scottcjn/rustchain-bounties#16275",
       "labels": [
         "bounty",
         "open",
-        "community"
+        "claimed"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
+        "4 RTC",
         "2 RTC",
-        "10 RTC",
-        "250 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
-      "updated_at": "2026-09-05T23:58:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "tracepatch-lab",
-          "command": "/claim #12444",
-          "created_at": "2026-06-05T04:24:14Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444#issuecomment-4628134112"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444",
-      "id": "github:Scottcjn/rustchain-bounties#12444",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
         "3 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY: 3 RTC] Proof of Antiquity vs Proof of Storage (Filecoin/Chia/Arweave)",
-      "updated_at": "2026-09-05T23:58:11Z",
-      "verification_confidence": "medium"
+      "title": "[BOUNTY: 2-4 RTC] Join the Discord + real participation (not just a join)",
+      "updated_at": "2026-09-06T04:15:13Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13224",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -132,244 +335,67 @@
       ],
       "claim_signals": [
         {
-          "actor": "tonghuaxingdsb",
-          "command": "/claim",
-          "created_at": "2026-06-09T05:08:51Z",
+          "actor": "Zubi-fix",
+          "command": "/attempt #16271",
+          "created_at": "2026-07-19T23:39:09Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13224#issuecomment-4656331607"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5017807484"
         },
         {
-          "actor": "stmr",
-          "command": "/claim",
-          "created_at": "2026-06-15T10:43:30Z",
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #16271",
+          "created_at": "2026-07-19T23:39:15Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13224#issuecomment-4707077064"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5017807783"
+        },
+        {
+          "actor": "abhiavi",
+          "command": "/attempt",
+          "created_at": "2026-07-19T23:41:20Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5017812720"
+        },
+        {
+          "actor": "waterWang",
+          "command": "/claim #16271",
+          "created_at": "2026-08-07T22:07:04Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5222538019"
         },
         {
           "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-09-02T15:10:11Z",
+          "created_at": "2026-09-02T12:57:21Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13224#issuecomment-5511772225"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13224",
-      "id": "github:Scottcjn/rustchain-bounties#13224",
-      "labels": [
-        "bounty",
-        "claimed"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "17 RTC",
-        "67 RTC",
-        "100 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: up to 17 RTC \u00b7 67 RTC pool] Tear apart RIP-0301 \u2014 paid design critique",
-      "updated_at": "2026-09-05T23:54:12Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/727",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "JONASXZB",
-          "command": "/claim #727",
-          "created_at": "2026-06-01T08:47:42Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-4590977231"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5509887439"
         },
         {
-          "actor": "codeboost-tr",
-          "command": "/attempt",
-          "created_at": "2026-06-19T13:16:34Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-4751901495"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt",
-          "created_at": "2026-08-28T19:20:48Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-5456805130"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt",
-          "created_at": "2026-08-28T20:06:44Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-5457233874"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/claim #727",
-          "created_at": "2026-08-28T21:37:39Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-5458025933"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/claim #727",
-          "created_at": "2026-08-28T21:37:44Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/727#issuecomment-5458026537"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/727",
-      "id": "github:Scottcjn/rustchain-bounties#727",
-      "labels": [
-        "bounty",
-        "propagation",
-        "community"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "5 RTC",
-        "15 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 5 RTC] Write a Comparison Article \u2014 RustChain vs Other Chains",
-      "updated_at": "2026-09-05T23:39:15Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
+          "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-07-21T11:40:13Z",
+          "created_at": "2026-09-02T14:08:14Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5033482919"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5510855369"
         },
         {
-          "actor": "zhaog100",
+          "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-07-22T23:22:37Z",
+          "created_at": "2026-09-03T06:35:32Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5052629669"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
-      "id": "github:Scottcjn/rustchain-bounties#282",
-      "labels": [
-        "bounty",
-        "distribution"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "15 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
-      "updated_at": "2026-09-05T23:39:12Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/398",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/398",
-      "id": "github:Scottcjn/rustchain-bounties#398",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "100 RTC",
-        "10 RTC",
-        "15 RTC",
-        "75 RTC",
-        "25 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[QUEST] Harden the Chain \u2014 Security Quest, 100 RTC Total (per-claimant)",
-      "updated_at": "2026-09-05T23:29:08Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/ted8686/stark-test-1788631294/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5521601934"
+        },
         {
-          "actor": "ted8686",
+          "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-09-05T18:02:45Z",
+          "created_at": "2026-09-03T20:37:44Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5531817830"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:59Z",
           "recent": true,
-          "url": "https://github.com/ted8686/stark-test-1788631294/issues/1#issuecomment-5553742772"
-        },
-        {
-          "actor": "ted8686",
-          "command": "/claim",
-          "created_at": "2026-09-05T18:04:31Z",
-          "recent": true,
-          "url": "https://github.com/ted8686/stark-test-1788631294/issues/1#issuecomment-5553754481"
-        },
-        {
-          "actor": "s6pa1rta3n-lab",
-          "command": "/try",
-          "created_at": "2026-09-05T18:07:39Z",
-          "recent": true,
-          "url": "https://github.com/ted8686/stark-test-1788631294/issues/1#issuecomment-5553773882"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271#issuecomment-5556832044"
         }
       ],
       "closed_at": null,
@@ -377,89 +403,27 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/ted8686/stark-test-1788631294/issues/1",
-      "id": "github:ted8686/stark-test-1788631294#1",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16271",
+      "id": "github:Scottcjn/rustchain-bounties#16271",
       "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-05T18:08:16Z",
-          "number": 3,
-          "title": "Resolve #1: Test Bounty CLI and Verification Suite",
-          "url": "https://github.com/ted8686/stark-test-1788631294/pull/3"
-        }
-      ],
-      "recent_claim_count": 3,
-      "reward_mentions": [
-        "$10"
-      ],
-      "reward_usd_max": 10.0,
-      "title": "Test Bounty $10",
-      "updated_at": "2026-09-06T00:24:59Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "jdjioe5-cpu",
-          "command": "/attempt",
-          "created_at": "2026-09-05T23:49:16Z",
-          "recent": true,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863#issuecomment-5555602858"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
-      "id": "github:Scottcjn/rustchain-bounties#16863",
-      "labels": [
-        "good first issue",
         "bounty",
-        "micro",
+        "open",
         "claimed"
       ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-06T00:08:55Z",
-          "number": 16867,
-          "title": "feat(community): contributor feedback submission and validation engine (Fixes #16863)",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16867"
-        },
-        {
-          "created_at": "2026-09-06T00:03:05Z",
-          "number": 16866,
-          "title": "docs: resolve #16863 - [MICRO-BOUNTY: 0.1 RTC] Why did you choose to work on an Elyan Labs repo?",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16866"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "0.1 RTC",
-        "25 RTC"
+        "35 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[MICRO-BOUNTY: 0.1 RTC] Why did you choose to work on an Elyan Labs repo?",
-      "updated_at": "2026-09-06T00:39:31Z",
+      "title": "[BOUNTY: 35 RTC] Harden x86 vintage-arch reward validation (anti-spoof)",
+      "updated_at": "2026-09-06T04:15:09Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -469,74 +433,74 @@
       ],
       "claim_signals": [
         {
-          "actor": "yh-liao-07",
+          "actor": "JHON12091986",
           "command": "/attempt",
-          "created_at": "2026-07-19T12:50:10Z",
+          "created_at": "2026-07-21T14:23:11Z",
           "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5015778354"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5035210498"
+        },
+        {
+          "actor": "waterWang",
+          "command": "/claim #16255 \u6211\u6765\u5904\u7406\u8fd9\u4e2a bounty\u3002\u5148\u68c0\u67e5 rustchain-mcp \u4ee3\u7801\u5e93\u786e\u8ba4 streaming \u884c\u4e3a\uff0c\u7136\u540e\u66f4\u65b0\u6587\u6863\u548c\u6d4b\u8bd5\u3002",
+          "created_at": "2026-08-01T21:09:29Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5153450614"
         },
         {
           "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-07-31T13:56:32Z",
+          "command": "/claim #16255 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
+          "created_at": "2026-08-07T21:20:25Z",
           "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5143657875"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5222118493"
         },
         {
-          "actor": "aibitious",
-          "command": "/attempt",
-          "created_at": "2026-08-19T14:34:59Z",
+          "actor": "ranka23",
+          "command": "/claim \u2014 NexusAI (@ranka23). Will investigate rustchain-mcp long-running tool behavior against the MCP spec (capabilities, notifications/progress), document it in README, add tests asserting documented behavior, and answer rustchain-mcp#231 with evidence. PR within 7 days.",
+          "created_at": "2026-08-26T00:15:34Z",
           "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5343639788"
-        },
-        {
-          "actor": "aibitious",
-          "command": "/claim https://github.com/aLexzzz430/Cognitive-OS/pull/45",
-          "created_at": "2026-08-19T15:29:34Z",
-          "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5344317021"
-        },
-        {
-          "actor": "Meart67",
-          "command": "/claim",
-          "created_at": "2026-08-19T18:13:13Z",
-          "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5346186834"
-        },
-        {
-          "actor": "Rodrigoue9",
-          "command": "/claim https://github.com/aLexzzz430/Cognitive-OS/pull/47\\n\\nCompleted research packet covering 8 frontier AI model families across all 11 required dimensions with full synthesis, CSV comparison, and attribution.",
-          "created_at": "2026-08-20T00:27:47Z",
-          "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5349668418"
-        },
-        {
-          "actor": "EvandroAndre",
-          "command": "/attempt",
-          "created_at": "2026-08-29T12:12:26Z",
-          "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5462348904"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/attempt",
-          "created_at": "2026-08-29T13:15:27Z",
-          "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5462622038"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5418782995"
         },
         {
           "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-08-29T13:24:00Z",
+          "created_at": "2026-09-02T12:55:25Z",
           "recent": false,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5462662041"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5509863430"
         },
         {
-          "actor": "simozerx",
-          "command": "/attempt",
-          "created_at": "2026-09-05T19:54:24Z",
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T13:13:17Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5510099874"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T14:08:10Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5510854477"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T10:33:04Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5524367298"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:44:18Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5531891798"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:54Z",
           "recent": true,
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5554385700"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255#issuecomment-5556831681"
         }
       ],
       "closed_at": null,
@@ -544,256 +508,30 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
-      "id": "github:aLexzzz430/Cognitive-OS#5",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16255",
+      "id": "github:Scottcjn/rustchain-bounties#16255",
       "labels": [
-        "reward",
+        "documentation",
         "bounty",
-        "research"
+        "open",
+        "micro",
+        "testing",
+        "claimed"
       ],
-      "matching_open_pr_count": 24,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-01T09:43:16Z",
-          "number": 30,
-          "title": "fix: issue #5",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/30"
-        },
-        {
-          "created_at": "2026-08-29T13:23:51Z",
-          "number": 48,
-          "title": "Research: Comprehensive AGI Architecture Comparison (Issue #5 Bounty)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/48"
-        },
-        {
-          "created_at": "2026-06-11T16:16:51Z",
-          "number": 25,
-          "title": "feat: AGI Architecture Research Packet \u2014 Bounty #5",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/25"
-        },
-        {
-          "created_at": "2026-08-20T00:27:35Z",
-          "number": 47,
-          "title": "research: collect and compare AI-generated AGI architecture proposals (#5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/47"
-        },
-        {
-          "created_at": "2026-07-26T01:37:41Z",
-          "number": 42,
-          "title": "Add AI-generated AGI architecture comparison (Bounty #5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/42"
-        },
-        {
-          "created_at": "2026-07-12T06:15:06Z",
-          "number": 37,
-          "title": "Add AGI architecture research packet (Issue #5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/37"
-        },
-        {
-          "created_at": "2026-05-25T09:59:38Z",
-          "number": 10,
-          "title": "research: AGI architecture research packet (#5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/10"
-        },
-        {
-          "created_at": "2026-06-16T16:00:10Z",
-          "number": 27,
-          "title": "research: AGI architecture proposals comparison ($3k bounty #5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/27"
-        },
-        {
-          "created_at": "2026-05-24T13:30:25Z",
-          "number": 9,
-          "title": "Bounty #5: AGI Architecture Research - Multi-perspective Analysis",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/9"
-        },
-        {
-          "created_at": "2026-06-04T09:40:10Z",
-          "number": 23,
-          "title": "Research #5: Collect and compare AI-generated AGI architecture proposals",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/23"
-        },
-        {
-          "created_at": "2026-08-05T19:03:40Z",
-          "number": 44,
-          "title": "feat: Add AGI Architecture Research Packet (Bounty Submission)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/44"
-        },
-        {
-          "created_at": "2026-09-05T20:02:19Z",
-          "number": 49,
-          "title": "[Bounty k] AGI architecture research packet - 8+ AI systems",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/49"
-        },
-        {
-          "created_at": "2026-07-11T10:04:45Z",
-          "number": 35,
-          "title": "Add AGI architecture research packet: 8 AI proposals compared - Fixes #5 ($3,000 bounty)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/35"
-        },
-        {
-          "created_at": "2026-07-31T14:08:07Z",
-          "number": 43,
-          "title": "[Bounty $3k] AGI Architecture Research Packet - 10 AI Systems Compared",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/43"
-        },
-        {
-          "created_at": "2026-05-22T21:55:57Z",
-          "number": 6,
-          "title": "[Bounty k] Research: Collect and compare AI-generated AGI architecture proposals (Closes #5)",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/6"
-        },
-        {
-          "created_at": "2026-05-26T09:23:10Z",
-          "number": 11,
-          "title": "feat(research): add AGI architecture comparison packet with 9 AI system outputs",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/11"
-        },
-        {
-          "created_at": "2026-05-27T17:06:36Z",
-          "number": 14,
-          "title": "feat: AGI architecture research packet \u2014 8 AI systems compared",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/14"
-        },
-        {
-          "created_at": "2026-05-23T04:09:31Z",
-          "number": 7,
-          "title": "Research: Collect and compare AI-generated AGI architecture proposals",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/7"
-        },
-        {
-          "created_at": "2026-05-23T17:51:39Z",
-          "number": 8,
-          "title": "feat: Add AI-generated AGI architecture proposals research packet",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/8"
-        },
-        {
-          "created_at": "2026-06-23T08:19:45Z",
-          "number": 29,
-          "title": "feat: AGI architecture research from 8 AI systems",
-          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/29"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$3",
-        "$3,000 USD"
+        "8 RTC"
       ],
-      "reward_usd_max": 3000.0,
-      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
-      "updated_at": "2026-09-05T23:59:28Z",
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 8 RTC] rustchain-mcp: document + test streaming/long-running tool behavior (answers rustchain-mcp#231)",
+      "updated_at": "2026-09-06T04:15:07Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/stride3d/stride/issues/870",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/stride3d/stride/issues/870",
-      "id": "github:stride3d/stride#870",
-      "labels": [
-        "enhancement",
-        "area-Graphics",
-        "work-estimate-M",
-        "priority-Medium",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Support for Custom render context",
-      "updated_at": "2026-09-06T00:26:15Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/56",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/56",
-      "id": "github:aadarwal/swarmstatus-bounties#56",
-      "labels": [
-        "bounty",
-        "publish",
-        "type:question",
-        "area:data-quality"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Explain the opposite 1996/97 away ranks in two EPL paste tables",
-      "updated_at": "2026-09-06T00:00:20Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/59",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/59",
-      "id": "github:aadarwal/swarmstatus-bounties#59",
-      "labels": [
-        "bounty",
-        "publish",
-        "type:question",
-        "area:data-quality"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-06T00:21:15Z",
-          "number": 62,
-          "title": "fix(issue-59): identify source and full filters for Roi Et Q2 male studies series 2013-2021",
-          "url": "https://github.com/aadarwal/swarmstatus-bounties/pull/62"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Identify the source and full filters for the Roi Et Q2 male studies series, 2013\u20132021",
-      "updated_at": "2026-09-05T23:39:09Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -803,53 +541,495 @@
       ],
       "claim_signals": [
         {
-          "actor": "Carrie111998",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>You're the first one to try to solve this issue, go for it! \ud83d\ude09</details>",
-          "created_at": "2026-08-28T20:58:06Z",
+          "actor": "Zubi-fix",
+          "command": "/attempt #16253",
+          "created_at": "2026-07-19T21:48:06Z",
           "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457685951"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5017495812"
         },
         {
-          "actor": "Carrie111998",
-          "command": "/claim #1",
-          "created_at": "2026-08-28T20:58:08Z",
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #16253",
+          "created_at": "2026-07-19T21:48:12Z",
           "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457686131"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5017496069"
+        },
+        {
+          "actor": "abhiavi",
+          "command": "/attempt",
+          "created_at": "2026-07-19T22:25:45Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5017604805"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/attempt",
+          "created_at": "2026-07-20T14:04:35Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5023134444"
+        },
+        {
+          "actor": "waterWang",
+          "command": "/claim #16253",
+          "created_at": "2026-08-01T21:55:29Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5153623963"
+        },
+        {
+          "actor": "Vyacheslav-Tomashevskiy",
+          "command": "/claim",
+          "created_at": "2026-08-05T18:18:28Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5195597292"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T16:41:34Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5513023081"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:44:28Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5531893787"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:44Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253#issuecomment-5556830929"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "hold",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
-      "id": "github:HarrieAlexandrowicz5/gorm#1",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16253",
+      "id": "github:Scottcjn/rustchain-bounties#16253",
       "labels": [
+        "bug",
         "bounty",
-        "opire",
-        "$10"
+        "open",
+        "micro",
+        "claimed"
       ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "7 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 7 RTC] Consistent error handling + exit codes in wallet balance check script (Rustchain#7889)",
+      "updated_at": "2026-09-06T04:14:54Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
         {
-          "created_at": "2026-08-28T20:57:59Z",
-          "number": 6,
-          "title": "Fix: GORM complex-join panic (self-join + subquery) \u2014 resolves #1",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/6"
+          "actor": "Zubi-fix",
+          "command": "/attempt #16252",
+          "created_at": "2026-07-19T21:48:25Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5017496602"
         },
         {
-          "created_at": "2026-08-31T23:45:01Z",
-          "number": 8,
-          "title": "Fix #1: \ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/8"
+          "actor": "code-cannot-be-blank",
+          "command": "/claim #16252",
+          "created_at": "2026-07-19T21:48:31Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5017496881"
+        },
+        {
+          "actor": "abhiavi",
+          "command": "/attempt",
+          "created_at": "2026-07-19T22:29:20Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5017615027"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/attempt",
+          "created_at": "2026-07-21T14:48:42Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5035492608"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/claim",
+          "created_at": "2026-07-25T16:52:30Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5079355615"
+        },
+        {
+          "actor": "yaegerbomb42",
+          "command": "/attempt #16252",
+          "created_at": "2026-08-28T19:23:58Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5456834587"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T16:40:20Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5513006954"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:43:22Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5531881736"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:34Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5556830223"
         }
       ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252",
+      "id": "github:Scottcjn/rustchain-bounties#16252",
+      "labels": [
+        "bug",
+        "bounty",
+        "open",
+        "standard",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "12 RTC"
+      ],
       "reward_usd_max": null,
-      "title": "\ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-      "updated_at": "2026-09-05T23:42:45Z",
-      "verification_confidence": "medium"
+      "title": "[BOUNTY: 12 RTC] Windows headless miner: stop infinite retry of rejected headers, surface server diagnostic (Rustchain#7368)",
+      "updated_at": "2026-09-06T04:14:47Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Zubi-fix",
+          "command": "/claim #16251",
+          "created_at": "2026-07-19T21:48:43Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5017497445"
+        },
+        {
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #16251",
+          "created_at": "2026-07-19T21:48:50Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5017497738"
+        },
+        {
+          "actor": "diptikhaparde-coder",
+          "command": "/attempt",
+          "created_at": "2026-07-19T22:26:07Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5017605860"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/attempt",
+          "created_at": "2026-07-21T14:48:44Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5035492808"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T16:40:46Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5513012423"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:43:31Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5531883477"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:28Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5556829719"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251",
+      "id": "github:Scottcjn/rustchain-bounties#16251",
+      "labels": [
+        "bug",
+        "bounty",
+        "open",
+        "standard",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "10 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 10 RTC] Fix rustchain.org install script \u2014 wrong paths + macOS crash (Rustchain#7975), shellcheck-clean",
+      "updated_at": "2026-09-06T04:14:38Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "JHON12091986",
+          "command": "/attempt",
+          "created_at": "2026-07-21T14:23:16Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5035211285"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/claim I would like to work on this bounty. Wallet: RTC921ffc4353965fe09d946c1d826e398f0437d97e. Implementation Plan: Document ram-coffers fallback behavior on non-POWER8 and single-NUMA systems. Estimated completion: 8 hours. Ready to proceed.",
+          "created_at": "2026-07-25T17:21:07Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5079458189"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #16249 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
+          "created_at": "2026-08-07T21:25:46Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5222164196"
+        },
+        {
+          "actor": "ranka23",
+          "command": "/claim \u2014 NexusAI (@ranka23). Will read the headers (ggml-ram-coffers.h, ggml-coffer-mmap.h, ggml-neuromorphic-coffers.h), document real fallback behavior per-arch with line citations, and add the build-compatibility matrix. Docs PR within 7 days.",
+          "created_at": "2026-08-26T00:15:33Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5418782847"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T12:55:26Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5509863680"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T13:13:19Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5510100273"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T14:08:12Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5510854792"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T10:34:55Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5524390417"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:49:21Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5531948881"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:18Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249#issuecomment-5556829034"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16249",
+      "id": "github:Scottcjn/rustchain-bounties#16249",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "open",
+        "micro",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "4 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 4 RTC] Document ram-coffers fallback behavior on non-POWER8 / single-NUMA systems (ram-coffers#664)",
+      "updated_at": "2026-09-06T04:14:26Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "abhiavi",
+          "command": "/attempt",
+          "created_at": "2026-07-19T22:26:43Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5017607609"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/attempt",
+          "created_at": "2026-07-21T14:23:17Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5035211554"
+        },
+        {
+          "actor": "JHON12091986",
+          "command": "/claim I would like to work on this bounty.",
+          "created_at": "2026-07-25T15:33:06Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5079073864"
+        },
+        {
+          "actor": "foxxx009",
+          "command": "/claim #16248 I will work on this bounty: fix all broken README/doc links and add link-check CI.",
+          "created_at": "2026-07-26T16:16:14Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5084312538"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #16248 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
+          "created_at": "2026-08-07T21:25:46Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5222164090"
+        },
+        {
+          "actor": "wrvnnull",
+          "command": "/claim",
+          "created_at": "2026-08-27T17:24:03Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5442740340"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T03:39:30Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5503967922"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:48:03Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5531934646"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-04T02:13:08Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5534696300"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:14:13Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248#issuecomment-5556828675"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16248",
+      "id": "github:Scottcjn/rustchain-bounties#16248",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "open",
+        "micro",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "5 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 5 RTC] Fix ALL broken README/doc links in Scottcjn/Rustchain + add link-check CI (closes 5 open issues)",
+      "updated_at": "2026-09-06T04:14:25Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -862,13 +1042,6 @@
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
       "claim_signals": [
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt",
-          "created_at": "2026-08-28T20:21:42Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5457369879"
-        },
         {
           "actor": "yaegerbomb42",
           "command": "/claim",
@@ -931,12 +1104,19 @@
           "created_at": "2026-09-03T20:37:42Z",
           "recent": false,
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5531817589"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:22:33Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5556864918"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "hold",
       "decision_reasons": [
-        "At least 4 open PRs explicitly reference the canonical issue."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
       "id": "github:Scottcjn/rustchain-bounties#16471",
@@ -971,19 +1151,58 @@
           "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16476"
         }
       ],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
         "35 RTC",
         "10 RTC"
       ],
       "reward_usd_max": null,
       "title": "[BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-success failures",
-      "updated_at": "2026-09-05T23:58:08Z",
+      "updated_at": "2026-09-06T04:22:42Z",
       "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
+      "id": "github:relayhop/sn-monetization-runtime#818",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-05T13:09:23Z",
+          "number": 819,
+          "title": "fix(radar): parse and evaluate Stacker News bounty opportunities (Fixes #818)",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/819"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-09-05T12:37",
+      "updated_at": "2026-09-06T06:00:13Z",
+      "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-06T00:41:53.808317Z",
+  "generated_at": "2026-09-06T06:34:19.822310Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
