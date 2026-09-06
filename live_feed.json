@@ -1,10 +1,10 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
-    "manual_review": 8,
-    "pursue": 2,
-    "skip": 5
+    "hold": 1,
+    "manual_review": 3,
+    "pursue": 10,
+    "skip": 1
   },
   "entries": [
     {
@@ -31,7 +31,6 @@
         "available",
         "delivered",
         "accepted",
-        "needs-work",
         "paid"
       ],
       "matching_open_pr_count": 0,
@@ -42,7 +41,71 @@
       ],
       "reward_usd_max": 1.0,
       "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
-      "updated_at": "2026-09-06T11:49:45Z",
+      "updated_at": "2026-09-06T17:48:13Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/334",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Zubi-fix",
+          "command": "/claim #334",
+          "created_at": "2026-07-17T02:12:21Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-4998316057"
+        },
+        {
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #334",
+          "created_at": "2026-07-17T02:12:28Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-4998316516"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #334 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-12T11:02:08Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-5265823469"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/334",
+      "id": "github:NSPG13/agent-bounties#334",
+      "labels": [
+        "bounty",
+        "payments",
+        "funded-live",
+        "verification-unavailable",
+        "legacy-canary",
+        "recovery-reserved"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "1 USDC",
+        "2 USDC",
+        "2.01 USDC",
+        "2.00 USDC",
+        "0.01 USDC",
+        "1.00 USDC"
+      ],
+      "reward_usd_max": 2.01,
+      "title": "[QUARANTINED \u2014 DO NOT CLAIM] Seed a paid API child bounty",
+      "updated_at": "2026-09-06T17:42:39Z",
       "verification_confidence": "medium"
     },
     {
@@ -82,12 +145,12 @@
       ],
       "reward_usd_max": null,
       "title": "[BOUNTY: 15 RTC] x402 integration retest v2 \u2014 corrected endpoint matrix (successor to #351)",
-      "updated_at": "2026-09-06T12:33:58Z",
+      "updated_at": "2026-09-06T18:22:45Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/stride3d/stride/issues/870",
+      "canonical_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -95,72 +158,65 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "Zubi-fix",
+          "command": "/claim #167",
+          "created_at": "2026-07-13T03:49:49Z",
+          "recent": false,
+          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-4954253611"
+        },
+        {
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #167",
+          "created_at": "2026-07-13T03:49:55Z",
+          "recent": false,
+          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-4954254022"
+        },
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-07-30T14:44:45Z",
+          "recent": false,
+          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-5132307301"
+        }
+      ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "pursue",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/stride3d/stride/issues/870",
-      "id": "github:stride3d/stride#870",
+      "discovered_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
+      "id": "github:Vikingr2023/awesome-agent-bounties#167",
       "labels": [
-        "enhancement",
-        "area-Graphics",
-        "work-estimate-M",
-        "priority-Medium",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Support for Custom render context",
-      "updated_at": "2026-09-06T10:42:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
-      "id": "github:relayhop/sn-monetization-runtime#818",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
+        "bounty-hunter",
+        "external-mirror",
+        "bounty",
+        "reward",
+        "research"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-05T13:09:23Z",
-          "number": 819,
-          "title": "fix(radar): parse and evaluate Stacker News bounty opportunities (Fixes #818)",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/819"
+          "created_at": "2026-07-19T17:57:31Z",
+          "number": 361,
+          "title": "Fix #167: [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated",
+          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/pull/361"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-09-05T12:37",
-      "updated_at": "2026-09-06T12:00:23Z",
+      "reward_mentions": [
+        "$3",
+        "$3,000 USD"
+      ],
+      "reward_usd_max": 3000.0,
+      "title": "[aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated",
+      "updated_at": "2026-09-06T17:42:48Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/590",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -168,65 +224,116 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T20:53:34Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233792548"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:11:14Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233864731"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:11:15Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233864849"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:20:18Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233900890"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:28:58Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233934376"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:40:40Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233980874"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780Bd7e82C1e8e9BAEcCu2F54202aCd2FdBCEe9",
+          "created_at": "2026-08-09T22:43:21Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5234228096"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-10T15:29:35Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5242377538"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #590 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:19:53Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5476949925"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #590 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:40:24Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5477166165"
+        }
       ],
-      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
-      "id": "github:tadanobutubutu/screeps#5",
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/590",
+      "id": "github:NSPG13/agent-bounties#590",
       "labels": [
-        "bug",
-        "documentation",
-        "duplicate",
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "invalid",
-        "workflow-health",
-        "automated",
-        "bot",
-        "dependencies",
-        "ci",
-        "feature",
-        "javascript",
-        "github-actions",
-        "major",
-        "test",
-        "in-progress",
-        "stale",
-        "needs-review",
-        "security",
-        "config",
-        "renovate",
-        "sonarcloud",
-        "codecov",
-        "quality-report",
-        "chore",
-        "needs-triage",
-        "ai-solve",
-        "bounty"
+        "bounty",
+        "payments",
+        "funded-live"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-31T04:39:30Z",
-          "number": 133646,
-          "title": "fix: resolve issue #5 (concurrent multi-agent)",
-          "url": "https://github.com/tadanobutubutu/screeps/pull/133646"
+          "created_at": "2026-07-30T04:26:37Z",
+          "number": 721,
+          "title": "Fix: [META] Post and complete an agent-discovery bounty for 1 USDC margin",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/721"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Dependency Dashboard",
-      "updated_at": "2026-09-06T11:52:38Z",
+      "reward_mentions": [
+        "1 USDC",
+        "2 USDC",
+        "2.01 USDC",
+        "2.00 USDC",
+        "0.01 USDC",
+        "1.00 USDC"
+      ],
+      "reward_usd_max": 2.01,
+      "title": "[META] Earn 1 USDC margin with an agent-discovery bounty",
+      "updated_at": "2026-09-06T17:42:09Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/AbleeGod/soroban-defi-analytics/issues/4",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/651",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -234,39 +341,116 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim",
+          "created_at": "2026-08-09T19:50:50Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233538676"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim",
+          "created_at": "2026-08-09T19:51:09Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233539945"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T19:55:10Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233555697"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T20:53:30Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233792308"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:20:14Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233900633"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:40:39Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233980794"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T22:06:37Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5234084831"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #651 wallet: 0x780B1d7CDB5a5F1Ee9f8cA6fd6b6dC97AeAEe9",
+          "created_at": "2026-08-12T12:58:54Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5267129604"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #651 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:19:55Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5476950276"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #651 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:40:25Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5477166379"
+        }
       ],
-      "discovered_url": "https://github.com/AbleeGod/soroban-defi-analytics/issues/4",
-      "id": "github:AbleeGod/soroban-defi-analytics#4",
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/651",
+      "id": "github:NSPG13/agent-bounties#651",
       "labels": [
-        "enhancement",
-        "help wanted",
-        "frontend",
-        "bounty"
+        "bounty",
+        "payments",
+        "funded-live"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-06T10:51:54Z",
-          "number": 11,
-          "title": "feat(VolumeChart): add client-side CSV export functionality (closes #4)",
-          "url": "https://github.com/AbleeGod/soroban-defi-analytics/pull/11"
+          "created_at": "2026-07-30T05:59:42Z",
+          "number": 731,
+          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a bounty distribution bounty",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/731"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[FEAT] Implement CSV export functionality for historical pool TVL data",
-      "updated_at": "2026-09-06T10:34:33Z",
+      "reward_mentions": [
+        "1 USDC",
+        "2 USDC",
+        "2.01 USDC",
+        "2.00 USDC",
+        "0.01 USDC",
+        "1.00 USDC"
+      ],
+      "reward_usd_max": 2.01,
+      "title": "[META] Earn 1 USDC margin with a bounty distribution bounty",
+      "updated_at": "2026-09-06T17:41:43Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/1773",
+      "canonical_url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -278,48 +462,49 @@
         {
           "actor": "zhaog100",
           "command": "/attempt",
-          "created_at": "2026-03-27T08:30:06Z",
+          "created_at": "2026-08-27T22:08:05Z",
           "recent": false,
-          "url": "https://github.com/FreezingMoon/AncientBeast/issues/1773#issuecomment-4140984034"
+          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1#issuecomment-5445791318"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "pursue",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/1773",
-      "id": "github:FreezingMoon/AncientBeast#1773",
+      "discovered_url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1",
+      "id": "github:mister3ai-cmyk/ngp-sovereign-synesis-bounties#1",
       "labels": [
-        "coding",
-        "abilities",
-        "bounty"
+        "bounty",
+        "open"
       ],
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-06T10:58:30Z",
-          "number": 3213,
-          "title": "fix(dash): don't offer the just-materialized unit as the random pick (fixes #1773)",
-          "url": "https://github.com/FreezingMoon/AncientBeast/pull/3213"
+          "created_at": "2026-08-31T11:39:26Z",
+          "number": 21,
+          "title": "tests: address issue #1 (fixes #1)",
+          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/pull/21"
         },
         {
-          "created_at": "2026-03-27T07:47:14Z",
-          "number": 2895,
-          "title": "fix: encourage unit materialization variety by excluding last materialized type",
-          "url": "https://github.com/FreezingMoon/AncientBeast/pull/2895"
+          "created_at": "2026-08-20T12:25:50Z",
+          "number": 5,
+          "title": "[SUBMISSION] Bounty #1 \u2014 Reproducible ChIP-seq & DunedinPACE Pipeline",
+          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/pull/5"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "encourage unit materialization versatility [bounty: 8 XTR]",
-      "updated_at": "2026-09-06T10:58:47Z",
+      "reward_mentions": [
+        "$15,000 USD"
+      ],
+      "reward_usd_max": 15000.0,
+      "title": "Bounty #1 \u2014 ChIP-seq & Methylation PACE Pipeline [$15,000 USDC]",
+      "updated_at": "2026-09-06T17:42:04Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -329,570 +514,52 @@
       ],
       "claim_signals": [
         {
-          "actor": "Carrie111998",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>You're the first one to try to solve this issue, go for it! \ud83d\ude09</details>",
-          "created_at": "2026-08-28T20:58:06Z",
+          "actor": "Kura-etnPL",
+          "command": "/claim #882",
+          "created_at": "2026-08-22T11:55:10Z",
           "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457685951"
-        },
-        {
-          "actor": "Carrie111998",
-          "command": "/claim #1",
-          "created_at": "2026-08-28T20:58:08Z",
-          "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457686131"
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882#issuecomment-5380208598"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "pursue",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
-      "id": "github:HarrieAlexandrowicz5/gorm#1",
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#882",
       "labels": [
         "bounty",
-        "opire",
-        "$10"
+        "real"
       ],
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-28T20:57:59Z",
-          "number": 6,
-          "title": "Fix: GORM complex-join panic (self-join + subquery) \u2014 resolves #1",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/6"
+          "created_at": "2026-08-24T17:34:47Z",
+          "number": 908,
+          "title": "fix: solution for issue #882",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/908"
         },
         {
-          "created_at": "2026-08-31T23:45:01Z",
-          "number": 8,
-          "title": "Fix #1: \ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/8"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "\ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-      "updated_at": "2026-09-06T10:41:34Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2530",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-26T23:00:08Z",
-          "recent": false,
-          "url": "https://github.com/FreezingMoon/AncientBeast/issues/2530#issuecomment-4138867648"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2530",
-      "id": "github:FreezingMoon/AncientBeast#2530",
-      "labels": [
-        "coding",
-        "audio",
-        "bounty"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-06T12:15:27Z",
-          "number": 3214,
-          "title": "fix(sound): unlock WebKit audio so sound works on iOS (fixes #2530)",
-          "url": "https://github.com/FreezingMoon/AncientBeast/pull/3214"
-        },
-        {
-          "created_at": "2026-03-27T09:14:05Z",
-          "number": 2906,
-          "title": "fix: unlock AudioContext on iOS for music playback (#2530)",
-          "url": "https://github.com/FreezingMoon/AncientBeast/pull/2906"
-        },
-        {
-          "created_at": "2026-03-26T21:17:29Z",
-          "number": 2864,
-          "title": "fix: resume AudioContext before playing music on iOS (#2530)",
-          "url": "https://github.com/FreezingMoon/AncientBeast/pull/2864"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "no music on iPhone [bounty: 7 XTR]",
-      "updated_at": "2026-09-06T12:16:43Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "JamesJi79",
-          "command": "/attempt #2853",
-          "created_at": "2026-06-08T14:48:41Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4650210207"
-        },
-        {
-          "actor": "SyntaxHQDEV",
-          "command": "/attempt",
-          "created_at": "2026-06-09T04:42:23Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4656205950"
-        },
-        {
-          "actor": "xiaofengzii",
-          "command": "/claim #2853",
-          "created_at": "2026-06-09T11:29:38Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4659276435"
-        },
-        {
-          "actor": "XananasX7",
-          "command": "/attempt #2853",
-          "created_at": "2026-06-17T09:25:25Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4728116253"
-        },
-        {
-          "actor": "MikeGarciaAGM",
-          "command": "/attempt #2853",
-          "created_at": "2026-06-19T04:47:08Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4748569591"
-        },
-        {
-          "actor": "MikeGarciaAGM",
-          "command": "/attempt #2853",
-          "created_at": "2026-06-23T08:48:20Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4777404166"
-        },
-        {
-          "actor": "MikeGarciaAGM",
-          "command": "/attempt #2853",
-          "created_at": "2026-06-24T03:16:50Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-4785556569"
-        },
-        {
-          "actor": "abhiavi",
-          "command": "/attempt",
-          "created_at": "2026-07-21T12:31:26Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-5034018509"
-        },
-        {
-          "actor": "0xhermes-28",
-          "command": "/claim",
-          "created_at": "2026-08-05T17:00:20Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-5194798414"
-        },
-        {
-          "actor": "0xhermes-28",
-          "command": "/claim",
-          "created_at": "2026-08-08T09:27:16Z",
-          "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853#issuecomment-5225511564"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2853",
-      "id": "github:SecureBananaLabs/bug-bounty#2853",
-      "labels": [
-        "bug",
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "bug bounty",
-        "AI agent friendly",
-        "bounty"
-      ],
-      "matching_open_pr_count": 64,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-22T12:12:11Z",
-          "number": 11370,
-          "title": "fix: reject inverted budget range in job schemas",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11370"
-        },
-        {
-          "created_at": "2026-07-21T12:31:25Z",
-          "number": 11344,
-          "title": "Fix #2853: Job validation should reject inverted budget ranges",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11344"
-        },
-        {
-          "created_at": "2026-06-26T04:22:37Z",
-          "number": 8536,
-          "title": "fix(api): reject inverted job budget ranges (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8536"
-        },
-        {
-          "created_at": "2026-06-21T12:52:46Z",
-          "number": 8134,
-          "title": "fix: Job validation should reject inverted budget  (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8134"
-        },
-        {
-          "created_at": "2026-06-21T12:37:09Z",
-          "number": 8124,
-          "title": "fix: Job validation should reject inverted budget  (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8124"
-        },
-        {
-          "created_at": "2026-06-21T12:32:10Z",
-          "number": 8117,
-          "title": "fix: Job validation should reject inverted budget  (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8117"
-        },
-        {
-          "created_at": "2026-06-21T12:25:30Z",
-          "number": 8110,
-          "title": "fix: Job validation should reject inverted budget  (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8110"
-        },
-        {
-          "created_at": "2026-08-19T21:25:43Z",
-          "number": 11890,
-          "title": "Fix: Reject inverted budget ranges",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11890"
-        },
-        {
-          "created_at": "2026-06-22T10:48:48Z",
-          "number": 8234,
-          "title": "Fix #2853: Job validation should reject inverted budget ranges",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8234"
-        },
-        {
-          "created_at": "2026-06-22T10:21:12Z",
-          "number": 8233,
-          "title": "Fix #2853: Job validation should reject inverted budget ranges",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8233"
-        },
-        {
-          "created_at": "2026-06-30T05:40:09Z",
-          "number": 9180,
-          "title": "fix: reject inverted budget ranges in job validation",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9180"
-        },
-        {
-          "created_at": "2026-07-09T23:00:39Z",
-          "number": 11039,
-          "title": "fix: reject inverted budget ranges in job validation (fixes #2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11039"
-        },
-        {
-          "created_at": "2026-06-11T03:27:08Z",
-          "number": 6608,
-          "title": "fix: reject inverted budget ranges in job validation (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6608"
-        },
-        {
-          "created_at": "2026-06-10T14:45:39Z",
-          "number": 6497,
-          "title": "[fix] Reject inverted budget ranges in job validation (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6497"
-        },
-        {
-          "created_at": "2026-07-08T01:07:52Z",
-          "number": 11008,
-          "title": "fix: reject inverted budget ranges in job validation (Closes #2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11008"
-        },
-        {
-          "created_at": "2026-06-08T02:11:06Z",
-          "number": 5551,
-          "title": "fix: reject inverted budget ranges in job validation (#2853)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/5551"
-        },
-        {
-          "created_at": "2026-06-14T19:04:59Z",
-          "number": 7113,
-          "title": "fix: 8 bounty fixes - validation, mock resolution, security, registration (#2853,#2849,#2790,#2833,#2832,#2822,#2770,#2768)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7113"
-        },
-        {
-          "created_at": "2026-06-11T09:36:03Z",
-          "number": 6657,
-          "title": "fix: reject inverted budget ranges in job creation",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6657"
-        },
-        {
-          "created_at": "2026-07-17T23:23:39Z",
-          "number": 11206,
-          "title": "fix: fix: reject inverted budget ranges in job validation (fixes ",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11206"
-        },
-        {
-          "created_at": "2026-06-05T12:34:15Z",
-          "number": 4795,
-          "title": "fix: reject inverted job budget ranges",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/4795"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Job validation should reject inverted budget ranges",
-      "updated_at": "2026-09-06T12:29:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/10",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "qingluan-bot",
-          "command": "/attempt to claim",
-          "created_at": "2026-06-07T05:56:55Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4641591035"
-        },
-        {
-          "actor": "JamesJi79",
-          "command": "/attempt #10",
-          "created_at": "2026-06-08T14:49:58Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4650222869"
-        },
-        {
-          "actor": "JamesJi79",
-          "command": "/attempt #10",
-          "created_at": "2026-06-08T14:50:38Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4650229315"
-        },
-        {
-          "actor": "wizard770",
-          "command": "/claim #10",
-          "created_at": "2026-06-09T01:34:51Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4655158376"
-        },
-        {
-          "actor": "maojianian25-png",
-          "command": "/attempt #10",
-          "created_at": "2026-06-09T09:46:02Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4658518962"
-        },
-        {
-          "actor": "Huayra-hjy",
-          "command": "/claim",
-          "created_at": "2026-06-13T15:26:22Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4698945127"
-        },
-        {
-          "actor": "desh16gmz",
-          "command": "/attempt #10",
-          "created_at": "2026-06-14T13:03:00Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4701829034"
-        },
-        {
-          "actor": "BWM0223",
-          "command": "/claim",
-          "created_at": "2026-06-16T05:27:18Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-4715279356"
-        },
-        {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #10",
-          "created_at": "2026-07-19T17:53:36Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-5016777455"
-        },
-        {
-          "actor": "mdmcl-pixel",
-          "command": "/attempt #10",
-          "created_at": "2026-08-30T12:09:45Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/10#issuecomment-5468595437"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 68 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/10",
-      "id": "github:xevrion-v2/agent-playground#10",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "AI agent friendly"
-      ],
-      "matching_open_pr_count": 68,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-08-31T00:01:26Z",
-          "number": 9366,
-          "title": "Improve API route TODO coverage (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9366"
-        },
-        {
-          "created_at": "2026-06-16T05:27:17Z",
-          "number": 1815,
-          "title": "fix: xevrion 10 (closes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1815"
-        },
-        {
-          "created_at": "2026-06-04T09:01:54Z",
-          "number": 368,
-          "title": "fix: #10",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/368"
-        },
-        {
-          "created_at": "2026-06-29T13:53:51Z",
-          "number": 2652,
-          "title": "[Bounty] Improve API route TODO coverage (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2652"
-        },
-        {
-          "created_at": "2026-06-26T23:10:42Z",
-          "number": 2250,
-          "title": "[Bounty] Improve API route TODO coverage (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2250"
-        },
-        {
-          "created_at": "2026-07-02T18:12:15Z",
-          "number": 4415,
-          "title": "feat: improve API route TODO coverage (Fixes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/4415"
-        },
-        {
-          "created_at": "2026-06-27T07:03:22Z",
-          "number": 2259,
-          "title": "docs(api): expand user route TODO coverage (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2259"
-        },
-        {
-          "created_at": "2026-07-09T23:31:45Z",
-          "number": 6412,
-          "title": "[agent] docs: improve API route TODO coverage (fixes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6412"
-        },
-        {
-          "created_at": "2026-07-17T23:22:08Z",
-          "number": 7970,
-          "title": "fix: [agent] docs: improve API route TODO coverage (fixes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/7970"
-        },
-        {
-          "created_at": "2026-06-04T08:41:04Z",
-          "number": 357,
-          "title": "Fix #10: Improve API route TODO coverage",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/357"
-        },
-        {
-          "created_at": "2026-07-04T15:15:41Z",
-          "number": 5221,
-          "title": "[agent] Add TODO comments to user route stubs (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5221"
-        },
-        {
-          "created_at": "2026-06-16T20:45:18Z",
-          "number": 1884,
-          "title": "feat: scaffold API task routes with TODOs (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1884"
-        },
-        {
-          "created_at": "2026-06-08T01:51:19Z",
-          "number": 1179,
-          "title": "[agent] feat: add missing API route stubs (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1179"
-        },
-        {
-          "created_at": "2026-06-24T12:35:09Z",
-          "number": 2134,
-          "title": "chore: Add clear TODO comments to user route stubs (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2134"
-        },
-        {
-          "created_at": "2026-06-05T06:10:37Z",
-          "number": 734,
-          "title": "docs: add TODO comments to user route stubs (#10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/734"
-        },
-        {
-          "created_at": "2026-06-19T22:42:06Z",
-          "number": 2046,
-          "title": "docs: add TODO comments to user route stubs (issue #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2046"
-        },
-        {
-          "created_at": "2026-08-28T15:39:50Z",
-          "number": 9302,
-          "title": "[agent] Improve API route TODO coverage",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9302"
-        },
-        {
-          "created_at": "2026-06-03T07:30:26Z",
-          "number": 72,
-          "title": "Add TODO comments to user route stubs (Issue #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/72"
-        },
-        {
-          "created_at": "2026-06-15T23:36:32Z",
-          "number": 1756,
-          "title": "feat: add TODO comments to user route stubs (closes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1756"
-        },
-        {
-          "created_at": "2026-06-10T02:40:48Z",
-          "number": 1407,
-          "title": "docs: add TODO comments to user route stubs (closes #10)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1407"
+          "created_at": "2026-09-04T06:41:20Z",
+          "number": 1046,
+          "title": "fix(audit): audit NFH Wake holder gate and implement transfer race & canonical URL defenses (#882)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1046"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$50"
+        "25 USDC",
+        "$25"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Improve API route TODO coverage",
-      "updated_at": "2026-09-06T12:27:57Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 25.0,
+      "title": "[Bounty] [BOUNTY] Break the NFH Wake holder gate \u2014 25 USDC",
+      "updated_at": "2026-09-06T17:41:56Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/7",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/647",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -902,223 +569,120 @@
       ],
       "claim_signals": [
         {
-          "actor": "luw8072-gif",
-          "command": "/claim #7 \u2014 PR merged into batch: https://github.com/xevrion-v2/agent-playground/pull/",
-          "created_at": "2026-06-06T22:38:14Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-08T05:09:45Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4640663716"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5224662324"
         },
         {
-          "actor": "qingluan-bot",
-          "command": "/attempt #7",
-          "created_at": "2026-06-07T05:52:50Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T15:27:59Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4641582687"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232282587"
         },
         {
-          "actor": "JamesJi79",
-          "command": "/attempt #7",
-          "created_at": "2026-06-08T14:49:59Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T15:47:17Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4650223111"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232369258"
         },
         {
-          "actor": "JamesJi79",
-          "command": "/attempt #7",
-          "created_at": "2026-06-08T14:50:41Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T16:31:06Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4650229831"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232555632"
         },
         {
-          "actor": "maojianian25-png",
-          "command": "/attempt #7",
-          "created_at": "2026-06-09T09:46:16Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4658520802"
-        },
-        {
-          "actor": "miaomiaoxuan",
-          "command": "/claim #7",
-          "created_at": "2026-06-10T06:06:15Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4667079357"
-        },
-        {
-          "actor": "Huayra-hjy",
+          "actor": "laurentketterle-hub",
           "command": "/claim",
-          "created_at": "2026-06-13T15:21:31Z",
+          "created_at": "2026-08-09T19:50:54Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4698932832"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233538993"
         },
         {
-          "actor": "BWM0223",
-          "command": "/claim",
-          "created_at": "2026-06-16T05:33:26Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:11:02Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-4715312351"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233863924"
         },
         {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #7",
-          "created_at": "2026-07-19T17:53:33Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:11:04Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-5016777327"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233864037"
         },
         {
-          "actor": "mdmcl-pixel",
-          "command": "/attempt #7",
-          "created_at": "2026-08-30T12:09:43Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T21:40:45Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/7#issuecomment-5468595265"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233981239"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #647 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:19:50Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5476949428"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #647 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:40:21Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5477165659"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "pursue",
       "decision_reasons": [
-        "At least 76 open PRs explicitly reference the canonical issue."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/7",
-      "id": "github:xevrion-v2/agent-playground#7",
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/647",
+      "id": "github:NSPG13/agent-bounties#647",
       "labels": [
-        "good first issue",
         "bounty",
-        "AI agent friendly"
+        "payments",
+        "funded-live"
       ],
-      "matching_open_pr_count": 76,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-31T00:01:15Z",
-          "number": 9363,
-          "title": "Add API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9363"
+          "created_at": "2026-07-30T05:47:15Z",
+          "number": 727,
+          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a API reliability bounty",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/727"
         },
         {
-          "created_at": "2026-06-16T05:33:25Z",
-          "number": 1821,
-          "title": "fix: xevrion 7 (closes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1821"
-        },
-        {
-          "created_at": "2026-06-04T09:05:10Z",
-          "number": 379,
-          "title": "fix: #7",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/379"
-        },
-        {
-          "created_at": "2026-08-24T22:07:41Z",
-          "number": 9282,
-          "title": "feat: Add API error handling helper (Closes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9282"
-        },
-        {
-          "created_at": "2026-07-18T19:46:23Z",
-          "number": 8102,
-          "title": "[fix] #7 Add API error handling helper",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8102"
-        },
-        {
-          "created_at": "2026-07-04T15:20:42Z",
-          "number": 5224,
-          "title": "[agent] Add API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5224"
-        },
-        {
-          "created_at": "2026-06-21T21:19:53Z",
-          "number": 2067,
-          "title": "[agent] Add API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2067"
-        },
-        {
-          "created_at": "2026-06-16T20:45:04Z",
-          "number": 1881,
-          "title": "feat: add API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1881"
-        },
-        {
-          "created_at": "2026-07-01T05:50:39Z",
-          "number": 3354,
-          "title": "feat: add api error response helper (fixes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/3354"
-        },
-        {
-          "created_at": "2026-06-29T04:34:34Z",
-          "number": 2473,
-          "title": "feat: add centralized API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2473"
-        },
-        {
-          "created_at": "2026-06-27T07:11:34Z",
-          "number": 2268,
-          "title": "feat(api): add shared API error helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2268"
-        },
-        {
-          "created_at": "2026-07-09T23:30:43Z",
-          "number": 6410,
-          "title": "[agent] feat: add API error response helper (fixes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6410"
-        },
-        {
-          "created_at": "2026-08-28T14:46:08Z",
-          "number": 9293,
-          "title": "[agent] Add API error handling helper",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9293"
-        },
-        {
-          "created_at": "2026-07-17T23:22:37Z",
-          "number": 7973,
-          "title": "fix: [agent] feat: add API error response helper (fixes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/7973"
-        },
-        {
-          "created_at": "2026-06-04T08:43:02Z",
-          "number": 359,
-          "title": "Fix #7: Add API error handling helper",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/359"
-        },
-        {
-          "created_at": "2026-06-03T07:29:18Z",
-          "number": 71,
-          "title": "Add API error handling helper (Issue #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/71"
-        },
-        {
-          "created_at": "2026-06-30T17:20:33Z",
-          "number": 3162,
-          "title": "feat: add API error handling helper with validation (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/3162"
-        },
-        {
-          "created_at": "2026-08-30T13:08:04Z",
-          "number": 9332,
-          "title": "feat(api): add standardized error handling helper",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9332"
-        },
-        {
-          "created_at": "2026-06-10T02:40:18Z",
-          "number": 1406,
-          "title": "feat: add API error handling helper (closes #7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1406"
-        },
-        {
-          "created_at": "2026-06-08T01:51:08Z",
-          "number": 1176,
-          "title": "[agent] feat: add API error handling helper (#7)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1176"
+          "created_at": "2026-08-31T11:17:44Z",
+          "number": 1266,
+          "title": "feat: publish standing-meta-v2 child-bounty terms benchmarks (Closes #647 #648 #590 #651 #336 #333)",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/1266"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$50"
+        "1 USDC",
+        "2 USDC",
+        "2.01 USDC",
+        "2.00 USDC",
+        "0.01 USDC",
+        "1.00 USDC"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Add API error handling helper",
-      "updated_at": "2026-09-06T12:27:55Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 2.01,
+      "title": "[META] Earn 1 USDC margin with a API reliability bounty",
+      "updated_at": "2026-09-06T17:41:49Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/8",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/648",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1128,219 +692,95 @@
       ],
       "claim_signals": [
         {
-          "actor": "Ishant5436",
-          "command": "/claim #8 PR #1238 submitted with a clean envelope fix.",
-          "created_at": "2026-06-08T14:58:32Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-08T02:12:19Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4650296438"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5224019542"
         },
         {
-          "actor": "wizard770",
-          "command": "/claim #8",
-          "created_at": "2026-06-09T01:34:51Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-08T05:09:45Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4655158404"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5224662280"
         },
         {
-          "actor": "maojianian25-png",
-          "command": "/attempt #8",
-          "created_at": "2026-06-09T09:46:09Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T15:47:16Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4658519864"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5232369169"
         },
         {
-          "actor": "miaomiaoxuan",
-          "command": "/claim #8",
-          "created_at": "2026-06-10T06:06:15Z",
+          "actor": "laurentketterle-hub",
+          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-09T16:30:56Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4667079350"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5232554919"
         },
         {
-          "actor": "Huayra-hjy",
+          "actor": "laurentketterle-hub",
           "command": "/claim",
-          "created_at": "2026-06-13T15:23:55Z",
+          "created_at": "2026-08-09T19:50:53Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4698939005"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5233538920"
         },
         {
-          "actor": "Huayra-hjy",
-          "command": "/claim",
-          "created_at": "2026-06-13T15:36:47Z",
+          "actor": "GLTMI",
+          "command": "/claim #648 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:19:51Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4698972247"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5476949712"
         },
         {
-          "actor": "ClankerOnChain",
-          "command": "/claim #8 \u2014 PR coming: bounty/issue-8-healthcheck-envelope ([agent] MiniMax-M3).",
-          "created_at": "2026-07-08T14:49:56Z",
+          "actor": "GLTMI",
+          "command": "/claim #648 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-31T10:40:23Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4916059706"
-        },
-        {
-          "actor": "ClankerOnChain",
-          "command": "/claim #8 \u2014 PR #6229: https://github.com/xevrion-v2/agent-playground/pull/6229",
-          "created_at": "2026-07-08T14:50:27Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-4916064716"
-        },
-        {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #8",
-          "created_at": "2026-07-19T17:53:34Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-5016777371"
-        },
-        {
-          "actor": "mdmcl-pixel",
-          "command": "/attempt #8",
-          "created_at": "2026-08-30T12:09:43Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/8#issuecomment-5468595321"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5477165975"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "pursue",
       "decision_reasons": [
-        "At least 79 open PRs explicitly reference the canonical issue."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/8",
-      "id": "github:xevrion-v2/agent-playground#8",
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/648",
+      "id": "github:NSPG13/agent-bounties#648",
       "labels": [
-        "good first issue",
         "bounty",
-        "AI agent friendly"
+        "payments",
+        "funded-live"
       ],
-      "matching_open_pr_count": 79,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-31T00:01:18Z",
-          "number": 9364,
-          "title": "Normalize health check response shape (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9364"
+          "created_at": "2026-07-29T00:40:37Z",
+          "number": 681,
+          "title": "fix: auto-patch for issue #648",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/681"
         },
         {
-          "created_at": "2026-06-04T09:05:25Z",
-          "number": 380,
-          "title": "fix: #8",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/380"
-        },
-        {
-          "created_at": "2026-08-24T22:07:36Z",
-          "number": 9281,
-          "title": "feat: Normalize health check response shape (Closes #8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9281"
-        },
-        {
-          "created_at": "2026-08-30T12:08:04Z",
-          "number": 9324,
-          "title": "[agent] fix(api): normalize health check response shape (Closes #8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9324"
-        },
-        {
-          "created_at": "2026-07-18T19:46:02Z",
-          "number": 8101,
-          "title": "[fix] #8 Normalize health check response shape",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8101"
-        },
-        {
-          "created_at": "2026-07-04T15:17:22Z",
-          "number": 5222,
-          "title": "[agent] Normalize health check response shape (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5222"
-        },
-        {
-          "created_at": "2026-06-16T20:45:08Z",
-          "number": 1882,
-          "title": "fix: normalize health check response (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1882"
-        },
-        {
-          "created_at": "2026-06-29T04:33:34Z",
-          "number": 2468,
-          "title": "fix: normalize health check response shape (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2468"
-        },
-        {
-          "created_at": "2026-06-21T21:19:29Z",
-          "number": 2066,
-          "title": "[agent] Normalize health check response shape (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2066"
-        },
-        {
-          "created_at": "2026-06-03T07:25:58Z",
-          "number": 68,
-          "title": "Normalize health check response shape (Issue #8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/68"
-        },
-        {
-          "created_at": "2026-06-27T07:11:40Z",
-          "number": 2269,
-          "title": "feat(api): normalize health check response envelope (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2269"
-        },
-        {
-          "created_at": "2026-07-09T23:29:52Z",
-          "number": 6408,
-          "title": "[agent] fix: normalize health check response shape (fixes #8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6408"
-        },
-        {
-          "created_at": "2026-07-17T23:23:07Z",
-          "number": 7975,
-          "title": "fix: [agent] fix: normalize health check response shape (fixes #8",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/7975"
-        },
-        {
-          "created_at": "2026-06-04T08:44:44Z",
-          "number": 362,
-          "title": "Fix #8: Normalize health check response shape",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/362"
-        },
-        {
-          "created_at": "2026-08-28T15:02:27Z",
-          "number": 9296,
-          "title": "[agent] Normalize health check response shape",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9296"
-        },
-        {
-          "created_at": "2026-06-10T02:39:01Z",
-          "number": 1404,
-          "title": "fix: normalize health check response envelope (closes #8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1404"
-        },
-        {
-          "created_at": "2026-06-08T01:51:11Z",
-          "number": 1177,
-          "title": "[agent] feat: normalize health check response shape (#8)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1177"
-        },
-        {
-          "created_at": "2026-06-06T21:37:47Z",
-          "number": 1006,
-          "title": "[agent] Normalize health check response shape - Closes #8",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1006"
-        },
-        {
-          "created_at": "2026-06-03T13:03:48Z",
-          "number": 120,
-          "title": "[agent] Normalize health check response shape (Closes #8) ",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/120"
-        },
-        {
-          "created_at": "2026-08-30T13:09:28Z",
-          "number": 9334,
-          "title": "fix(api): normalize health check response shape",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9334"
+          "created_at": "2026-07-30T05:50:16Z",
+          "number": 728,
+          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a MCP interoperability bounty",
+          "url": "https://github.com/NSPG13/agent-bounties/pull/728"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$50"
+        "1 USDC",
+        "2 USDC",
+        "2.01 USDC",
+        "2.00 USDC",
+        "0.01 USDC",
+        "1.00 USDC"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Normalize health check response shape",
-      "updated_at": "2026-09-06T12:27:56Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 2.01,
+      "title": "[META] Earn 1 USDC margin with a MCP interoperability bounty",
+      "updated_at": "2026-09-06T17:41:38Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
@@ -1353,13 +793,6 @@
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
       "claim_signals": [
-        {
-          "actor": "poaspergillus",
-          "command": "/attempt #2",
-          "created_at": "2026-07-25T06:01:15Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5077228333"
-        },
         {
           "actor": "mazafakaer",
           "command": "/attempt #2",
@@ -1422,12 +855,19 @@
           "created_at": "2026-09-05T03:09:44Z",
           "recent": false,
           "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5548952046"
+        },
+        {
+          "actor": "MuhammadShahzebMalik786",
+          "command": "/attempt #2 I will fix the npm run test typo in the README's Getting Started section and add my metadata to contributors/agents.json.",
+          "created_at": "2026-09-06T18:27:55Z",
+          "recent": true,
+          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5561251313"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "hold",
       "decision_reasons": [
-        "At least 82 open PRs explicitly reference the canonical issue."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/2",
       "id": "github:xevrion-v2/agent-playground#2",
@@ -1438,7 +878,7 @@
         "\ud83d\udc8e Bounty",
         "$50"
       ],
-      "matching_open_pr_count": 82,
+      "matching_open_pr_count": 81,
       "matching_open_prs": [
         {
           "created_at": "2026-09-06T04:35:35Z",
@@ -1561,18 +1001,89 @@
           "url": "https://github.com/xevrion-v2/agent-playground/pull/238"
         }
       ],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
         "$50"
       ],
       "reward_usd_max": 50.0,
       "title": "Fix typo in README",
-      "updated_at": "2026-09-06T12:22:59Z",
+      "updated_at": "2026-09-06T18:27:55Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/9",
+      "canonical_url": "https://github.com/commaai/openpilot/issues/38752",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/commaai/openpilot/issues/38752",
+      "id": "github:commaai/openpilot#38752",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "tools"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Merge PlotJuggler functionality into cabana",
+      "updated_at": "2026-09-06T17:39:49Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
+      "id": "github:relayhop/sn-monetization-runtime#818",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-05T13:09:23Z",
+          "number": 819,
+          "title": "fix(radar): parse and evaluate Stacker News bounty opportunities (Fixes #818)",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/819"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-09-05T12:37",
+      "updated_at": "2026-09-06T18:00:27Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1582,223 +1093,248 @@
       ],
       "claim_signals": [
         {
-          "actor": "Ishant5436",
-          "command": "/claim #9 PR #1239 submitted with a 100kb limit and README documentation.",
-          "created_at": "2026-06-08T14:58:34Z",
+          "actor": "Carrie111998",
+          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>You're the first one to try to solve this issue, go for it! \ud83d\ude09</details>",
+          "created_at": "2026-08-28T20:58:06Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4650296645"
+          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457685951"
         },
         {
-          "actor": "wizard770",
-          "command": "/claim #9",
-          "created_at": "2026-06-09T01:34:51Z",
+          "actor": "Carrie111998",
+          "command": "/claim #1",
+          "created_at": "2026-08-28T20:58:08Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4655158422"
+          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457686131"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
+      "id": "github:HarrieAlexandrowicz5/gorm#1",
+      "labels": [
+        "bounty",
+        "opire",
+        "$10"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-08-28T20:57:59Z",
+          "number": 6,
+          "title": "Fix: GORM complex-join panic (self-join + subquery) \u2014 resolves #1",
+          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/6"
         },
         {
-          "actor": "maojianian25-png",
-          "command": "/attempt #9",
-          "created_at": "2026-06-09T09:45:56Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4658518240"
-        },
+          "created_at": "2026-08-31T23:45:01Z",
+          "number": 8,
+          "title": "Fix #1: \ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
+          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/8"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
+      "updated_at": "2026-09-06T18:10:43Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/dwebagents/AgentPipe/issues/1580",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
         {
-          "actor": "miaomiaoxuan",
-          "command": "/claim #9",
-          "created_at": "2026-06-10T06:03:29Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4667064441"
-        },
-        {
-          "actor": "codexbounty0611",
-          "command": "/attempt #9",
-          "created_at": "2026-06-11T23:55:46Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4686104581"
-        },
-        {
-          "actor": "Huayra-hjy",
+          "actor": "therealsaitama0",
           "command": "/claim",
-          "created_at": "2026-06-13T15:25:03Z",
+          "created_at": "2026-06-29T08:06:05Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4698941878"
+          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-4830272110"
         },
         {
-          "actor": "Huayra-hjy",
+          "actor": "biteqaq-maker",
           "command": "/claim",
-          "created_at": "2026-06-13T15:36:48Z",
+          "created_at": "2026-07-10T05:30:00Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4698972309"
-        },
-        {
-          "actor": "BWM0223",
-          "command": "/claim",
-          "created_at": "2026-06-16T05:28:38Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-4715286698"
+          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-4932294647"
         },
         {
           "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #9",
-          "created_at": "2026-07-19T17:53:35Z",
+          "command": "/claim",
+          "created_at": "2026-07-18T22:06:48Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-5016777412"
+          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5013106813"
         },
         {
-          "actor": "mdmcl-pixel",
-          "command": "/attempt #9",
-          "created_at": "2026-08-30T12:09:44Z",
+          "actor": "q514168795",
+          "command": "/claim",
+          "created_at": "2026-07-29T01:35:48Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/9#issuecomment-5468595378"
+          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5111728994"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/claim",
+          "created_at": "2026-08-12T14:25:45Z",
+          "recent": false,
+          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5268139893"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 90 open PRs explicitly reference the canonical issue."
+        "At least 31 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/9",
-      "id": "github:xevrion-v2/agent-playground#9",
+      "discovered_url": "https://github.com/dwebagents/AgentPipe/issues/1580",
+      "id": "github:dwebagents/AgentPipe#1580",
       "labels": [
+        "enhancement",
         "good first issue",
-        "bounty",
-        "AI agent friendly"
+        "bounty"
       ],
-      "matching_open_pr_count": 90,
+      "matching_open_pr_count": 31,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-31T00:01:22Z",
-          "number": 9365,
-          "title": "Add request body size limit (#9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9365"
+          "created_at": "2026-07-15T23:53:48Z",
+          "number": 1972,
+          "title": "Fixes #1580: Create contributors webpage",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1972"
         },
         {
-          "created_at": "2026-06-16T05:28:37Z",
-          "number": 1818,
-          "title": "fix: xevrion 9 (closes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1818"
+          "created_at": "2026-07-15T23:44:23Z",
+          "number": 1969,
+          "title": "Fixes #1580: Create contributors webpage",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1969"
         },
         {
-          "created_at": "2026-06-04T09:05:39Z",
-          "number": 381,
-          "title": "fix: #9",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/381"
+          "created_at": "2026-07-24T18:38:53Z",
+          "number": 2000,
+          "title": "feat: create contributors webpage (#1580 bounty)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/2000"
         },
         {
-          "created_at": "2026-08-24T22:07:30Z",
-          "number": 9280,
-          "title": "feat: Configure conservative JSON body size limit (Closes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9280"
+          "created_at": "2026-07-09T19:21:18Z",
+          "number": 1952,
+          "title": "Add contributors webpage for #1580",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1952"
         },
         {
-          "created_at": "2026-08-30T12:09:32Z",
-          "number": 9325,
-          "title": "[agent] fix(api): configure 100kb request body size limit (Closes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9325"
+          "created_at": "2026-06-28T21:16:58Z",
+          "number": 1873,
+          "title": "feat: create contributors webpage (resolves #1580)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1873"
         },
         {
-          "created_at": "2026-08-29T00:33:18Z",
-          "number": 9312,
-          "title": "[agent] fix(api): add conservative JSON body size limit (Closes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9312"
+          "created_at": "2026-07-02T05:54:41Z",
+          "number": 1933,
+          "title": "feat: add contributors page (fixes #1580)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1933"
         },
         {
-          "created_at": "2026-07-18T10:05:54Z",
-          "number": 8080,
-          "title": "[fix] #9 Add request body size limit",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8080"
+          "created_at": "2026-08-06T22:37:07Z",
+          "number": 2021,
+          "title": "feat: add contributors page at /contributors (Closes #1580) [0x954dB727f224dAabeA2A506C8aE92029b25339cE]",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/2021"
         },
         {
-          "created_at": "2026-07-04T15:18:59Z",
-          "number": 5223,
-          "title": "[agent] Add request body size limit (#9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5223"
+          "created_at": "2026-06-29T10:14:50Z",
+          "number": 1901,
+          "title": "[Bounty] Create contributors webpage (fixes #1580)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1901"
         },
         {
-          "created_at": "2026-06-29T04:33:38Z",
-          "number": 2469,
-          "title": "feat: configure request body size limit (#9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2469"
+          "created_at": "2026-08-02T03:35:30Z",
+          "number": 2015,
+          "title": "feat: Create contributors webpage honoring the dependable cast (#1580)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/2015"
         },
         {
-          "created_at": "2026-06-26T23:09:14Z",
-          "number": 2248,
-          "title": "[Bounty] Add request body size limit (#9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2248"
+          "created_at": "2026-07-18T01:34:41Z",
+          "number": 1977,
+          "title": "Fix #1580: [Bounty: 23 USDC] Create contributors webpage",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1977"
         },
         {
-          "created_at": "2026-06-16T20:45:13Z",
-          "number": 1883,
-          "title": "feat: add request body size limit (#9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1883"
+          "created_at": "2026-07-03T00:38:00Z",
+          "number": 1941,
+          "title": "Add /contributors page (closes #1580, 23 USDC bounty)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1941"
         },
         {
-          "created_at": "2026-08-30T13:07:17Z",
-          "number": 9331,
-          "title": "fix(api): add 100kb JSON body size limit",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9331"
+          "created_at": "2026-07-02T22:55:42Z",
+          "number": 1938,
+          "title": "Add /contributors page (closes #1580, 23 USDC bounty)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1938"
         },
         {
-          "created_at": "2026-07-09T23:30:27Z",
-          "number": 6409,
-          "title": "[agent] feat: add request body size limit (fixes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6409"
+          "created_at": "2026-08-12T14:41:03Z",
+          "number": 2029,
+          "title": "Fix #1580: Create contributors webpage with goose portraits, golden eggs, and 71 mentions",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/2029"
         },
         {
-          "created_at": "2026-07-17T23:22:52Z",
-          "number": 7974,
-          "title": "fix: [agent] feat: add request body size limit (fixes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/7974"
+          "created_at": "2026-06-28T17:43:11Z",
+          "number": 1868,
+          "title": "feat: create contributors webpage with portraits and game (#1580)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1868"
         },
         {
-          "created_at": "2026-08-28T14:50:42Z",
-          "number": 9294,
-          "title": "[agent] Add request body size limit",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9294"
+          "created_at": "2026-07-10T05:06:32Z",
+          "number": 1953,
+          "title": "feat: add contributors webpage",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1953"
         },
         {
-          "created_at": "2026-06-04T08:41:45Z",
-          "number": 358,
-          "title": "Fix #9: Add request body size limit",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/358"
+          "created_at": "2026-07-10T05:32:48Z",
+          "number": 1954,
+          "title": "feat: add contributors page (goose portraits, golden eggs, easter egg game)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1954"
         },
         {
-          "created_at": "2026-06-03T07:26:57Z",
-          "number": 69,
-          "title": "Add request body size limit (Issue #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/69"
+          "created_at": "2026-07-18T22:06:38Z",
+          "number": 1983,
+          "title": "feat: add contributors page honoring the flock (fixes #1580, 23 USDC bounty)",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1983"
         },
         {
-          "created_at": "2026-09-06T07:08:31Z",
-          "number": 9392,
-          "title": "Add request body size limit",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9392"
+          "created_at": "2026-06-29T08:50:15Z",
+          "number": 1892,
+          "title": "feat: add /contributors page with goose portraits, golden eggs, easter egg game, and 71 count",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1892"
         },
         {
-          "created_at": "2026-07-02T18:12:06Z",
-          "number": 4414,
-          "title": "feat: add request body size limit middleware (Fixes #9)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/4414"
+          "created_at": "2026-06-29T01:12:45Z",
+          "number": 1879,
+          "title": "Add contributors webpage with goose agent roster",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1879"
         },
         {
-          "created_at": "2026-06-29T08:58:50Z",
-          "number": 2548,
-          "title": "[agent] fix(#9): add JSON body size limit (1mb)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2548"
+          "created_at": "2026-07-19T01:46:10Z",
+          "number": 1985,
+          "title": "feat: add contributors page [Bounty: 23 USDC]",
+          "url": "https://github.com/dwebagents/AgentPipe/pull/1985"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$50"
+        "23 USDC"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Add request body size limit",
-      "updated_at": "2026-09-06T12:29:13Z",
+      "reward_usd_max": 23.0,
+      "title": "[Bounty: 23 USDC] Create contributors webpage",
+      "updated_at": "2026-09-06T17:41:35Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-06T12:34:29.562453Z",
+  "generated_at": "2026-09-06T18:30:51.817139Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
