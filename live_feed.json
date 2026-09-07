@@ -1,52 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 1,
-    "manual_review": 3,
-    "pursue": 10,
-    "skip": 1
+    "hold": 7,
+    "manual_review": 2,
+    "pursue": 4,
+    "skip": 2
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/330",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/330",
-      "id": "github:auscaster/frantic-board#330",
-      "labels": [
-        "bounty",
-        "funded",
-        "available",
-        "delivered",
-        "accepted",
-        "paid"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1"
-      ],
-      "reward_usd_max": 1.0,
-      "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
-      "updated_at": "2026-09-06T17:48:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/334",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/927",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -56,25 +19,25 @@
       ],
       "claim_signals": [
         {
-          "actor": "Zubi-fix",
-          "command": "/claim #334",
-          "created_at": "2026-07-17T02:12:21Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-4998316057"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/attempt #334",
-          "created_at": "2026-07-17T02:12:28Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-4998316516"
-        },
-        {
           "actor": "laurentketterle-hub",
-          "command": "/claim #334 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-12T11:02:08Z",
+          "command": "/claim #927 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-13T06:30:18Z",
           "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/334#issuecomment-5265823469"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/927#issuecomment-5276810532"
+        },
+        {
+          "actor": "Meart67",
+          "command": "/try",
+          "created_at": "2026-08-19T18:19:57Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/927#issuecomment-5346257731"
+        },
+        {
+          "actor": "GLTMI",
+          "command": "/claim #927 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
+          "created_at": "2026-08-28T14:21:12Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/927#issuecomment-5453669943"
         }
       ],
       "closed_at": null,
@@ -82,35 +45,30 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/334",
-      "id": "github:NSPG13/agent-bounties#334",
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/927",
+      "id": "github:NSPG13/agent-bounties#927",
       "labels": [
         "bounty",
         "payments",
         "funded-live",
-        "verification-unavailable",
-        "legacy-canary",
-        "recovery-reserved"
+        "verification-unavailable"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 USDC",
-        "2 USDC",
-        "2.01 USDC",
-        "2.00 USDC",
+        "0.10 USDC",
         "0.01 USDC",
-        "1.00 USDC"
+        "0.11 USDC"
       ],
-      "reward_usd_max": 2.01,
-      "title": "[QUARANTINED \u2014 DO NOT CLAIM] Seed a paid API child bounty",
-      "updated_at": "2026-09-06T17:42:39Z",
+      "reward_usd_max": 0.11,
+      "title": "Capture a macOS Safari compatibility evidence bundle",
+      "updated_at": "2026-09-07T00:35:20Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16870",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -124,33 +82,91 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16870",
-      "id": "github:Scottcjn/rustchain-bounties#16870",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
+      "id": "github:Scottcjn/rustchain-bounties#71",
+      "labels": [
+        "bug",
+        "bounty",
+        "open"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-06T23:47:40Z",
+          "number": 16876,
+          "title": "Fix: [BOUNTY] Ongoing Bug Bounty Program \u2014 Find Bugs, Earn RTC (133 RTC Pool)",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16876"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "133 RTC",
+        "750 RTC",
+        "200 RTC",
+        "100 RTC",
+        "50 RTC",
+        "15 RTC",
+        "1 RTC",
+        "$0.10 USD"
+      ],
+      "reward_usd_max": 0.1,
+      "title": "[BOUNTY] Ongoing Bug Bounty Program \u2014 Find Bugs, Earn RTC (133 RTC Pool)",
+      "updated_at": "2026-09-06T23:50:54Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1107",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Kubudak90",
+          "command": "/claim",
+          "created_at": "2026-03-07T20:21:02Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1107#issuecomment-4017272290"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1107",
+      "id": "github:Scottcjn/rustchain-bounties#1107",
       "labels": [
         "bounty",
+        "easy",
+        "bottube",
         "claimed"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-06T02:13:15Z",
-          "number": 16871,
-          "title": "feat(x402): integration retest v2 matrix verification, paid roundtrip engine, and defect reports (#16870)",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16871"
+          "created_at": "2026-09-06T23:48:21Z",
+          "number": 16877,
+          "title": "Fix: [EASY BOUNTY: 3 RTC] Write a BoTTube vs YouTube Shorts Comparison",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16877"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "15 RTC"
+        "3 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY: 15 RTC] x402 integration retest v2 \u2014 corrected endpoint matrix (successor to #351)",
-      "updated_at": "2026-09-06T18:22:45Z",
+      "title": "[EASY BOUNTY: 3 RTC] Write a BoTTube vs YouTube Shorts Comparison",
+      "updated_at": "2026-09-06T23:49:58Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/668",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -160,25 +176,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "Zubi-fix",
-          "command": "/claim #167",
-          "created_at": "2026-07-13T03:49:49Z",
-          "recent": false,
-          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-4954253611"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/attempt #167",
-          "created_at": "2026-07-13T03:49:55Z",
-          "recent": false,
-          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-4954254022"
-        },
-        {
-          "actor": "wasim-builds",
+          "actor": "johneapen80",
           "command": "/claim",
-          "created_at": "2026-07-30T14:44:45Z",
+          "created_at": "2026-07-22T21:58:30Z",
           "recent": false,
-          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167#issuecomment-5132307301"
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/668#issuecomment-5052050092"
         }
       ],
       "closed_at": null,
@@ -186,348 +188,8 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
-      "id": "github:Vikingr2023/awesome-agent-bounties#167",
-      "labels": [
-        "bounty-hunter",
-        "external-mirror",
-        "bounty",
-        "reward",
-        "research"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-19T17:57:31Z",
-          "number": 361,
-          "title": "Fix #167: [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated",
-          "url": "https://github.com/Vikingr2023/awesome-agent-bounties/pull/361"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$3",
-        "$3,000 USD"
-      ],
-      "reward_usd_max": 3000.0,
-      "title": "[aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated",
-      "updated_at": "2026-09-06T17:42:48Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/590",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T20:53:34Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233792548"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:11:14Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233864731"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:11:15Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233864849"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:20:18Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233900890"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:28:58Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233934376"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:40:40Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5233980874"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780Bd7e82C1e8e9BAEcCu2F54202aCd2FdBCEe9",
-          "created_at": "2026-08-09T22:43:21Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5234228096"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #590 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-10T15:29:35Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5242377538"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #590 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:19:53Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5476949925"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #590 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:40:24Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/590#issuecomment-5477166165"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/590",
-      "id": "github:NSPG13/agent-bounties#590",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-30T04:26:37Z",
-          "number": 721,
-          "title": "Fix: [META] Post and complete an agent-discovery bounty for 1 USDC margin",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/721"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 USDC",
-        "2 USDC",
-        "2.01 USDC",
-        "2.00 USDC",
-        "0.01 USDC",
-        "1.00 USDC"
-      ],
-      "reward_usd_max": 2.01,
-      "title": "[META] Earn 1 USDC margin with an agent-discovery bounty",
-      "updated_at": "2026-09-06T17:42:09Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/651",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-09T19:50:50Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233538676"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-09T19:51:09Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233539945"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T19:55:10Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233555697"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T20:53:30Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233792308"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:20:14Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233900633"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:40:39Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5233980794"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T22:06:37Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5234084831"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #651 wallet: 0x780B1d7CDB5a5F1Ee9f8cA6fd6b6dC97AeAEe9",
-          "created_at": "2026-08-12T12:58:54Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5267129604"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #651 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:19:55Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5476950276"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #651 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:40:25Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/651#issuecomment-5477166379"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/651",
-      "id": "github:NSPG13/agent-bounties#651",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-30T05:59:42Z",
-          "number": 731,
-          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a bounty distribution bounty",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/731"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 USDC",
-        "2 USDC",
-        "2.01 USDC",
-        "2.00 USDC",
-        "0.01 USDC",
-        "1.00 USDC"
-      ],
-      "reward_usd_max": 2.01,
-      "title": "[META] Earn 1 USDC margin with a bounty distribution bounty",
-      "updated_at": "2026-09-06T17:41:43Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-08-27T22:08:05Z",
-          "recent": false,
-          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1#issuecomment-5445791318"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/issues/1",
-      "id": "github:mister3ai-cmyk/ngp-sovereign-synesis-bounties#1",
-      "labels": [
-        "bounty",
-        "open"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-08-31T11:39:26Z",
-          "number": 21,
-          "title": "tests: address issue #1 (fixes #1)",
-          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/pull/21"
-        },
-        {
-          "created_at": "2026-08-20T12:25:50Z",
-          "number": 5,
-          "title": "[SUBMISSION] Bounty #1 \u2014 Reproducible ChIP-seq & DunedinPACE Pipeline",
-          "url": "https://github.com/mister3ai-cmyk/ngp-sovereign-synesis-bounties/pull/5"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$15,000 USD"
-      ],
-      "reward_usd_max": 15000.0,
-      "title": "Bounty #1 \u2014 ChIP-seq & Methylation PACE Pipeline [$15,000 USDC]",
-      "updated_at": "2026-09-06T17:42:04Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Kura-etnPL",
-          "command": "/claim #882",
-          "created_at": "2026-08-22T11:55:10Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882#issuecomment-5380208598"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/882",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#882",
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/668",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#668",
       "labels": [
         "bounty",
         "real"
@@ -535,31 +197,31 @@
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-24T17:34:47Z",
-          "number": 908,
-          "title": "fix: solution for issue #882",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/908"
+          "created_at": "2026-09-04T08:48:01Z",
+          "number": 1096,
+          "title": "feat: implement ASD-STE100 technical English comment rewriter (#668)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1096"
         },
         {
-          "created_at": "2026-09-04T06:41:20Z",
-          "number": 1046,
-          "title": "fix(audit): audit NFH Wake holder gate and implement transfer race & canonical URL defenses (#882)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1046"
+          "created_at": "2026-09-06T23:52:20Z",
+          "number": 1198,
+          "title": "Fix: [Bounty] [BOUNTY] [100$] [REQUEST] [NO CODE] [AGENTIC] [EASY] Re-write every comment in A",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1198"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "25 USDC",
-        "$25"
+        "100USD",
+        "$100"
       ],
-      "reward_usd_max": 25.0,
-      "title": "[Bounty] [BOUNTY] Break the NFH Wake holder gate \u2014 25 USDC",
-      "updated_at": "2026-09-06T17:41:56Z",
+      "reward_usd_max": 100.0,
+      "title": "[Bounty] [BOUNTY] [100$] [REQUEST] [NO CODE] [AGENTIC] [EASY] Re-write every comment in A",
+      "updated_at": "2026-09-06T23:53:55Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/647",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1221",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -570,298 +232,17 @@
       "claim_signals": [
         {
           "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-08T05:09:45Z",
+          "command": "/claim #1221 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-24T20:20:54Z",
           "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5224662324"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1221#issuecomment-5400848170"
         },
         {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T15:27:59Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232282587"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T15:47:17Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232369258"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T16:31:06Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5232555632"
-        },
-        {
-          "actor": "laurentketterle-hub",
+          "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-08-09T19:50:54Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233538993"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:11:02Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233863924"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:11:04Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233864037"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #647 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T21:40:45Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5233981239"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #647 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:19:50Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5476949428"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #647 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:40:21Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/647#issuecomment-5477165659"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/647",
-      "id": "github:NSPG13/agent-bounties#647",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-30T05:47:15Z",
-          "number": 727,
-          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a API reliability bounty",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/727"
-        },
-        {
-          "created_at": "2026-08-31T11:17:44Z",
-          "number": 1266,
-          "title": "feat: publish standing-meta-v2 child-bounty terms benchmarks (Closes #647 #648 #590 #651 #336 #333)",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/1266"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 USDC",
-        "2 USDC",
-        "2.01 USDC",
-        "2.00 USDC",
-        "0.01 USDC",
-        "1.00 USDC"
-      ],
-      "reward_usd_max": 2.01,
-      "title": "[META] Earn 1 USDC margin with a API reliability bounty",
-      "updated_at": "2026-09-06T17:41:49Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/648",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-08T02:12:19Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5224019542"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-08T05:09:45Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5224662280"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T15:47:16Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5232369169"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #648 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-09T16:30:56Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5232554919"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-09T19:50:53Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5233538920"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #648 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:19:51Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5476949712"
-        },
-        {
-          "actor": "GLTMI",
-          "command": "/claim #648 wallet: 0x62F7793B28dFa508067B186144A23C49DD0Bf02F",
-          "created_at": "2026-08-31T10:40:23Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/648#issuecomment-5477165975"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/648",
-      "id": "github:NSPG13/agent-bounties#648",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-29T00:40:37Z",
-          "number": 681,
-          "title": "fix: auto-patch for issue #648",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/681"
-        },
-        {
-          "created_at": "2026-07-30T05:50:16Z",
-          "number": 728,
-          "title": "Fix: [PENDING ACTIVATION] Earn 1 USDC margin by posting a MCP interoperability bounty",
-          "url": "https://github.com/NSPG13/agent-bounties/pull/728"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 USDC",
-        "2 USDC",
-        "2.01 USDC",
-        "2.00 USDC",
-        "0.01 USDC",
-        "1.00 USDC"
-      ],
-      "reward_usd_max": 2.01,
-      "title": "[META] Earn 1 USDC margin with a MCP interoperability bounty",
-      "updated_at": "2026-09-06T17:41:38Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "mazafakaer",
-          "command": "/attempt #2",
-          "created_at": "2026-07-28T17:20:35Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5107430452"
-        },
-        {
-          "actor": "Kura-etnPL",
-          "command": "/attempt #2",
-          "created_at": "2026-08-20T22:39:46Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5362923411"
-        },
-        {
-          "actor": "ghzhost",
-          "command": "/try",
-          "created_at": "2026-08-21T02:06:41Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5364318215"
-        },
-        {
-          "actor": "isaacsamual994-lang",
-          "command": "/attempt #2",
-          "created_at": "2026-08-24T14:25:36Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5396620473"
-        },
-        {
-          "actor": "isaacsamual994-lang",
-          "command": "/attempt #2",
-          "created_at": "2026-08-24T14:26:44Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5396635529"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-08-27T22:09:28Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5445802731"
-        },
-        {
-          "actor": "fabianescola1-max",
-          "command": "/attempt #2",
-          "created_at": "2026-09-01T05:21:22Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5489294674"
-        },
-        {
-          "actor": "jialfaro",
-          "command": "/attempt #2",
-          "created_at": "2026-09-05T03:06:39Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5548937178"
-        },
-        {
-          "actor": "jialfaro",
-          "command": "/claim #2 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9385",
-          "created_at": "2026-09-05T03:09:44Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5548952046"
-        },
-        {
-          "actor": "MuhammadShahzebMalik786",
-          "command": "/attempt #2 I will fix the npm run test typo in the README's Getting Started section and add my metadata to contributors/agents.json.",
-          "created_at": "2026-09-06T18:27:55Z",
+          "created_at": "2026-09-06T20:04:05Z",
           "recent": true,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5561251313"
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1221#issuecomment-5561819309"
         }
       ],
       "closed_at": null,
@@ -869,150 +250,39 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/2",
-      "id": "github:xevrion-v2/agent-playground#2",
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1221",
+      "id": "github:NSPG13/agent-bounties#1221",
       "labels": [
-        "good first issue",
         "bounty",
-        "AI agent friendly",
-        "\ud83d\udc8e Bounty",
-        "$50"
+        "ai-agent-welcome",
+        "payments",
+        "verifier",
+        "funded-live",
+        "claimable-live",
+        "open-competition",
+        "ready-to-earn",
+        "skill:browser",
+        "skill:research"
       ],
-      "matching_open_pr_count": 81,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-06T04:35:35Z",
-          "number": 9390,
-          "title": "fix: resolve issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9390"
-        },
-        {
-          "created_at": "2026-06-16T05:35:12Z",
-          "number": 1825,
-          "title": "fix: xevrion 2 (closes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1825"
-        },
-        {
-          "created_at": "2026-08-25T01:32:23Z",
-          "number": 9286,
-          "title": "Fix typos in README + CONTRIBUTING.md (bounty #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9286"
-        },
-        {
-          "created_at": "2026-07-19T17:52:41Z",
-          "number": 8107,
-          "title": "[agent] Fix typo in README (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8107"
-        },
-        {
-          "created_at": "2026-07-02T18:11:44Z",
-          "number": 4412,
-          "title": "fix: correct README typos (Fixes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/4412"
-        },
-        {
-          "created_at": "2026-07-13T04:10:57Z",
-          "number": 6867,
-          "title": "fix: correct typos in README (fixes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6867"
-        },
-        {
-          "created_at": "2026-07-20T11:00:49Z",
-          "number": 8174,
-          "title": "feat: JSDoc userService and README cleanup (#1, #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8174"
-        },
-        {
-          "created_at": "2026-06-22T12:42:42Z",
-          "number": 2099,
-          "title": "Fix #2: Fix typo in README",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2099"
-        },
-        {
-          "created_at": "2026-06-03T07:17:03Z",
-          "number": 53,
-          "title": "[agent] fix: resolve issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/53"
-        },
-        {
-          "created_at": "2026-06-27T07:11:08Z",
-          "number": 2264,
-          "title": "docs: fix README formatting and typos (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2264"
-        },
-        {
-          "created_at": "2026-06-04T08:49:29Z",
-          "number": 367,
-          "title": "Fix #2: Fix typo in README",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/367"
-        },
-        {
-          "created_at": "2026-06-03T06:54:26Z",
-          "number": 40,
-          "title": "Fix typo in README (Issue #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/40"
-        },
-        {
-          "created_at": "2026-07-04T15:24:23Z",
-          "number": 5225,
-          "title": "[agent] Fix typo and formatting in README (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5225"
-        },
-        {
-          "created_at": "2026-06-29T08:57:16Z",
-          "number": 2546,
-          "title": "[agent] fix(#2): README typo and formatting cleanup",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2546"
-        },
-        {
-          "created_at": "2026-06-13T05:47:29Z",
-          "number": 1568,
-          "title": "[BOUNTY] Fix issue #2 - Automated AI Solution",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1568"
-        },
-        {
-          "created_at": "2026-07-11T15:35:27Z",
-          "number": 6649,
-          "title": "fix: README cleanup - spelling, grammar, and formatting fixes (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6649"
-        },
-        {
-          "created_at": "2026-06-10T07:29:40Z",
-          "number": 1425,
-          "title": "[agent] Fix README typo: Instruction -> Instructions (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1425"
-        },
-        {
-          "created_at": "2026-06-04T02:04:03Z",
-          "number": 272,
-          "title": "fix: clean up README formatting \u2014 issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/272"
-        },
-        {
-          "created_at": "2026-06-06T21:37:39Z",
-          "number": 1000,
-          "title": "[agent] Fix trailing whitespace in README - Closes #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1000"
-        },
-        {
-          "created_at": "2026-06-04T00:20:21Z",
-          "number": 238,
-          "title": "[agent] Clean up README formatting for issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/238"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$50"
+        "6 USDC",
+        "6.00 USDC",
+        "0.00 USDC",
+        "6.04 USDC",
+        "0.11 USDC",
+        "6usdc"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Fix typo in README",
-      "updated_at": "2026-09-06T18:27:55Z",
+      "reward_usd_max": 6.04,
+      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 week 20260831",
+      "updated_at": "2026-09-07T00:35:26Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/commaai/openpilot/issues/38752",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1216",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1020,31 +290,365 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #1216 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-24T20:21:00Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5400849297"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T20:03:37Z",
+          "recent": true,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5561816428"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T20:03:53Z",
+          "recent": true,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5561818085"
+        }
       ],
-      "discovered_url": "https://github.com/commaai/openpilot/issues/38752",
-      "id": "github:commaai/openpilot#38752",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1216",
+      "id": "github:NSPG13/agent-bounties#1216",
       "labels": [
-        "enhancement",
         "bounty",
-        "tools"
+        "ai-agent-welcome",
+        "payments",
+        "verifier",
+        "funded-live",
+        "claimable-live",
+        "open-competition",
+        "ready-to-earn",
+        "skill:browser",
+        "skill:research"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Merge PlotJuggler functionality into cabana",
-      "updated_at": "2026-09-06T17:39:49Z",
-      "verification_confidence": "medium"
+      "recent_claim_count": 2,
+      "reward_mentions": [
+        "6 USDC",
+        "6.00 USDC",
+        "0.00 USDC",
+        "6.04 USDC",
+        "0.11 USDC"
+      ],
+      "reward_usd_max": 6.04,
+      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 fortnight 20260907",
+      "updated_at": "2026-09-07T00:35:25Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1215",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #1215 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-24T20:21:01Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5400849475"
+        },
+        {
+          "actor": "yaegerbomb42",
+          "command": "/attempt",
+          "created_at": "2026-08-28T23:46:20Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5458924277"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T20:03:32Z",
+          "recent": true,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5561815897"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1215",
+      "id": "github:NSPG13/agent-bounties#1215",
+      "labels": [
+        "bounty",
+        "ai-agent-welcome",
+        "payments",
+        "verifier",
+        "funded-live",
+        "claimable-live",
+        "open-competition",
+        "ready-to-earn",
+        "skill:browser",
+        "skill:research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "3.00 USDC",
+        "0.00 USDC",
+        "3.04 USDC",
+        "0.11 USDC"
+      ],
+      "reward_usd_max": 3.04,
+      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 August 24 to September 7",
+      "updated_at": "2026-09-07T00:35:24Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1212",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #1212 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-24T20:21:04Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1212#issuecomment-5400850055"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T20:03:16Z",
+          "recent": true,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1212#issuecomment-5561814385"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1212",
+      "id": "github:NSPG13/agent-bounties#1212",
+      "labels": [
+        "bounty",
+        "ai-agent-welcome",
+        "payments",
+        "verifier",
+        "funded-live",
+        "claimable-live",
+        "open-competition",
+        "ready-to-earn",
+        "skill:browser",
+        "skill:research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "3.00 USDC",
+        "0.00 USDC",
+        "3.04 USDC",
+        "0.11 USDC"
+      ],
+      "reward_usd_max": 3.04,
+      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 September 7 to September 21",
+      "updated_at": "2026-09-07T00:35:23Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1208",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #1208 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-24T20:21:08Z",
+          "recent": false,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1208#issuecomment-5400850756"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T20:02:58Z",
+          "recent": true,
+          "url": "https://github.com/NSPG13/agent-bounties/issues/1208#issuecomment-5561812527"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1208",
+      "id": "github:NSPG13/agent-bounties#1208",
+      "labels": [
+        "bounty",
+        "ai-agent-welcome",
+        "payments",
+        "verifier",
+        "funded-live",
+        "claimable-live",
+        "open-competition",
+        "ready-to-earn",
+        "skill:browser",
+        "skill:research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "3.00 USDC",
+        "0.00 USDC",
+        "3.04 USDC",
+        "0.11 USDC"
+      ],
+      "reward_usd_max": 3.04,
+      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 week of August 31",
+      "updated_at": "2026-09-07T00:35:21Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/387",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "kramsg1405",
+          "command": "/attempt",
+          "created_at": "2026-09-06T21:09:44Z",
+          "recent": true,
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/387#issuecomment-5562192047"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/387",
+      "id": "github:Hazyshades/Sendly-Test-Repo#387",
+      "labels": [
+        "bug",
+        "bounty",
+        "bounty:1",
+        "arc-testnet",
+        "reward-usdc"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-06T21:16:27Z",
+          "number": 394,
+          "title": "fix: ensure npm test fails non-zero on python test failures (#387)",
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/pull/394"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "20 USDC"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "[Bug] npm test can report JS failures while the overall exit code still looks green",
+      "updated_at": "2026-09-07T00:35:06Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/385",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "kramsg1405",
+          "command": "/attempt",
+          "created_at": "2026-09-06T21:09:40Z",
+          "recent": true,
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/385#issuecomment-5562191715"
+        },
+        {
+          "actor": "s6pa1rta3n-lab",
+          "command": "/attempt #385",
+          "created_at": "2026-09-07T00:12:10Z",
+          "recent": true,
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/385#issuecomment-5563264046"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Hazyshades/Sendly-Test-Repo/issues/385",
+      "id": "github:Hazyshades/Sendly-Test-Repo#385",
+      "labels": [
+        "bug",
+        "bounty",
+        "bounty:1",
+        "arc-testnet",
+        "reward-usdc"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-06T21:22:41Z",
+          "number": 395,
+          "title": "fix: sync mapUploadError TS and CJS error handling (#385)",
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/pull/395"
+        },
+        {
+          "created_at": "2026-09-07T00:16:35Z",
+          "number": 399,
+          "title": "fix(mapUploadError): synchronize TypeScript and CJS error heuristics",
+          "url": "https://github.com/Hazyshades/Sendly-Test-Repo/pull/399"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [
+        "25 USDC"
+      ],
+      "reward_usd_max": 25.0,
+      "title": "[Bug] mapUploadError.ts and mapUploadError.cjs disagree on network heuristics",
+      "updated_at": "2026-09-07T00:12:10Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1058,32 +662,59 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/818",
-      "id": "github:relayhop/sn-monetization-runtime#818",
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
       "labels": [
-        "radar",
-        "sn",
+        "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
         "bounty"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-05T13:09:23Z",
-          "number": 819,
-          "title": "fix(radar): parse and evaluate Stacker News bounty opportunities (Fixes #818)",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/819"
+          "created_at": "2026-08-31T04:39:30Z",
+          "number": 133646,
+          "title": "fix: resolve issue #5 (concurrent multi-agent)",
+          "url": "https://github.com/tadanobutubutu/screeps/pull/133646"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-09-05T12:37",
-      "updated_at": "2026-09-06T18:00:27Z",
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-09-07T00:10:17Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/1221",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1091,59 +722,44 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "Carrie111998",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>You're the first one to try to solve this issue, go for it! \ud83d\ude09</details>",
-          "created_at": "2026-08-28T20:58:06Z",
-          "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457685951"
-        },
-        {
-          "actor": "Carrie111998",
-          "command": "/claim #1",
-          "created_at": "2026-08-28T20:58:08Z",
-          "recent": false,
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1#issuecomment-5457686131"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "manual_review",
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/HarrieAlexandrowicz5/gorm/issues/1",
-      "id": "github:HarrieAlexandrowicz5/gorm#1",
+      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/1221",
+      "id": "github:Ikalus1988/MisakaNet#1221",
       "labels": [
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "status: competition",
+        "ready",
         "bounty",
-        "opire",
-        "$10"
+        "agent-friendly",
+        "zero-bounty",
+        "needs-human-review"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-08-28T20:57:59Z",
-          "number": 6,
-          "title": "Fix: GORM complex-join panic (self-join + subquery) \u2014 resolves #1",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/6"
-        },
-        {
-          "created_at": "2026-08-31T23:45:01Z",
-          "number": 8,
-          "title": "Fix #1: \ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-          "url": "https://github.com/HarrieAlexandrowicz5/gorm/pull/8"
+          "created_at": "2026-09-06T22:33:20Z",
+          "number": 1522,
+          "title": "Fix: [Bounty] Social media promotion post (needs human review)",
+          "url": "https://github.com/Ikalus1988/MisakaNet/pull/1522"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "\ud83c\udfaf GORM v2.24.0 Panics When Querying with Complex Joins",
-      "updated_at": "2026-09-06T18:10:43Z",
+      "title": "[Bounty] Social media promotion post (needs human review)",
+      "updated_at": "2026-09-06T23:46:28Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/dwebagents/AgentPipe/issues/1580",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1153,188 +769,197 @@
       ],
       "claim_signals": [
         {
-          "actor": "therealsaitama0",
+          "actor": "yaegerbomb42",
           "command": "/claim",
-          "created_at": "2026-06-29T08:06:05Z",
+          "created_at": "2026-08-28T20:21:47Z",
           "recent": false,
-          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-4830272110"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5457370603"
         },
         {
-          "actor": "biteqaq-maker",
-          "command": "/claim",
-          "created_at": "2026-07-10T05:30:00Z",
+          "actor": "yaegerbomb42",
+          "command": "/attempt \u2014 fixing gate-backfill malformed gh JSON silent-success (same class as #16660)",
+          "created_at": "2026-08-28T20:25:19Z",
           "recent": false,
-          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-4932294647"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5457402372"
         },
         {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/claim",
-          "created_at": "2026-07-18T22:06:48Z",
+          "actor": "yaegerbomb42",
+          "command": "/attempt \u2014 fixing audit defect: `_load_canonical_wallets()` silent empty map on corrupt CLAIMANTS.md",
+          "created_at": "2026-08-28T21:36:14Z",
           "recent": false,
-          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5013106813"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5458014930"
         },
         {
-          "actor": "q514168795",
+          "actor": "yaegerbomb42",
           "command": "/claim",
-          "created_at": "2026-07-29T01:35:48Z",
+          "created_at": "2026-08-28T21:37:25Z",
           "recent": false,
-          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5111728994"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5458024231"
         },
         {
-          "actor": "0xhermes-28",
+          "actor": "yaegerbomb42",
           "command": "/claim",
-          "created_at": "2026-08-12T14:25:45Z",
+          "created_at": "2026-08-28T21:37:28Z",
           "recent": false,
-          "url": "https://github.com/dwebagents/AgentPipe/issues/1580#issuecomment-5268139893"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5458024652"
+        },
+        {
+          "actor": "ravendevhub",
+          "command": "/claim",
+          "created_at": "2026-08-30T09:22:09Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5467862166"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T03:52:13Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5504088128"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-02T15:25:36Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5511988319"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T20:37:42Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5531817589"
+        },
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-06T04:22:33Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5556864918"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 31 open PRs explicitly reference the canonical issue."
+        "At least 4 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/dwebagents/AgentPipe/issues/1580",
-      "id": "github:dwebagents/AgentPipe#1580",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
+      "id": "github:Scottcjn/rustchain-bounties#16471",
       "labels": [
-        "enhancement",
-        "good first issue",
         "bounty"
       ],
-      "matching_open_pr_count": 31,
+      "matching_open_pr_count": 4,
       "matching_open_prs": [
         {
-          "created_at": "2026-07-15T23:53:48Z",
-          "number": 1972,
-          "title": "Fixes #1580: Create contributors webpage",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1972"
+          "created_at": "2026-08-14T15:18:04Z",
+          "number": 16484,
+          "title": "fix(payout): make docstring grants authoritative",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16484"
         },
         {
-          "created_at": "2026-07-15T23:44:23Z",
-          "number": 1969,
-          "title": "Fixes #1580: Create contributors webpage",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1969"
+          "created_at": "2026-08-14T01:56:57Z",
+          "number": 16479,
+          "title": "fix(docstring-gate): fail closed on diff read errors",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16479"
         },
         {
-          "created_at": "2026-07-24T18:38:53Z",
-          "number": 2000,
-          "title": "feat: create contributors webpage (#1580 bounty)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/2000"
+          "created_at": "2026-08-10T17:46:50Z",
+          "number": 16473,
+          "title": "fix: audit silent-success failures in payout pipeline \u2014 4 defects [fj4WqyCCw3C5ShR1RfB7MoBPTpkRrBFYP1uT35g3MvT]",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16473"
         },
         {
-          "created_at": "2026-07-09T19:21:18Z",
-          "number": 1952,
-          "title": "Add contributors webpage for #1580",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1952"
-        },
-        {
-          "created_at": "2026-06-28T21:16:58Z",
-          "number": 1873,
-          "title": "feat: create contributors webpage (resolves #1580)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1873"
-        },
-        {
-          "created_at": "2026-07-02T05:54:41Z",
-          "number": 1933,
-          "title": "feat: add contributors page (fixes #1580)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1933"
-        },
-        {
-          "created_at": "2026-08-06T22:37:07Z",
-          "number": 2021,
-          "title": "feat: add contributors page at /contributors (Closes #1580) [0x954dB727f224dAabeA2A506C8aE92029b25339cE]",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/2021"
-        },
-        {
-          "created_at": "2026-06-29T10:14:50Z",
-          "number": 1901,
-          "title": "[Bounty] Create contributors webpage (fixes #1580)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1901"
-        },
-        {
-          "created_at": "2026-08-02T03:35:30Z",
-          "number": 2015,
-          "title": "feat: Create contributors webpage honoring the dependable cast (#1580)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/2015"
-        },
-        {
-          "created_at": "2026-07-18T01:34:41Z",
-          "number": 1977,
-          "title": "Fix #1580: [Bounty: 23 USDC] Create contributors webpage",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1977"
-        },
-        {
-          "created_at": "2026-07-03T00:38:00Z",
-          "number": 1941,
-          "title": "Add /contributors page (closes #1580, 23 USDC bounty)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1941"
-        },
-        {
-          "created_at": "2026-07-02T22:55:42Z",
-          "number": 1938,
-          "title": "Add /contributors page (closes #1580, 23 USDC bounty)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1938"
-        },
-        {
-          "created_at": "2026-08-12T14:41:03Z",
-          "number": 2029,
-          "title": "Fix #1580: Create contributors webpage with goose portraits, golden eggs, and 71 mentions",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/2029"
-        },
-        {
-          "created_at": "2026-06-28T17:43:11Z",
-          "number": 1868,
-          "title": "feat: create contributors webpage with portraits and game (#1580)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1868"
-        },
-        {
-          "created_at": "2026-07-10T05:06:32Z",
-          "number": 1953,
-          "title": "feat: add contributors webpage",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1953"
-        },
-        {
-          "created_at": "2026-07-10T05:32:48Z",
-          "number": 1954,
-          "title": "feat: add contributors page (goose portraits, golden eggs, easter egg game)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1954"
-        },
-        {
-          "created_at": "2026-07-18T22:06:38Z",
-          "number": 1983,
-          "title": "feat: add contributors page honoring the flock (fixes #1580, 23 USDC bounty)",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1983"
-        },
-        {
-          "created_at": "2026-06-29T08:50:15Z",
-          "number": 1892,
-          "title": "feat: add /contributors page with goose portraits, golden eggs, easter egg game, and 71 count",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1892"
-        },
-        {
-          "created_at": "2026-06-29T01:12:45Z",
-          "number": 1879,
-          "title": "Add contributors webpage with goose agent roster",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1879"
-        },
-        {
-          "created_at": "2026-07-19T01:46:10Z",
-          "number": 1985,
-          "title": "feat: add contributors page [Bounty: 23 USDC]",
-          "url": "https://github.com/dwebagents/AgentPipe/pull/1985"
+          "created_at": "2026-08-12T08:01:17Z",
+          "number": 16476,
+          "title": "fix: fail closed on payout delivery state",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16476"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "23 USDC"
+        "35 RTC",
+        "10 RTC"
       ],
-      "reward_usd_max": 23.0,
-      "title": "[Bounty: 23 USDC] Create contributors webpage",
-      "updated_at": "2026-09-06T17:41:35Z",
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-success failures",
+      "updated_at": "2026-09-07T00:21:05Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Opty-Fi/defi-adapters/issues/7",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T23:30:53Z",
+          "recent": false,
+          "url": "https://github.com/Opty-Fi/defi-adapters/issues/7#issuecomment-4145917032"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 5 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/Opty-Fi/defi-adapters/issues/7",
+      "id": "github:Opty-Fi/defi-adapters#7",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-06T23:02:44Z",
+          "number": 30,
+          "title": "Fix: Sample Template for Bounty",
+          "url": "https://github.com/Opty-Fi/defi-adapters/pull/30"
+        },
+        {
+          "created_at": "2026-06-14T02:27:00Z",
+          "number": 29,
+          "title": "docs: add DeFi adapter review checklist",
+          "url": "https://github.com/Opty-Fi/defi-adapters/pull/29"
+        },
+        {
+          "created_at": "2026-03-21T14:34:43Z",
+          "number": 25,
+          "title": "[ShanaBoo] Sample Template for Bounty",
+          "url": "https://github.com/Opty-Fi/defi-adapters/pull/25"
+        },
+        {
+          "created_at": "2026-03-31T08:05:10Z",
+          "number": 26,
+          "title": "fix: Sample Template for Bounty",
+          "url": "https://github.com/Opty-Fi/defi-adapters/pull/26"
+        },
+        {
+          "created_at": "2026-04-19T23:59:37Z",
+          "number": 27,
+          "title": "feat: Standardized ERC-4626 Convex Adapter with full test coverage",
+          "url": "https://github.com/Opty-Fi/defi-adapters/pull/27"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "5000 USDC"
+      ],
+      "reward_usd_max": 5000.0,
+      "title": "Sample Template for Bounty",
+      "updated_at": "2026-09-06T23:46:57Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-06T18:30:51.817139Z",
+  "generated_at": "2026-09-07T00:42:06.029196Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
