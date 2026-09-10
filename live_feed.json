@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 2,
-    "manual_review": 3,
-    "pursue": 7,
+    "hold": 1,
+    "manual_review": 9,
+    "pursue": 2,
     "skip": 3
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1618",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,153 +23,23 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
-      "id": "github:Scottcjn/rustchain-bounties#71",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1618",
+      "id": "github:Scottcjn/rustchain-bounties#1618",
       "labels": [
-        "bug",
-        "bounty",
-        "open"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "133 RTC",
-        "750 RTC",
-        "200 RTC",
-        "100 RTC",
-        "50 RTC",
-        "15 RTC",
-        "1 RTC",
-        "$0.10 USD"
-      ],
-      "reward_usd_max": 0.1,
-      "title": "[BOUNTY] Ongoing Bug Bounty Program \u2014 Find Bugs, Earn RTC (133 RTC Pool)",
-      "updated_at": "2026-09-10T11:50:39Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "daletyler1737",
-          "command": "/claim #1102",
-          "created_at": "2026-03-29T13:27:12Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102#issuecomment-4150162074"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102",
-      "id": "github:Scottcjn/rustchain-bounties#1102",
-      "labels": [
+        "good first issue",
         "bounty",
         "easy",
-        "bottube"
+        "accessibility"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "3 RTC",
-        "5 RTC"
+        "1 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug",
-      "updated_at": "2026-09-10T11:31:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
-      "id": "github:Senthemodder/aquarium-of-gullibles#4",
-      "labels": [
-        "bounty",
-        "security"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T07:12:34Z",
-          "number": 11,
-          "title": "fix(commands): refactor custom command registration and permission gating for Bedrock 1.21.70 (#4)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/11"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$500"
-      ],
-      "reward_usd_max": 500.0,
-      "title": "[Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationError on Bedrock 1.21.70",
-      "updated_at": "2026-09-10T12:19:42Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/5",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/5",
-      "id": "github:Senthemodder/aquarium-of-gullibles#5",
-      "labels": [
-        "help wanted",
-        "bounty",
-        "algorithm"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T05:14:25Z",
-          "number": 10,
-          "title": "fix(types): resolve recursive generic type instantiation and cycle unwrapping (#5)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/10"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$700"
-      ],
-      "reward_usd_max": 700.0,
-      "title": "[Bounty: $700] Deep Recursive Generic Type Solver Fails Invariant Fuzzing in src/types/state.ts",
-      "updated_at": "2026-09-10T12:19:40Z",
+      "title": "[EASY BOUNTY: 1 RTC] Report any accessibility issue in BoTTube UI",
+      "updated_at": "2026-09-10T18:07:50Z",
       "verification_confidence": "medium"
     },
     {
@@ -194,8 +64,14 @@
         "bounty",
         "real"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T18:12:44Z",
+          "number": 1362,
+          "title": "fix: update SOLUTION_ISSUE_1333.md for issue #1333",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1362"
+        },
         {
           "created_at": "2026-09-10T09:43:03Z",
           "number": 1348,
@@ -209,104 +85,12 @@
       ],
       "reward_usd_max": 500.0,
       "title": "[Bounty] [Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationE",
-      "updated_at": "2026-09-10T12:19:34Z",
+      "updated_at": "2026-09-10T18:12:46Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1332",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1332",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1332",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T09:59:03Z",
-          "number": 1349,
-          "title": "fix: update src/types/state.ts for issue #1332",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1349"
-        },
-        {
-          "created_at": "2026-09-10T10:15:22Z",
-          "number": 1352,
-          "title": "fix(types): resolve deep recursive generic type solver in src/types/state.ts (#1332)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1352"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$700"
-      ],
-      "reward_usd_max": 700.0,
-      "title": "[Bounty] [Bounty: $700] Deep Recursive Generic Type Solver Fails Invariant Fuzzing in src",
-      "updated_at": "2026-09-10T12:19:35Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1335",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1335",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1335",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T09:41:19Z",
-          "number": 1346,
-          "title": "fix: update ui/hud_screen.json for issue #1335",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1346"
-        },
-        {
-          "created_at": "2026-09-10T12:10:48Z",
-          "number": 1354,
-          "title": "fix(ui): resolve dynamic container inventory text slicing overflow (#1335)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1354"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$650"
-      ],
-      "reward_usd_max": 650.0,
-      "title": "[Bounty] [Bounty: $650] JSON UI: Dynamic Container Inventory Text Slicing Overflow in hud",
-      "updated_at": "2026-09-10T12:19:32Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1325",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12788",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -316,11 +100,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "s6pa1rta3n-lab",
+          "actor": "rafaio1",
           "command": "/claim",
-          "created_at": "2026-09-10T11:07:45Z",
+          "created_at": "2026-09-02T14:33:38Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12788#issuecomment-5511226113"
+        },
+        {
+          "actor": "zaguzovmaksim0-hue",
+          "command": "/claim",
+          "created_at": "2026-09-10T18:11:15Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1325#issuecomment-5617700450"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12788#issuecomment-5623284222"
         }
       ],
       "closed_at": null,
@@ -328,93 +119,26 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1325",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1325",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12788",
+      "id": "github:Scottcjn/rustchain-bounties#12788",
       "labels": [
         "bounty",
-        "real"
+        "claimed"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T11:14:50Z",
-          "number": 1353,
-          "title": "fix(voxel): optimize dynamic voxel display entities to prevent draw call spikes (#1325)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1353"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$650"
+        "25 RTC"
       ],
-      "reward_usd_max": 650.0,
-      "title": "[Bounty] [Bounty: $650] Optimize Dynamic Voxel Display Entities to Prevent Massive Draw C",
-      "updated_at": "2026-09-10T11:07:45Z",
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 25 RTC] Miner client port: package the RustChain miner for one new platform with verify-before-trust docs",
+      "updated_at": "2026-09-10T18:11:25Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "s6pa1rta3n-lab",
-          "command": "/claim",
-          "created_at": "2026-09-10T07:08:12Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334#issuecomment-5614579163"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1334",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T07:41:38Z",
-          "number": 1340,
-          "title": "tests: address issue #1334 (fixes #1334)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1340"
-        },
-        {
-          "created_at": "2026-09-10T09:42:11Z",
-          "number": 1347,
-          "title": "fix: update SOLUTION_ISSUE_1334.md for issue #1334",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1347"
-        },
-        {
-          "created_at": "2026-09-10T08:45:50Z",
-          "number": 1343,
-          "title": "fix: solution for issue #1334",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1343"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$850"
-      ],
-      "reward_usd_max": 850.0,
-      "title": "[Bounty] [Bounty: $850] Bedrock Physics: 1-Tick Kinematic Ghost Teleportation and Swept A",
-      "updated_at": "2026-09-10T12:19:30Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/830",
+      "canonical_url": "https://github.com/causify-ai/helpers/issues/673",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -428,8 +152,38 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/830",
-      "id": "github:relayhop/sn-monetization-runtime#830",
+      "discovered_url": "https://github.com/causify-ai/helpers/issues/673",
+      "id": "github:causify-ai/helpers#673",
+      "labels": [
+        "Bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Linter check for the GitHub Action Workflows",
+      "updated_at": "2026-09-10T18:07:18Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/841",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/841",
+      "id": "github:relayhop/sn-monetization-runtime#841",
       "labels": [
         "radar",
         "sn",
@@ -438,17 +192,130 @@
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-10T05:09:34Z",
-          "number": 831,
-          "title": "fix(radar): parse and evaluate Stacker News bounty opportunities (Fixes #830)",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/831"
+          "created_at": "2026-09-10T18:29:44Z",
+          "number": 842,
+          "title": "fix: update SOLUTION_ISSUE_841.md for issue #841",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/842"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-09-10T04:35",
-      "updated_at": "2026-09-10T12:19:38Z",
+      "title": "[radar] SN open bounty 2026-09-10T18:20",
+      "updated_at": "2026-09-10T18:29:45Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
+      "labels": [
+        "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-08-31T04:39:30Z",
+          "number": 133646,
+          "title": "fix: resolve issue #5 (concurrent multi-agent)",
+          "url": "https://github.com/tadanobutubutu/screeps/pull/133646"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-09-10T18:24:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/837",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "KundanBhagatofficial",
+          "command": "/attempt #837",
+          "created_at": "2026-09-10T17:19:48Z",
+          "recent": true,
+          "url": "https://github.com/relayhop/sn-monetization-runtime/issues/837#issuecomment-5622652400"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/837",
+      "id": "github:relayhop/sn-monetization-runtime#837",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T18:02:07Z",
+          "number": 838,
+          "title": "fix: update SOLUTION_ISSUE_837.md for issue #837",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/838"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-09-10T14:19",
+      "updated_at": "2026-09-10T18:02:09Z",
       "verification_confidence": "medium"
     },
     {
@@ -474,8 +341,14 @@
         "sn",
         "bounty"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T18:02:17Z",
+          "number": 839,
+          "title": "fix: update src/ingestion/normalizers.ts for issue #835",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/839"
+        },
         {
           "created_at": "2026-09-10T12:10:29Z",
           "number": 836,
@@ -487,7 +360,7 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[radar] SN open bounty 2026-09-10T11:09",
-      "updated_at": "2026-09-10T12:19:23Z",
+      "updated_at": "2026-09-10T18:02:18Z",
       "verification_confidence": "medium"
     },
     {
@@ -513,8 +386,14 @@
         "sn",
         "bounty"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 3,
       "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T18:03:07Z",
+          "number": 840,
+          "title": "fix: update src/ingestion/radar_handler.ts for issue #832",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/840"
+        },
         {
           "created_at": "2026-09-10T09:43:10Z",
           "number": 833,
@@ -532,8 +411,432 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[radar] SN open bounty 2026-09-10T09:36",
-      "updated_at": "2026-09-10T12:19:25Z",
+      "updated_at": "2026-09-10T18:03:42Z",
       "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/condoraltidoi32/cli/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/condoraltidoi32/cli/issues/1",
+      "id": "github:condoraltidoi32/cli#1",
+      "labels": [
+        "bounty",
+        "bountyhub",
+        "$10"
+      ],
+      "matching_open_pr_count": 6,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-08-26T05:28:09Z",
+          "number": 2,
+          "title": "Hermes Agent: scaffold for issue #1",
+          "url": "https://github.com/condoraltidoi32/cli/pull/2"
+        },
+        {
+          "created_at": "2026-08-26T08:20:29Z",
+          "number": 7,
+          "title": "fix(auth): distinguish missing credentials from operational keyring failures (#1) [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
+          "url": "https://github.com/condoraltidoi32/cli/pull/7"
+        },
+        {
+          "created_at": "2026-09-09T07:20:44Z",
+          "number": 11,
+          "title": "fix(auth): fail with descriptive error instead of silently unauthenticating on keyring failure (#1)",
+          "url": "https://github.com/condoraltidoi32/cli/pull/11"
+        },
+        {
+          "created_at": "2026-08-26T05:56:45Z",
+          "number": 5,
+          "title": "fix(cli): resolve issue #1 - \ud83c\udfaf Fail with descriptive error instead of silently",
+          "url": "https://github.com/condoraltidoi32/cli/pull/5"
+        },
+        {
+          "created_at": "2026-09-03T07:52:15Z",
+          "number": 9,
+          "title": "fix: abort with descriptive error when keyring access fails",
+          "url": "https://github.com/condoraltidoi32/cli/pull/9"
+        },
+        {
+          "created_at": "2026-08-27T04:01:09Z",
+          "number": 8,
+          "title": "fix: abort with descriptive error when keyring access fails",
+          "url": "https://github.com/condoraltidoi32/cli/pull/8"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf Fail with descriptive error instead of silently sending unauthenticated API requests when keyring access fails",
+      "updated_at": "2026-09-10T17:59:03Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/jakaramelod/go-git/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "lincai505011-ops",
+          "command": "/try",
+          "created_at": "2026-08-06T08:32:24Z",
+          "recent": false,
+          "url": "https://github.com/jakaramelod/go-git/issues/1#issuecomment-5202299239"
+        },
+        {
+          "actor": "yaqi-2006",
+          "command": "/claim #1",
+          "created_at": "2026-09-02T09:58:56Z",
+          "recent": false,
+          "url": "https://github.com/jakaramelod/go-git/issues/1#issuecomment-5507795449"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/jakaramelod/go-git/issues/1",
+      "id": "github:jakaramelod/go-git#1",
+      "labels": [
+        "bounty",
+        "bountyhub",
+        "$10"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-08-28T20:44:32Z",
+          "number": 11,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/jakaramelod/go-git/pull/11"
+        },
+        {
+          "created_at": "2026-08-28T18:29:19Z",
+          "number": 10,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/jakaramelod/go-git/pull/10"
+        },
+        {
+          "created_at": "2026-08-26T14:53:09Z",
+          "number": 9,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/jakaramelod/go-git/pull/9"
+        },
+        {
+          "created_at": "2026-09-10T18:00:18Z",
+          "number": 14,
+          "title": "fix: update worktree_test.go for issue #1",
+          "url": "https://github.com/jakaramelod/go-git/pull/14"
+        },
+        {
+          "created_at": "2026-09-10T09:39:04Z",
+          "number": 13,
+          "title": "fix: update worktree_status.go for issue #1",
+          "url": "https://github.com/jakaramelod/go-git/pull/13"
+        },
+        {
+          "created_at": "2026-08-06T08:50:20Z",
+          "number": 4,
+          "title": "[#1] Fix case-insensitive path comparison in Worktree.Status()",
+          "url": "https://github.com/jakaramelod/go-git/pull/4"
+        },
+        {
+          "created_at": "2026-09-02T09:55:05Z",
+          "number": 12,
+          "title": "fix: resolve case-insensitive path comparison in Worktree.Status() respecting core.ignorecase",
+          "url": "https://github.com/jakaramelod/go-git/pull/12"
+        },
+        {
+          "created_at": "2026-08-08T08:32:18Z",
+          "number": 7,
+          "title": "fix: case-insensitive path comparison in Worktree.Status()",
+          "url": "https://github.com/jakaramelod/go-git/pull/7"
+        },
+        {
+          "created_at": "2026-08-07T22:27:06Z",
+          "number": 6,
+          "title": "fix: case-insensitive path comparison in Worktree.Status()",
+          "url": "https://github.com/jakaramelod/go-git/pull/6"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf Fix Case-Insensitive Path Comparison in `Worktree.Status()` on Case-Insensitive Filesystems",
+      "updated_at": "2026-09-10T18:00:20Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/muckomdeead/argo-c/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/muckomdeead/argo-c/issues/1",
+      "id": "github:muckomdeead/argo-c#1",
+      "labels": [
+        "bounty",
+        "bountyhub",
+        "$10"
+      ],
+      "matching_open_pr_count": 17,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T17:59:06Z",
+          "number": 26,
+          "title": "fix: update SOLUTION_ISSUE_1.md for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/26"
+        },
+        {
+          "created_at": "2026-09-10T09:38:14Z",
+          "number": 25,
+          "title": "fix: update SOLUTION_ISSUE_1.md for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/25"
+        },
+        {
+          "created_at": "2026-08-29T07:57:33Z",
+          "number": 19,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/19"
+        },
+        {
+          "created_at": "2026-08-29T07:18:58Z",
+          "number": 18,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/18"
+        },
+        {
+          "created_at": "2026-08-28T19:58:06Z",
+          "number": 17,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/17"
+        },
+        {
+          "created_at": "2026-08-28T17:57:56Z",
+          "number": 16,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/16"
+        },
+        {
+          "created_at": "2026-08-26T14:15:51Z",
+          "number": 14,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/14"
+        },
+        {
+          "created_at": "2026-08-25T18:21:37Z",
+          "number": 12,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/12"
+        },
+        {
+          "created_at": "2026-08-25T17:55:33Z",
+          "number": 11,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/11"
+        },
+        {
+          "created_at": "2026-08-25T16:58:05Z",
+          "number": 10,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/10"
+        },
+        {
+          "created_at": "2026-08-25T16:44:52Z",
+          "number": 9,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/9"
+        },
+        {
+          "created_at": "2026-08-25T10:41:10Z",
+          "number": 2,
+          "title": "fix: solution for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/2"
+        },
+        {
+          "created_at": "2026-08-31T13:19:59Z",
+          "number": 21,
+          "title": "fix: update pkg/webhook/reconciler.go for issue #1",
+          "url": "https://github.com/muckomdeead/argo-c/pull/21"
+        },
+        {
+          "created_at": "2026-08-26T03:44:05Z",
+          "number": 13,
+          "title": "fix(argo-c): resolve issue #1 - \ud83c\udfaf Differentiate GitHub API Failures from Missing ",
+          "url": "https://github.com/muckomdeead/argo-c/pull/13"
+        },
+        {
+          "created_at": "2026-08-30T20:58:57Z",
+          "number": 20,
+          "title": "[NEX Agent] \ud83c\udfaf Differentiate GitHub API Failures from Missing Webhooks to Prevent Erroneous R",
+          "url": "https://github.com/muckomdeead/argo-c/pull/20"
+        },
+        {
+          "created_at": "2026-08-25T16:01:32Z",
+          "number": 8,
+          "title": "fix(webhook): Differentiate 404 from non-404 GitHub API errors to prevent erroneous reconciliation",
+          "url": "https://github.com/muckomdeead/argo-c/pull/8"
+        },
+        {
+          "created_at": "2026-08-25T12:29:57Z",
+          "number": 6,
+          "title": "fix: differentiate GitHub API failures from missing webhooks in reconciliation",
+          "url": "https://github.com/muckomdeead/argo-c/pull/6"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf Differentiate GitHub API Failures from Missing Webhooks to Prevent Erroneous Reconciliation",
+      "updated_at": "2026-09-10T17:59:07Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1332",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1332",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1332",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T18:14:01Z",
+          "number": 1364,
+          "title": "fix: update SOLUTION_ISSUE_1332.md for issue #1332",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1364"
+        },
+        {
+          "created_at": "2026-09-10T09:59:03Z",
+          "number": 1349,
+          "title": "fix: update src/types/state.ts for issue #1332",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1349"
+        },
+        {
+          "created_at": "2026-09-10T10:15:22Z",
+          "number": 1352,
+          "title": "fix(types): resolve deep recursive generic type solver in src/types/state.ts (#1332)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1352"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$700"
+      ],
+      "reward_usd_max": 700.0,
+      "title": "[Bounty] [Bounty: $700] Deep Recursive Generic Type Solver Fails Invariant Fuzzing in src",
+      "updated_at": "2026-09-10T18:14:02Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "s6pa1rta3n-lab",
+          "command": "/claim",
+          "created_at": "2026-09-10T07:08:12Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334#issuecomment-5614579163"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 4 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1334",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1334",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-10T07:41:38Z",
+          "number": 1340,
+          "title": "tests: address issue #1334 (fixes #1334)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1340"
+        },
+        {
+          "created_at": "2026-09-10T09:42:11Z",
+          "number": 1347,
+          "title": "fix: update SOLUTION_ISSUE_1334.md for issue #1334",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1347"
+        },
+        {
+          "created_at": "2026-09-10T08:45:50Z",
+          "number": 1343,
+          "title": "fix: solution for issue #1334",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1343"
+        },
+        {
+          "created_at": "2026-09-10T18:13:30Z",
+          "number": 1363,
+          "title": "fix: update src/physics/sweptAABB.js for issue #1334",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1363"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$850"
+      ],
+      "reward_usd_max": 850.0,
+      "title": "[Bounty] [Bounty: $850] Bedrock Physics: 1-Tick Kinematic Ghost Teleportation and Swept A",
+      "updated_at": "2026-09-10T18:13:32Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -549,7 +852,7 @@
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 3 open PRs explicitly reference the canonical issue."
+        "At least 4 open PRs explicitly reference the canonical issue."
       ],
       "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1336",
       "id": "github:zhangjiayang6835-cyber/bounty-plaza#1336",
@@ -557,7 +860,7 @@
         "bounty",
         "real"
       ],
-      "matching_open_pr_count": 3,
+      "matching_open_pr_count": 4,
       "matching_open_prs": [
         {
           "created_at": "2026-09-10T06:26:52Z",
@@ -570,6 +873,12 @@
           "number": 1342,
           "title": "fix: solution for issue #1336",
           "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1342"
+        },
+        {
+          "created_at": "2026-09-10T18:03:17Z",
+          "number": 1361,
+          "title": "fix: update test/verify.js for issue #1336",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1361"
         },
         {
           "created_at": "2026-09-10T09:41:04Z",
@@ -585,414 +894,12 @@
       ],
       "reward_usd_max": 1250.0,
       "title": "[Bounty] [Bounty: $1,250] Optimize Subgraph Isomorphism to Strict O(N) Deterministic Spac",
-      "updated_at": "2026-09-10T12:19:27Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "HamzaKhanBUIC",
-          "command": "/claim I will handle this. I am a React Native expert and I will build the Classic Inbox UI with full Storybook integration.",
-          "created_at": "2026-06-14T01:00:46Z",
-          "recent": false,
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2#issuecomment-4700285290"
-        },
-        {
-          "actor": "b3417",
-          "command": "/claim i will handle this. i am a react native expert and i will build the classic inbox ui with full storybook integration.",
-          "created_at": "2026-06-14T16:41:03Z",
-          "recent": false,
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2#issuecomment-4702388151"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 20 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
-      "id": "github:warpspeedopen-source/warpspeed-bounties#2",
-      "labels": [
-        "help wanted",
-        "bounty",
-        "expert",
-        "paid",
-        "open",
-        "nodejs",
-        "typescript",
-        "react-native",
-        "frontend"
-      ],
-      "matching_open_pr_count": 20,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-07T23:24:15Z",
-          "number": 144,
-          "title": "feat: implement Classic Inbox UI for #2",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/144"
-        },
-        {
-          "created_at": "2026-08-23T22:11:12Z",
-          "number": 130,
-          "title": "feat: Implement Classic Inbox UI (Issue #2)",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/130"
-        },
-        {
-          "created_at": "2026-06-29T09:06:58Z",
-          "number": 103,
-          "title": "fix: issue #2",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/103"
-        },
-        {
-          "created_at": "2026-09-09T03:58:34Z",
-          "number": 161,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/161"
-        },
-        {
-          "created_at": "2026-09-09T00:46:40Z",
-          "number": 157,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/157"
-        },
-        {
-          "created_at": "2026-09-09T00:11:37Z",
-          "number": 154,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/154"
-        },
-        {
-          "created_at": "2026-09-08T23:12:03Z",
-          "number": 152,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/152"
-        },
-        {
-          "created_at": "2026-09-08T22:03:31Z",
-          "number": 151,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/151"
-        },
-        {
-          "created_at": "2026-09-08T21:22:15Z",
-          "number": 150,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/150"
-        },
-        {
-          "created_at": "2026-09-08T20:08:25Z",
-          "number": 149,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/149"
-        },
-        {
-          "created_at": "2026-09-08T18:55:37Z",
-          "number": 148,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/148"
-        },
-        {
-          "created_at": "2026-09-08T18:18:15Z",
-          "number": 147,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/147"
-        },
-        {
-          "created_at": "2026-09-08T18:02:00Z",
-          "number": 146,
-          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/146"
-        },
-        {
-          "created_at": "2026-07-13T23:04:50Z",
-          "number": 112,
-          "title": "feat: add Classic Inbox UI reference implementation (fixes #2)",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/112"
-        },
-        {
-          "created_at": "2026-06-04T08:34:42Z",
-          "number": 50,
-          "title": "fix: #2 \u2014 Improved readme in README.md",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/50"
-        },
-        {
-          "created_at": "2026-06-04T08:33:25Z",
-          "number": 48,
-          "title": "fix: #2 \u2014 Improved readme in README.md",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/48"
-        },
-        {
-          "created_at": "2026-05-28T23:59:51Z",
-          "number": 10,
-          "title": "Resolve Issue #2: Email Inbox Classic View Page UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/10"
-        },
-        {
-          "created_at": "2026-06-23T08:32:59Z",
-          "number": 77,
-          "title": "feat: Email Inbox Classic View",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/77"
-        },
-        {
-          "created_at": "2026-06-27T14:27:36Z",
-          "number": 91,
-          "title": "feat(email-inbox): implement classic inbox view page UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/91"
-        },
-        {
-          "created_at": "2026-05-29T01:46:10Z",
-          "number": 26,
-          "title": "[ShanaBoo] [PAID BOUNTY - $330] Email Inbox Classic View Page UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/26"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$330"
-      ],
-      "reward_usd_max": 330.0,
-      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
-      "updated_at": "2026-09-10T12:20:34Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T02:30:47Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4139683908"
-        },
-        {
-          "actor": "rainlee",
-          "command": "/attempt #1",
-          "created_at": "2026-03-27T05:26:16Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140293256"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:50:15Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140572707"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:17:21Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140672511"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:29:23Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141290671"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:47:11Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141739516"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-28T04:02:11Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4146765241"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-29T13:01:18Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150118081"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:01:48Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150328605"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:18Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4152344332"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 85 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#1",
-      "labels": [
-        "bounty",
-        "skill",
-        "good first issue"
-      ],
-      "matching_open_pr_count": 85,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-08-27T14:41:57Z",
-          "number": 3887,
-          "title": "Bounty 1 generate changelog",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3887"
-        },
-        {
-          "created_at": "2026-09-10T11:23:53Z",
-          "number": 4194,
-          "title": "Add tested Bash/Python structured changelog generator (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4194"
-        },
-        {
-          "created_at": "2026-09-09T13:39:49Z",
-          "number": 4183,
-          "title": "feat: changelog generation skill + bash script (bounty #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4183"
-        },
-        {
-          "created_at": "2026-09-07T06:56:07Z",
-          "number": 4151,
-          "title": "feat: generate-changelog skill + script (Opire #1 $50)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4151"
-        },
-        {
-          "created_at": "2026-09-03T11:02:58Z",
-          "number": 4069,
-          "title": "feat: structured CHANGELOG generator skill and script (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4069"
-        },
-        {
-          "created_at": "2026-09-09T00:44:59Z",
-          "number": 4179,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4179"
-        },
-        {
-          "created_at": "2026-09-09T00:09:48Z",
-          "number": 4178,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4178"
-        },
-        {
-          "created_at": "2026-09-08T23:10:34Z",
-          "number": 4177,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4177"
-        },
-        {
-          "created_at": "2026-09-08T22:35:22Z",
-          "number": 4176,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4176"
-        },
-        {
-          "created_at": "2026-09-08T21:20:48Z",
-          "number": 4175,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4175"
-        },
-        {
-          "created_at": "2026-09-08T20:41:28Z",
-          "number": 4174,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4174"
-        },
-        {
-          "created_at": "2026-09-08T20:06:53Z",
-          "number": 4173,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4173"
-        },
-        {
-          "created_at": "2026-09-08T18:01:07Z",
-          "number": 4172,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4172"
-        },
-        {
-          "created_at": "2026-09-08T17:51:13Z",
-          "number": 4171,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4171"
-        },
-        {
-          "created_at": "2026-09-08T16:26:32Z",
-          "number": 4169,
-          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4169"
-        },
-        {
-          "created_at": "2026-08-31T00:11:15Z",
-          "number": 3998,
-          "title": "SKILL: Generate structured CHANGELOG from git history (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3998"
-        },
-        {
-          "created_at": "2026-08-18T08:37:26Z",
-          "number": 3765,
-          "title": "Add git changelog generator ($50 bounty #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3765"
-        },
-        {
-          "created_at": "2026-09-04T11:03:56Z",
-          "number": 4085,
-          "title": "feat(skill): structured CHANGELOG generator from git history (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4085"
-        },
-        {
-          "created_at": "2026-09-03T02:50:27Z",
-          "number": 4063,
-          "title": "feat: implement changelog generator skill and script (Issue #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4063"
-        },
-        {
-          "created_at": "2026-09-10T09:44:40Z",
-          "number": 4193,
-          "title": "feat: Add generate-changelog skill and bash script (Closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4193"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$50"
-      ],
-      "reward_usd_max": 50.0,
-      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-      "updated_at": "2026-09-10T11:15:27Z",
+      "updated_at": "2026-09-10T18:03:19Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-10T12:38:38.945107Z",
+  "generated_at": "2026-09-10T18:33:10.797993Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
