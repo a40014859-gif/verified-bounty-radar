@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 3,
-    "manual_review": 6,
-    "pursue": 4,
-    "skip": 2
+    "hold": 2,
+    "manual_review": 5,
+    "pursue": 7,
+    "skip": 1
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/254",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -19,32 +19,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #13949 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
-          "created_at": "2026-08-07T21:20:24Z",
+          "actor": "exal-gh-33",
+          "command": "/claim #254",
+          "created_at": "2026-06-05T00:31:33Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5222118361"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T12:56:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5509877176"
-        },
-        {
-          "actor": "zaguzovmaksim0-hue",
-          "command": "/claim",
-          "created_at": "2026-09-10T08:10:02Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5615310287"
-        },
-        {
-          "actor": "pengshenghai",
-          "command": "/claim",
-          "created_at": "2026-09-18T03:47:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5724860296"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/254#issuecomment-4627120434"
         }
       ],
       "closed_at": null,
@@ -52,26 +31,71 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
-      "id": "github:Scottcjn/rustchain-bounties#13949",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/254",
+      "id": "github:Scottcjn/rustchain-bounties#254",
       "labels": [
         "bounty",
-        "claimed"
+        "micro",
+        "community"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "2 RTC"
+        "1 RTC",
+        "5 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-      "updated_at": "2026-09-18T18:01:54Z",
+      "title": "[BOUNTY] Open an Issue or Comment on Any Scottcjn Repo \u2014 1 RTC Each",
+      "updated_at": "2026-09-18T23:51:54Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/50",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "jdjioe5-cpu",
+          "command": "/attempt",
+          "created_at": "2026-09-05T23:49:16Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863#issuecomment-5555602858"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
+      "id": "github:Scottcjn/rustchain-bounties#16863",
+      "labels": [
+        "good first issue",
+        "bounty",
+        "micro"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "0.1 RTC",
+        "25 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[MICRO-BOUNTY: 0.1 RTC] Why did you choose to work on an Elyan Labs repo?",
+      "updated_at": "2026-09-18T23:51:52Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OmniBlocks/bountyfarmer/issues/40",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -85,56 +109,150 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/50",
-      "id": "github:Scottcjn/rustchain-bounties#50",
+      "discovered_url": "https://github.com/OmniBlocks/bountyfarmer/issues/40",
+      "id": "github:OmniBlocks/bountyfarmer#40",
+      "labels": [
+        "bounty",
+        "absurd"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$10000000000000000000000000099987898000000",
+        "0 USD"
+      ],
+      "reward_usd_max": 1e+40,
+      "title": "EKEODKDE9DKE9DO BOUNTY",
+      "updated_at": "2026-09-18T22:07:43Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1602",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1602",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$10000000000000000000000000099987898000000",
+        "0 USD",
+        "$10,000,000,000,000,000,000,000,000,099,987,898,000,000"
+      ],
+      "reward_usd_max": 1e+40,
+      "title": "[Bounty] EKEODKDE9DKE9DO BOUNTY",
+      "updated_at": "2026-09-18T21:58:49Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "lingning0806",
+          "command": "/claim",
+          "created_at": "2026-09-08T23:40:17Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/100#issuecomment-5593438931"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
+      "id": "github:Scottcjn/rustchain-bounties#100",
       "labels": [
         "bounty",
         "open",
-        "major",
-        "ecosystem"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "10 RTC",
-        "1 RTC",
-        "100 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] On-Chain Governance - Proposal & Voting System",
-      "updated_at": "2026-09-18T17:26:27Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/OmniBlocks/bountyfarmer/issues/36",
-      "id": "github:OmniBlocks/bountyfarmer#36",
-      "labels": [
-        "bounty",
-        "meme"
+        "community"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-18T16:33:06Z",
-          "number": 37,
-          "title": "Fix #36: $\u221e BOUNTY",
-          "url": "https://github.com/OmniBlocks/bountyfarmer/pull/37"
+          "created_at": "2026-09-12T17:34:47Z",
+          "number": 16949,
+          "title": "feat(submissions): Discovery Mode claim for Scottcjn/Rustchain PR #8360 (closes #100)",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16949"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "2 RTC",
+        "10 RTC",
+        "250 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
+      "updated_at": "2026-09-18T23:51:55Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/106",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Ojas2095",
+          "command": "/claim",
+          "created_at": "2026-06-21T06:31:14Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/106#issuecomment-4761136184"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/106",
+      "id": "github:auscaster/frantic-board#106",
+      "labels": [
+        "bounty",
+        "funded",
+        "available",
+        "delivered",
+        "accepted"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-13T08:45:02Z",
+          "number": 419,
+          "title": "Fix #106: Frantic bounty #49: Give runx some love",
+          "url": "https://github.com/auscaster/frantic-board/pull/419"
         }
       ],
       "recent_claim_count": 0,
@@ -142,8 +260,8 @@
         "$0"
       ],
       "reward_usd_max": 0.0,
-      "title": "$\u221e BOUNTY",
-      "updated_at": "2026-09-18T16:27:38Z",
+      "title": "Frantic bounty #49: Give runx some love",
+      "updated_at": "2026-09-18T22:02:14Z",
       "verification_confidence": "medium"
     },
     {
@@ -168,6 +286,7 @@
         "bounty",
         "funded",
         "available",
+        "claimed",
         "delivered"
       ],
       "matching_open_pr_count": 2,
@@ -191,12 +310,12 @@
       ],
       "reward_usd_max": 1.05,
       "title": "Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-      "updated_at": "2026-09-18T17:16:17Z",
+      "updated_at": "2026-09-19T00:12:25Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226",
+      "canonical_url": "https://github.com/Scottcjn/Rustchain/issues/2634",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -206,74 +325,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T13:13:20Z",
+          "actor": "yaegerbomb42",
+          "command": "/attempt",
+          "created_at": "2026-08-28T20:02:32Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5510100544"
+          "url": "https://github.com/Scottcjn/Rustchain/issues/2634#issuecomment-5457188203"
         },
         {
-          "actor": "rafaio1",
+          "actor": "renigat7-cpu",
           "command": "/claim",
-          "created_at": "2026-09-02T14:08:13Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5510855045"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T15:31:36Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5512075967"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T08:32:53Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5522925388"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim #13226",
-          "created_at": "2026-09-03T17:08:51Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5529298741"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T23:34:41Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5533501097"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T23:36:20Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5533514503"
-        },
-        {
-          "actor": "tlaz10",
-          "command": "/claim",
-          "created_at": "2026-09-11T04:26:19Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5629472071"
-        },
-        {
-          "actor": "pengshenghai",
-          "command": "/claim",
-          "created_at": "2026-09-16T16:14:37Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5700727480"
-        },
-        {
-          "actor": "psicossz29-netizen",
-          "command": "/claim",
-          "created_at": "2026-09-18T18:00:50Z",
+          "created_at": "2026-09-18T20:45:56Z",
           "recent": true,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5734102096"
+          "url": "https://github.com/Scottcjn/Rustchain/issues/2634#issuecomment-5735971755"
         }
       ],
       "closed_at": null,
@@ -281,22 +344,27 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226",
-      "id": "github:Scottcjn/rustchain-bounties#13226",
+      "discovered_url": "https://github.com/Scottcjn/Rustchain/issues/2634",
+      "id": "github:Scottcjn/Rustchain#2634",
       "labels": [
+        "help wanted",
+        "good first issue",
         "bounty",
-        "claimed"
+        "community"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "7 RTC",
-        "10 RTC"
+        "500 RTC",
+        "30 RTC",
+        "25 RTC",
+        "5 RTC",
+        "50 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY: 7 RTC] Add an llms.txt + GEO entity profile to a RustChain ecosystem repo",
-      "updated_at": "2026-09-18T18:01:01Z",
+      "title": "[BOUNTY CAMPAIGN] Bring Your Human to Work Day \u2014 Match Agent Engagement with Verified Humans (Pool: 500 RTC)",
+      "updated_at": "2026-09-18T23:51:57Z",
       "verification_confidence": "high"
     },
     {
@@ -310,13 +378,6 @@
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
       "claim_signals": [
-        {
-          "actor": "AKASH80047",
-          "command": "/claim",
-          "created_at": "2026-09-08T07:43:47Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5581237244"
-        },
         {
           "actor": "AKASH80047",
           "command": "/claim",
@@ -370,7 +431,7 @@
           "actor": "dwaddle",
           "command": "/claim",
           "created_at": "2026-09-18T15:32:32Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5732280332"
         },
         {
@@ -379,6 +440,13 @@
           "created_at": "2026-09-18T17:34:05Z",
           "recent": true,
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5733785878"
+        },
+        {
+          "actor": "mdmcl-pixel",
+          "command": "/claim",
+          "created_at": "2026-09-18T20:38:09Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5735897615"
         }
       ],
       "closed_at": null,
@@ -389,8 +457,7 @@
       "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
       "id": "github:Scottcjn/rustchain-bounties#16471",
       "labels": [
-        "bounty",
-        "claimed"
+        "bounty"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
@@ -408,12 +475,12 @@
       ],
       "reward_usd_max": null,
       "title": "[BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-success failures",
-      "updated_at": "2026-09-18T17:34:17Z",
+      "updated_at": "2026-09-18T23:51:50Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/2",
+      "canonical_url": "https://github.com/iv-org/invidious/issues/5722",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -421,284 +488,34 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "MuhammadShahzebMalik786",
-          "command": "/attempt #2 I will fix the README typo and update agents.json",
-          "created_at": "2026-09-06T18:42:42Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5561335307"
-        },
-        {
-          "actor": "Sitevo",
-          "command": "/attempt #2",
-          "created_at": "2026-09-13T23:22:39Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5656978653"
-        },
-        {
-          "actor": "Sitevo",
-          "command": "/attempt #2",
-          "created_at": "2026-09-13T23:26:29Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5657015439"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/attempt #2",
-          "created_at": "2026-09-16T23:10:58Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5705838539"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/attempt #2",
-          "created_at": "2026-09-16T23:11:36Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5705844571"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/claim #2 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9654",
-          "created_at": "2026-09-16T23:13:03Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5705860425"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/claim #2 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9654",
-          "created_at": "2026-09-16T23:14:23Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5705877282"
-        },
-        {
-          "actor": "Simontodd76",
-          "command": "/attempt #2",
-          "created_at": "2026-09-18T08:12:28Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5727185315"
-        },
-        {
-          "actor": "Nish916",
-          "command": "/attempt #2",
-          "created_at": "2026-09-18T16:02:35Z",
-          "recent": true,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5732666203"
-        },
-        {
-          "actor": "Nish916",
-          "command": "/claim #2 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9725",
-          "created_at": "2026-09-18T16:06:40Z",
-          "recent": true,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/2#issuecomment-5732723972"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "manual_review",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/2",
-      "id": "github:xevrion-v2/agent-playground#2",
+      "discovered_url": "https://github.com/iv-org/invidious/issues/5722",
+      "id": "github:iv-org/invidious#5722",
       "labels": [
-        "good first issue",
+        "bug",
+        "type:youtube-change",
         "bounty",
-        "AI agent friendly",
-        "\ud83d\udc8e Bounty",
-        "$50"
+        "bounty:20$"
       ],
-      "matching_open_pr_count": 81,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-06T04:35:35Z",
-          "number": 9390,
-          "title": "fix: resolve issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9390"
-        },
-        {
-          "created_at": "2026-09-18T18:11:42Z",
-          "number": 9727,
-          "title": "[agent] Fix README typos and formatting (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9727"
-        },
-        {
-          "created_at": "2026-09-16T23:14:11Z",
-          "number": 9654,
-          "title": "[agent] Fix README.md formatting (Closes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9654"
-        },
-        {
-          "created_at": "2026-06-16T05:35:12Z",
-          "number": 1825,
-          "title": "fix: xevrion 2 (closes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1825"
-        },
-        {
-          "created_at": "2026-09-09T00:11:24Z",
-          "number": 9420,
-          "title": "Fix: implement agent playground feature and test (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9420"
-        },
-        {
-          "created_at": "2026-08-25T01:32:23Z",
-          "number": 9286,
-          "title": "Fix typos in README + CONTRIBUTING.md (bounty #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9286"
-        },
-        {
-          "created_at": "2026-07-19T17:52:41Z",
-          "number": 8107,
-          "title": "[agent] Fix typo in README (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8107"
-        },
-        {
-          "created_at": "2026-07-02T18:11:44Z",
-          "number": 4412,
-          "title": "fix: correct README typos (Fixes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/4412"
-        },
-        {
-          "created_at": "2026-07-13T04:10:57Z",
-          "number": 6867,
-          "title": "fix: correct typos in README (fixes #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6867"
-        },
-        {
-          "created_at": "2026-06-03T07:17:03Z",
-          "number": 53,
-          "title": "[agent] fix: resolve issue #2",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/53"
-        },
-        {
-          "created_at": "2026-06-22T12:42:42Z",
-          "number": 2099,
-          "title": "Fix #2: Fix typo in README",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2099"
-        },
-        {
-          "created_at": "2026-07-20T11:00:49Z",
-          "number": 8174,
-          "title": "feat: JSDoc userService and README cleanup (#1, #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8174"
-        },
-        {
-          "created_at": "2026-06-27T07:11:08Z",
-          "number": 2264,
-          "title": "docs: fix README formatting and typos (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2264"
-        },
-        {
-          "created_at": "2026-06-04T08:49:29Z",
-          "number": 367,
-          "title": "Fix #2: Fix typo in README",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/367"
-        },
-        {
-          "created_at": "2026-06-03T06:54:26Z",
-          "number": 40,
-          "title": "Fix typo in README (Issue #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/40"
-        },
-        {
-          "created_at": "2026-07-04T15:24:23Z",
-          "number": 5225,
-          "title": "[agent] Fix typo and formatting in README (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5225"
-        },
-        {
-          "created_at": "2026-06-13T05:47:29Z",
-          "number": 1568,
-          "title": "[BOUNTY] Fix issue #2 - Automated AI Solution",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1568"
-        },
-        {
-          "created_at": "2026-06-29T08:57:16Z",
-          "number": 2546,
-          "title": "[agent] fix(#2): README typo and formatting cleanup",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2546"
-        },
-        {
-          "created_at": "2026-06-10T07:29:40Z",
-          "number": 1425,
-          "title": "[agent] Fix README typo: Instruction -> Instructions (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1425"
-        },
-        {
-          "created_at": "2026-07-11T15:35:27Z",
-          "number": 6649,
-          "title": "fix: README cleanup - spelling, grammar, and formatting fixes (#2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6649"
+          "created_at": "2026-09-07T09:23:56Z",
+          "number": 6012,
+          "title": "fix: link collaborative related video channels",
+          "url": "https://github.com/iv-org/invidious/pull/6012"
         }
       ],
-      "recent_claim_count": 2,
-      "reward_mentions": [
-        "$50"
-      ],
-      "reward_usd_max": 50.0,
-      "title": "Fix typo in README",
-      "updated_at": "2026-09-18T18:12:22Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OmniBlocks/bountyfarmer/issues/35",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OmniBlocks/bountyfarmer/issues/35",
-      "id": "github:OmniBlocks/bountyfarmer#35",
-      "labels": [
-        "help wanted",
-        "bounty",
-        "bitcoin"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "CLAIM YOUR REWARD HERE",
-      "updated_at": "2026-09-18T17:41:46Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16984",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16984",
-      "id": "github:Scottcjn/rustchain-bounties#16984",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Claim: May Flowers Star Pack \u2014 Blackcode-cmd",
-      "updated_at": "2026-09-18T17:20:43Z",
+      "title": "[Bug] Channel links for recommended videos that have multiple creators are broken",
+      "updated_at": "2026-09-19T00:36:54Z",
       "verification_confidence": "medium"
     },
     {
@@ -764,12 +581,12 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Dependency Dashboard",
-      "updated_at": "2026-09-18T18:00:22Z",
+      "updated_at": "2026-09-18T22:45:31Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/sharmiaalono/go-github/issues/5",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/1819",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -777,56 +594,47 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "goanscryca",
+          "command": "/try",
+          "created_at": "2026-09-18T09:05:33Z",
+          "recent": false,
+          "url": "https://github.com/Ikalus1988/MisakaNet/issues/1819#issuecomment-5727764125"
+        }
+      ],
       "closed_at": null,
       "decision": "manual_review",
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/sharmiaalono/go-github/issues/5",
-      "id": "github:sharmiaalono/go-github#5",
+      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/1819",
+      "id": "github:Ikalus1988/MisakaNet#1819",
       "labels": [
+        "area:tests",
+        "needs-ac",
         "bounty",
-        "$10",
-        "bountyhub"
+        "core-bounty"
       ],
-      "matching_open_pr_count": 4,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-18T08:19:13Z",
-          "number": 7,
-          "title": "fix: resolve #5 - handle zero PerPage pagination consistency",
-          "url": "https://github.com/sharmiaalono/go-github/pull/7"
-        },
-        {
-          "created_at": "2026-09-18T06:44:42Z",
-          "number": 6,
-          "title": "fix: resolve #5 - \ud83c\udfaf Fix pagination inconsistency and parameter handling when `",
-          "url": "https://github.com/sharmiaalono/go-github/pull/6"
-        },
-        {
-          "created_at": "2026-09-18T12:28:33Z",
-          "number": 9,
-          "title": "fix: solve issue #5 - Fix pagination inconsistency and parameter handling when ListOptions.PerPage is 0",
-          "url": "https://github.com/sharmiaalono/go-github/pull/9"
-        },
-        {
-          "created_at": "2026-09-18T15:59:40Z",
-          "number": 10,
-          "title": "fix: preserve pagination context when PerPage is 0",
-          "url": "https://github.com/sharmiaalono/go-github/pull/10"
+          "created_at": "2026-09-18T09:27:17Z",
+          "number": 1842,
+          "title": "docs(field-reports): real-agent A/B comparative benchmark on repeat error reduction (#1819)",
+          "url": "https://github.com/Ikalus1988/MisakaNet/pull/1842"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "\ud83c\udfaf Fix pagination inconsistency and parameter handling when `ListOptions.PerPage` is 0",
-      "updated_at": "2026-09-18T15:59:04Z",
+      "title": "[bounty] \u771f\u673a\u5bf9\u7167\u6d4b\u91cf\uff1a\u88c5\u4e86 MisakaNet \u7684 agent \u662f\u5426\u771f\u7684\u66f4\u5c11\u91cd\u590d\u72af\u9519\uff08\u8981\u539f\u59cb\u65e5\u5fd7\uff09",
+      "updated_at": "2026-09-18T22:15:03Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/microg/GmsCore/issues/2994",
+      "canonical_url": "https://github.com/openhab/openhab-addons/issues/7649",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -840,91 +648,149 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/microg/GmsCore/issues/2994",
-      "id": "github:microg/GmsCore#2994",
+      "discovered_url": "https://github.com/openhab/openhab-addons/issues/7649",
+      "id": "github:openhab/openhab-addons#7649",
       "labels": [
-        "enhancement",
         "bounty"
       ],
-      "matching_open_pr_count": 11,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-17T11:55:48Z",
-          "number": 3812,
-          "title": "Auth: Redact sensitive AppCert debug logging",
-          "url": "https://github.com/microg/GmsCore/pull/3812"
-        },
-        {
-          "created_at": "2026-09-17T14:59:44Z",
-          "number": 3813,
-          "title": "DroidGuard: Redact sensitive debug logging",
-          "url": "https://github.com/microg/GmsCore/pull/3813"
-        },
-        {
-          "created_at": "2026-09-05T11:41:11Z",
-          "number": 3784,
-          "title": "Implement Constellation and Asterism + DroidGuard fixes for RCS support",
-          "url": "https://github.com/microg/GmsCore/pull/3784"
-        },
-        {
-          "created_at": "2026-09-18T07:58:59Z",
-          "number": 3819,
-          "title": "GCM: preserve delete semantics for IID unregister",
-          "url": "https://github.com/microg/GmsCore/pull/3819"
-        },
-        {
-          "created_at": "2026-07-15T15:33:37Z",
-          "number": 3644,
-          "title": "RCS: DroidGuard tachyon fixes, phone-number fallback, and unit tests (#2994)",
-          "url": "https://github.com/microg/GmsCore/pull/3644"
-        },
-        {
-          "created_at": "2026-07-05T15:15:53Z",
-          "number": 3604,
-          "title": "Partial RCS support: Constellation, Asterism, and testing documentation",
-          "url": "https://github.com/microg/GmsCore/pull/3604"
-        },
-        {
-          "created_at": "2026-03-24T08:07:19Z",
-          "number": 3360,
-          "title": "Implement `play-services-asterism`",
-          "url": "https://github.com/microg/GmsCore/pull/3360"
-        },
-        {
-          "created_at": "2026-09-17T22:58:25Z",
-          "number": 3817,
-          "title": "Phenotype: add storage info compatibility",
-          "url": "https://github.com/microg/GmsCore/pull/3817"
-        },
-        {
-          "created_at": "2026-03-24T07:49:13Z",
-          "number": 3359,
-          "title": "Implement `play-services-constellation`",
-          "url": "https://github.com/microg/GmsCore/pull/3359"
-        },
-        {
-          "created_at": "2026-09-13T05:49:10Z",
-          "number": 3800,
-          "title": "Core performance, battery, security, and compatibility optimizations",
-          "url": "https://github.com/microg/GmsCore/pull/3800"
-        },
-        {
-          "created_at": "2026-04-09T17:14:10Z",
-          "number": 3388,
-          "title": "Implement Constellation + Asterism services for RCS on Google Messages",
-          "url": "https://github.com/microg/GmsCore/pull/3388"
+          "created_at": "2026-09-18T22:26:04Z",
+          "number": 21713,
+          "title": "[pioneeravr] Add speaker selection channel",
+          "url": "https://github.com/openhab/openhab-addons/pull/21713"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[BOUNTY] RCS Support [14999$]",
-      "updated_at": "2026-09-18T18:15:28Z",
+      "title": "[pioneeravr] Addition of Speaker Selection Command",
+      "updated_at": "2026-09-18T21:52:45Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/daydreamsai/agent-bounties/issues/7",
+      "canonical_url": "https://github.com/colmev080/pgx/issues/3",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "jamboriu",
+          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>You're the first one to try to solve this issue, go for it! \ud83d\ude09</details>",
+          "created_at": "2026-08-06T13:23:31Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5205193556"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
+          "created_at": "2026-08-06T16:19:07Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5207373054"
+        },
+        {
+          "actor": "lincai505011-ops",
+          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
+          "created_at": "2026-08-07T03:17:14Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5211824921"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim #3 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
+          "created_at": "2026-08-07T21:25:47Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5222164293"
+        },
+        {
+          "actor": "jamboriu",
+          "command": "/try",
+          "created_at": "2026-08-16T23:59:43Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5310348922"
+        },
+        {
+          "actor": "Saadat555",
+          "command": "/try",
+          "created_at": "2026-09-17T07:39:52Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5710795360"
+        },
+        {
+          "actor": "vavyukkt-beep",
+          "command": "/try",
+          "created_at": "2026-09-17T12:05:36Z",
+          "recent": false,
+          "url": "https://github.com/colmev080/pgx/issues/3#issuecomment-5714056134"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/colmev080/pgx/issues/3",
+      "id": "github:colmev080/pgx#3",
+      "labels": [
+        "bounty",
+        "opire",
+        "$10"
+      ],
+      "matching_open_pr_count": 6,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-08-07T03:24:16Z",
+          "number": 8,
+          "title": "[#3] Fix connection storm: prevent MaxConns violations during DB recovery",
+          "url": "https://github.com/colmev080/pgx/pull/8"
+        },
+        {
+          "created_at": "2026-08-06T13:50:27Z",
+          "number": 5,
+          "title": "fix: prevent connection storms and MaxConns violations in pgxpool (Issue #3)",
+          "url": "https://github.com/colmev080/pgx/pull/5"
+        },
+        {
+          "created_at": "2026-08-08T04:36:16Z",
+          "number": 10,
+          "title": "fix(pgxpool): track in-flight connection attempts to enforce MaxConns during recovery (#3)",
+          "url": "https://github.com/colmev080/pgx/pull/10"
+        },
+        {
+          "created_at": "2026-08-17T00:04:31Z",
+          "number": 11,
+          "title": "fix(pgxpool): prevent connection storms and maxconns violations during db recovery",
+          "url": "https://github.com/colmev080/pgx/pull/11"
+        },
+        {
+          "created_at": "2026-08-06T12:42:38Z",
+          "number": 4,
+          "title": "Fix: Prevent Connection Storms and MaxConns Violations in pgxpool",
+          "url": "https://github.com/colmev080/pgx/pull/4"
+        },
+        {
+          "created_at": "2026-08-07T02:03:16Z",
+          "number": 7,
+          "title": "fix: prevent connection storm during outage recovery",
+          "url": "https://github.com/colmev080/pgx/pull/7"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf Prevent Connection Storms and MaxConns Violations in pgxpool during DB Recovery",
+      "updated_at": "2026-09-19T00:00:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -935,522 +801,208 @@
       "claim_signals": [
         {
           "actor": "zhaog100",
-          "command": "/attempt #${i}",
-          "created_at": "2026-03-19T23:41:12Z",
+          "command": "/attempt",
+          "created_at": "2026-03-27T02:30:47Z",
           "recent": false,
-          "url": "https://github.com/daydreamsai/agent-bounties/issues/7#issuecomment-4094250743"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4139683908"
         },
         {
-          "actor": "xuhongchen521-debug",
-          "command": "/attempt #7",
-          "created_at": "2026-07-02T14:21:14Z",
-          "recent": false,
-          "url": "https://github.com/daydreamsai/agent-bounties/issues/7#issuecomment-4866774037"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/daydreamsai/agent-bounties/issues/7",
-      "id": "github:daydreamsai/agent-bounties#7",
-      "labels": [
-        "bounty",
-        "defi",
-        "yield",
-        "analytics",
-        "$1000"
-      ],
-      "matching_open_pr_count": 17,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-07-02T14:12:08Z",
-          "number": 261,
-          "title": "LP Impermanent Loss Estimator \u2014 missione-x402 (#7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/261"
-        },
-        {
-          "created_at": "2026-05-19T11:33:02Z",
-          "number": 196,
-          "title": "feat: LP Impermanent Loss Estimator (#7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/196"
-        },
-        {
-          "created_at": "2026-02-08T08:57:18Z",
-          "number": 77,
-          "title": "Bounty #7: LP Impermanent Loss Estimator",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/77"
-        },
-        {
-          "created_at": "2026-05-25T06:21:56Z",
-          "number": 207,
-          "title": "Submission: LP Impermanent Loss Estimator (bounty #7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/207"
-        },
-        {
-          "created_at": "2026-03-16T03:17:12Z",
-          "number": 123,
-          "title": "Bounty Submission: LP Impermanent Loss Estimator (#7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/123"
-        },
-        {
-          "created_at": "2026-07-01T15:05:33Z",
-          "number": 246,
-          "title": "feat: LP IL Estimator \u2014 impermanent loss + fee APR via DeFiLlama (bounty #7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/246"
-        },
-        {
-          "created_at": "2026-03-16T13:02:54Z",
-          "number": 134,
-          "title": "feat: add LP Impermanent Loss Estimator agent (#7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/134"
-        },
-        {
-          "created_at": "2025-11-01T20:02:00Z",
-          "number": 44,
-          "title": "Bounty #7 Submission: LP Impermanent Loss Estimator",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/44"
-        },
-        {
-          "created_at": "2025-10-31T22:16:22Z",
-          "number": 39,
-          "title": "LP Impermanent Loss Estimator - Bounty #7 Submission",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/39"
-        },
-        {
-          "created_at": "2026-03-22T21:36:08Z",
-          "number": 155,
-          "title": "feat: add LP Impermanent Loss Estimator agent (bounty #7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/155"
-        },
-        {
-          "created_at": "2026-03-16T19:09:17Z",
-          "number": 145,
-          "title": "feat: add LP Impermanent Loss Estimator agent (bounty #7)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/145"
-        },
-        {
-          "created_at": "2026-06-23T07:02:37Z",
-          "number": 240,
-          "title": "feat: LP Impermanent Loss Estimator + Perps Funding Pulse",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/240"
-        },
-        {
-          "created_at": "2026-07-02T16:05:32Z",
-          "number": 271,
-          "title": "LP Impermanent Loss Estimator",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/271"
-        },
-        {
-          "created_at": "2026-07-07T15:41:05Z",
-          "number": 293,
-          "title": "feat: LP Impermanent Loss Estimator agent",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/293"
-        },
-        {
-          "created_at": "2026-03-20T00:19:12Z",
-          "number": 149,
-          "title": "[ShanaBoo] LP Impermanent Loss Estimator",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/149"
-        },
-        {
-          "created_at": "2026-03-31T04:05:25Z",
-          "number": 162,
-          "title": "feat: LP Impermanent Loss Estimator",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/162"
-        },
-        {
-          "created_at": "2026-06-14T07:24:17Z",
-          "number": 236,
-          "title": "Add LP impermanent loss estimator submission",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/236"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "LP Impermanent Loss Estimator",
-      "updated_at": "2026-09-18T17:05:41Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/3",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Zubi-fix",
-          "command": "/claim #3",
-          "created_at": "2026-07-03T14:34:08Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/3#issuecomment-4877288558"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/attempt #3",
-          "created_at": "2026-07-03T14:34:14Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/3#issuecomment-4877289428"
-        },
-        {
-          "actor": "1275321348",
-          "command": "/attempt #3",
-          "created_at": "2026-07-08T06:23:59Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/3#issuecomment-4911959700"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 17 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/3",
-      "id": "github:Nexussyn/ai-growth-engine#3",
-      "labels": [
-        "good first issue",
-        "agent-task",
-        "bounty",
-        "workflow"
-      ],
-      "matching_open_pr_count": 17,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-18T18:28:43Z",
-          "number": 141,
-          "title": "[agent] Myncellium: auto-upsell trigger at 50% free limit (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/141"
-        },
-        {
-          "created_at": "2026-09-17T19:49:32Z",
-          "number": 135,
-          "title": "fix: atomically claim upsell threshold and add tested middleware (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/135"
-        },
-        {
-          "created_at": "2026-08-19T09:02:29Z",
-          "number": 105,
-          "title": "feat(monetization): implement auto-upsell trigger engine (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/105"
-        },
-        {
-          "created_at": "2026-07-11T14:38:29Z",
-          "number": 73,
-          "title": "feat: auto-upsell trigger system (Issue #3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/73"
-        },
-        {
-          "created_at": "2026-07-05T01:24:25Z",
-          "number": 52,
-          "title": "Add idempotent upsell middleware for issue #3",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/52"
-        },
-        {
-          "created_at": "2026-07-20T09:59:03Z",
-          "number": 81,
-          "title": "feat: auto-upsell trigger after 5th free call (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/81"
-        },
-        {
-          "created_at": "2026-07-04T13:05:45Z",
-          "number": 47,
-          "title": "Add idempotent upsell trigger handling for issue #3",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/47"
-        },
-        {
-          "created_at": "2026-08-25T02:00:41Z",
-          "number": 110,
-          "title": "feat(monetization): implement auto-upsell trigger engine and A/B prompt variants (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/110"
-        },
-        {
-          "created_at": "2026-07-08T19:27:42Z",
-          "number": 64,
-          "title": "[PR] Implement auto-upsell trigger \u2014 +25% revenue (Issue #3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/64"
-        },
-        {
-          "created_at": "2026-08-18T11:47:17Z",
-          "number": 101,
-          "title": "feat(monetization): implement auto-upsell trigger middleware and A/B prompt variants (#3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/101"
-        },
-        {
-          "created_at": "2026-07-09T04:59:55Z",
-          "number": 69,
-          "title": "feat: auto-upsell trigger with A/B test variants (Issue #3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/69"
-        },
-        {
-          "created_at": "2026-07-25T01:26:57Z",
-          "number": 86,
-          "title": "feat(monetization): implement auto-upsell trigger at 50% free credit threshold (Fixes #3)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/86"
-        },
-        {
-          "created_at": "2026-07-18T01:29:56Z",
-          "number": 78,
-          "title": "Fix #3: [AGENT-TASK] Auto-upsell trigger after 5th free call \u2014 +25% revenue",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/78"
-        },
-        {
-          "created_at": "2026-08-25T04:22:13Z",
-          "number": 113,
-          "title": "feat(monetization): auto-upsell trigger at 50% free credit [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/113"
-        },
-        {
-          "created_at": "2026-07-03T18:47:08Z",
-          "number": 22,
-          "title": "fix: [AGENT-TASK] Auto-upsell trigger after 5th free call \u2014 +25% revenue",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/22"
-        },
-        {
-          "created_at": "2026-07-03T23:27:55Z",
-          "number": 29,
-          "title": "[AGENT-TASK] Auto-upsell trigger after 5th free call \u2014 +25% revenue",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/29"
-        },
-        {
-          "created_at": "2026-07-08T06:25:52Z",
-          "number": 60,
-          "title": "feat: add idempotent upsell trigger logic",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/60"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$10 USD"
-      ],
-      "reward_usd_max": 10.0,
-      "title": "[AGENT-TASK] Auto-upsell trigger after 5th free call \u2014 +25% revenue",
-      "updated_at": "2026-09-18T18:26:28Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/xevrion-v2/agent-playground/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "riceharvest",
+          "actor": "rainlee",
           "command": "/attempt #1",
-          "created_at": "2026-07-27T19:03:06Z",
+          "created_at": "2026-03-27T05:26:16Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5095570524"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140293256"
         },
         {
-          "actor": "alienvisitor8675-bit",
-          "command": "/claim #1",
-          "created_at": "2026-08-16T09:57:52Z",
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T06:50:15Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5306854585"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140572707"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:17:21Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140672511"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:29:23Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141290671"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:47:11Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141739516"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-28T04:02:11Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4146765241"
         },
         {
           "actor": "zhaog100",
           "command": "/attempt",
-          "created_at": "2026-08-27T22:09:33Z",
+          "created_at": "2026-03-29T13:01:18Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5445803472"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150118081"
         },
         {
-          "actor": "jialfaro",
-          "command": "/attempt #1",
-          "created_at": "2026-09-05T03:10:10Z",
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:01:48Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5548954218"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150328605"
         },
         {
-          "actor": "jialfaro",
-          "command": "/claim #1 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9386",
-          "created_at": "2026-09-05T03:11:10Z",
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T05:32:18Z",
           "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5548959258"
-        },
-        {
-          "actor": "Sitevo",
-          "command": "/attempt #1",
-          "created_at": "2026-09-13T23:22:32Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5656977620"
-        },
-        {
-          "actor": "Sitevo",
-          "command": "/attempt #1",
-          "created_at": "2026-09-13T23:26:28Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5657015256"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/attempt #1",
-          "created_at": "2026-09-16T23:06:02Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5705796339"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/claim #1 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9653",
-          "created_at": "2026-09-16T23:10:59Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5705838684"
-        },
-        {
-          "actor": "Zhiyilang074811",
-          "command": "/claim #1 \u2014 PR: https://github.com/xevrion-v2/agent-playground/pull/9653",
-          "created_at": "2026-09-16T23:12:16Z",
-          "recent": false,
-          "url": "https://github.com/xevrion-v2/agent-playground/issues/1#issuecomment-5705851508"
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4152344332"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 76 open PRs explicitly reference the canonical issue."
+        "At least 85 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/xevrion-v2/agent-playground/issues/1",
-      "id": "github:xevrion-v2/agent-playground#1",
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#1",
       "labels": [
-        "good first issue",
         "bounty",
-        "AI agent friendly",
-        "\ud83d\udc8e Bounty",
-        "$50"
+        "skill",
+        "good first issue"
       ],
-      "matching_open_pr_count": 76,
+      "matching_open_pr_count": 85,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-18T18:04:34Z",
-          "number": 9726,
-          "title": "[agent] Add JSDoc to userService (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9726"
+          "created_at": "2026-08-27T14:41:57Z",
+          "number": 3887,
+          "title": "Bounty 1 generate changelog",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3887"
         },
         {
-          "created_at": "2026-09-16T23:12:45Z",
-          "number": 9653,
-          "title": "[agent] Add JSDoc to userService (Closes #1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9653"
+          "created_at": "2026-09-18T15:14:54Z",
+          "number": 4325,
+          "title": "feat: add structured CHANGELOG generator (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4325"
         },
         {
-          "created_at": "2026-09-05T07:20:00Z",
-          "number": 9389,
-          "title": "Fix #1: Add JSDoc to userService",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9389"
+          "created_at": "2026-09-09T13:39:49Z",
+          "number": 4183,
+          "title": "feat: changelog generation skill + bash script (bounty #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4183"
         },
         {
-          "created_at": "2026-06-16T05:35:30Z",
-          "number": 1826,
-          "title": "fix: xevrion 1 (closes #1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1826"
+          "created_at": "2026-09-10T11:23:53Z",
+          "number": 4194,
+          "title": "Add tested Bash/Python structured changelog generator (#1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4194"
         },
         {
-          "created_at": "2026-06-04T09:03:53Z",
-          "number": 374,
-          "title": "fix: #1",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/374"
+          "created_at": "2026-09-16T01:39:12Z",
+          "number": 4270,
+          "title": "feat(skill): generate-changelog from git history (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4270"
         },
         {
-          "created_at": "2026-09-12T17:03:24Z",
-          "number": 9562,
-          "title": "[agent] docs: add JSDoc comments to user routes (Closes #1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/9562"
+          "created_at": "2026-09-13T19:10:58Z",
+          "number": 4244,
+          "title": "feat(skills): generate-changelog from git history (Resolves #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4244"
         },
         {
-          "created_at": "2026-06-10T16:59:13Z",
-          "number": 1452,
-          "title": "fix: resolve #1",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1452"
+          "created_at": "2026-09-13T18:59:31Z",
+          "number": 4242,
+          "title": "feat(skills): generate-changelog from git history (Resolves #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4242"
         },
         {
-          "created_at": "2026-07-19T17:52:40Z",
-          "number": 8106,
-          "title": "[agent] Add JSDoc to userService (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8106"
+          "created_at": "2026-09-03T11:02:58Z",
+          "number": 4069,
+          "title": "feat: structured CHANGELOG generator skill and script (#1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4069"
         },
         {
-          "created_at": "2026-07-04T15:27:44Z",
-          "number": 5226,
-          "title": "[agent] Add JSDoc to userService (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/5226"
+          "created_at": "2026-09-10T20:33:33Z",
+          "number": 4202,
+          "title": "feat(skill): structured CHANGELOG from git history (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4202"
         },
         {
-          "created_at": "2026-07-13T04:10:44Z",
-          "number": 6866,
-          "title": "fix: correct typos in README (fixes #1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6866"
+          "created_at": "2026-09-09T00:44:59Z",
+          "number": 4179,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4179"
         },
         {
-          "created_at": "2026-06-03T07:36:04Z",
-          "number": 78,
-          "title": "[agent] fix: resolve issue #1",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/78"
+          "created_at": "2026-09-09T00:09:48Z",
+          "number": 4178,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4178"
         },
         {
-          "created_at": "2026-07-20T11:00:49Z",
-          "number": 8174,
-          "title": "feat: JSDoc userService and README cleanup (#1, #2)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/8174"
+          "created_at": "2026-09-08T23:10:34Z",
+          "number": 4177,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4177"
         },
         {
-          "created_at": "2026-06-04T08:48:43Z",
-          "number": 366,
-          "title": "Fix #1: Add JSDoc to userService",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/366"
+          "created_at": "2026-09-08T22:35:22Z",
+          "number": 4176,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4176"
         },
         {
-          "created_at": "2026-07-17T23:20:40Z",
-          "number": 7964,
-          "title": "fix: [agent] feat: implement infinite sequence iterator (fixes #1",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/7964"
+          "created_at": "2026-09-08T21:20:48Z",
+          "number": 4175,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4175"
         },
         {
-          "created_at": "2026-06-13T05:48:44Z",
-          "number": 1569,
-          "title": "[BOUNTY] Fix issue #1 - Automated AI Solution",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1569"
+          "created_at": "2026-09-08T20:41:28Z",
+          "number": 4174,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4174"
         },
         {
-          "created_at": "2026-06-27T07:11:02Z",
-          "number": 2263,
-          "title": "docs(api): add JSDoc to userService stubs (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/2263"
+          "created_at": "2026-09-08T20:06:53Z",
+          "number": 4173,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4173"
         },
         {
-          "created_at": "2026-07-11T15:40:38Z",
-          "number": 6650,
-          "title": "feat: add JSDoc-documented userService with CRUD operations (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/6650"
+          "created_at": "2026-09-08T18:01:07Z",
+          "number": 4172,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4172"
         },
         {
-          "created_at": "2026-06-04T17:46:45Z",
-          "number": 582,
-          "title": "[agent] fix: #1 - Add JSDoc to userService",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/582"
+          "created_at": "2026-09-08T17:51:13Z",
+          "number": 4171,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4171"
         },
         {
-          "created_at": "2026-06-10T07:29:38Z",
-          "number": 1424,
-          "title": "[agent] Add userService module with full JSDoc (#1)",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/1424"
+          "created_at": "2026-09-08T16:26:32Z",
+          "number": 4169,
+          "title": "Fix #1: [BOUNTY $50] SKILL: Generate a structured CHANGELO",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4169"
         },
         {
-          "created_at": "2026-06-06T21:37:37Z",
-          "number": 999,
-          "title": "[agent] Add JSDoc to userService routes - Closes #1",
-          "url": "https://github.com/xevrion-v2/agent-playground/pull/999"
+          "created_at": "2026-08-31T00:11:15Z",
+          "number": 3998,
+          "title": "SKILL: Generate structured CHANGELOG from git history (#1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3998"
         }
       ],
       "recent_claim_count": 0,
@@ -1458,13 +1010,13 @@
         "$50"
       ],
       "reward_usd_max": 50.0,
-      "title": "Add JSDoc to userService",
-      "updated_at": "2026-09-18T18:12:21Z",
+      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+      "updated_at": "2026-09-18T23:26:22Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-18T18:32:39.085294Z",
+  "generated_at": "2026-09-19T00:37:44.865237Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
