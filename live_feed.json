@@ -1,15 +1,96 @@
 {
   "counts": {
-    "errors": 1,
-    "hold": 1,
-    "manual_review": 1,
-    "pursue": 8,
+    "errors": 0,
+    "hold": 0,
+    "manual_review": 2,
+    "pursue": 9,
     "skip": 4
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/bottube/issues/647",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1558",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-16T10:18:53Z",
+          "number": 1567,
+          "title": "[Bounty #1558] Multi-Chain Reverse Bounty Settlement, Negative Escrow, and Anti-Spam Engine",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1567"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$500"
+      ],
+      "reward_usd_max": 500.0,
+      "title": "[Bounty] Reverse bounty",
+      "updated_at": "2026-09-22T12:28:38Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1556",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1556",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1556",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-16T07:15:44Z",
+          "number": 1564,
+          "title": "fix: implement evil defense engine and escrow sanitizer (#1556)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1564"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$10000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "$10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000"
+      ],
+      "reward_usd_max": 1e+82,
+      "title": "[Bounty] bounty",
+      "updated_at": "2026-09-22T12:28:19Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/Rustchain/issues/165",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -21,9 +102,9 @@
         {
           "actor": "yaegerbomb42",
           "command": "/attempt",
-          "created_at": "2026-08-28T21:45:20Z",
+          "created_at": "2026-08-28T21:45:03Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/bottube/issues/647#issuecomment-5458087939"
+          "url": "https://github.com/Scottcjn/Rustchain/issues/165#issuecomment-5458085750"
         }
       ],
       "closed_at": null,
@@ -31,26 +112,35 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/bottube/issues/647",
-      "id": "github:Scottcjn/bottube#647",
+      "discovered_url": "https://github.com/Scottcjn/Rustchain/issues/165",
+      "id": "github:Scottcjn/Rustchain#165",
       "labels": [
+        "help wanted",
+        "good first issue",
         "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-21T05:13:37Z",
+          "number": 8495,
+          "title": "AI Agent Fix for Issue #165",
+          "url": "https://github.com/Scottcjn/Rustchain/pull/8495"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "5 RTC",
-        "25 RTC"
+        "3 RTC",
+        "300 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY: 5 RTC/episode] Create a Tutorial Series (3+ episodes on any tech topic)",
-      "updated_at": "2026-09-22T05:28:03Z",
+      "title": "[BOUNTY] Share Why You Starred RustChain \u2014 3 RTC + Community Shoutout (Pool: 300 RTC)",
+      "updated_at": "2026-09-22T11:43:41Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/254",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -60,11 +150,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "exal-gh-33",
-          "command": "/claim #254",
-          "created_at": "2026-06-05T00:31:33Z",
+          "actor": "zhaog100",
+          "command": "/claim",
+          "created_at": "2026-07-21T11:40:13Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/254#issuecomment-4627120434"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5033482919"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/claim",
+          "created_at": "2026-07-22T23:22:37Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5052629669"
         }
       ],
       "closed_at": null,
@@ -72,35 +169,73 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/254",
-      "id": "github:Scottcjn/rustchain-bounties#254",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
+      "id": "github:Scottcjn/rustchain-bounties#282",
       "labels": [
         "bounty",
-        "micro",
-        "community"
+        "distribution"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-21T09:02:43Z",
-          "number": 17023,
-          "title": "AI Agent Fix for Issue #254",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17023"
+          "created_at": "2026-09-21T04:04:07Z",
+          "number": 17018,
+          "title": "Fix #282: Automated AST Governed Patch for [BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17018"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC",
+        "15 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
+      "updated_at": "2026-09-22T11:06:13Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+      "id": "github:Scottcjn/rustchain-bounties#2180",
+      "labels": [
+        "bounty",
+        "distribution"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-21T04:04:16Z",
+          "number": 17019,
+          "title": "Fix #2180: Automated AST Governed Patch for [BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17019"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
         "5 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY] Open an Issue or Comment on Any Scottcjn Repo \u2014 1 RTC Each",
-      "updated_at": "2026-09-22T05:33:21Z",
+      "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
+      "updated_at": "2026-09-22T11:06:07Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1548",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -108,49 +243,47 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "jdjioe5-cpu",
-          "command": "/attempt",
-          "created_at": "2026-09-05T23:49:16Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863#issuecomment-5555602858"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16863",
-      "id": "github:Scottcjn/rustchain-bounties#16863",
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1548",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1548",
       "labels": [
-        "good first issue",
         "bounty",
-        "micro"
+        "real"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-21T01:51:48Z",
-          "number": 17000,
-          "title": "Fix #16863: Automated AST Governed Patch for [MICRO-BOUNTY: 0.1 RTC] Why did you choose to work on an Elyan Labs repo?",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17000"
+          "created_at": "2026-09-13T10:11:56Z",
+          "number": 1550,
+          "title": "feat(saas): implement multi-tenant SaaS mode architecture (#1548)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1550"
+        },
+        {
+          "created_at": "2026-09-14T04:06:14Z",
+          "number": 1551,
+          "title": "Fix: [Bounty] $999999999999999999999999 BOUNTY - URGENT",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1551"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "0.1 RTC",
-        "25 RTC"
+        "$999999999999999999999999",
+        "$9999",
+        "$999,999,999,999,999,999,999,999"
       ],
-      "reward_usd_max": null,
-      "title": "[MICRO-BOUNTY: 0.1 RTC] Why did you choose to work on an Elyan Labs repo?",
-      "updated_at": "2026-09-22T05:23:24Z",
+      "reward_usd_max": 1e+24,
+      "title": "[Bounty] $999999999999999999999999 BOUNTY - URGENT",
+      "updated_at": "2026-09-22T12:29:04Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1570",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -158,63 +291,90 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #13949 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
-          "created_at": "2026-08-07T21:20:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5222118361"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T12:56:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5509877176"
-        },
-        {
-          "actor": "zaguzovmaksim0-hue",
-          "command": "/claim",
-          "created_at": "2026-09-10T08:10:02Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5615310287"
-        },
-        {
-          "actor": "pengshenghai",
-          "command": "/claim",
-          "created_at": "2026-09-18T03:47:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5724860296"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
-      "id": "github:Scottcjn/rustchain-bounties#13949",
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1570",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1570",
       "labels": [
         "bounty",
-        "claimed"
+        "real"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-21T03:26:22Z",
-          "number": 17011,
-          "title": "Fix #13949: Automated AST Governed Patch for [EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17011"
+          "created_at": "2026-09-16T12:14:29Z",
+          "number": 1572,
+          "title": "fix(boxy): implement multi-tenant saas architecture and bitcoin billing engine for issue #1570",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1572"
+        },
+        {
+          "created_at": "2026-09-22T11:19:59Z",
+          "number": 1618,
+          "title": "Add SaaS placeholder endpoint for Boxy platform",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1618"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "2 RTC"
+        "99999999 btc",
+        "$99,999,999"
       ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-      "updated_at": "2026-09-22T05:22:58Z",
+      "reward_usd_max": 99999999.0,
+      "title": "[Bounty] bitcoin bounty",
+      "updated_at": "2026-09-22T12:28:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/429",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/429",
+      "id": "github:auscaster/frantic-board#429",
+      "labels": [
+        "bounty",
+        "funded",
+        "available",
+        "delivered",
+        "paid"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-18T04:22:53Z",
+          "number": 441,
+          "title": "Fix #429: Add verifier for Frantic bounty #132 (Ausca Document Analysis)",
+          "url": "https://github.com/auscaster/frantic-board/pull/441"
+        },
+        {
+          "created_at": "2026-09-21T02:47:04Z",
+          "number": 451,
+          "title": "Fix #429: Automated AST Governed Patch for Frantic bounty #132: Run Ausca Document Analysis end to end and report the process",
+          "url": "https://github.com/auscaster/frantic-board/pull/451"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$1.75"
+      ],
+      "reward_usd_max": 1.75,
+      "title": "Frantic bounty #132: Run Ausca Document Analysis end to end and report the process",
+      "updated_at": "2026-09-22T11:46:27Z",
       "verification_confidence": "medium"
     },
     {
@@ -264,235 +424,12 @@
       ],
       "reward_usd_max": 2.3,
       "title": "Frantic bounty #133: Run Ausca Media Transcription end to end and report the process",
-      "updated_at": "2026-09-22T06:29:05Z",
+      "updated_at": "2026-09-22T11:24:23Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/429",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/429",
-      "id": "github:auscaster/frantic-board#429",
-      "labels": [
-        "bounty",
-        "funded",
-        "available",
-        "delivered",
-        "paid"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-18T04:22:53Z",
-          "number": 441,
-          "title": "Fix #429: Add verifier for Frantic bounty #132 (Ausca Document Analysis)",
-          "url": "https://github.com/auscaster/frantic-board/pull/441"
-        },
-        {
-          "created_at": "2026-09-21T02:47:04Z",
-          "number": 451,
-          "title": "Fix #429: Automated AST Governed Patch for Frantic bounty #132: Run Ausca Document Analysis end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/451"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1.75"
-      ],
-      "reward_usd_max": 1.75,
-      "title": "Frantic bounty #132: Run Ausca Document Analysis end to end and report the process",
-      "updated_at": "2026-09-22T06:24:55Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/428",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/428",
-      "id": "github:auscaster/frantic-board#428",
-      "labels": [
-        "bounty",
-        "funded",
-        "available",
-        "delivered",
-        "paid"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-18T04:16:51Z",
-          "number": 440,
-          "title": "Fix #428: Add verifier for Frantic bounty #131 (Ausca Document OCR)",
-          "url": "https://github.com/auscaster/frantic-board/pull/440"
-        },
-        {
-          "created_at": "2026-09-21T02:47:38Z",
-          "number": 452,
-          "title": "Fix #428: Automated AST Governed Patch for Frantic bounty #131: Run Ausca Document OCR end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/452"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1.25"
-      ],
-      "reward_usd_max": 1.25,
-      "title": "Frantic bounty #131: Run Ausca Document OCR end to end and report the process",
-      "updated_at": "2026-09-22T06:07:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "lingning0806",
-          "command": "/claim",
-          "created_at": "2026-09-08T23:40:17Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/100#issuecomment-5593438931"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
-      "id": "github:Scottcjn/rustchain-bounties#100",
-      "labels": [
-        "bounty",
-        "open",
-        "community"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-12T17:34:47Z",
-          "number": 16949,
-          "title": "feat(submissions): Discovery Mode claim for Scottcjn/Rustchain PR #8360 (closes #100)",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16949"
-        },
-        {
-          "created_at": "2026-09-21T02:48:21Z",
-          "number": 17007,
-          "title": "Fix #100: Automated AST Governed Patch for [BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17007"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "10 RTC",
-        "250 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
-      "updated_at": "2026-09-22T05:34:02Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/Rustchain/issues/2634",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt",
-          "created_at": "2026-08-28T20:02:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/Rustchain/issues/2634#issuecomment-5457188203"
-        },
-        {
-          "actor": "renigat7-cpu",
-          "command": "/claim",
-          "created_at": "2026-09-18T20:45:56Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/Rustchain/issues/2634#issuecomment-5735971755"
-        },
-        {
-          "actor": "renigat7-cpu",
-          "command": "/claim",
-          "created_at": "2026-09-22T04:45:41Z",
-          "recent": true,
-          "url": "https://github.com/Scottcjn/Rustchain/issues/2634#issuecomment-5771337177"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/Rustchain/issues/2634",
-      "id": "github:Scottcjn/Rustchain#2634",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "community"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-21T03:27:40Z",
-          "number": 8493,
-          "title": "Fix #2634: Automated AST Governed Patch for [BOUNTY CAMPAIGN] Bring Your Human to Work Day \u2014 Match Agent Engagement with Verified Humans (Pool: 500 RTC)",
-          "url": "https://github.com/Scottcjn/Rustchain/pull/8493"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "500 RTC",
-        "30 RTC",
-        "25 RTC",
-        "5 RTC",
-        "50 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY CAMPAIGN] Bring Your Human to Work Day \u2014 Match Agent Engagement with Verified Humans (Pool: 500 RTC)",
-      "updated_at": "2026-09-22T05:25:34Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1153",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1165",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -506,8 +443,47 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1153",
-      "id": "github:relayhop/sn-monetization-runtime#1153",
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1165",
+      "id": "github:relayhop/sn-monetization-runtime#1165",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-22T11:30:33Z",
+          "number": 1166,
+          "title": "[Bounty] [radar] SN open bounty 2026-09-22T11:27",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1166"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-09-22T11:27",
+      "updated_at": "2026-09-22T11:27:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1162",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1162",
+      "id": "github:relayhop/sn-monetization-runtime#1162",
       "labels": [
         "radar",
         "sn",
@@ -516,24 +492,79 @@
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-22T06:04:45Z",
-          "number": 1155,
-          "title": "fix: resolution for issue #1153 in DEPLOY_NOTES.md",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1155"
+          "created_at": "2026-09-22T12:12:03Z",
+          "number": 1167,
+          "title": "feat(radar): parse, evaluate, and solve Stacker News monetization opportunity (Fixes #1162)",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1167"
         },
         {
-          "created_at": "2026-09-22T06:00:26Z",
-          "number": 1154,
-          "title": "[Bounty] [radar] SN open bounty 2026-09-22T05:56",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1154"
+          "created_at": "2026-09-22T11:20:02Z",
+          "number": 1164,
+          "title": "[Bounty] [radar] SN open bounty 2026-09-22T11:14",
+          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1164"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-09-22T05:56",
-      "updated_at": "2026-09-22T05:56:46Z",
+      "title": "[radar] SN open bounty 2026-09-22T11:14",
+      "updated_at": "2026-09-22T11:14:44Z",
       "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1573",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1573",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1573",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-18T05:15:46Z",
+          "number": 1591,
+          "title": "feat(boxy): implement preemptive pr closing, humor review bot, and settlement engine for issue #1573",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1591"
+        },
+        {
+          "created_at": "2026-09-22T12:11:14Z",
+          "number": 1620,
+          "title": "[Bounty] [Bounty] Bounty",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1620"
+        },
+        {
+          "created_at": "2026-09-17T08:12:59Z",
+          "number": 1581,
+          "title": "feat(boxy): implement preemptive pr closing, humor review bot, and settlement engine for issue #1573",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1581"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$100",
+        "$200,",
+        "0.00 USD",
+        "$200"
+      ],
+      "reward_usd_max": 200.0,
+      "title": "[Bounty] Bounty",
+      "updated_at": "2026-09-22T12:28:35Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -557,7 +588,8 @@
         "bounty",
         "funded",
         "available",
-        "needs-work",
+        "claimed",
+        "delivered",
         "paid"
       ],
       "matching_open_pr_count": 3,
@@ -587,7 +619,7 @@
       ],
       "reward_usd_max": 1.05,
       "title": "Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-      "updated_at": "2026-09-22T06:26:52Z",
+      "updated_at": "2026-09-22T11:46:39Z",
       "verification_confidence": "high"
     },
     {
@@ -611,7 +643,6 @@
       "labels": [
         "bounty",
         "funded",
-        "available",
         "delivered",
         "paid"
       ],
@@ -648,182 +679,12 @@
       ],
       "reward_usd_max": 1.05,
       "title": "Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
-      "updated_at": "2026-09-22T06:23:04Z",
+      "updated_at": "2026-09-22T11:23:24Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/100",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "saimuren",
-          "command": "/attempt #I'm working on the Rust integration suite (#100, #101, #102) to build a unified native performance layer.",
-          "created_at": "2026-02-17T05:16:41Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-3912326319"
-        },
-        {
-          "actor": "saimuren",
-          "command": "/attempt #I'm working on the Rust integration suite (#100, #101, #102) to build a unified native performance layer.",
-          "created_at": "2026-02-17T05:18:08Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-3912330579"
-        },
-        {
-          "actor": "Robertg761",
-          "command": "/attempt #100",
-          "created_at": "2026-05-14T04:30:59Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-4447541171"
-        },
-        {
-          "actor": "Robertg761",
-          "command": "/claim #100",
-          "created_at": "2026-05-14T04:34:50Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-4447560011"
-        },
-        {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #100",
-          "created_at": "2026-07-19T20:33:10Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-5017278164"
-        },
-        {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #100",
-          "created_at": "2026-07-19T20:39:00Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-5017295245"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/claim #100",
-          "created_at": "2026-07-20T02:05:32Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-5018140117"
-        },
-        {
-          "actor": "jackmercy",
-          "command": "/claim #100",
-          "created_at": "2026-09-16T13:17:57Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/100#issuecomment-5698105286"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 13 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/100",
-      "id": "github:Spectral-Finance/lux#100",
-      "labels": [
-        "enhancement",
-        "bounty",
-        "rust"
-      ],
-      "matching_open_pr_count": 13,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-21T20:02:46Z",
-          "number": 972,
-          "title": "fix: resolve #100 - Cargo Package Management Integration $300",
-          "url": "https://github.com/Spectral-Finance/lux/pull/972"
-        },
-        {
-          "created_at": "2026-09-10T13:53:50Z",
-          "number": 960,
-          "title": "fix: resolve #100 (Cargo Package Management Integration $300)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/960"
-        },
-        {
-          "created_at": "2026-09-16T13:17:50Z",
-          "number": 971,
-          "title": "feat(rust): add Cargo package management and build integration (fixes #100)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/971"
-        },
-        {
-          "created_at": "2026-07-20T09:54:19Z",
-          "number": 936,
-          "title": "feat: Cargo Package Management Integration (#100)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/936"
-        },
-        {
-          "created_at": "2026-07-19T20:40:27Z",
-          "number": 933,
-          "title": "feat(rust): add Cargo Package Management integration (#100)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/933"
-        },
-        {
-          "created_at": "2026-05-28T07:35:02Z",
-          "number": 639,
-          "title": "feat: Cargo package management integration ($300 bounty #100)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/639"
-        },
-        {
-          "created_at": "2026-03-08T09:25:15Z",
-          "number": 457,
-          "title": "feat: Cargo Package Management Integration (#100)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/457"
-        },
-        {
-          "created_at": "2026-09-22T05:56:38Z",
-          "number": 973,
-          "title": "[Bounty] Cargo Package Management Integration $300",
-          "url": "https://github.com/Spectral-Finance/lux/pull/973"
-        },
-        {
-          "created_at": "2026-06-25T06:57:39Z",
-          "number": 859,
-          "title": "feat(rust): add Cargo package management and workspace helpers",
-          "url": "https://github.com/Spectral-Finance/lux/pull/859"
-        },
-        {
-          "created_at": "2026-06-02T17:16:28Z",
-          "number": 689,
-          "title": "feat: add Cargo Package Management integration",
-          "url": "https://github.com/Spectral-Finance/lux/pull/689"
-        },
-        {
-          "created_at": "2026-05-28T07:11:44Z",
-          "number": 637,
-          "title": "[ShanaBoo] Cargo Package Management Integration $300",
-          "url": "https://github.com/Spectral-Finance/lux/pull/637"
-        },
-        {
-          "created_at": "2026-05-21T09:59:46Z",
-          "number": 620,
-          "title": "Add Rust Cargo integration helpers",
-          "url": "https://github.com/Spectral-Finance/lux/pull/620"
-        },
-        {
-          "created_at": "2026-05-14T06:03:37Z",
-          "number": 587,
-          "title": "feat: add Cargo package planner",
-          "url": "https://github.com/Spectral-Finance/lux/pull/587"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$300"
-      ],
-      "reward_usd_max": 300.0,
-      "title": "Cargo Package Management Integration $300",
-      "updated_at": "2026-09-22T05:52:34Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/1",
+      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/4",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -834,164 +695,161 @@
       "claim_signals": [
         {
           "actor": "Zubi-fix",
-          "command": "/claim #1",
-          "created_at": "2026-07-03T14:30:30Z",
+          "command": "/claim #4",
+          "created_at": "2026-07-03T14:33:49Z",
           "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/1#issuecomment-4877261243"
+          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/4#issuecomment-4877285563"
         },
         {
           "actor": "code-cannot-be-blank",
-          "command": "/attempt #1",
-          "created_at": "2026-07-03T14:30:37Z",
+          "command": "/attempt #4",
+          "created_at": "2026-07-03T14:33:55Z",
           "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/1#issuecomment-4877261980"
+          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/4#issuecomment-4877286457"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 18 open PRs explicitly reference the canonical issue."
+        "At least 19 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/1",
-      "id": "github:Nexussyn/ai-growth-engine#1",
+      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/4",
+      "id": "github:Nexussyn/ai-growth-engine#4",
       "labels": [
         "good first issue",
         "agent-task",
         "bounty",
-        "pricing"
+        "frontend"
       ],
-      "matching_open_pr_count": 18,
+      "matching_open_pr_count": 19,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-19T09:59:07Z",
-          "number": 143,
-          "title": "feat: tiered pricing (#1) + referral loop (#2) \u2014 Wallet: 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/143"
+          "created_at": "2026-09-19T10:11:16Z",
+          "number": 146,
+          "title": "feat(landing): mobile-first wallet deep-link landing (#4) \u2014 Wallet: 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/146"
         },
         {
-          "created_at": "2026-09-22T06:29:34Z",
-          "number": 154,
-          "title": "fix: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected (fixes #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/154"
+          "created_at": "2026-08-25T12:23:14Z",
+          "number": 116,
+          "title": "feat(landing): mobile wallet deep-link CTA + tracking (#4) [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/116"
         },
         {
-          "created_at": "2026-07-03T23:26:55Z",
-          "number": 28,
-          "title": "[AGENT-SOLUTION] Implement tiered pricing engine (Issue #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/28"
+          "created_at": "2026-07-03T14:37:50Z",
+          "number": 6,
+          "title": "fix: auto-patch for issue #4",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/6"
         },
         {
-          "created_at": "2026-08-25T20:20:40Z",
-          "number": 118,
-          "title": "feat(pricing): get_tier_price alias + boundary hardening (#1) [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/118"
+          "created_at": "2026-09-03T04:40:43Z",
+          "number": 119,
+          "title": "feat(landing): mobile-first landing page with wallet deep-links (#4) [0xaB11FaD6A8d3FE23F79f30E11a0fbdCeb969E170]",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/119"
         },
         {
-          "created_at": "2026-08-25T04:01:00Z",
-          "number": 112,
-          "title": "feat(pricing): implement 4-tier pricing engine and migration (#1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/112"
+          "created_at": "2026-09-22T11:19:28Z",
+          "number": 157,
+          "title": "fix: [AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% co (fixes #4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/157"
         },
         {
-          "created_at": "2026-07-15T15:39:38Z",
-          "number": 76,
-          "title": "Harden tiered pricing engine for issue #1",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/76"
+          "created_at": "2026-08-25T03:00:34Z",
+          "number": 111,
+          "title": "feat(landing): implement mobile landing page with wallet deep-links (#4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/111"
         },
         {
-          "created_at": "2026-08-21T16:37:19Z",
-          "number": 108,
-          "title": "feat(payments): implement x402 Base USDC payment challenge & receipt verifier (#1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/108"
+          "created_at": "2026-08-19T09:27:55Z",
+          "number": 106,
+          "title": "feat(landing): implement mobile landing page with wallet deep-links (#4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/106"
         },
         {
-          "created_at": "2026-07-05T01:21:26Z",
-          "number": 50,
-          "title": "Harden tiered pricing edge cases for issue #1",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/50"
+          "created_at": "2026-07-05T01:25:31Z",
+          "number": 53,
+          "title": "Improve mobile landing CTA tracking for issue #4",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/53"
         },
         {
-          "created_at": "2026-07-09T05:02:31Z",
-          "number": 70,
-          "title": "feat: tiered pricing engine with edge case tests (Issue #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/70"
+          "created_at": "2026-08-18T11:47:46Z",
+          "number": 102,
+          "title": "feat(landing): implement mobile-first landing page with web3 wallet deep links (#4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/102"
         },
         {
-          "created_at": "2026-08-15T04:13:18Z",
-          "number": 97,
-          "title": "feat(pricing): implement 4-tier pricing engine and idempotent migration (Fixes #1) [0x3AD489c09A5C750b29155B0d0426Fc70654D59e5]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/97"
+          "created_at": "2026-08-07T14:47:56Z",
+          "number": 95,
+          "title": "feat: implement mobile-first landing page with wallet deep-links (Closes #4) [0x954dB727f224dAabeA2A506C8aE92029b25339cE]",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/95"
         },
         {
-          "created_at": "2026-07-18T01:38:39Z",
-          "number": 80,
-          "title": "Fix #1: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/80"
+          "created_at": "2026-07-26T12:15:07Z",
+          "number": 88,
+          "title": "feat(landing): mobile-first landing page with wallet deep-links (Fixes #4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/88"
         },
         {
-          "created_at": "2026-09-19T15:28:27Z",
-          "number": 150,
-          "title": "Complete tiered price interfaces and database regression tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/150"
+          "created_at": "2026-07-09T04:57:41Z",
+          "number": 66,
+          "title": "feat: mobile-first landing page with wallet deep-links (Issue #4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/66"
         },
         {
-          "created_at": "2026-09-08T09:46:29Z",
-          "number": 120,
-          "title": "fix: classify call 500 as premium",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/120"
+          "created_at": "2026-07-11T14:39:11Z",
+          "number": 74,
+          "title": "feat: mobile-first landing page with wallet deep-links + conversion tracking (Issue #4)",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/74"
         },
         {
-          "created_at": "2026-09-19T12:44:52Z",
-          "number": 147,
-          "title": "Fix: Implement tiered pricing engine",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/147"
+          "created_at": "2026-07-17T18:09:55Z",
+          "number": 77,
+          "title": "Fix #4: [AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% conversion",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/77"
         },
         {
-          "created_at": "2026-09-17T04:20:49Z",
-          "number": 132,
-          "title": "feat(pricing): implement 4-tier pricing engine and migration",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/132"
+          "created_at": "2026-09-19T15:44:18Z",
+          "number": 151,
+          "title": "Simplify mobile wallet landing and persist CTA events",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/151"
         },
         {
-          "created_at": "2026-07-09T20:29:14Z",
-          "number": 71,
-          "title": "fix: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/71"
+          "created_at": "2026-07-04T10:20:14Z",
+          "number": 38,
+          "title": "[AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% conversion",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/38"
         },
         {
-          "created_at": "2026-07-08T19:24:13Z",
-          "number": 62,
-          "title": "feat: tiered pricing engine with validation, bill breakdown, and comprehensive tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/62"
+          "created_at": "2026-07-03T18:46:43Z",
+          "number": 21,
+          "title": "fix: [AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% conv",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/21"
         },
         {
-          "created_at": "2026-07-15T12:12:02Z",
-          "number": 75,
-          "title": "Implement tiered pricing engine API and tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/75"
+          "created_at": "2026-07-08T19:14:55Z",
+          "number": 61,
+          "title": "Mobile-first landing page with wallet deep-link",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/61"
+        },
+        {
+          "created_at": "2026-07-03T23:22:48Z",
+          "number": 26,
+          "title": "[AGENT] Mobile-first landing page with wallet deep-links",
+          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/26"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$0.00",
-        "$0.01",
-        "$0.03",
-        "$0.10",
-        "$15 USD"
+        "$10 USD"
       ],
-      "reward_usd_max": 15.0,
-      "title": "[AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-      "updated_at": "2026-09-22T06:29:36Z",
+      "reward_usd_max": 10.0,
+      "title": "[AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% conversion",
+      "updated_at": "2026-09-22T11:19:31Z",
       "verification_confidence": "high"
     }
   ],
-  "errors": [
-    {
-      "error": "HTTP Error 403: Forbidden",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238"
-    }
-  ],
-  "generated_at": "2026-09-22T06:38:25.728398Z",
+  "errors": [],
+  "generated_at": "2026-09-22T12:36:36.441903Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
