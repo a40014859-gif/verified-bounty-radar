@@ -2,14 +2,47 @@
   "counts": {
     "errors": 0,
     "hold": 0,
-    "manual_review": 15,
-    "pursue": 0,
+    "manual_review": 14,
+    "pursue": 1,
     "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/703",
+      "canonical_url": "https://github.com/OmniBlocks/bountyfarmer/issues/56",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/OmniBlocks/bountyfarmer/issues/56",
+      "id": "github:OmniBlocks/bountyfarmer#56",
+      "labels": [
+        "bounty",
+        "spam"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$1000"
+      ],
+      "reward_usd_max": 1000.0,
+      "title": "$1000 DOOLAR BOUNTY IF YOU CAN ADD STATUS METER TO README!!!!1111",
+      "updated_at": "2026-09-24T18:34:04Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/766",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,10 +56,77 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/703",
-      "id": "github:OphirPay/OphirPay#703",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/766",
+      "id": "github:OphirPay/OphirPay#766",
       "labels": [
-        "security",
+        "contracts",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Trim the 300-entry PaymentError catalog to what the contract actually implements",
+      "updated_at": "2026-09-24T18:33:35Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/738",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/738",
+      "id": "github:OphirPay/OphirPay#738",
+      "labels": [
+        "performance",
+        "ci",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a HEALTHCHECK to the Docker image and distinguish liveness from readiness",
+      "updated_at": "2026-09-24T18:32:03Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/747",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/747",
+      "id": "github:OphirPay/OphirPay#747",
+      "labels": [
+        "backend",
         "performance",
         "difficulty: medium",
         "bounty",
@@ -37,13 +137,13 @@
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Rate limiting is per-instance in memory while the README and env docs advertise Redis",
-      "updated_at": "2026-09-24T12:36:33Z",
+      "title": "Audit outbound Stellar and Horizon calls for the existing timeout helper",
+      "updated_at": "2026-09-24T18:28:30Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/739",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/762",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -57,179 +157,10 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/739",
-      "id": "github:OphirPay/OphirPay#739",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/762",
+      "id": "github:OphirPay/OphirPay#762",
       "labels": [
-        "frontend",
-        "performance",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add a JavaScript bundle-size budget with an analyzer report in CI",
-      "updated_at": "2026-09-24T12:33:58Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/696",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/696",
-      "id": "github:OphirPay/OphirPay#696",
-      "labels": [
-        "bug",
-        "documentation",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "docs/SPEC.md still lists Kani model checking as an unchecked TODO while other docs mark it done",
-      "updated_at": "2026-09-24T12:23:42Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/787",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/787",
-      "id": "github:OphirPay/OphirPay#787",
-      "labels": [
-        "frontend",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add an offline fallback page and precache the critical shell",
-      "updated_at": "2026-09-24T12:01:07Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/693",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/693",
-      "id": "github:OphirPay/OphirPay#693",
-      "labels": [
-        "bug",
-        "contracts",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "unregister_hook and accept_ownership return misleading error codes",
-      "updated_at": "2026-09-24T12:00:34Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/734",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/734",
-      "id": "github:OphirPay/OphirPay#734",
-      "labels": [
-        "ci",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Deduplicate the npm ci and prisma generate preamble with a composite action",
-      "updated_at": "2026-09-24T11:43:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/704",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/704",
-      "id": "github:OphirPay/OphirPay#704",
-      "labels": [
-        "security",
-        "ci",
+        "backend",
         "difficulty: medium",
         "bounty",
         "Stellar Wave"
@@ -237,22 +168,22 @@
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-23T17:47:25Z",
-          "number": 830,
-          "title": "Add allowlist and improved error messaging to CSRF coverage test",
-          "url": "https://github.com/OphirPay/OphirPay/pull/830"
+          "created_at": "2026-09-24T18:10:28Z",
+          "number": 966,
+          "title": "fix: Give API routes a shared wrapper instead of repeating the same preambl (fixes #762)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/966"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Nothing prevents a new mutating route from shipping without CSRF registration",
-      "updated_at": "2026-09-24T12:36:03Z",
+      "title": "Give API routes a shared wrapper instead of repeating the same preamble",
+      "updated_at": "2026-09-24T18:32:48Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/761",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -266,118 +197,10 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
-      "id": "github:tadanobutubutu/screeps#5",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/761",
+      "id": "github:OphirPay/OphirPay#761",
       "labels": [
-        "bug",
-        "documentation",
-        "duplicate",
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "invalid",
-        "workflow-health",
-        "automated",
-        "bot",
-        "dependencies",
-        "ci",
-        "feature",
-        "javascript",
-        "github-actions",
-        "major",
-        "test",
-        "in-progress",
-        "stale",
-        "needs-review",
-        "security",
-        "config",
-        "renovate",
-        "sonarcloud",
-        "codecov",
-        "quality-report",
-        "chore",
-        "needs-triage",
-        "ai-solve",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T08:32:35Z",
-          "number": 255446,
-          "title": "fix: Dependency Dashboard (fixes #5)",
-          "url": "https://github.com/tadanobutubutu/screeps/pull/255446"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Dependency Dashboard",
-      "updated_at": "2026-09-24T12:28:19Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/686",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/686",
-      "id": "github:OphirPay/OphirPay#686",
-      "labels": [
-        "bug",
-        "tests",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T20:22:51Z",
-          "number": 841,
-          "title": "fix: resolve #686 - playwright.visual.config.ts references test:visual scripts t",
-          "url": "https://github.com/OphirPay/OphirPay/pull/841"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "playwright.visual.config.ts references test:visual scripts that do not exist",
-      "updated_at": "2026-09-24T12:12:28Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/695",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/695",
-      "id": "github:OphirPay/OphirPay#695",
-      "labels": [
-        "bug",
-        "contracts",
+        "backend",
         "difficulty: medium",
         "bounty",
         "Stellar Wave"
@@ -385,22 +208,22 @@
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-24T07:43:15Z",
-          "number": 872,
-          "title": "[Draft] create_batch accumulates the batch total with unchecked addition",
-          "url": "https://github.com/OphirPay/OphirPay/pull/872"
+          "created_at": "2026-09-24T16:28:14Z",
+          "number": 946,
+          "title": "fix: Unify the four CSV modules behind one parse/serialize core (fixes #761)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/946"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "create_batch accumulates the batch total with unchecked addition",
-      "updated_at": "2026-09-24T12:00:55Z",
+      "title": "Unify the four CSV modules behind one parse/serialize core",
+      "updated_at": "2026-09-24T18:30:05Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/694",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/825",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -414,49 +237,8 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/694",
-      "id": "github:OphirPay/OphirPay#694",
-      "labels": [
-        "bug",
-        "contracts",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T17:13:06Z",
-          "number": 828,
-          "title": "fix: resolve #694 - set_multisig_config accepts duplicate signers and ignores it",
-          "url": "https://github.com/OphirPay/OphirPay/pull/828"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "set_multisig_config accepts duplicate signers and ignores its documented signer cap",
-      "updated_at": "2026-09-24T12:00:44Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/820",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/820",
-      "id": "github:OphirPay/OphirPay#820",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/825",
+      "id": "github:OphirPay/OphirPay#825",
       "labels": [
         "backend",
         "difficulty: medium",
@@ -467,22 +249,22 @@
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-24T07:17:49Z",
-          "number": 870,
-          "title": "feat(rpc): expose RPC failover state in health and metrics signals (closes #820)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/870"
+          "created_at": "2026-09-24T11:17:42Z",
+          "number": 900,
+          "title": "feat(fees): recommend dynamic transaction fees from Horizon statistics with configurable policy and fallback (#825)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/900"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Expose RPC failover state as a health and metrics signal",
-      "updated_at": "2026-09-24T11:56:35Z",
+      "title": "Recommend transaction fees from Horizon fee statistics instead of a static value",
+      "updated_at": "2026-09-24T18:29:35Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/687",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/765",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -496,11 +278,173 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/687",
-      "id": "github:OphirPay/OphirPay#687",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/765",
+      "id": "github:OphirPay/OphirPay#765",
       "labels": [
-        "bug",
+        "backend",
+        "security",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T18:10:38Z",
+          "number": 967,
+          "title": "fix: Extract the middleware security policy constants out of proxy.ts (fixes #765)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/967"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Extract the middleware security policy constants out of proxy.ts",
+      "updated_at": "2026-09-24T18:10:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/757",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/757",
+      "id": "github:OphirPay/OphirPay#757",
+      "labels": [
+        "contracts",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: hard"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T17:57:19Z",
+          "number": 965,
+          "title": "fix: Split the 6,500-line OphirPay contract into focused modules (fixes #757)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/965"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Split the 6,500-line OphirPay contract into focused modules",
+      "updated_at": "2026-09-24T17:57:21Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/726",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/726",
+      "id": "github:OphirPay/OphirPay#726",
+      "labels": [
         "tests",
+        "ci",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T17:42:53Z",
+          "number": 962,
+          "title": "fix: Wire up the existing lint-staged script so it actually runs before com (fixes #726)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/962"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Wire up the existing lint-staged script so it actually runs before commits",
+      "updated_at": "2026-09-24T17:42:59Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/819",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/819",
+      "id": "github:OphirPay/OphirPay#819",
+      "labels": [
+        "backend",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: hard",
+        "integrations"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-23T17:12:56Z",
+          "number": 827,
+          "title": "fix: Use Horizon streaming for payment status instead of polling reconcilia (fixes #819)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/827"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Use Horizon streaming for payment status instead of polling reconciliation",
+      "updated_at": "2026-09-24T17:32:56Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/754",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/754",
+      "id": "github:OphirPay/OphirPay#754",
+      "labels": [
+        "ci",
         "bounty",
         "Stellar Wave",
         "difficulty: easy"
@@ -508,28 +452,28 @@
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-23T23:29:05Z",
-          "number": 848,
-          "title": "fix: resolve #687 - vitest.config.ts coverage exclusions reference files that no",
-          "url": "https://github.com/OphirPay/OphirPay/pull/848"
+          "created_at": "2026-09-24T17:28:53Z",
+          "number": 960,
+          "title": "fix: Validate the Prometheus alert rules in CI with promtool (fixes #754)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/960"
         },
         {
-          "created_at": "2026-09-24T10:24:19Z",
-          "number": 892,
-          "title": "fix(coverage): purge dead exclusions and enforce exclusion path integrity (#687)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/892"
+          "created_at": "2026-09-24T13:49:00Z",
+          "number": 914,
+          "title": "ci: validate the prometheus alert rules with promtool",
+          "url": "https://github.com/OphirPay/OphirPay/pull/914"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "vitest.config.ts coverage exclusions reference files that no longer exist",
-      "updated_at": "2026-09-24T11:32:22Z",
+      "title": "Validate the Prometheus alert rules in CI with promtool",
+      "updated_at": "2026-09-24T18:12:28Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/692",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/824",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -543,111 +487,229 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/692",
-      "id": "github:OphirPay/OphirPay#692",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/824",
+      "id": "github:OphirPay/OphirPay#824",
       "labels": [
-        "bug",
-        "contracts",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T19:01:10Z",
-          "number": 839,
-          "title": "fix(contracts): saturate propose_upgrade unlock timestamp (#692)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/839"
-        },
-        {
-          "created_at": "2026-09-24T11:30:19Z",
-          "number": 901,
-          "title": "fix(contracts): saturate propose_upgrade unlock timestamp arithmetic (#692)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/901"
-        },
-        {
-          "created_at": "2026-09-24T04:32:00Z",
-          "number": 855,
-          "title": "fix: resolve #692 - propose_upgrade uses non-saturating timestamp addition in bo",
-          "url": "https://github.com/OphirPay/OphirPay/pull/855"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "propose_upgrade uses non-saturating timestamp addition in both contracts",
-      "updated_at": "2026-09-24T11:32:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/818",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/818",
-      "id": "github:OphirPay/OphirPay#818",
-      "labels": [
-        "documentation",
+        "frontend",
         "difficulty: medium",
         "bounty",
         "Stellar Wave",
         "integrations"
       ],
-      "matching_open_pr_count": 5,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-24T06:32:21Z",
-          "number": 864,
-          "title": "feat(webhook): add Go reference signature verifier (closes #818)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/864"
+          "created_at": "2026-09-24T07:23:47Z",
+          "number": 871,
+          "title": "feat(assets): resolve and display SEP-1 asset metadata for custom assets (closes #824)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/871"
         },
         {
-          "created_at": "2026-09-24T04:09:12Z",
-          "number": 853,
-          "title": "fix: Add a Go reference verifier for webhook signatures",
-          "url": "https://github.com/OphirPay/OphirPay/pull/853"
-        },
-        {
-          "created_at": "2026-09-24T05:54:41Z",
-          "number": 859,
-          "title": "feat: add Go reference verifier for webhook signatures",
-          "url": "https://github.com/OphirPay/OphirPay/pull/859"
-        },
-        {
-          "created_at": "2026-09-23T18:04:18Z",
-          "number": 831,
-          "title": "docs: resolve #818 - Add a Go reference verifier for webhook signatures",
-          "url": "https://github.com/OphirPay/OphirPay/pull/831"
-        },
-        {
-          "created_at": "2026-09-23T20:37:02Z",
-          "number": 844,
-          "title": "feat(webhooks): add Go reference verifier for webhook signatures",
-          "url": "https://github.com/OphirPay/OphirPay/pull/844"
+          "created_at": "2026-09-24T17:43:51Z",
+          "number": 963,
+          "title": "fix: Look up asset metadata so custom assets display their ticker and issue (fixes #824)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/963"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Add a Go reference verifier for webhook signatures",
-      "updated_at": "2026-09-24T11:46:52Z",
+      "title": "Look up asset metadata so custom assets display their ticker and issuer name",
+      "updated_at": "2026-09-24T17:43:53Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/809",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/809",
+      "id": "github:OphirPay/OphirPay#809",
+      "labels": [
+        "frontend",
+        "feature",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T10:49:31Z",
+          "number": 897,
+          "title": "feat(trustline): add trustline setup flow for non-native assets (#809)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/897"
+        },
+        {
+          "created_at": "2026-09-24T17:17:09Z",
+          "number": 955,
+          "title": "fix: Add a trustline setup flow for non-native assets (fixes #809)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/955"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a trustline setup flow for non-native assets",
+      "updated_at": "2026-09-24T17:17:11Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tari-project/wxtm-bridge-frontend/issues/103",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "1164148-7-eng",
+          "command": "/attempt #103",
+          "created_at": "2026-04-23T17:23:04Z",
+          "recent": false,
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/issues/103#issuecomment-4306408516"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/tari-project/wxtm-bridge-frontend/issues/103",
+      "id": "github:tari-project/wxtm-bridge-frontend#103",
+      "labels": [
+        "bounty",
+        "bounty-S"
+      ],
+      "matching_open_pr_count": 17,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-13T07:55:43Z",
+          "number": 145,
+          "title": "fix: pin Next.js to 16.1.7 (fixes #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/145"
+        },
+        {
+          "created_at": "2026-09-22T15:41:06Z",
+          "number": 146,
+          "title": "fix: pin Next.js to 16.1.7 to mitigate CVE risk (Fixes #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/146"
+        },
+        {
+          "created_at": "2026-09-24T17:29:24Z",
+          "number": 147,
+          "title": "fix: Mitigate risks due to \"next\" known CVEs version and current versions r (fixes #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/147"
+        },
+        {
+          "created_at": "2026-09-11T13:54:35Z",
+          "number": 144,
+          "title": "fix: pin next and eslint-config-next to exact 16.2.11 (bounty #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/144"
+        },
+        {
+          "created_at": "2026-08-17T11:03:06Z",
+          "number": 143,
+          "title": "fix: pin next and eslint-config-next to 16.1.7",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/143"
+        },
+        {
+          "created_at": "2026-06-27T04:59:53Z",
+          "number": 141,
+          "title": "fix(#103): pin Next.js to exact 16.1.7 to mitigate CVE risk",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/141"
+        },
+        {
+          "created_at": "2026-05-07T15:17:49Z",
+          "number": 127,
+          "title": "Pin next + eslint-config-next to 16.1.7 (CVE mitigation, closes #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/127"
+        },
+        {
+          "created_at": "2026-06-29T17:48:08Z",
+          "number": 142,
+          "title": "fix: pin next and eslint-config-next versions to 16.1.7 to mitigate CVE risks",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/142"
+        },
+        {
+          "created_at": "2026-04-23T18:05:45Z",
+          "number": 104,
+          "title": "fix: pin next.js to 16.1.7 to mitigate CVE risk (closes #103)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/104"
+        },
+        {
+          "created_at": "2026-05-01T21:11:16Z",
+          "number": 126,
+          "title": "security: update next.js to mitigate CVEs",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/126"
+        },
+        {
+          "created_at": "2026-05-29T08:42:01Z",
+          "number": 136,
+          "title": "fix: Mitigate risks due to \"next\" known CVEs (Signed)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/136"
+        },
+        {
+          "created_at": "2026-04-29T00:12:51Z",
+          "number": 108,
+          "title": "fix: pin Next.js and eslint-config-next to 16.1.7 (exact, no caret)",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/108"
+        },
+        {
+          "created_at": "2026-05-25T02:10:18Z",
+          "number": 135,
+          "title": "fix: Pin Next.js version to mitigate CVE risk",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/135"
+        },
+        {
+          "created_at": "2026-06-18T19:33:29Z",
+          "number": 140,
+          "title": "fix: pin Next.js to 16.1.7 to mitigate CVE risk",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/140"
+        },
+        {
+          "created_at": "2026-05-12T10:45:51Z",
+          "number": 129,
+          "title": "fix: pin next and eslint-config-next to 16.1.7 to mitigate CVE risk",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/129"
+        },
+        {
+          "created_at": "2026-05-12T12:43:28Z",
+          "number": 131,
+          "title": "Pin Next.js and eslint-config-next to 16.1.7",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/131"
+        },
+        {
+          "created_at": "2026-05-01T02:57:20Z",
+          "number": 125,
+          "title": "fix: pin next and eslint-config-next to exact version 16.1.7",
+          "url": "https://github.com/tari-project/wxtm-bridge-frontend/pull/125"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Mitigate risks due to \"next\" known CVEs version and current versions range",
+      "updated_at": "2026-09-24T17:29:26Z",
       "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-24T12:37:46.954211Z",
+  "generated_at": "2026-09-24T18:34:53.781063Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
