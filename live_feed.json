@@ -2,163 +2,14 @@
   "counts": {
     "errors": 0,
     "hold": 0,
-    "manual_review": 8,
-    "pursue": 3,
-    "skip": 4
+    "manual_review": 15,
+    "pursue": 0,
+    "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/398",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/398",
-      "id": "github:Scottcjn/rustchain-bounties#398",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "100 RTC",
-        "10 RTC",
-        "15 RTC",
-        "75 RTC",
-        "25 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[QUEST] Harden the Chain \u2014 Security Quest, 100 RTC Total (per-claimant)",
-      "updated_at": "2026-09-24T06:23:20Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "lingning0806",
-          "command": "/claim",
-          "created_at": "2026-09-08T23:40:17Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/100#issuecomment-5593438931"
-        },
-        {
-          "actor": "arthurianresolve",
-          "command": "/claim",
-          "created_at": "2026-09-22T10:17:26Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/100#issuecomment-5774781637"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/100",
-      "id": "github:Scottcjn/rustchain-bounties#100",
-      "labels": [
-        "bounty",
-        "open",
-        "community",
-        "claimed"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-12T17:34:47Z",
-          "number": 16949,
-          "title": "feat(submissions): Discovery Mode claim for Scottcjn/Rustchain PR #8360 (closes #100)",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16949"
-        },
-        {
-          "created_at": "2026-09-21T02:48:21Z",
-          "number": 17007,
-          "title": "Fix #100: Automated AST Governed Patch for [BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17007"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "10 RTC",
-        "250 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Discovery Mode \u2014 Find Elyan Labs Software, Open PRs, Earn RTC",
-      "updated_at": "2026-09-24T06:34:43Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/430",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/430",
-      "id": "github:auscaster/frantic-board#430",
-      "labels": [
-        "bounty",
-        "funded",
-        "available",
-        "paid"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-18T04:57:25Z",
-          "number": 442,
-          "title": "Fix #430: Add verifier for Frantic bounty #133 (Ausca Media Transcription)",
-          "url": "https://github.com/auscaster/frantic-board/pull/442"
-        },
-        {
-          "created_at": "2026-09-21T02:46:57Z",
-          "number": 450,
-          "title": "Fix #430: Automated AST Governed Patch for Frantic bounty #133: Run Ausca Media Transcription end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/450"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$2.30"
-      ],
-      "reward_usd_max": 2.3,
-      "title": "Frantic bounty #133: Run Ausca Media Transcription end to end and report the process",
-      "updated_at": "2026-09-24T06:19:58Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/796",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/703",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -172,8 +23,110 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/796",
-      "id": "github:OphirPay/OphirPay#796",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/703",
+      "id": "github:OphirPay/OphirPay#703",
+      "labels": [
+        "security",
+        "performance",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Rate limiting is per-instance in memory while the README and env docs advertise Redis",
+      "updated_at": "2026-09-24T12:36:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/739",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/739",
+      "id": "github:OphirPay/OphirPay#739",
+      "labels": [
+        "frontend",
+        "performance",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a JavaScript bundle-size budget with an analyzer report in CI",
+      "updated_at": "2026-09-24T12:33:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/696",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/696",
+      "id": "github:OphirPay/OphirPay#696",
+      "labels": [
+        "bug",
+        "documentation",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "docs/SPEC.md still lists Kani model checking as an unchecked TODO while other docs mark it done",
+      "updated_at": "2026-09-24T12:23:42Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/787",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/787",
+      "id": "github:OphirPay/OphirPay#787",
       "labels": [
         "frontend",
         "difficulty: medium",
@@ -185,13 +138,13 @@
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Give the webhook test sender a delivery preview and a result toast",
-      "updated_at": "2026-09-24T06:23:03Z",
+      "title": "Add an offline fallback page and precache the critical shell",
+      "updated_at": "2026-09-24T12:01:07Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/685",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/693",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -205,34 +158,27 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/685",
-      "id": "github:OphirPay/OphirPay#685",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/693",
+      "id": "github:OphirPay/OphirPay#693",
       "labels": [
         "bug",
-        "tests",
+        "contracts",
         "bounty",
         "Stellar Wave",
         "difficulty: easy"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T22:28:33Z",
-          "number": 847,
-          "title": "fix: resolve #685 - playwright.config.ts documents an e2e-report CI job that was",
-          "url": "https://github.com/OphirPay/OphirPay/pull/847"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "playwright.config.ts documents an e2e-report CI job that was deleted",
-      "updated_at": "2026-09-24T06:24:43Z",
+      "title": "unregister_hook and accept_ownership return misleading error codes",
+      "updated_at": "2026-09-24T12:00:34Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/682",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/734",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -246,110 +192,62 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/682",
-      "id": "github:OphirPay/OphirPay#682",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/734",
+      "id": "github:OphirPay/OphirPay#734",
       "labels": [
-        "bug",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-24T03:31:10Z",
-          "number": 852,
-          "title": "fix: resolve #682 - vercel.json rewrites /.well-known/security.txt to itself",
-          "url": "https://github.com/OphirPay/OphirPay/pull/852"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "vercel.json rewrites /.well-known/security.txt to itself",
-      "updated_at": "2026-09-24T06:18:14Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/681",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/681",
-      "id": "github:OphirPay/OphirPay#681",
-      "labels": [
-        "bug",
-        "security",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-24T00:29:27Z",
-          "number": 849,
-          "title": "fix: resolve #681 - vercel.json and next.config.ts send contradictory X-XSS-Prot",
-          "url": "https://github.com/OphirPay/OphirPay/pull/849"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "vercel.json and next.config.ts send contradictory X-XSS-Protection headers",
-      "updated_at": "2026-09-24T06:15:40Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/680",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/680",
-      "id": "github:OphirPay/OphirPay#680",
-      "labels": [
-        "bug",
         "ci",
         "bounty",
         "Stellar Wave",
         "difficulty: easy"
       ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Deduplicate the npm ci and prisma generate preamble with a composite action",
+      "updated_at": "2026-09-24T11:43:13Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/704",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/704",
+      "id": "github:OphirPay/OphirPay#704",
+      "labels": [
+        "security",
+        "ci",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-24T02:30:37Z",
-          "number": 851,
-          "title": "fix: resolve #680 - .github/labeler.yml still globs the removed src/middleware.t",
-          "url": "https://github.com/OphirPay/OphirPay/pull/851"
+          "created_at": "2026-09-23T17:47:25Z",
+          "number": 830,
+          "title": "Add allowlist and improved error messaging to CSRF coverage test",
+          "url": "https://github.com/OphirPay/OphirPay/pull/830"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": ".github/labeler.yml still globs the removed src/middleware.ts path",
-      "updated_at": "2026-09-24T06:14:12Z",
+      "title": "Nothing prevents a new mutating route from shipping without CSRF registration",
+      "updated_at": "2026-09-24T12:36:03Z",
       "verification_confidence": "medium"
     },
     {
@@ -402,31 +300,25 @@
         "ai-solve",
         "bounty"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
           "created_at": "2026-09-23T08:32:35Z",
           "number": 255446,
           "title": "fix: Dependency Dashboard (fixes #5)",
           "url": "https://github.com/tadanobutubutu/screeps/pull/255446"
-        },
-        {
-          "created_at": "2026-08-31T04:39:30Z",
-          "number": 133646,
-          "title": "fix: resolve issue #5 (concurrent multi-agent)",
-          "url": "https://github.com/tadanobutubutu/screeps/pull/133646"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Dependency Dashboard",
-      "updated_at": "2026-09-24T06:32:31Z",
+      "updated_at": "2026-09-24T12:28:19Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/817",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/686",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -440,46 +332,34 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/817",
-      "id": "github:OphirPay/OphirPay#817",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/686",
+      "id": "github:OphirPay/OphirPay#686",
       "labels": [
-        "documentation",
+        "bug",
+        "tests",
         "bounty",
         "Stellar Wave",
-        "difficulty: easy",
-        "integrations"
+        "difficulty: easy"
       ],
-      "matching_open_pr_count": 3,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-24T06:30:54Z",
-          "number": 863,
-          "title": "fix: resolve #817 - Add an automation-platform integration guide with ",
-          "url": "https://github.com/OphirPay/OphirPay/pull/863"
-        },
-        {
-          "created_at": "2026-09-24T06:33:18Z",
-          "number": 867,
-          "title": "docs(integrations): add automation platform guide with lifecycle payloads (closes #817)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/867"
-        },
-        {
-          "created_at": "2026-09-23T18:04:24Z",
-          "number": 832,
-          "title": "docs: resolve #817 - Add an automation-platform integration guide with generated payload examples",
-          "url": "https://github.com/OphirPay/OphirPay/pull/832"
+          "created_at": "2026-09-23T20:22:51Z",
+          "number": 841,
+          "title": "fix: resolve #686 - playwright.visual.config.ts references test:visual scripts t",
+          "url": "https://github.com/OphirPay/OphirPay/pull/841"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Add an automation-platform integration guide with generated payload examples",
-      "updated_at": "2026-09-24T06:30:40Z",
+      "title": "playwright.visual.config.ts references test:visual scripts that do not exist",
+      "updated_at": "2026-09-24T12:12:28Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/695",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -493,513 +373,281 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
-      "id": "github:ditto-assistant/ditto-subnet#2047",
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/695",
+      "id": "github:OphirPay/OphirPay#695",
+      "labels": [
+        "bug",
+        "contracts",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T07:43:15Z",
+          "number": 872,
+          "title": "[Draft] create_batch accumulates the batch total with unchecked addition",
+          "url": "https://github.com/OphirPay/OphirPay/pull/872"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "create_batch accumulates the batch total with unchecked addition",
+      "updated_at": "2026-09-24T12:00:55Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/694",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/694",
+      "id": "github:OphirPay/OphirPay#694",
+      "labels": [
+        "bug",
+        "contracts",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-23T17:13:06Z",
+          "number": 828,
+          "title": "fix: resolve #694 - set_multisig_config accepts duplicate signers and ignores it",
+          "url": "https://github.com/OphirPay/OphirPay/pull/828"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "set_multisig_config accepts duplicate signers and ignores its documented signer cap",
+      "updated_at": "2026-09-24T12:00:44Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/820",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/820",
+      "id": "github:OphirPay/OphirPay#820",
+      "labels": [
+        "backend",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave",
+        "integrations"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T07:17:49Z",
+          "number": 870,
+          "title": "feat(rpc): expose RPC failover state in health and metrics signals (closes #820)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/870"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Expose RPC failover state as a health and metrics signal",
+      "updated_at": "2026-09-24T11:56:35Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/687",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/687",
+      "id": "github:OphirPay/OphirPay#687",
+      "labels": [
+        "bug",
+        "tests",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-23T23:29:05Z",
+          "number": 848,
+          "title": "fix: resolve #687 - vitest.config.ts coverage exclusions reference files that no",
+          "url": "https://github.com/OphirPay/OphirPay/pull/848"
+        },
+        {
+          "created_at": "2026-09-24T10:24:19Z",
+          "number": 892,
+          "title": "fix(coverage): purge dead exclusions and enforce exclusion path integrity (#687)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/892"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "vitest.config.ts coverage exclusions reference files that no longer exist",
+      "updated_at": "2026-09-24T11:32:22Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/692",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/692",
+      "id": "github:OphirPay/OphirPay#692",
+      "labels": [
+        "bug",
+        "contracts",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-23T19:01:10Z",
+          "number": 839,
+          "title": "fix(contracts): saturate propose_upgrade unlock timestamp (#692)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/839"
+        },
+        {
+          "created_at": "2026-09-24T11:30:19Z",
+          "number": 901,
+          "title": "fix(contracts): saturate propose_upgrade unlock timestamp arithmetic (#692)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/901"
+        },
+        {
+          "created_at": "2026-09-24T04:32:00Z",
+          "number": 855,
+          "title": "fix: resolve #692 - propose_upgrade uses non-saturating timestamp addition in bo",
+          "url": "https://github.com/OphirPay/OphirPay/pull/855"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "propose_upgrade uses non-saturating timestamp addition in both contracts",
+      "updated_at": "2026-09-24T11:32:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/818",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/818",
+      "id": "github:OphirPay/OphirPay#818",
       "labels": [
         "documentation",
-        "good first issue",
-        "help wanted",
-        "bounty"
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave",
+        "integrations"
       ],
       "matching_open_pr_count": 5,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-20T20:11:31Z",
-          "number": 2060,
-          "title": "docs: Add SN118 bounty board and contributor guide (Issue #2047)",
-          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2060"
+          "created_at": "2026-09-24T06:32:21Z",
+          "number": 864,
+          "title": "feat(webhook): add Go reference signature verifier (closes #818)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/864"
         },
         {
-          "created_at": "2026-09-22T07:13:50Z",
-          "number": 2096,
-          "title": "feat(bounties): publish GitHub-backed SN118 bounty board and contributor guide (#2047)",
-          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2096"
+          "created_at": "2026-09-24T04:09:12Z",
+          "number": 853,
+          "title": "fix: Add a Go reference verifier for webhook signatures",
+          "url": "https://github.com/OphirPay/OphirPay/pull/853"
         },
         {
-          "created_at": "2026-09-20T15:22:11Z",
-          "number": 2058,
-          "title": "feat(bounties): publish GitHub-backed SN118 bounty board and contributor guide (#2047)",
-          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2058"
+          "created_at": "2026-09-24T05:54:41Z",
+          "number": 859,
+          "title": "feat: add Go reference verifier for webhook signatures",
+          "url": "https://github.com/OphirPay/OphirPay/pull/859"
         },
         {
-          "created_at": "2026-09-20T14:59:49Z",
-          "number": 2057,
-          "title": "docs: resolve #2047 - Publish a GitHub-backed SN118 bounty board and contributor guide",
-          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2057"
+          "created_at": "2026-09-23T18:04:18Z",
+          "number": 831,
+          "title": "docs: resolve #818 - Add a Go reference verifier for webhook signatures",
+          "url": "https://github.com/OphirPay/OphirPay/pull/831"
         },
         {
-          "created_at": "2026-09-20T14:59:31Z",
-          "number": 2055,
-          "title": "docs: resolve #2047 - Publish a GitHub-backed SN118 bounty board and contributor guide",
-          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2055"
+          "created_at": "2026-09-23T20:37:02Z",
+          "number": 844,
+          "title": "feat(webhooks): add Go reference verifier for webhook signatures",
+          "url": "https://github.com/OphirPay/OphirPay/pull/844"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Publish a GitHub-backed SN118 bounty board and contributor guide",
-      "updated_at": "2026-09-24T06:35:36Z",
+      "title": "Add a Go reference verifier for webhook signatures",
+      "updated_at": "2026-09-24T11:46:52Z",
       "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/432",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 3 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/432",
-      "id": "github:auscaster/frantic-board#432",
-      "labels": [
-        "bounty",
-        "funded",
-        "delivered",
-        "needs-work",
-        "paid"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-17T18:12:25Z",
-          "number": 436,
-          "title": "fix: resolve #432 - Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/436"
-        },
-        {
-          "created_at": "2026-09-18T03:54:07Z",
-          "number": 438,
-          "title": "Fix #432: Add verifier for Frantic bounty #135 (Ausca Agent Inbox)",
-          "url": "https://github.com/auscaster/frantic-board/pull/438"
-        },
-        {
-          "created_at": "2026-09-21T02:46:13Z",
-          "number": 448,
-          "title": "Fix #432: Automated AST Governed Patch for Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/448"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1.05"
-      ],
-      "reward_usd_max": 1.05,
-      "title": "Frantic bounty #135: Run an Ausca Agent Inbox end to end and report the process",
-      "updated_at": "2026-09-24T06:30:40Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/431",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 4 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/431",
-      "id": "github:auscaster/frantic-board#431",
-      "labels": [
-        "bounty",
-        "funded",
-        "delivered",
-        "paid"
-      ],
-      "matching_open_pr_count": 4,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-18T08:20:47Z",
-          "number": 446,
-          "title": "Fix #431: Add verifier for Frantic bounty #134 (Ausca Browser Session)",
-          "url": "https://github.com/auscaster/frantic-board/pull/446"
-        },
-        {
-          "created_at": "2026-09-18T03:59:05Z",
-          "number": 439,
-          "title": "Fix #431: Add verifier for Frantic bounty #134 (Ausca Browser Session)",
-          "url": "https://github.com/auscaster/frantic-board/pull/439"
-        },
-        {
-          "created_at": "2026-09-21T02:46:33Z",
-          "number": 449,
-          "title": "Fix #431: Automated AST Governed Patch for Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/449"
-        },
-        {
-          "created_at": "2026-09-22T04:53:42Z",
-          "number": 454,
-          "title": "[Bounty] Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
-          "url": "https://github.com/auscaster/frantic-board/pull/454"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1.05"
-      ],
-      "reward_usd_max": 1.05,
-      "title": "Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
-      "updated_at": "2026-09-24T06:37:03Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Zubi-fix",
-          "command": "/claim #1",
-          "created_at": "2026-07-03T14:30:30Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/1#issuecomment-4877261243"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/attempt #1",
-          "created_at": "2026-07-03T14:30:37Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/1#issuecomment-4877261980"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 18 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/1",
-      "id": "github:Nexussyn/ai-growth-engine#1",
-      "labels": [
-        "good first issue",
-        "agent-task",
-        "bounty",
-        "pricing"
-      ],
-      "matching_open_pr_count": 18,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-19T09:59:07Z",
-          "number": 143,
-          "title": "feat: tiered pricing (#1) + referral loop (#2) \u2014 Wallet: 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/143"
-        },
-        {
-          "created_at": "2026-09-22T06:29:34Z",
-          "number": 154,
-          "title": "fix: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected (fixes #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/154"
-        },
-        {
-          "created_at": "2026-07-03T23:26:55Z",
-          "number": 28,
-          "title": "[AGENT-SOLUTION] Implement tiered pricing engine (Issue #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/28"
-        },
-        {
-          "created_at": "2026-08-25T20:20:40Z",
-          "number": 118,
-          "title": "feat(pricing): get_tier_price alias + boundary hardening (#1) [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/118"
-        },
-        {
-          "created_at": "2026-08-25T04:01:00Z",
-          "number": 112,
-          "title": "feat(pricing): implement 4-tier pricing engine and migration (#1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/112"
-        },
-        {
-          "created_at": "2026-07-15T15:39:38Z",
-          "number": 76,
-          "title": "Harden tiered pricing engine for issue #1",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/76"
-        },
-        {
-          "created_at": "2026-08-21T16:37:19Z",
-          "number": 108,
-          "title": "feat(payments): implement x402 Base USDC payment challenge & receipt verifier (#1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/108"
-        },
-        {
-          "created_at": "2026-07-05T01:21:26Z",
-          "number": 50,
-          "title": "Harden tiered pricing edge cases for issue #1",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/50"
-        },
-        {
-          "created_at": "2026-07-09T05:02:31Z",
-          "number": 70,
-          "title": "feat: tiered pricing engine with edge case tests (Issue #1)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/70"
-        },
-        {
-          "created_at": "2026-08-15T04:13:18Z",
-          "number": 97,
-          "title": "feat(pricing): implement 4-tier pricing engine and idempotent migration (Fixes #1) [0x3AD489c09A5C750b29155B0d0426Fc70654D59e5]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/97"
-        },
-        {
-          "created_at": "2026-07-18T01:38:39Z",
-          "number": 80,
-          "title": "Fix #1: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/80"
-        },
-        {
-          "created_at": "2026-09-19T15:28:27Z",
-          "number": 150,
-          "title": "Complete tiered price interfaces and database regression tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/150"
-        },
-        {
-          "created_at": "2026-09-08T09:46:29Z",
-          "number": 120,
-          "title": "fix: classify call 500 as premium",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/120"
-        },
-        {
-          "created_at": "2026-09-19T12:44:52Z",
-          "number": 147,
-          "title": "Fix: Implement tiered pricing engine",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/147"
-        },
-        {
-          "created_at": "2026-09-17T04:20:49Z",
-          "number": 132,
-          "title": "feat(pricing): implement 4-tier pricing engine and migration",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/132"
-        },
-        {
-          "created_at": "2026-07-09T20:29:14Z",
-          "number": 71,
-          "title": "fix: [AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/71"
-        },
-        {
-          "created_at": "2026-07-08T19:24:13Z",
-          "number": 62,
-          "title": "feat: tiered pricing engine with validation, bill breakdown, and comprehensive tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/62"
-        },
-        {
-          "created_at": "2026-07-15T12:12:02Z",
-          "number": 75,
-          "title": "Implement tiered pricing engine API and tests",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/75"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$0.00",
-        "$0.01",
-        "$0.03",
-        "$0.10",
-        "$15 USD"
-      ],
-      "reward_usd_max": 15.0,
-      "title": "[AGENT-TASK] Implement tiered pricing engine \u2014 +30% revenue expected",
-      "updated_at": "2026-09-24T06:29:13Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Zubi-fix",
-          "command": "/claim #2",
-          "created_at": "2026-07-03T14:34:26Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/2#issuecomment-4877291508"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/claim #2",
-          "created_at": "2026-07-03T14:34:33Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/2#issuecomment-4877292420"
-        },
-        {
-          "actor": "MariaBountyHounter",
-          "command": "/claim",
-          "created_at": "2026-07-04T11:15:31Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/2#issuecomment-4881769894"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 22 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/2",
-      "id": "github:Nexussyn/ai-growth-engine#2",
-      "labels": [
-        "good first issue",
-        "agent-task",
-        "bounty",
-        "growth"
-      ],
-      "matching_open_pr_count": 22,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T07:55:13Z",
-          "number": 123,
-          "title": "Implement referral reward loop for issue #2",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/123"
-        },
-        {
-          "created_at": "2026-09-11T08:49:06Z",
-          "number": 130,
-          "title": "feat(growth): implement referral reward loop (Closes #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/130"
-        },
-        {
-          "created_at": "2026-09-19T09:59:07Z",
-          "number": 143,
-          "title": "feat: tiered pricing (#1) + referral loop (#2) \u2014 Wallet: 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/143"
-        },
-        {
-          "created_at": "2026-09-22T18:00:12Z",
-          "number": 165,
-          "title": "fix: [AGENT-TASK] Implement referral reward loop \u2014 +20% conversion (fixes #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/165"
-        },
-        {
-          "created_at": "2026-08-02T03:12:00Z",
-          "number": 91,
-          "title": "feat: Implement referral reward loop (#2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/91"
-        },
-        {
-          "created_at": "2026-08-25T01:00:47Z",
-          "number": 109,
-          "title": "feat(growth): implement referral reward loop engine (#2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/109"
-        },
-        {
-          "created_at": "2026-08-19T09:00:04Z",
-          "number": 104,
-          "title": "feat(growth): implement referral reward loop engine (#2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/104"
-        },
-        {
-          "created_at": "2026-08-18T11:46:44Z",
-          "number": 100,
-          "title": "feat(growth): implement referral reward loop with duplicate prevention (#2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/100"
-        },
-        {
-          "created_at": "2026-07-11T14:34:08Z",
-          "number": 72,
-          "title": "feat: referral reward loop system (Issue #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/72"
-        },
-        {
-          "created_at": "2026-07-20T10:00:04Z",
-          "number": 82,
-          "title": "feat: referral reward loop (+5 free credits) (#2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/82"
-        },
-        {
-          "created_at": "2026-07-05T01:23:08Z",
-          "number": 51,
-          "title": "Add referral processing service for issue #2",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/51"
-        },
-        {
-          "created_at": "2026-07-03T23:23:47Z",
-          "number": 27,
-          "title": "feat: implement referral reward loop (closes #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/27"
-        },
-        {
-          "created_at": "2026-07-09T04:59:49Z",
-          "number": 68,
-          "title": "feat: referral reward loop with tests (Issue #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/68"
-        },
-        {
-          "created_at": "2026-07-24T23:58:14Z",
-          "number": 85,
-          "title": "feat(referral): implement referral reward loop & idempotency checks (Fixes #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/85"
-        },
-        {
-          "created_at": "2026-07-08T19:26:36Z",
-          "number": 63,
-          "title": "[PR] Implement referral reward loop \u2014 +20% conversion (Issue #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/63"
-        },
-        {
-          "created_at": "2026-07-18T01:35:34Z",
-          "number": 79,
-          "title": "Fix #2: [AGENT-TASK] Implement referral reward loop \u2014 +20% conversion",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/79"
-        },
-        {
-          "created_at": "2026-07-04T11:17:34Z",
-          "number": 39,
-          "title": "[AGENT-TASK] Implement referral reward loop \u2014 +20% conversion (closes #2)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/39"
-        },
-        {
-          "created_at": "2026-09-08T09:52:48Z",
-          "number": 121,
-          "title": "[AGENT-TASK] Implement referral reward loop",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/121"
-        },
-        {
-          "created_at": "2026-09-19T08:08:04Z",
-          "number": 142,
-          "title": "Fix: Implement referral reward loop",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/142"
-        },
-        {
-          "created_at": "2026-09-24T06:35:13Z",
-          "number": 168,
-          "title": "feat: implement idempotent referral reward loop",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/168"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$10 USD"
-      ],
-      "reward_usd_max": 10.0,
-      "title": "[AGENT-TASK] Implement referral reward loop \u2014 +20% conversion",
-      "updated_at": "2026-09-24T06:29:16Z",
-      "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-24T06:37:47.303452Z",
+  "generated_at": "2026-09-24T12:37:46.954211Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
