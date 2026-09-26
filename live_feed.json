@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
-    "manual_review": 14,
-    "pursue": 1,
-    "skip": 0
+    "hold": 1,
+    "manual_review": 7,
+    "pursue": 2,
+    "skip": 5
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -19,74 +19,25 @@
       ],
       "claim_signals": [
         {
-          "actor": "arawnslab-hash",
+          "actor": "zhaog100",
           "command": "/claim",
-          "created_at": "2026-09-15T14:10:47Z",
+          "created_at": "2026-07-21T11:40:13Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5681624807"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5033482919"
         },
         {
-          "actor": "Cid-oe",
+          "actor": "zhaog100",
           "command": "/claim",
-          "created_at": "2026-09-16T02:11:42Z",
+          "created_at": "2026-07-22T23:22:37Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5690970108"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5052629669"
         },
         {
-          "actor": "Cid-oe",
+          "actor": "oracledigitalpt-design",
           "command": "/claim",
-          "created_at": "2026-09-18T02:55:48Z",
+          "created_at": "2026-09-25T19:28:45Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5724465005"
-        },
-        {
-          "actor": "Cid-oe",
-          "command": "/claim",
-          "created_at": "2026-09-18T10:32:05Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5728755638"
-        },
-        {
-          "actor": "dwaddle",
-          "command": "/claim",
-          "created_at": "2026-09-18T15:32:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5732280332"
-        },
-        {
-          "actor": "Cid-oe",
-          "command": "/claim",
-          "created_at": "2026-09-18T17:34:05Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5733785878"
-        },
-        {
-          "actor": "mdmcl-pixel",
-          "command": "/claim",
-          "created_at": "2026-09-18T20:38:09Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5735897615"
-        },
-        {
-          "actor": "Nish916",
-          "command": "/claim",
-          "created_at": "2026-09-19T09:07:29Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5740669111"
-        },
-        {
-          "actor": "dwaddle",
-          "command": "/claim",
-          "created_at": "2026-09-19T11:59:35Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5741668558"
-        },
-        {
-          "actor": "BeauDevCode",
-          "command": "/claim",
-          "created_at": "2026-09-22T17:42:41Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5781185108"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5838340678"
         }
       ],
       "closed_at": null,
@@ -94,143 +45,746 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
-      "id": "github:Scottcjn/rustchain-bounties#16471",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
+      "id": "github:Scottcjn/rustchain-bounties#282",
       "labels": [
         "bounty",
-        "claimed"
+        "distribution"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "15 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
+      "updated_at": "2026-09-26T10:56:38Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+      "id": "github:Scottcjn/rustchain-bounties#2180",
+      "labels": [
+        "bounty",
+        "distribution"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "5 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
+      "updated_at": "2026-09-26T10:56:32Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1324",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "s6pa1rta3n-lab",
+          "command": "/claim",
+          "created_at": "2026-09-10T04:08:39Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1324#issuecomment-5612851256"
+        },
+        {
+          "actor": "PINYOPATTANAWASANPORN",
+          "command": "/claim",
+          "created_at": "2026-09-11T05:57:03Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1324#issuecomment-5630154678"
+        },
+        {
+          "actor": "elkhairsatti-blip",
+          "command": "/claim",
+          "created_at": "2026-09-26T11:30:08Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1324#issuecomment-5845898325"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1324",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1324",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-26T11:31:07Z",
+          "number": 1670,
+          "title": "AI Agent Fix for Issue #1324",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1670"
+        },
+        {
+          "created_at": "2026-09-10T04:15:59Z",
+          "number": 1330,
+          "title": "fix(collision): implement swept AABB continuous collision detection across sub-tick intervals (#1324)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1330"
+        },
+        {
+          "created_at": "2026-09-11T06:04:01Z",
+          "number": 1448,
+          "title": "Fix #1324: [Bounty] [Bounty: $850] Hitbox Collision Dropout during Rapid Contraption Kinematic Telep",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1448"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$850"
+      ],
+      "reward_usd_max": 850.0,
+      "title": "[Bounty] [Bounty: $850] Hitbox Collision Dropout during Rapid Contraption Kinematic Telep",
+      "updated_at": "2026-09-26T11:30:08Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1199",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1199",
+      "id": "github:relayhop/sn-monetization-runtime#1199",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-09-26T11:16",
+      "updated_at": "2026-09-26T11:16:11Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/809",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #809",
+          "created_at": "2026-09-26T05:15:21Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/809#issuecomment-5843451028"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #809",
+          "created_at": "2026-09-26T05:15:50Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/809#issuecomment-5843453857"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/809",
+      "id": "github:OphirPay/OphirPay#809",
+      "labels": [
+        "frontend",
+        "feature",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T10:49:31Z",
+          "number": 897,
+          "title": "feat(trustline): add trustline setup flow for non-native assets (#809)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/897"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a trustline setup flow for non-native assets",
+      "updated_at": "2026-09-26T12:08:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/790",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #790",
+          "created_at": "2026-09-26T05:15:01Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/790#issuecomment-5843449012"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #790",
+          "created_at": "2026-09-26T05:16:12Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/790#issuecomment-5843455986"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/790",
+      "id": "github:OphirPay/OphirPay#790",
+      "labels": [
+        "frontend",
+        "accessibility",
+        "difficulty: medium",
+        "bounty"
       ],
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-14T04:00:41Z",
-          "number": 16958,
-          "title": "fix(payout): add retry logic for post-payout GitHub comment/close (#16471)",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16958"
+          "created_at": "2026-09-25T14:22:57Z",
+          "number": 1115,
+          "title": "Add keyboard shortcut cheat sheet overlay (Closes #790)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1115"
         },
         {
-          "created_at": "2026-09-22T17:46:00Z",
-          "number": 17041,
-          "title": "fix(gate): resolve named repositories before judging review claims",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17041"
+          "created_at": "2026-09-24T17:52:03Z",
+          "number": 964,
+          "title": "feat(a11y): add keyboard shortcuts cheat sheet overlay using Kbd primitives (#790)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/964"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a keyboard shortcut cheat sheet using the existing Kbd primitives",
+      "updated_at": "2026-09-26T12:32:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/807",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #807",
+          "created_at": "2026-09-26T05:15:28Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/807#issuecomment-5843451674"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #807",
+          "created_at": "2026-09-26T05:15:43Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/807#issuecomment-5843453179"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/807",
+      "id": "github:OphirPay/OphirPay#807",
+      "labels": [
+        "frontend",
+        "backend",
+        "feature",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T11:06:43Z",
+          "number": 899,
+          "title": "feat(refunds): surface refund reason-code analytics with date-range filters and bounded window notice (#807)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/899"
+        },
+        {
+          "created_at": "2026-09-25T05:15:29Z",
+          "number": 1040,
+          "title": "Surface refund reason-code analytics in the UI",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1040"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Surface refund reason-code analytics in the UI",
+      "updated_at": "2026-09-26T12:07:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/808",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #808",
+          "created_at": "2026-09-26T05:15:25Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/808#issuecomment-5843451336"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #808",
+          "created_at": "2026-09-26T05:15:47Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/808#issuecomment-5843453554"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/808",
+      "id": "github:OphirPay/OphirPay#808",
+      "labels": [
+        "frontend",
+        "feature",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-25T18:08:29Z",
+          "number": 1129,
+          "title": "feat(governance): proposal detail route with tally and quorum",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1129"
+        },
+        {
+          "created_at": "2026-09-24T10:56:17Z",
+          "number": 898,
+          "title": "feat(governance): add proposal detail view with vote history and execution state (#808)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/898"
+        },
+        {
+          "created_at": "2026-09-25T03:37:35Z",
+          "number": 1029,
+          "title": "Add Governance Proposal Detail View with Vote History and Execution State",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1029"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a governance proposal detail view with vote history and execution state",
+      "updated_at": "2026-09-26T12:08:14Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/813",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "nuomi8900-crypto",
+          "command": "/attempt #813 I will implement the SEP-1 stellar.toml file, update the configuration to support its generation, and add the necessary validation tests as per the requirements. I will ensure the PR targets the integration/staging branch.",
+          "created_at": "2026-09-24T07:02:04Z",
+          "recent": false,
+          "url": "https://github.com/OphirPay/OphirPay/issues/813#issuecomment-5809386630"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #813",
+          "created_at": "2026-09-26T05:15:07Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/813#issuecomment-5843449657"
+        },
+        {
+          "actor": "zedward856-spec",
+          "command": "/claim #813",
+          "created_at": "2026-09-26T05:16:03Z",
+          "recent": true,
+          "url": "https://github.com/OphirPay/OphirPay/issues/813#issuecomment-5843455104"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/813",
+      "id": "github:OphirPay/OphirPay#813",
+      "labels": [
+        "contracts",
+        "bounty",
+        "Stellar Wave",
+        "difficulty: easy",
+        "integrations"
+      ],
+      "matching_open_pr_count": 8,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-24T07:02:30Z",
+          "number": 868,
+          "title": "fix: resolve #813 - Publish a SEP-1 stellar.toml so wallets can discov",
+          "url": "https://github.com/OphirPay/OphirPay/pull/868"
+        },
+        {
+          "created_at": "2026-09-24T06:32:33Z",
+          "number": 865,
+          "title": "feat(sep1): publish SEP-1 stellar.toml for discovery (closes #813)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/865"
+        },
+        {
+          "created_at": "2026-09-24T18:32:03Z",
+          "number": 970,
+          "title": "feat(well-known): serve SEP-1 stellar.toml from deployment config (#813)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/970"
+        },
+        {
+          "created_at": "2026-09-25T08:44:06Z",
+          "number": 1060,
+          "title": "feat(discovery): serve SEP-1 stellar.toml generated from env",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1060"
+        },
+        {
+          "created_at": "2026-09-23T20:24:30Z",
+          "number": 842,
+          "title": "feat(discovery): publish SEP-1 stellar.toml for wallet discovery",
+          "url": "https://github.com/OphirPay/OphirPay/pull/842"
+        },
+        {
+          "created_at": "2026-09-25T04:09:58Z",
+          "number": 1030,
+          "title": "feat(sep-1): serve generated /.well-known/stellar.toml with drift guard",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1030"
+        },
+        {
+          "created_at": "2026-09-25T04:40:25Z",
+          "number": 1033,
+          "title": "feat(integrations): publish SEP-1 stellar.toml for wallet discovery",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1033"
+        },
+        {
+          "created_at": "2026-09-25T06:16:05Z",
+          "number": 1044,
+          "title": "feat(sep-1): serve /.well-known/stellar.toml generated from configuration",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1044"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Publish a SEP-1 stellar.toml so wallets can discover the deployment",
+      "updated_at": "2026-09-26T12:08:47Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/sharmiaalono/go-github/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/sharmiaalono/go-github/issues/5",
+      "id": "github:sharmiaalono/go-github#5",
+      "labels": [
+        "bounty",
+        "$10",
+        "bountyhub"
+      ],
+      "matching_open_pr_count": 12,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-18T08:19:13Z",
+          "number": 7,
+          "title": "fix: resolve #5 - handle zero PerPage pagination consistency",
+          "url": "https://github.com/sharmiaalono/go-github/pull/7"
+        },
+        {
+          "created_at": "2026-09-19T20:27:35Z",
+          "number": 17,
+          "title": "fix: preserve pagination when ListOptions.PerPage is 0 (fixes #5)",
+          "url": "https://github.com/sharmiaalono/go-github/pull/17"
+        },
+        {
+          "created_at": "2026-09-18T06:44:42Z",
+          "number": 6,
+          "title": "fix: resolve #5 - \ud83c\udfaf Fix pagination inconsistency and parameter handling when `",
+          "url": "https://github.com/sharmiaalono/go-github/pull/6"
+        },
+        {
+          "created_at": "2026-09-18T12:28:33Z",
+          "number": 9,
+          "title": "fix(pagination): handle ListOptions.PerPage zero-value defaults with unit tests (#5)",
+          "url": "https://github.com/sharmiaalono/go-github/pull/9"
+        },
+        {
+          "created_at": "2026-09-26T11:02:34Z",
+          "number": 24,
+          "title": "fix: consistent pagination with PerPage 0 and Link-header page resolution",
+          "url": "https://github.com/sharmiaalono/go-github/pull/24"
+        },
+        {
+          "created_at": "2026-09-23T17:41:07Z",
+          "number": 22,
+          "title": "Implemented pagination utilities mirroring go-github behavior for default per_page handling and Link header parsing, with accompanying integration tests.",
+          "url": "https://github.com/sharmiaalono/go-github/pull/22"
+        },
+        {
+          "created_at": "2026-09-18T15:59:40Z",
+          "number": 10,
+          "title": "fix: preserve pagination context when PerPage is 0",
+          "url": "https://github.com/sharmiaalono/go-github/pull/10"
+        },
+        {
+          "created_at": "2026-09-18T19:16:51Z",
+          "number": 13,
+          "title": "fix: keep per_page context consistent when ListOptions.PerPage is 0",
+          "url": "https://github.com/sharmiaalono/go-github/pull/13"
+        },
+        {
+          "created_at": "2026-09-25T05:40:50Z",
+          "number": 23,
+          "title": "github: add pagination with consistent zero-value PerPage handling",
+          "url": "https://github.com/sharmiaalono/go-github/pull/23"
+        },
+        {
+          "created_at": "2026-09-22T09:16:00Z",
+          "number": 21,
+          "title": "Fix pagination inconsistency and parameter handling when ListOptions.PerPage is 0",
+          "url": "https://github.com/sharmiaalono/go-github/pull/21"
+        },
+        {
+          "created_at": "2026-09-19T18:39:28Z",
+          "number": 15,
+          "title": "Fix/perpage zero pagination",
+          "url": "https://github.com/sharmiaalono/go-github/pull/15"
+        },
+        {
+          "created_at": "2026-09-20T13:31:00Z",
+          "number": 18,
+          "title": "pagination: extract per_page from link header and normalize zero-valu\u2026",
+          "url": "https://github.com/sharmiaalono/go-github/pull/18"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfaf Fix pagination inconsistency and parameter handling when `ListOptions.PerPage` is 0",
+      "updated_at": "2026-09-26T11:02:54Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "b3417",
+          "command": "/claim I have signed up and would like to claim this bounty.",
+          "created_at": "2026-06-14T16:47:22Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6#issuecomment-4702403479"
+        },
+        {
+          "actor": "wosyilan",
+          "command": "/try",
+          "created_at": "2026-06-16T11:30:38Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6#issuecomment-4718258232"
+        },
+        {
+          "actor": "wosyilan",
+          "command": "/try",
+          "created_at": "2026-06-16T11:30:53Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6#issuecomment-4718260349"
+        },
+        {
+          "actor": "alienvisitor8675-bit",
+          "command": "/claim #6",
+          "created_at": "2026-08-16T13:33:54Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6#issuecomment-5307692250"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 9 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/6",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#6",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-07T23:23:24Z",
+          "number": 142,
+          "title": "feat: Enhanced Image Preview (Issue #6)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/142"
+        },
+        {
+          "created_at": "2026-06-29T09:05:31Z",
+          "number": 99,
+          "title": "fix: issue #6",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/99"
+        },
+        {
+          "created_at": "2026-06-27T13:57:54Z",
+          "number": 86,
+          "title": "fix: issue #6",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/86"
+        },
+        {
+          "created_at": "2026-09-09T13:01:35Z",
+          "number": 170,
+          "title": "feat: Enhanced Image Preview with gesture support (issue #6)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/170"
+        },
+        {
+          "created_at": "2026-05-29T00:00:39Z",
+          "number": 14,
+          "title": "Fix Issue #6: Enhanced Image Preview",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/14"
+        },
+        {
+          "created_at": "2026-07-13T23:04:54Z",
+          "number": 115,
+          "title": "feat: add Enhanced Image Preview reference implementation (fixes #6)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/115"
+        },
+        {
+          "created_at": "2026-08-24T00:18:06Z",
+          "number": 133,
+          "title": "feat: Add enhanced full-screen image preview modal",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/133"
+        },
+        {
+          "created_at": "2026-06-23T07:17:53Z",
+          "number": 74,
+          "title": "feat: Enhanced Image Preview",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/74"
+        },
+        {
+          "created_at": "2026-05-29T00:02:55Z",
+          "number": 18,
+          "title": "[ShanaBoo] [PAID BOUNTY - $660] Enhanced Image Preview",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/18"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "35 RTC",
-        "10 RTC"
+        "$660"
       ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-success failures",
-      "updated_at": "2026-09-26T05:39:00Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 660.0,
+      "title": "[PAID BOUNTY - $660] Enhanced Image Preview",
+      "updated_at": "2026-09-26T12:07:06Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/2280",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/2280",
-      "id": "github:Ikalus1988/MisakaNet#2280",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer 3 linked question(s) as a lesson",
-      "updated_at": "2026-09-26T05:50:59Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/691",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/691",
-      "id": "github:OphirPay/OphirPay#691",
-      "labels": [
-        "bug",
-        "contracts",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "compute_vested returns 0 on overflow, silently under-vesting a stream",
-      "updated_at": "2026-09-26T05:20:32Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/2281",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/2281",
-      "id": "github:Ikalus1988/MisakaNet#2281",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-26T05:55:42Z",
-          "number": 2288,
-          "title": "AI Agent Fix for Issue #2281",
-          "url": "https://github.com/Ikalus1988/MisakaNet/pull/2288"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "updated_at": "2026-09-26T05:51:04Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/697",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -240,380 +794,124 @@
       ],
       "claim_signals": [
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #697",
-          "created_at": "2026-09-26T05:13:16Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/697#issuecomment-5843436545"
+          "actor": "b3417",
+          "command": "/claim I have signed up and would like to claim this bounty.",
+          "created_at": "2026-06-14T16:46:23Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7#issuecomment-4702401033"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #697",
-          "created_at": "2026-09-26T05:18:03Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/697#issuecomment-5843468580"
+          "actor": "alienvisitor8675-bit",
+          "command": "/claim #7",
+          "created_at": "2026-08-16T13:10:09Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7#issuecomment-5307597096"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "skip",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "At least 12 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/697",
-      "id": "github:OphirPay/OphirPay#697",
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/7",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#7",
       "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "typescript",
+        "ui",
+        "react-native",
         "frontend",
-        "security",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: hard"
+        "security"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 12,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-25T09:24:32Z",
-          "number": 1070,
-          "title": "docs(security): document CSP unsafe-inline architectural limitation and correct nonce claims (closes #697)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1070"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "CSP still ships 'unsafe-inline' for scripts; restore a nonce or stop claiming one",
-      "updated_at": "2026-09-26T05:18:03Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/698",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #698",
-          "created_at": "2026-09-26T05:13:19Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/698#issuecomment-5843436972"
+          "created_at": "2026-06-29T09:05:10Z",
+          "number": 98,
+          "title": "fix: issue #7",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/98"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #698",
-          "created_at": "2026-09-26T05:18:00Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/698#issuecomment-5843468275"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/698",
-      "id": "github:OphirPay/OphirPay#698",
-      "labels": [
-        "security",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-25T09:08:31Z",
-          "number": 1064,
-          "title": "feat(security): add CSP violation reporting endpoint and observability (closes #698)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1064"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add CSP violation reporting so blocked resources are observable in production",
-      "updated_at": "2026-09-26T05:18:00Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/727",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #727",
-          "created_at": "2026-09-26T05:13:25Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/727#issuecomment-5843437659"
+          "created_at": "2026-06-27T13:57:44Z",
+          "number": 85,
+          "title": "fix: issue #7",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/85"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #727",
-          "created_at": "2026-09-26T05:17:54Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/727#issuecomment-5843467556"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/727",
-      "id": "github:OphirPay/OphirPay#727",
-      "labels": [
-        "ci",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-25T03:33:19Z",
-          "number": 1028,
-          "title": "feat(devops): add devcontainer configuration matching CI with Node 20 and Rust 1.91.0 (closes #727)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1028"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add a devcontainer so Codespaces and local development match CI",
-      "updated_at": "2026-09-26T05:17:54Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/737",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #737",
-          "created_at": "2026-09-26T05:13:34Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/737#issuecomment-5843438705"
+          "created_at": "2026-06-24T17:34:28Z",
+          "number": 80,
+          "title": "feat: Note Locking with Biometrics/PIN \u2014 Bounty #7",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/80"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #737",
-          "created_at": "2026-09-26T05:17:44Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/737#issuecomment-5843466542"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/737",
-      "id": "github:OphirPay/OphirPay#737",
-      "labels": [
-        "performance",
-        "ci",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-25T01:34:53Z",
-          "number": 1020,
-          "title": "perf(docker): slim runner stage by dropping full node_modules copy (#737)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1020"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Slim the Docker runner stage, which copies the full node_modules beside the standalone build",
-      "updated_at": "2026-09-26T05:17:45Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/746",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #746",
-          "created_at": "2026-09-26T05:13:40Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/746#issuecomment-5843439539"
+          "created_at": "2026-06-04T08:28:16Z",
+          "number": 46,
+          "title": "fix: #7 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/46"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #746",
-          "created_at": "2026-09-26T05:17:38Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/746#issuecomment-5843465844"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/746",
-      "id": "github:OphirPay/OphirPay#746",
-      "labels": [
-        "backend",
-        "performance",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-24T23:18:28Z",
-          "number": 1014,
-          "title": "feat(api): add keyset cursor pagination to event history endpoint (#746)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1014"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add cursor pagination to the event history endpoint",
-      "updated_at": "2026-09-26T05:17:38Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/734",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #734",
-          "created_at": "2026-09-26T05:13:31Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/734#issuecomment-5843438427"
+          "created_at": "2026-05-29T00:00:15Z",
+          "number": 11,
+          "title": "feat: Note Locking (Biometrics/PIN) (Issue #7)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/11"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #734",
-          "created_at": "2026-09-26T05:17:48Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/734#issuecomment-5843466937"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/734",
-      "id": "github:OphirPay/OphirPay#734",
-      "labels": [
-        "ci",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-25T03:01:54Z",
-          "number": 1026,
-          "title": "ci: deduplicate npm ci and prisma generate preamble with composite action",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1026"
+          "created_at": "2026-07-13T23:04:56Z",
+          "number": 116,
+          "title": "feat: add Note Locking with Biometrics/PIN reference implementation (fixes #7)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/116"
         },
         {
-          "created_at": "2026-09-25T20:59:27Z",
-          "number": 1154,
-          "title": "Integration/staging",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1154"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Deduplicate the npm ci and prisma generate preamble with a composite action",
-      "updated_at": "2026-09-26T06:18:34Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/2283",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/2283",
-      "id": "github:Ikalus1988/MisakaNet#2283",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-26T05:54:59Z",
-          "number": 2285,
-          "title": "AI Agent Fix for Issue #2283",
-          "url": "https://github.com/Ikalus1988/MisakaNet/pull/2285"
+          "created_at": "2026-06-25T10:51:04Z",
+          "number": 83,
+          "title": "feat: add technical specification for biometric note locking ($660 bounty #7)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/83"
         },
         {
-          "created_at": "2026-09-26T06:31:59Z",
-          "number": 2289,
-          "title": "fix: [Bounty] Answer 2 linked question(s) as a lesson (#2283)",
-          "url": "https://github.com/Ikalus1988/MisakaNet/pull/2289"
+          "created_at": "2026-06-05T00:51:50Z",
+          "number": 59,
+          "title": "[JARVIS] Solve #7: [PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/59"
+        },
+        {
+          "created_at": "2026-09-07T19:53:32Z",
+          "number": 140,
+          "title": "feat: Add Note Locking (Biometrics/PIN)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/140"
+        },
+        {
+          "created_at": "2026-08-24T00:25:46Z",
+          "number": 135,
+          "title": "feat: Note Locking - Biometrics/PIN",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/135"
+        },
+        {
+          "created_at": "2026-06-23T08:36:25Z",
+          "number": 78,
+          "title": "feat: Note Locking with Biometrics/PIN",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/78"
+        },
+        {
+          "created_at": "2026-05-29T00:21:06Z",
+          "number": 22,
+          "title": "[ShanaBoo] [PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/22"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "updated_at": "2026-09-26T05:51:14Z",
-      "verification_confidence": "medium"
+      "reward_mentions": [
+        "$660"
+      ],
+      "reward_usd_max": 660.0,
+      "title": "[PAID BOUNTY - $660] Note Locking - Biometrics/PIN",
+      "updated_at": "2026-09-26T12:06:23Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/2282",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -621,43 +919,133 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/2282",
-      "id": "github:Ikalus1988/MisakaNet#2282",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
+      "claim_signals": [
         {
-          "created_at": "2026-09-26T05:55:21Z",
-          "number": 2287,
-          "title": "AI Agent Fix for Issue #2282",
-          "url": "https://github.com/Ikalus1988/MisakaNet/pull/2287"
+          "actor": "b3417",
+          "command": "/claim I have signed up and would like to claim this bounty.",
+          "created_at": "2026-06-14T16:49:08Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-4702407590"
         },
         {
-          "created_at": "2026-09-26T06:34:18Z",
-          "number": 2290,
-          "title": "fix: [Bounty] Answer 2 linked question(s) as a lesson (#2282)",
-          "url": "https://github.com/Ikalus1988/MisakaNet/pull/2290"
+          "actor": "alienvisitor8675-bit",
+          "command": "/claim #3",
+          "created_at": "2026-08-16T14:14:20Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-5307865468"
+        },
+        {
+          "actor": "Oliekings",
+          "command": "/attempt #3",
+          "created_at": "2026-08-19T19:40:40Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-5347119065"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 12 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#3",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "paid",
+        "open",
+        "typescript",
+        "ui",
+        "react-native",
+        "frontend"
+      ],
+      "matching_open_pr_count": 12,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-06-29T09:06:40Z",
+          "number": 102,
+          "title": "fix: issue #3",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/102"
+        },
+        {
+          "created_at": "2026-06-27T13:58:23Z",
+          "number": 89,
+          "title": "fix: issue #3",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/89"
+        },
+        {
+          "created_at": "2026-08-19T19:40:31Z",
+          "number": 128,
+          "title": "fix(poll-ui): implement Messenger Group Chat Poll Creation & Voting UI (#3)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/128"
+        },
+        {
+          "created_at": "2026-06-04T08:33:50Z",
+          "number": 49,
+          "title": "fix: #3 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/49"
+        },
+        {
+          "created_at": "2026-06-04T08:32:25Z",
+          "number": 47,
+          "title": "fix: #3 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/47"
+        },
+        {
+          "created_at": "2026-05-31T10:58:18Z",
+          "number": 29,
+          "title": "feat: Messenger Group Chat Poll Creation & Voting UI (#3)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/29"
+        },
+        {
+          "created_at": "2026-07-13T23:04:52Z",
+          "number": 113,
+          "title": "feat: add Group Chat Poll Creation & Voting UI reference implementation (fixes #3)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/113"
+        },
+        {
+          "created_at": "2026-06-05T04:38:27Z",
+          "number": 62,
+          "title": "[JARVIS] Solve issue #3: [PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/62"
+        },
+        {
+          "created_at": "2026-09-07T23:23:31Z",
+          "number": 143,
+          "title": "feat: Poll Creation & Voting UI for Group Chats",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/143"
+        },
+        {
+          "created_at": "2026-06-23T08:38:23Z",
+          "number": 79,
+          "title": "feat: Messenger Group Chat Poll",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/79"
+        },
+        {
+          "created_at": "2026-05-29T00:16:37Z",
+          "number": 21,
+          "title": "[ShanaBoo] [PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/21"
+        },
+        {
+          "created_at": "2026-05-29T00:00:24Z",
+          "number": 12,
+          "title": "[PAID BOUNTY] Messenger Group Chat Poll Creation & Voting UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/12"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "updated_at": "2026-09-26T05:51:09Z",
-      "verification_confidence": "medium"
+      "reward_mentions": [
+        "$440"
+      ],
+      "reward_usd_max": 440.0,
+      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
+      "updated_at": "2026-09-26T12:06:16Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/722",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -667,59 +1055,216 @@
       ],
       "claim_signals": [
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #722",
-          "created_at": "2026-09-26T05:13:22Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/722#issuecomment-5843437330"
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:21:39Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817080931"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #722",
-          "created_at": "2026-09-26T05:17:57Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/722#issuecomment-5843467877"
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:22:42Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817091357"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:28:02Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817136352"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:28:28Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817140391"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:30:04Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817156423"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:31:17Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817166923"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:31:19Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817167086"
+        },
+        {
+          "actor": "xuhongchen521-debug",
+          "command": "/attempt #1",
+          "created_at": "2026-06-27T11:34:03Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-4817187023"
+        },
+        {
+          "actor": "alienvisitor8675-bit",
+          "command": "/claim #1",
+          "created_at": "2026-08-16T12:44:31Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1#issuecomment-5307496437"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "skip",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "At least 19 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/722",
-      "id": "github:OphirPay/OphirPay#722",
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/1",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#1",
       "labels": [
-        "frontend",
-        "tests",
+        "help wanted",
         "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 19,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-25T11:18:55Z",
-          "number": 1083,
-          "title": "test(amount): add explicit half-up and half-even rounding boundary coverage (#722)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1083"
+          "created_at": "2026-09-07T15:33:10Z",
+          "number": 137,
+          "title": "[BOUNTY #1] Attachment Summarizer Service \u2014 Full Implementation",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/137"
         },
         {
-          "created_at": "2026-09-25T08:55:21Z",
-          "number": 1062,
-          "title": "test(amount): add boundary tests and guards for precision and currency formatting (#722)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1062"
+          "created_at": "2026-06-29T09:07:14Z",
+          "number": 104,
+          "title": "fix: issue #1",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/104"
+        },
+        {
+          "created_at": "2026-09-09T10:44:22Z",
+          "number": 166,
+          "title": "fix: resolve #1 - [PAID BOUNTY - $960] Attachment Summarizer Service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/166"
+        },
+        {
+          "created_at": "2026-05-29T00:00:38Z",
+          "number": 13,
+          "title": "Fix #1: Attachment Summarizer Service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/13"
+        },
+        {
+          "created_at": "2026-06-13T06:49:24Z",
+          "number": 64,
+          "title": "[BOUNTY] Fix issue #1 - Automated AI Solution",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/64"
+        },
+        {
+          "created_at": "2026-06-04T08:26:29Z",
+          "number": 43,
+          "title": "fix: #1 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/43"
+        },
+        {
+          "created_at": "2026-06-13T08:00:30Z",
+          "number": 68,
+          "title": "Technical Design Document: Attachment Summarizer Service (v1.1)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/68"
+        },
+        {
+          "created_at": "2026-07-13T22:55:17Z",
+          "number": 109,
+          "title": "feat: add Attachment Summarizer Service design and implementation skeleton (fixes #1)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/109"
+        },
+        {
+          "created_at": "2026-09-07T19:53:13Z",
+          "number": 139,
+          "title": "feat: Add Attachment Summarizer Service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/139"
+        },
+        {
+          "created_at": "2026-06-13T08:00:17Z",
+          "number": 66,
+          "title": "feat: Add Attachment Summarizer Service technical design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/66"
+        },
+        {
+          "created_at": "2026-06-13T08:00:28Z",
+          "number": 67,
+          "title": "feat: Add Attachment Summarizer Service technical design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/67"
+        },
+        {
+          "created_at": "2026-07-08T17:46:43Z",
+          "number": 107,
+          "title": "feat: add Attachment Summarizer service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/107"
+        },
+        {
+          "created_at": "2026-06-13T08:01:03Z",
+          "number": 72,
+          "title": "feat: Add Attachment Summarizer Service design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/72"
+        },
+        {
+          "created_at": "2026-05-29T00:23:27Z",
+          "number": 23,
+          "title": "[ShanaBoo] [PAID BOUNTY - $960] Attachment Summarizer Service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/23"
+        },
+        {
+          "created_at": "2026-06-13T08:00:46Z",
+          "number": 70,
+          "title": "feat: Add Attachment Summarizer Service technical design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/70"
+        },
+        {
+          "created_at": "2026-06-27T14:25:36Z",
+          "number": 90,
+          "title": "feat(attachment-summarizer): implement attachment summarizer service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/90"
+        },
+        {
+          "created_at": "2026-06-28T13:57:49Z",
+          "number": 95,
+          "title": "Add attachment summarizer service",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/95"
+        },
+        {
+          "created_at": "2026-06-13T08:00:12Z",
+          "number": 65,
+          "title": "feat: Add Attachment Summarizer Service technical design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/65"
+        },
+        {
+          "created_at": "2026-06-13T08:00:51Z",
+          "number": 71,
+          "title": "feat: Add Attachment Summarizer Service technical design document",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/71"
         }
       ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add boundary tests for amount and currency formatting",
-      "updated_at": "2026-09-26T05:17:57Z",
-      "verification_confidence": "medium"
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$960"
+      ],
+      "reward_usd_max": 960.0,
+      "title": "[PAID BOUNTY - $960] Attachment Summarizer Service",
+      "updated_at": "2026-09-26T12:06:30Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/733",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -729,120 +1274,173 @@
       ],
       "claim_signals": [
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #733",
-          "created_at": "2026-09-26T05:13:28Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/733#issuecomment-5843438085"
+          "actor": "HamzaKhanBUIC",
+          "command": "/claim I will handle this. I am a React Native expert and I will build the Classic Inbox UI with full Storybook integration.",
+          "created_at": "2026-06-14T01:00:46Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2#issuecomment-4700285290"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #733",
-          "created_at": "2026-09-26T05:17:51Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/733#issuecomment-5843467290"
+          "actor": "b3417",
+          "command": "/claim i will handle this. i am a react native expert and i will build the classic inbox ui with full storybook integration.",
+          "created_at": "2026-06-14T16:41:03Z",
+          "recent": false,
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2#issuecomment-4702388151"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "skip",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "At least 22 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/733",
-      "id": "github:OphirPay/OphirPay#733",
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#2",
       "labels": [
-        "security",
-        "ci",
-        "difficulty: medium",
+        "help wanted",
         "bounty",
-        "Stellar Wave"
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "typescript",
+        "react-native",
+        "frontend"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 22,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-25T11:31:10Z",
-          "number": 1087,
-          "title": "fix: pin GitHub Actions to commit SHAs",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1087"
+          "created_at": "2026-09-07T23:24:15Z",
+          "number": 144,
+          "title": "feat: implement Classic Inbox UI for #2",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/144"
         },
         {
-          "created_at": "2026-09-25T03:13:12Z",
-          "number": 1027,
-          "title": "ci(security): pin GitHub Actions to full commit SHAs with version comments (closes #733)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1027"
-        }
-      ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Pin GitHub Actions to commit SHAs instead of mutable version tags",
-      "updated_at": "2026-09-26T05:17:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/740",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zedward856-spec",
-          "command": "/claim #740",
-          "created_at": "2026-09-26T05:13:37Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/740#issuecomment-5843439183"
+          "created_at": "2026-06-29T09:06:58Z",
+          "number": 103,
+          "title": "fix: issue #2",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/103"
         },
         {
-          "actor": "zedward856-spec",
-          "command": "/claim #740",
-          "created_at": "2026-09-26T05:17:41Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/740#issuecomment-5843466207"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/740",
-      "id": "github:OphirPay/OphirPay#740",
-      "labels": [
-        "performance",
-        "bounty",
-        "Stellar Wave",
-        "difficulty: easy"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-23T17:28:55Z",
-          "number": 829,
-          "title": "Fix: Apply static-asset cache headers in next.config.ts",
-          "url": "https://github.com/OphirPay/OphirPay/pull/829"
+          "created_at": "2026-08-23T22:11:12Z",
+          "number": 130,
+          "title": "feat: Implement Classic Inbox UI (Issue #2)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/130"
         },
         {
-          "created_at": "2026-09-25T12:54:51Z",
-          "number": 1105,
-          "title": "docs(security): document security header policy, layer precedence, and rationales",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1105"
+          "created_at": "2026-09-09T03:58:34Z",
+          "number": 161,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/161"
+        },
+        {
+          "created_at": "2026-09-09T00:46:40Z",
+          "number": 157,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/157"
+        },
+        {
+          "created_at": "2026-09-09T00:11:37Z",
+          "number": 154,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/154"
+        },
+        {
+          "created_at": "2026-09-08T23:12:03Z",
+          "number": 152,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/152"
+        },
+        {
+          "created_at": "2026-09-08T22:03:31Z",
+          "number": 151,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/151"
+        },
+        {
+          "created_at": "2026-09-08T21:22:15Z",
+          "number": 150,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/150"
+        },
+        {
+          "created_at": "2026-09-08T20:08:25Z",
+          "number": 149,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/149"
+        },
+        {
+          "created_at": "2026-09-08T18:55:37Z",
+          "number": 148,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/148"
+        },
+        {
+          "created_at": "2026-09-08T18:18:15Z",
+          "number": 147,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/147"
+        },
+        {
+          "created_at": "2026-09-08T18:02:00Z",
+          "number": 146,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/146"
+        },
+        {
+          "created_at": "2026-09-10T18:30:24Z",
+          "number": 172,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/172"
+        },
+        {
+          "created_at": "2026-09-10T18:27:06Z",
+          "number": 171,
+          "title": "Fix #2: [PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/171"
+        },
+        {
+          "created_at": "2026-07-13T23:04:50Z",
+          "number": 112,
+          "title": "feat: add Classic Inbox UI reference implementation (fixes #2)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/112"
+        },
+        {
+          "created_at": "2026-06-04T08:34:42Z",
+          "number": 50,
+          "title": "fix: #2 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/50"
+        },
+        {
+          "created_at": "2026-06-04T08:33:25Z",
+          "number": 48,
+          "title": "fix: #2 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/48"
+        },
+        {
+          "created_at": "2026-05-28T23:59:51Z",
+          "number": 10,
+          "title": "Resolve Issue #2: Email Inbox Classic View Page UI",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/10"
+        },
+        {
+          "created_at": "2026-06-23T08:32:59Z",
+          "number": 77,
+          "title": "feat: Email Inbox Classic View",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/77"
         }
       ],
-      "recent_claim_count": 2,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Apply the same static-asset cache headers in next.config.ts that vercel.json sets",
-      "updated_at": "2026-09-26T05:17:41Z",
-      "verification_confidence": "medium"
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$330"
+      ],
+      "reward_usd_max": 330.0,
+      "title": "[PAID BOUNTY - $330] Email Inbox Classic View Page UI",
+      "updated_at": "2026-09-26T12:06:57Z",
+      "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-09-26T06:36:08.453106Z",
+  "generated_at": "2026-09-26T12:35:14.533285Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
