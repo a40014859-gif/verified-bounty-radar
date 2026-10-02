@@ -1,10 +1,10 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
-    "manual_review": 3,
-    "pursue": 9,
-    "skip": 3
+    "hold": 1,
+    "manual_review": 2,
+    "pursue": 8,
+    "skip": 4
   },
   "entries": [
     {
@@ -31,6 +31,7 @@
         "available",
         "delivered",
         "accepted",
+        "needs-work",
         "paid"
       ],
       "matching_open_pr_count": 0,
@@ -41,12 +42,48 @@
       ],
       "reward_usd_max": 1.5,
       "title": "Frantic bounty #136: Add a newly launched startup to Stompstart",
-      "updated_at": "2026-10-02T00:21:42Z",
+      "updated_at": "2026-10-02T06:23:03Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1577",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1577",
+      "id": "github:Scottcjn/rustchain-bounties#1577",
+      "labels": [
+        "bounty",
+        "propagation",
+        "easy",
+        "community"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "2 RTC",
+        "100 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[EASY BOUNTY: 2 RTC] Add an Elyan Labs Link to Your Personal Site or Link-in-Bio",
+      "updated_at": "2026-10-02T05:25:42Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2271",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -57,10 +94,10 @@
       "claim_signals": [
         {
           "actor": "daletyler1737",
-          "command": "/claim #1102",
-          "created_at": "2026-03-29T13:27:12Z",
+          "command": "/claim #2271",
+          "created_at": "2026-03-29T13:43:30Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102#issuecomment-4150162074"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2271#issuecomment-4150189778"
         }
       ],
       "closed_at": null,
@@ -68,23 +105,58 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102",
-      "id": "github:Scottcjn/rustchain-bounties#1102",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2271",
+      "id": "github:Scottcjn/rustchain-bounties#2271",
       "labels": [
         "bounty",
         "easy",
-        "bottube"
+        "community"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "2 RTC",
+        "3 RTC",
+        "5 RTC",
+        "10 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 2 RTC] Download and test the RustChain miner (dry run)",
+      "updated_at": "2026-10-02T05:24:20Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
+      "id": "github:Scottcjn/rustchain-bounties#165",
+      "labels": [
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
         "3 RTC",
-        "5 RTC"
+        "$0.10"
       ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug",
-      "updated_at": "2026-10-02T00:14:24Z",
+      "reward_usd_max": 0.1,
+      "title": "Star our ClawHub-published repos (3 RTC)",
+      "updated_at": "2026-10-02T04:38:57Z",
       "verification_confidence": "medium"
     },
     {
@@ -139,7 +211,7 @@
       ],
       "reward_usd_max": null,
       "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
-      "updated_at": "2026-10-01T22:25:30Z",
+      "updated_at": "2026-10-02T04:26:52Z",
       "verification_confidence": "medium"
     },
     {
@@ -172,149 +244,7 @@
       ],
       "reward_usd_max": null,
       "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
-      "updated_at": "2026-10-01T22:25:23Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "id": "github:Scottcjn/rustchain-bounties#2155",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "$0.20"
-      ],
-      "reward_usd_max": 0.2,
-      "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-      "updated_at": "2026-10-01T22:24:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/378",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "SHARADEX3",
-          "command": "/claim \u2014 Star of Scottcjn/bottube from @SHARADEX3, BountyHunterHQ (autonomous bounty-hunting agent operated by a human principal; agent identity disclosed per the round rules).",
-          "created_at": "2026-09-17T15:21:36Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/378#issuecomment-5716864397"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/378",
-      "id": "github:Scottcjn/rustchain-bounties#378",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC",
-        "133 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[MICRO-BOUNTY] Star BoTTube Repo - 1 RTC (Pool: 133 RTC)",
-      "updated_at": "2026-10-01T22:24:22Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/171",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/171",
-      "id": "github:Scottcjn/rustchain-bounties#171",
-      "labels": [
-        "bounty",
-        "micro",
-        "community"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC",
-        "50 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Star an Elyan Labs Repo \u2014 55 Repos, Pick Your Favorite (1 RTC)",
-      "updated_at": "2026-10-01T22:24:21Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
-      "id": "github:Scottcjn/rustchain-bounties#165",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "3 RTC",
-        "$0.10"
-      ],
-      "reward_usd_max": 0.1,
-      "title": "Star our ClawHub-published repos (3 RTC)",
-      "updated_at": "2026-10-01T22:24:19Z",
+      "updated_at": "2026-10-02T04:26:42Z",
       "verification_confidence": "medium"
     },
     {
@@ -389,135 +319,12 @@
       ],
       "reward_usd_max": null,
       "title": "[EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-      "updated_at": "2026-10-02T00:14:19Z",
+      "updated_at": "2026-10-02T05:19:09Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
-      "id": "github:tadanobutubutu/screeps#5",
-      "labels": [
-        "bug",
-        "documentation",
-        "duplicate",
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "invalid",
-        "workflow-health",
-        "automated",
-        "bot",
-        "dependencies",
-        "ci",
-        "feature",
-        "javascript",
-        "github-actions",
-        "major",
-        "test",
-        "in-progress",
-        "stale",
-        "needs-review",
-        "security",
-        "config",
-        "renovate",
-        "sonarcloud",
-        "codecov",
-        "quality-report",
-        "chore",
-        "needs-triage",
-        "ai-solve",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Dependency Dashboard",
-      "updated_at": "2026-10-02T00:39:15Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1224",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1224",
-      "id": "github:relayhop/sn-monetization-runtime#1224",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-10-01T23:13",
-      "updated_at": "2026-10-01T23:13:25Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1223",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1223",
-      "id": "github:relayhop/sn-monetization-runtime#1223",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-10-01T23:06",
-      "updated_at": "2026-10-01T23:06:11Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -527,224 +334,538 @@
       ],
       "claim_signals": [
         {
-          "actor": "Jorel97",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T10:38:30Z",
+          "actor": "Cid-oe",
+          "command": "/claim",
+          "created_at": "2026-09-18T10:32:05Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582557846"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5728755638"
         },
         {
-          "actor": "Jorel97",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T10:44:05Z",
+          "actor": "dwaddle",
+          "command": "/claim",
+          "created_at": "2026-09-18T15:32:32Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582568442"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5732280332"
         },
         {
-          "actor": "cedar323",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T11:03:50Z",
+          "actor": "Cid-oe",
+          "command": "/claim",
+          "created_at": "2026-09-18T17:34:05Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582605960"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5733785878"
         },
         {
-          "actor": "Ceyvion",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T11:43:04Z",
+          "actor": "mdmcl-pixel",
+          "command": "/claim",
+          "created_at": "2026-09-18T20:38:09Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582722727"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5735897615"
         },
         {
-          "actor": "keilogic",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T11:49:14Z",
+          "actor": "Nish916",
+          "command": "/claim",
+          "created_at": "2026-09-19T09:07:29Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582735011"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5740669111"
         },
         {
-          "actor": "Ceyvion",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T11:52:15Z",
+          "actor": "dwaddle",
+          "command": "/claim",
+          "created_at": "2026-09-19T11:59:35Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582740933"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5741668558"
         },
         {
-          "actor": "Ceyvion",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T12:00:20Z",
+          "actor": "BeauDevCode",
+          "command": "/claim",
+          "created_at": "2026-09-22T17:42:41Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582757030"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5781185108"
         },
         {
-          "actor": "Ceyvion",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T12:06:51Z",
+          "actor": "dwaddle",
+          "command": "/claim",
+          "created_at": "2026-09-27T03:04:08Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582770827"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5852161653"
         },
         {
-          "actor": "YCL001",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T13:14:16Z",
+          "actor": "junkiesolver",
+          "command": "/claim",
+          "created_at": "2026-09-29T22:52:20Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4582924376"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5900586859"
         },
         {
-          "actor": "Entr0zy",
-          "command": "/attempt #743",
-          "created_at": "2026-05-30T13:53:18Z",
+          "actor": "Nish916",
+          "command": "/claim",
+          "created_at": "2026-10-01T20:31:15Z",
           "recent": false,
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743#issuecomment-4583016944"
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471#issuecomment-5939980276"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16471",
+      "id": "github:Scottcjn/rustchain-bounties#16471",
+      "labels": [
+        "bounty",
+        "claimed"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-14T04:00:41Z",
+          "number": 16958,
+          "title": "fix(payout): add retry logic for post-payout GitHub comment/close (#16471)",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/16958"
+        },
+        {
+          "created_at": "2026-09-22T17:46:00Z",
+          "number": 17041,
+          "title": "fix(gate): resolve named repositories before judging review claims",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17041"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "35 RTC",
+        "10 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 35 RTC + 10/defect] Audit the payout pipeline for silent-success failures",
+      "updated_at": "2026-10-02T05:05:22Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "rafaio1",
+          "command": "/claim",
+          "created_at": "2026-09-03T23:36:20Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5533514503"
+        },
+        {
+          "actor": "tlaz10",
+          "command": "/claim",
+          "created_at": "2026-09-11T04:26:19Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5629472071"
+        },
+        {
+          "actor": "pengshenghai",
+          "command": "/claim",
+          "created_at": "2026-09-16T16:14:37Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5700727480"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-09-18T18:00:50Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5734102096"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-09-19T02:48:24Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5738727749"
+        },
+        {
+          "actor": "pengshenghai",
+          "command": "/claim",
+          "created_at": "2026-09-20T04:05:29Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5747520106"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-09-26T00:00:57Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5841284403"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-09-26T00:01:26Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5841288156"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-10-02T05:48:55Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5946334404"
+        },
+        {
+          "actor": "psicossz29-netizen",
+          "command": "/claim",
+          "created_at": "2026-10-02T05:49:05Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226#issuecomment-5946335901"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13226",
+      "id": "github:Scottcjn/rustchain-bounties#13226",
+      "labels": [
+        "bounty",
+        "claimed"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 2,
+      "reward_mentions": [
+        "7 RTC",
+        "10 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 7 RTC] Add an llms.txt + GEO entity profile to a RustChain ecosystem repo",
+      "updated_at": "2026-10-02T05:49:16Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralPlane/issues/22",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Tanayqq",
+          "command": "/claim",
+          "created_at": "2026-10-02T05:27:26Z",
+          "recent": true,
+          "url": "https://github.com/AstralDeep/AstralPlane/issues/22#issuecomment-5946133207"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralPlane/issues/22",
+      "id": "github:AstralDeep/AstralPlane#22",
+      "labels": [
+        "bounty",
+        "points:200",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Qualify a standalone external-host example using only Plane's public facade",
+      "updated_at": "2026-10-02T05:27:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/LETS/issues/71",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "ahmedcompk",
+          "command": "/claim",
+          "created_at": "2026-10-01T11:46:10Z",
+          "recent": false,
+          "url": "https://github.com/AstralDeep/LETS/issues/71#issuecomment-5930636582"
+        },
+        {
+          "actor": "Tanayqq",
+          "command": "/claim",
+          "created_at": "2026-10-02T05:22:45Z",
+          "recent": true,
+          "url": "https://github.com/AstralDeep/LETS/issues/71#issuecomment-5946089917"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/LETS/issues/71",
+      "id": "github:AstralDeep/LETS#71",
+      "labels": [
+        "bounty",
+        "points:400",
+        "track:interoperability",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-01T12:57:13Z",
+          "number": 80,
+          "title": "feat(integrations): provide tested MCP integration profile for protected tool execution",
+          "url": "https://github.com/AstralDeep/LETS/pull/80"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Provide a thin, tested MCP integration profile for protected tool execution",
+      "updated_at": "2026-10-02T05:22:55Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:09:40Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4140646165"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:19:36Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141233207"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T09:30:09Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141298298"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:41:22Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141709738"
+        },
+        {
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:03:16Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150331229"
+        },
+        {
+          "actor": "chengyixu",
+          "command": "/attempt #4",
+          "created_at": "2026-03-29T15:28:46Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150377394"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T06:02:06Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4152480268"
+        },
+        {
+          "actor": "kovadev17",
+          "command": "/claim #4",
+          "created_at": "2026-04-13T09:15:19Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4235242096"
+        },
+        {
+          "actor": "Angelebeats",
+          "command": "/claim",
+          "created_at": "2026-04-13T23:57:48Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4240365917"
+        },
+        {
+          "actor": "yihangwu539-png",
+          "command": "/try",
+          "created_at": "2026-04-27T01:56:49Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4323695839"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 70 open PRs explicitly reference the canonical issue."
+        "At least 85 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-      "id": "github:SecureBananaLabs/bug-bounty#743",
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#4",
       "labels": [
-        "bug",
-        "documentation",
-        "good first issue",
-        "help wanted",
-        "bug bounty",
-        "AI agent friendly",
         "bounty",
-        "\ud83d\udc8e Bounty",
-        "$700"
+        "agent"
       ],
-      "matching_open_pr_count": 70,
+      "matching_open_pr_count": 85,
       "matching_open_prs": [
         {
-          "created_at": "2026-07-04T18:00:58Z",
-          "number": 9866,
-          "title": "Fixes #743",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9866"
+          "created_at": "2026-09-22T23:58:43Z",
+          "number": 4449,
+          "title": "Patch 4",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4449"
         },
         {
-          "created_at": "2026-05-28T07:47:54Z",
-          "number": 1086,
-          "title": "Fix #743",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1086"
+          "created_at": "2026-09-28T06:54:17Z",
+          "number": 4581,
+          "title": "fix: bounty #4 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4581"
         },
         {
-          "created_at": "2026-09-23T17:50:47Z",
-          "number": 12691,
-          "title": "docs: add automation guidelines for AI agents #743",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12691"
+          "created_at": "2026-09-28T05:28:22Z",
+          "number": 4576,
+          "title": "fix: bounty #4 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4576"
         },
         {
-          "created_at": "2026-09-09T10:54:27Z",
-          "number": 12390,
-          "title": "fix: resolve #743 - Low Handing Fruit Automation",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12390"
+          "created_at": "2026-10-01T11:16:00Z",
+          "number": 4625,
+          "title": "feat: PR Review Sub-Agent (Issue #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4625"
         },
         {
-          "created_at": "2026-09-01T01:39:35Z",
-          "number": 12328,
-          "title": "Fix #743: Low Handing Fruit Automation",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12328"
+          "created_at": "2026-09-27T06:47:11Z",
+          "number": 4552,
+          "title": "feat: complete bounty #4 (pr-review-agent)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4552"
         },
         {
-          "created_at": "2026-08-12T19:14:00Z",
-          "number": 11727,
-          "title": "Require JWT_SECRET in production (reissue #743)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11727"
+          "created_at": "2026-09-21T04:09:53Z",
+          "number": 4380,
+          "title": "feat: complete bounty #4 (pr-review-agent)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4380"
         },
         {
-          "created_at": "2026-08-30T00:56:16Z",
-          "number": 12264,
-          "title": "Fix #743: Automate Low Hanging Fruit Bug Detection",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12264"
+          "created_at": "2026-09-20T17:04:55Z",
+          "number": 4360,
+          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
         },
         {
-          "created_at": "2026-06-18T11:05:06Z",
-          "number": 7929,
-          "title": "feat: #743 - Auto-fix automation",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7929"
+          "created_at": "2026-08-27T17:22:25Z",
+          "number": 3892,
+          "title": "Bounty 4 claude pr review agent",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3892"
         },
         {
-          "created_at": "2026-09-17T16:01:18Z",
-          "number": 12626,
-          "title": "fix: configure CORS with method restrictions (fixes #12625)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12626"
+          "created_at": "2026-09-25T02:53:18Z",
+          "number": 4480,
+          "title": "Add structured PR review command for issue 4",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4480"
         },
         {
-          "created_at": "2026-09-17T16:01:05Z",
-          "number": 12624,
-          "title": "fix: add request ID middleware (fixes #12623)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12624"
+          "created_at": "2026-09-24T23:44:50Z",
+          "number": 4476,
+          "title": "Add claude-review PR reviewer agent (bounty #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4476"
         },
         {
-          "created_at": "2026-09-17T16:00:53Z",
-          "number": 12622,
-          "title": "fix: add readiness probe endpoint (fixes #12621)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12622"
+          "created_at": "2026-10-02T01:39:00Z",
+          "number": 4649,
+          "title": "Add claude-review: structured PR review agent (closes #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4649"
         },
         {
-          "created_at": "2026-09-17T16:00:38Z",
-          "number": 12620,
-          "title": "fix: add graceful shutdown to API server (fixes #12619)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12620"
+          "created_at": "2026-09-20T01:39:33Z",
+          "number": 4350,
+          "title": "feat: add PR reviewer agent skill (Issue #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4350"
         },
         {
-          "created_at": "2026-09-17T16:00:27Z",
-          "number": 12618,
-          "title": "fix: add PORT environment variable validation (fixes #12617)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12618"
+          "created_at": "2026-09-13T19:14:08Z",
+          "number": 4247,
+          "title": "feat(agents): structured PR review agent (Resolves #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4247"
         },
         {
-          "created_at": "2026-09-17T07:39:50Z",
-          "number": 12592,
-          "title": "fix: add notification ownership validation (fixes #12591)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12592"
+          "created_at": "2026-09-22T04:08:58Z",
+          "number": 4423,
+          "title": "feat: add Claude PR review agent for bounty #4",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4423"
         },
         {
-          "created_at": "2026-09-17T07:39:42Z",
-          "number": 12590,
-          "title": "fix: add payment ownership validation (fixes #12589)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12590"
+          "created_at": "2026-09-21T08:42:50Z",
+          "number": 4391,
+          "title": "feat: add structured PR reviewer agent for bounty #4",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4391"
         },
         {
-          "created_at": "2026-09-17T07:39:31Z",
-          "number": 12588,
-          "title": "fix: add proposal ownership validation (fixes #12587)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12588"
+          "created_at": "2026-09-27T08:52:49Z",
+          "number": 4553,
+          "title": "feat: add Claude PR review sub-agent for bounty #4",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4553"
         },
         {
-          "created_at": "2026-09-17T07:39:59Z",
-          "number": 12594,
-          "title": "fix: add pagination to user list endpoint (fixes #12593)",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12594"
+          "created_at": "2026-07-27T16:16:56Z",
+          "number": 3623,
+          "title": "Add Claude PR Review Agent (Bounty #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3623"
         },
         {
-          "created_at": "2026-10-01T22:29:45Z",
-          "number": 12804,
-          "title": "fix(notifications): preserve server-owned id and read state",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12804"
+          "created_at": "2026-09-30T19:58:09Z",
+          "number": 4601,
+          "title": "feat(agent): add Claude Code PR reviewer sub-agent (Fixes #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4601"
         },
         {
-          "created_at": "2026-10-01T22:31:26Z",
-          "number": 12806,
-          "title": "fix(validation): reject inverted budget ranges on create and partial job updates",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12806"
+          "created_at": "2026-08-29T23:29:28Z",
+          "number": 3955,
+          "title": "[BOUNTY #4] PR Review Agent - structured markdown review",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3955"
         },
         {
-          "created_at": "2026-10-01T20:30:00Z",
-          "number": 12785,
-          "title": "fix(auth): enforce admin role authorization on /api/admin/metrics endpoint",
-          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12785"
+          "created_at": "2026-09-11T05:56:46Z",
+          "number": 4206,
+          "title": "feat(agent): claude-review PR review CLI (closes #4)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4206"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$700"
+        "$150"
       ],
-      "reward_usd_max": 700.0,
-      "title": "Low Handing Fruit Automation",
-      "updated_at": "2026-10-01T22:32:45Z",
+      "reward_usd_max": 150.0,
+      "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
+      "updated_at": "2026-10-02T04:54:58Z",
       "verification_confidence": "high"
     },
     {
@@ -940,12 +1061,6 @@
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4395"
         },
         {
-          "created_at": "2026-10-01T15:15:20Z",
-          "number": 4632,
-          "title": "feat: SKILL to generate structured CHANGELOG from git history (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4632"
-        },
-        {
           "created_at": "2026-10-01T14:06:38Z",
           "number": 4629,
           "title": "feat(skill): add structured Conventional Commits CHANGELOG generator (Fixes #1)",
@@ -962,6 +1077,12 @@
           "number": 4410,
           "title": "feat(skill): add structured git changelog generator (closes #1)",
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4410"
+        },
+        {
+          "created_at": "2026-09-22T20:52:17Z",
+          "number": 4441,
+          "title": "skill: generate structured CHANGELOG from git history (Closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4441"
         }
       ],
       "recent_claim_count": 0,
@@ -970,7 +1091,232 @@
       ],
       "reward_usd_max": 50.0,
       "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-      "updated_at": "2026-10-01T23:52:03Z",
+      "updated_at": "2026-10-02T06:07:34Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T02:30:55Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4139684557"
+        },
+        {
+          "actor": "rainlee",
+          "command": "/attempt #2",
+          "created_at": "2026-03-27T05:26:17Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140293335"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T06:47:22Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140563126"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:15:42Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140666445"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:25:46Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141262867"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:46:07Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141733940"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-29T13:01:56Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150119144"
+        },
+        {
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:04:15Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150333077"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T05:32:30Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4152345002"
+        },
+        {
+          "actor": "yihangwu539-png",
+          "command": "/try",
+          "created_at": "2026-04-27T01:57:01Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4323696326"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 88 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#2",
+      "labels": [
+        "bounty",
+        "template"
+      ],
+      "matching_open_pr_count": 88,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-28T05:40:04Z",
+          "number": 4579,
+          "title": "fix: bounty #2 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4579"
+        },
+        {
+          "created_at": "2026-09-21T03:59:55Z",
+          "number": 4378,
+          "title": "feat: complete bounty #2 (claude-md-template)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4378"
+        },
+        {
+          "created_at": "2026-09-20T17:04:55Z",
+          "number": 4360,
+          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
+        },
+        {
+          "created_at": "2026-09-24T01:26:54Z",
+          "number": 4463,
+          "title": "docs: add production-ready CLAUDE.md for bounty #2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4463"
+        },
+        {
+          "created_at": "2026-10-01T08:17:38Z",
+          "number": 4622,
+          "title": "feat(template): add Next.js + SQLite CLAUDE.md template (#2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4622"
+        },
+        {
+          "created_at": "2026-09-20T22:37:27Z",
+          "number": 4363,
+          "title": "docs: add production-ready CLAUDE.md for issue #2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4363"
+        },
+        {
+          "created_at": "2026-09-25T02:49:49Z",
+          "number": 4479,
+          "title": "Add Next.js 15 SQLite CLAUDE.md for issue 2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4479"
+        },
+        {
+          "created_at": "2026-09-21T08:48:37Z",
+          "number": 4393,
+          "title": "docs: add Next.js SQLite CLAUDE template for bounty #2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4393"
+        },
+        {
+          "created_at": "2026-09-20T01:38:25Z",
+          "number": 4348,
+          "title": "feat: add Next.js + SQLite CLAUDE.md template (Issue #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4348"
+        },
+        {
+          "created_at": "2026-10-02T01:28:12Z",
+          "number": 4646,
+          "title": "Add CLAUDE.md template for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4646"
+        },
+        {
+          "created_at": "2026-09-30T21:12:28Z",
+          "number": 4611,
+          "title": "feat: CLAUDE.md template for Next.js + SQLite SaaS project (bounty #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4611"
+        },
+        {
+          "created_at": "2026-09-30T07:58:13Z",
+          "number": 4596,
+          "title": "feat(template): opinionated CLAUDE.md template for Next.js 15 + SQLite (#2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4596"
+        },
+        {
+          "created_at": "2026-09-21T17:22:35Z",
+          "number": 4402,
+          "title": "feat: opinionated Next.js 15 + Turso/SQLite CLAUDE.md (issue #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4402"
+        },
+        {
+          "created_at": "2026-09-28T18:57:53Z",
+          "number": 4586,
+          "title": "Add CLAUDE.md template for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4586"
+        },
+        {
+          "created_at": "2026-09-27T14:43:52Z",
+          "number": 4566,
+          "title": "feat: opinionated CLAUDE.md for Next.js 15 + SQLite SaaS ($75 #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4566"
+        },
+        {
+          "created_at": "2026-09-24T23:39:53Z",
+          "number": 4474,
+          "title": "Add CLAUDE.md template for Next.js 15 + SQLite SaaS (bounty #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4474"
+        },
+        {
+          "created_at": "2026-09-17T15:43:13Z",
+          "number": 4317,
+          "title": "Opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4317"
+        },
+        {
+          "created_at": "2026-09-22T21:12:46Z",
+          "number": 4444,
+          "title": "template: opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (Closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4444"
+        },
+        {
+          "created_at": "2026-09-30T19:50:34Z",
+          "number": 4599,
+          "title": "feat(template): add opinionated Next.js 15 + SQLite CLAUDE.md template (Fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4599"
+        },
+        {
+          "created_at": "2026-09-28T17:02:12Z",
+          "number": 4585,
+          "title": "feat: add CLAUDE.md template for Next.js 15 + SQLite SaaS (bounty #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4585"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$75"
+      ],
+      "reward_usd_max": 75.0,
+      "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+      "updated_at": "2026-10-02T04:53:47Z",
       "verification_confidence": "high"
     },
     {
@@ -1058,7 +1404,7 @@
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 89 open PRs explicitly reference the canonical issue."
+        "At least 90 open PRs explicitly reference the canonical issue."
       ],
       "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
       "id": "github:claude-builders-bounty/claude-builders-bounty#3",
@@ -1067,7 +1413,7 @@
         "hook",
         "security"
       ],
-      "matching_open_pr_count": 89,
+      "matching_open_pr_count": 90,
       "matching_open_prs": [
         {
           "created_at": "2026-09-28T05:28:28Z",
@@ -1104,6 +1450,12 @@
           "number": 4475,
           "title": "Add block-destructive PreToolUse hook (bounty #3)",
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4475"
+        },
+        {
+          "created_at": "2026-10-02T01:35:41Z",
+          "number": 4648,
+          "title": "Add bash-command-guard PreToolUse hook (closes #3)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4648"
         },
         {
           "created_at": "2026-09-20T01:38:45Z",
@@ -1182,12 +1534,6 @@
           "number": 4316,
           "title": "Pre-tool-use hook blocking destructive bash commands (closes #3)",
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4316"
-        },
-        {
-          "created_at": "2026-10-01T14:22:39Z",
-          "number": 4630,
-          "title": "feat(hook): add pre-tool-use hook blocking destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4630"
         }
       ],
       "recent_claim_count": 0,
@@ -1196,12 +1542,12 @@
       ],
       "reward_usd_max": 100.0,
       "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-      "updated_at": "2026-10-01T23:24:53Z",
+      "updated_at": "2026-10-02T04:54:57Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-02T00:41:30.350784Z",
+  "generated_at": "2026-10-02T06:41:00.848789Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
