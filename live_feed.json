@@ -2,70 +2,14 @@
   "counts": {
     "errors": 0,
     "hold": 0,
-    "manual_review": 0,
-    "pursue": 13,
-    "skip": 2
+    "manual_review": 15,
+    "pursue": 0,
+    "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/claim",
-          "created_at": "2026-07-21T11:40:13Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5033482919"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/claim",
-          "created_at": "2026-07-22T23:22:37Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5052629669"
-        },
-        {
-          "actor": "oracledigitalpt-design",
-          "command": "/claim",
-          "created_at": "2026-09-25T19:28:45Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282#issuecomment-5838340678"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
-      "id": "github:Scottcjn/rustchain-bounties#282",
-      "labels": [
-        "bounty",
-        "distribution",
-        "live-url-verified"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "15 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
-      "updated_at": "2026-10-05T04:28:28Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/294",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -75,737 +19,32 @@
       ],
       "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
-      "id": "github:Scottcjn/rustchain-bounties#2180",
-      "labels": [
-        "bounty",
-        "distribution"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "5 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
-      "updated_at": "2026-10-05T04:28:21Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
-      "id": "github:Scottcjn/rustchain-bounties#2155",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "$0.20"
-      ],
-      "reward_usd_max": 0.2,
-      "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
-      "updated_at": "2026-10-05T04:27:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/378",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "SHARADEX3",
-          "command": "/claim \u2014 Star of Scottcjn/bottube from @SHARADEX3, BountyHunterHQ (autonomous bounty-hunting agent operated by a human principal; agent identity disclosed per the round rules).",
-          "created_at": "2026-09-17T15:21:36Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/378#issuecomment-5716864397"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/378",
-      "id": "github:Scottcjn/rustchain-bounties#378",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC",
-        "133 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[MICRO-BOUNTY] Star BoTTube Repo - 1 RTC (Pool: 133 RTC)",
-      "updated_at": "2026-10-05T04:27:24Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/171",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/171",
-      "id": "github:Scottcjn/rustchain-bounties#171",
-      "labels": [
-        "bounty",
-        "micro",
-        "community"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC",
-        "50 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Star an Elyan Labs Repo \u2014 55 Repos, Pick Your Favorite (1 RTC)",
-      "updated_at": "2026-10-05T04:27:22Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9017",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/9017",
-      "id": "github:Scottcjn/rustchain-bounties#9017",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[MAY FLOWERS \ud83c\udf38 EASY BOUNTY: 2 RTC] Star 3 Elyan Labs Repos + Drop a Flower",
-      "updated_at": "2026-10-05T04:27:20Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Zubi-fix",
-          "command": "/attempt #16238",
-          "created_at": "2026-07-19T21:39:06Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5017470220"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/claim #16238",
-          "created_at": "2026-07-19T21:39:13Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5017470539"
-        },
-        {
-          "actor": "JHON12091986",
-          "command": "/claim I would like to work on this bounty.",
-          "created_at": "2026-07-25T15:33:15Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5079074320"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T16:46:28Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5513087411"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T20:50:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5531962294"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T04:13:23Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5556824997"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T07:29:49Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238#issuecomment-5557745876"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16238",
-      "id": "github:Scottcjn/rustchain-bounties#16238",
-      "labels": [
-        "bounty",
-        "open",
-        "micro",
-        "multi-claim",
-        "community",
-        "stars"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 1 RTC] Star RustChain + 2 ecosystem repos",
-      "updated_at": "2026-10-05T04:27:18Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/256",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/256",
-      "id": "github:Scottcjn/rustchain-bounties#256",
-      "labels": [
-        "bounty",
-        "micro",
-        "propagation",
-        "community"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "1 RTC",
-        "3 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY] Fork a Scottcjn Repo \u2014 2 RTC (+1 RTC if you Pin it)",
-      "updated_at": "2026-10-05T03:39:38Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/520",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "JONASXZB",
-          "command": "/claim #520",
-          "created_at": "2026-06-01T00:41:12Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/520#issuecomment-4588748476"
-        },
-        {
-          "actor": "tracepatch-lab",
-          "command": "/claim #520",
-          "created_at": "2026-06-05T15:08:39Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/520#issuecomment-4632946603"
-        },
-        {
-          "actor": "vicentsmith470-web",
-          "command": "/claim #520",
-          "created_at": "2026-06-06T03:14:38Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/520#issuecomment-4637195552"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/520",
-      "id": "github:Scottcjn/rustchain-bounties#520",
-      "labels": [
-        "bounty",
-        "open",
-        "standard",
-        "community"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC",
-        "3 RTC",
-        "$0.30"
-      ],
-      "reward_usd_max": 0.3,
-      "title": "[Achievement] Bug Hunter - Find a Real Bug - 2 RTC",
-      "updated_at": "2026-10-05T03:38:16Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #13949 wallet: RTCf97780fccb4d647c2118460c621e48fce710f60c",
-          "created_at": "2026-08-07T21:20:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5222118361"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T12:56:32Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5509877176"
-        },
-        {
-          "actor": "zaguzovmaksim0-hue",
-          "command": "/claim",
-          "created_at": "2026-09-10T08:10:02Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5615310287"
-        },
-        {
-          "actor": "pengshenghai",
-          "command": "/claim",
-          "created_at": "2026-09-18T03:47:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5724860296"
-        },
-        {
-          "actor": "pengshenghai",
-          "command": "/claim",
-          "created_at": "2026-09-24T01:39:34Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949#issuecomment-5805912703"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
-      "id": "github:Scottcjn/rustchain-bounties#13949",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-26T14:56:18Z",
-          "number": 17065,
-          "title": "fix: solution for bounty issue #13949 - [EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17065"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "2 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
-      "updated_at": "2026-10-05T04:27:31Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
-      "id": "github:Scottcjn/rustchain-bounties#165",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-02T07:36:21Z",
-          "number": 17100,
-          "title": "docs: track bounty #165 in ledger",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17100"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "3 RTC",
-        "$0.10"
-      ],
-      "reward_usd_max": 0.1,
-      "title": "Star our ClawHub-published repos (3 RTC)",
-      "updated_at": "2026-10-05T04:27:21Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/697",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/697",
-      "id": "github:Scottcjn/rustchain-bounties#697",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "community"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-05T04:17:46Z",
-          "number": 17115,
-          "title": "AI Agent Fix for Issue #697",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17115"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "0.5 RTC",
-        "1 RTC",
-        "3 RTC",
-        "15 RTC",
-        "20 RTC",
-        "25 RTC",
-        "$0.10 USD"
-      ],
-      "reward_usd_max": 0.1,
-      "title": "Chicken in Every Pot: Fork the Big 5 and Earn RTC",
-      "updated_at": "2026-10-05T04:15:59Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
-      "id": "github:Scottcjn/rustchain-bounties#71",
-      "labels": [
-        "bug",
-        "bounty",
-        "open"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-05T03:40:13Z",
-          "number": 17114,
-          "title": "AI Agent Fix for Issue #71",
-          "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17114"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "133 RTC",
-        "750 RTC",
-        "200 RTC",
-        "100 RTC",
-        "50 RTC",
-        "15 RTC",
-        "1 RTC",
-        "$0.10 USD"
-      ],
-      "reward_usd_max": 0.1,
-      "title": "[BOUNTY] Ongoing Bug Bounty Program \u2014 Find Bugs, Earn RTC (133 RTC Pool)",
-      "updated_at": "2026-10-05T03:38:00Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/99",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Robertg761",
-          "command": "/attempt #99",
-          "created_at": "2026-05-14T04:40:35Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4447585269"
-        },
-        {
-          "actor": "Robertg761",
-          "command": "/claim #99",
-          "created_at": "2026-05-14T04:44:30Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4447604515"
-        },
-        {
-          "actor": "bambooshadow-studio",
-          "command": "/claim #99",
-          "created_at": "2026-07-01T03:32:07Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4850005110"
-        },
-        {
-          "actor": "elevasyncsolutions-jpg",
-          "command": "/attempt #99",
-          "created_at": "2026-07-19T21:08:21Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-5017382590"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/claim #99",
-          "created_at": "2026-07-20T02:00:26Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-5018125870"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 17 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/99",
-      "id": "github:Spectral-Finance/lux#99",
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/294",
+      "id": "github:AstralDeep/AstralDeep#294",
       "labels": [
         "enhancement",
         "bounty",
-        "llm"
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
       ],
-      "matching_open_pr_count": 17,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T20:34:18Z",
-          "number": 968,
-          "title": "Fix #99: LLM Provider Abstraction Layer $600",
-          "url": "https://github.com/Spectral-Finance/lux/pull/968"
-        },
-        {
-          "created_at": "2026-09-10T13:48:02Z",
-          "number": 959,
-          "title": "fix: resolve #99 (LLM Provider Abstraction Layer $600)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/959"
-        },
-        {
-          "created_at": "2026-07-20T11:19:27Z",
-          "number": 941,
-          "title": "feat: Logging & Monitoring Module (#99)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/941"
-        },
-        {
-          "created_at": "2026-06-22T17:29:07Z",
-          "number": 785,
-          "title": "Fix #99: Implement LLM Provider Abstraction Layer",
-          "url": "https://github.com/Spectral-Finance/lux/pull/785"
-        },
-        {
-          "created_at": "2026-06-22T12:58:55Z",
-          "number": 782,
-          "title": "Fix #99: LLM Provider Abstraction Layer $600",
-          "url": "https://github.com/Spectral-Finance/lux/pull/782"
-        },
-        {
-          "created_at": "2026-08-06T23:27:15Z",
-          "number": 948,
-          "title": "feat(llm): add Universal LLM Provider Abstraction Layer (#99)Feature/llm provider abstraction",
-          "url": "https://github.com/Spectral-Finance/lux/pull/948"
-        },
-        {
-          "created_at": "2026-05-28T07:05:47Z",
-          "number": 634,
-          "title": "feat: LLM Provider abstraction \u2014 routing, fallback, cache, cost tracking (#99)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/634"
-        },
-        {
-          "created_at": "2026-05-28T11:41:25Z",
-          "number": 658,
-          "title": "feat: LLM Provider Abstraction Layer with failover and routing (#99)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/658"
-        },
-        {
-          "created_at": "2026-07-01T03:31:55Z",
-          "number": 895,
-          "title": "feat: implement LLM Provider Abstraction Layer",
-          "url": "https://github.com/Spectral-Finance/lux/pull/895"
-        },
-        {
-          "created_at": "2026-05-28T01:54:30Z",
-          "number": 630,
-          "title": "[ShanaBoo] LLM Provider Abstraction Layer $600",
-          "url": "https://github.com/Spectral-Finance/lux/pull/630"
-        },
-        {
-          "created_at": "2026-05-06T03:00:58Z",
-          "number": 495,
-          "title": "Implement LLM Provider Abstraction Layer",
-          "url": "https://github.com/Spectral-Finance/lux/pull/495"
-        },
-        {
-          "created_at": "2026-06-25T06:43:22Z",
-          "number": 847,
-          "title": "feat(llm): add universal provider registry with automatic selection and fallback",
-          "url": "https://github.com/Spectral-Finance/lux/pull/847"
-        },
-        {
-          "created_at": "2026-06-20T17:23:45Z",
-          "number": 753,
-          "title": "feat: LLM Provider Abstraction Layer with auto-selection and fallback",
-          "url": "https://github.com/Spectral-Finance/lux/pull/753"
-        },
-        {
-          "created_at": "2026-05-14T05:55:29Z",
-          "number": 585,
-          "title": "fix: LLM Provider Abstraction Layer $600",
-          "url": "https://github.com/Spectral-Finance/lux/pull/585"
-        },
-        {
-          "created_at": "2026-03-24T01:55:00Z",
-          "number": 467,
-          "title": "feat: LLM Provider Abstraction Layer",
-          "url": "https://github.com/Spectral-Finance/lux/pull/467"
-        },
-        {
-          "created_at": "2026-03-07T20:25:39Z",
-          "number": 423,
-          "title": "feat: LLM Provider Abstraction Layer",
-          "url": "https://github.com/Spectral-Finance/lux/pull/423"
-        },
-        {
-          "created_at": "2026-05-14T05:43:28Z",
-          "number": 584,
-          "title": "feat: add LLM provider routing",
-          "url": "https://github.com/Spectral-Finance/lux/pull/584"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "LLM Provider Abstraction Layer $600",
-      "updated_at": "2026-10-05T03:38:50Z",
-      "verification_confidence": "high"
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Support interrupted installation, upgrade and safe removal",
+      "updated_at": "2026-10-05T14:42:47Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Nexussyn/ai-growth-engine/issues/5",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/293",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -813,183 +52,513 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "Zubi-fix",
-          "command": "/attempt #5",
-          "created_at": "2026-07-03T14:33:30Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/5#issuecomment-4877282698"
-        },
-        {
-          "actor": "code-cannot-be-blank",
-          "command": "/claim #5",
-          "created_at": "2026-07-03T14:33:36Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/5#issuecomment-4877283652"
-        },
-        {
-          "actor": "reckoning89",
-          "command": "/attempt #5 \u2014 PR opened: https://github.com/Nexussyn/ai-growth-engine/pull/23",
-          "created_at": "2026-07-03T19:44:31Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/5#issuecomment-4878987614"
-        },
-        {
-          "actor": "lena2099",
-          "command": "/claim",
-          "created_at": "2026-08-09T00:05:23Z",
-          "recent": false,
-          "url": "https://github.com/Nexussyn/ai-growth-engine/issues/5#issuecomment-5228896108"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "manual_review",
       "decision_reasons": [
-        "At least 27 open PRs explicitly reference the canonical issue."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/Nexussyn/ai-growth-engine/issues/5",
-      "id": "github:Nexussyn/ai-growth-engine#5",
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/293",
+      "id": "github:AstralDeep/AstralDeep#293",
       "labels": [
-        "agent-task",
+        "enhancement",
         "bounty",
-        "agent"
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
       ],
-      "matching_open_pr_count": 27,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bootstrap a valid production deployment safely",
+      "updated_at": "2026-10-05T14:42:45Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/292",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/292",
+      "id": "github:AstralDeep/AstralDeep#292",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add a read-only installation and readiness doctor",
+      "updated_at": "2026-10-05T14:42:42Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/291",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/291",
+      "id": "github:AstralDeep/AstralDeep#291",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "priority:P1"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Propagate emergency stop and fence mesh peers on reconnect",
+      "updated_at": "2026-10-05T14:42:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/290",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/290",
+      "id": "github:AstralDeep/AstralDeep#290",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "priority:P1"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Expose emergency stop and explicit resume in shared UI and CLI",
+      "updated_at": "2026-10-05T14:42:39Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralPlane/issues/70",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralPlane/issues/70",
+      "id": "github:AstralDeep/AstralPlane#70",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "priority:P1"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Persist emergency-stop epochs and bounded peer acknowledgments",
+      "updated_at": "2026-10-05T14:42:35Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/288",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/288",
+      "id": "github:AstralDeep/AstralDeep#288",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:50",
+        "track:interoperability",
+        "track:security",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add shared selective A2A publication controls",
+      "updated_at": "2026-10-05T14:42:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/287",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/287",
+      "id": "github:AstralDeep/AstralDeep#287",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:interoperability",
+        "track:security",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Enforce owner-managed A2A publication and withdrawal",
+      "updated_at": "2026-10-05T14:42:32Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralPlane/issues/69",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralPlane/issues/69",
+      "id": "github:AstralDeep/AstralPlane#69",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:50",
+        "track:interoperability",
+        "track:security",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Store fenced owner capability-publication records",
+      "updated_at": "2026-10-05T14:42:30Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/286",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/286",
+      "id": "github:AstralDeep/AstralDeep#286",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Recover orchestrator and client work continuity after node loss",
+      "updated_at": "2026-10-05T14:42:28Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/284",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/284",
+      "id": "github:AstralDeep/AstralDeep#284",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Recover fenced work after an executor node fails",
+      "updated_at": "2026-10-05T14:42:24Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/295",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/295",
+      "id": "github:AstralDeep/AstralDeep#295",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-27T19:36:55Z",
-          "number": 178,
-          "title": "Agent LS1318: Issue #5 \u2014 add content agent test and migration (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/178"
-        },
-        {
-          "created_at": "2026-10-03T22:44:41Z",
-          "number": 200,
-          "title": "fix: solution for bounty issue #5 - GitHub Issue #5 in Nexussyn/ai-growth-engine",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/200"
-        },
-        {
-          "created_at": "2026-09-29T11:48:55Z",
-          "number": 186,
-          "title": "test: content agent tests (Issue #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/186"
-        },
-        {
-          "created_at": "2026-09-27T21:37:57Z",
-          "number": 179,
-          "title": "feat: complete content generation agent (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/179"
-        },
-        {
-          "created_at": "2026-09-19T10:09:04Z",
-          "number": 144,
-          "title": "feat: content agent (#5) \u2014 Wallet: 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/144"
-        },
-        {
-          "created_at": "2026-09-28T08:46:51Z",
-          "number": 180,
-          "title": "Harden content-agent validation and persistence (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/180"
-        },
-        {
-          "created_at": "2026-09-26T21:40:18Z",
-          "number": 174,
-          "title": "Content agent: tests, test seams, outreach schema (Issue #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/174"
-        },
-        {
-          "created_at": "2026-09-09T22:01:42Z",
-          "number": 122,
-          "title": "Implement tested content-generation agent for issue #5",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/122"
-        },
-        {
-          "created_at": "2026-09-17T19:55:09Z",
-          "number": 136,
-          "title": "fix: validate and persist bounty content with import-safe tests (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/136"
-        },
-        {
-          "created_at": "2026-08-25T16:20:32Z",
-          "number": 117,
-          "title": "feat(agents): content-generation agent from bounty outcomes (#5) [0xcFDa9f32d292661740a6d0B4c00867E34c05c56D]",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/117"
-        },
-        {
-          "created_at": "2026-08-25T05:00:37Z",
-          "number": 114,
-          "title": "feat(agents): implement content generation agent for bounty outcomes (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/114"
-        },
-        {
-          "created_at": "2026-08-09T00:06:34Z",
-          "number": 96,
-          "title": "feat: enhance content agent with Ollama fallback + tests (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/96"
-        },
-        {
-          "created_at": "2026-08-19T09:33:32Z",
-          "number": 107,
-          "title": "feat(agents): implement content generation agent for bounty outcomes (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/107"
-        },
-        {
-          "created_at": "2026-08-18T11:48:37Z",
-          "number": 103,
-          "title": "feat(agent): implement content generation agent for bounty outcomes (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/103"
-        },
-        {
-          "created_at": "2026-07-05T01:27:40Z",
-          "number": 54,
-          "title": "Make content agent testable for issue #5",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/54"
-        },
-        {
-          "created_at": "2026-07-20T10:02:07Z",
-          "number": 83,
-          "title": "feat: content-generation agent from bounty outcomes (#5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/83"
-        },
-        {
-          "created_at": "2026-07-09T04:58:30Z",
-          "number": 67,
-          "title": "feat: content-generation agent with tests (Issue #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/67"
-        },
-        {
-          "created_at": "2026-07-08T19:28:37Z",
-          "number": 65,
-          "title": "[PR] Add tests for content generation agent (Issue #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/65"
-        },
-        {
-          "created_at": "2026-07-25T01:26:58Z",
-          "number": 87,
-          "title": "feat(agents): implement content-generation agent for bounty outcomes (Fixes #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/87"
-        },
-        {
-          "created_at": "2026-07-03T19:44:06Z",
-          "number": 23,
-          "title": "feat: testable content-generation agent with Deno tests (issue #5)",
-          "url": "https://github.com/Nexussyn/ai-growth-engine/pull/23"
+          "created_at": "2026-10-05T14:44:59Z",
+          "number": 296,
+          "title": "fix: resolve Guide first client connection and configured-servi (#295)",
+          "url": "https://github.com/AstralDeep/AstralDeep/pull/296"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "$5 USD"
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Guide first client connection and configured-service verification",
+      "updated_at": "2026-10-05T14:42:49Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/289",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "reward_usd_max": 5.0,
-      "title": "[AGENT-TASK] Content-generation agent \u2014 auto-posts from bounty outcomes",
-      "updated_at": "2026-10-05T04:32:51Z",
-      "verification_confidence": "high"
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/289",
+      "id": "github:AstralDeep/AstralDeep#289",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "priority:P1"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-05T14:51:46Z",
+          "number": 298,
+          "title": "fix: resolve Enforce a persistent owner-scoped local emergency  (#289)",
+          "url": "https://github.com/AstralDeep/AstralDeep/pull/298"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Enforce a persistent owner-scoped local emergency stop",
+      "updated_at": "2026-10-05T14:42:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/285",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/285",
+      "id": "github:AstralDeep/AstralDeep#285",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-05T14:48:20Z",
+          "number": 297,
+          "title": "fix: resolve Reconcile ambiguous cross-node execution results (#285)",
+          "url": "https://github.com/AstralDeep/AstralDeep/pull/297"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Reconcile ambiguous cross-node execution results",
+      "updated_at": "2026-10-05T14:42:26Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/AstralDeep/AstralPlane/issues/68",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/AstralDeep/AstralPlane/issues/68",
+      "id": "github:AstralDeep/AstralPlane#68",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "points:100",
+        "track:security",
+        "track:reusability",
+        "priority:P2"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-05T14:48:27Z",
+          "number": 71,
+          "title": "fix: resolve Qualify externally managed endpoint failover readi (#68)",
+          "url": "https://github.com/AstralDeep/AstralPlane/pull/71"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Qualify externally managed endpoint failover readiness",
+      "updated_at": "2026-10-05T14:42:22Z",
+      "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-05T05:51:23.046036Z",
+  "generated_at": "2026-10-05T14:53:25.841775Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
