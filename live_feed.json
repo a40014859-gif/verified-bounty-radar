@@ -1,120 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 5,
-    "manual_review": 4,
-    "pursue": 4,
+    "hold": 3,
+    "manual_review": 10,
+    "pursue": 0,
     "skip": 2
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-      "id": "github:NSPG13/agent-bounties#1632",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "claimable-live",
-        "ready-to-earn"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "20.30 USDC",
-        "1.00 USDC",
-        "21.30 USDC",
-        "1 USDC"
-      ],
-      "reward_usd_max": 21.3,
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "updated_at": "2026-10-12T22:07:31Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1878",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1878",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1878",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$50"
-      ],
-      "reward_usd_max": 50.0,
-      "title": "[Bounty] Bounty $50: recipe for RTX 5060 Ti 16 GB",
-      "updated_at": "2026-10-12T20:23:12Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1877",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1877",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1877",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$50"
-      ],
-      "reward_usd_max": 50.0,
-      "title": "[Bounty] Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
-      "updated_at": "2026-10-12T20:05:11Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/theselfish/SlopStation13/issues/5",
+      "canonical_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -124,52 +19,40 @@
       ],
       "claim_signals": [
         {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-08T18:07:10Z",
-          "recent": false,
-          "url": "https://github.com/theselfish/SlopStation13/issues/5#issuecomment-5227424734"
-        },
-        {
-          "actor": "yaegerbomb42",
+          "actor": "satyamshrivastav955-dotcom",
           "command": "/attempt",
-          "created_at": "2026-08-28T21:46:57Z",
-          "recent": false,
-          "url": "https://github.com/theselfish/SlopStation13/issues/5#issuecomment-5458100333"
+          "created_at": "2026-10-13T12:09:38Z",
+          "recent": true,
+          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223#issuecomment-6145213090"
         }
       ],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "hold",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/theselfish/SlopStation13/issues/5",
-      "id": "github:theselfish/SlopStation13#5",
+      "discovered_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
+      "id": "github:sybil-solutions/local-ai-registry#223",
       "labels": [
-        "good first issue",
-        "BOUNTY"
+        "bounty",
+        "bounty: $50",
+        "recipe",
+        "card support"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-19T16:57:37Z",
-          "number": 34,
-          "title": "docs: resolve #5 - [Bounty] [00] Add Thursday's Boots",
-          "url": "https://github.com/theselfish/SlopStation13/pull/34"
-        }
-      ],
-      "recent_claim_count": 0,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
       "reward_mentions": [
-        "$600"
+        "$50"
       ],
-      "reward_usd_max": 600.0,
-      "title": "[Bounty] [$600] Add Thursday's Boots",
-      "updated_at": "2026-10-12T19:56:05Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 50.0,
+      "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+      "updated_at": "2026-10-13T12:09:38Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/theselfish/SlopStation13/issues/4",
+      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -179,18 +62,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-08T18:07:08Z",
+          "actor": "b3417",
+          "command": "/claim I have signed up and would like to claim this bounty.",
+          "created_at": "2026-06-14T16:48:15Z",
           "recent": false,
-          "url": "https://github.com/theselfish/SlopStation13/issues/4#issuecomment-5227424610"
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4#issuecomment-4702405541"
         },
         {
           "actor": "Ollie520",
           "command": "/claim #4",
-          "created_at": "2026-10-12T20:07:41Z",
+          "created_at": "2026-10-13T06:27:30Z",
           "recent": true,
-          "url": "https://github.com/theselfish/SlopStation13/issues/4#issuecomment-6131757029"
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4#issuecomment-6139669523"
         }
       ],
       "closed_at": null,
@@ -198,278 +81,155 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/theselfish/SlopStation13/issues/4",
-      "id": "github:theselfish/SlopStation13#4",
-      "labels": [
-        "good first issue",
-        "BOUNTY"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-12T20:07:40Z",
-          "number": 37,
-          "title": "fix: resolve #4 - [theselfish/SlopStation13] [BOUNTY][$640][FIX] Fix the compa",
-          "url": "https://github.com/theselfish/SlopStation13/pull/37"
-        },
-        {
-          "created_at": "2026-10-09T17:54:00Z",
-          "number": 35,
-          "title": "docs: resolve #4 - [BOUNTY][40][FIX] Fix the compatability issues with the TempleOS operating system.",
-          "url": "https://github.com/theselfish/SlopStation13/pull/35"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$640"
-      ],
-      "reward_usd_max": 640.0,
-      "title": "[BOUNTY][$640][FIX] Fix the compatability issues with the TempleOS operating system.",
-      "updated_at": "2026-10-12T20:07:41Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/theselfish/SlopStation13/issues/3",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Skull0716",
-          "command": "/claim",
-          "created_at": "2026-07-29T17:16:00Z",
-          "recent": false,
-          "url": "https://github.com/theselfish/SlopStation13/issues/3#issuecomment-5121167403"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim",
-          "created_at": "2026-08-10T03:05:11Z",
-          "recent": false,
-          "url": "https://github.com/theselfish/SlopStation13/issues/3#issuecomment-5235418579"
-        },
-        {
-          "actor": "Ollie520",
-          "command": "/claim #3",
-          "created_at": "2026-10-12T20:06:08Z",
-          "recent": true,
-          "url": "https://github.com/theselfish/SlopStation13/issues/3#issuecomment-6131733820"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/theselfish/SlopStation13/issues/3",
-      "id": "github:theselfish/SlopStation13#3",
-      "labels": [
-        "good first issue",
-        "BOUNTY"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-12T20:06:06Z",
-          "number": 36,
-          "title": "fix: resolve #3 - [theselfish/SlopStation13] [BOUNTY][$67] Add the Tung Tung T",
-          "url": "https://github.com/theselfish/SlopStation13/pull/36"
-        },
-        {
-          "created_at": "2026-07-29T17:55:35Z",
-          "number": 12,
-          "title": "feat: Add Tung Tung Tung Sahur antagonist and bat (#3)",
-          "url": "https://github.com/theselfish/SlopStation13/pull/12"
-        },
-        {
-          "created_at": "2026-08-29T13:44:51Z",
-          "number": 33,
-          "title": "fix(#3): [Funded Issue] [BOUNTY][$67] Add the Tung Tung Tung Sahur antagonist. ",
-          "url": "https://github.com/theselfish/SlopStation13/pull/33"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$67"
-      ],
-      "reward_usd_max": 67.0,
-      "title": "[BOUNTY][$67] Add the Tung Tung Tung Sahur antagonist.",
-      "updated_at": "2026-10-12T20:06:08Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Ollie520",
-          "command": "/claim #2",
-          "created_at": "2026-10-12T17:48:20Z",
-          "recent": true,
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/2#issuecomment-6129568800"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/2",
-      "id": "github:Senthemodder/aquarium-of-gullibles#2",
-      "labels": [
-        "bounty",
-        "algorithm"
-      ],
-      "matching_open_pr_count": 4,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-10T05:09:46Z",
-          "number": 9,
-          "title": "tests: address issue #2 (fixes #2)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/9"
-        },
-        {
-          "created_at": "2026-10-12T17:48:18Z",
-          "number": 55,
-          "title": "fix: resolve #2 - [Senthemodder/aquarium-of-gullibles] [Bounty: $850] Bedrock ",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/55"
-        },
-        {
-          "created_at": "2026-09-11T19:35:38Z",
-          "number": 33,
-          "title": "fix(physics): implement swept AABB continuous collision detection (#2)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/33"
-        },
-        {
-          "created_at": "2026-09-10T04:12:43Z",
-          "number": 7,
-          "title": "fix(physics): resolve 1-tick kinematic ghost teleportation and swept AABB dropout (#2)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/7"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$850"
-      ],
-      "reward_usd_max": 850.0,
-      "title": "[Bounty: $850] Bedrock Physics: 1-Tick Kinematic Ghost Teleportation and Swept AABB Dropout",
-      "updated_at": "2026-10-12T19:52:20Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/copperheadhq/copperhead/issues/66",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "johneapen80",
-          "command": "/claim",
-          "created_at": "2026-07-26T15:34:28Z",
-          "recent": false,
-          "url": "https://github.com/copperheadhq/copperhead/issues/66#issuecomment-5084154941"
-        },
-        {
-          "actor": "Ollie520",
-          "command": "/claim #66",
-          "created_at": "2026-10-12T20:04:33Z",
-          "recent": true,
-          "url": "https://github.com/copperheadhq/copperhead/issues/66#issuecomment-6131710902"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/copperheadhq/copperhead/issues/66",
-      "id": "github:copperheadhq/copperhead#66",
+      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/4",
+      "id": "github:warpspeedopen-source/warpspeed-bounties#4",
       "labels": [
         "help wanted",
-        "area:pipeline",
-        "area:observability",
-        "bounty"
+        "bounty",
+        "expert",
+        "paid",
+        "open",
+        "nodejs",
+        "prisma",
+        "typescript",
+        "backend",
+        "API"
       ],
-      "matching_open_pr_count": 8,
+      "matching_open_pr_count": 21,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-12T20:04:32Z",
-          "number": 371,
-          "title": "fix: resolve #66 - [copperheadhq/copperhead] Bounty: end-to-end test copperhead",
-          "url": "https://github.com/copperheadhq/copperhead/pull/371"
-        },
-        {
-          "created_at": "2026-09-30T19:11:15Z",
-          "number": 350,
-          "title": "test: end-to-end coverage for the 8-stage create pipeline (fixes #66)",
-          "url": "https://github.com/copperheadhq/copperhead/pull/350"
-        },
-        {
-          "created_at": "2026-09-08T10:08:18Z",
-          "number": 285,
-          "title": "fix: create regression guards and partial offline integration coverage",
-          "url": "https://github.com/copperheadhq/copperhead/pull/285"
-        },
-        {
-          "created_at": "2026-10-05T13:09:48Z",
-          "number": 360,
-          "title": "test: add gated create end-to-end coverage",
-          "url": "https://github.com/copperheadhq/copperhead/pull/360"
-        },
-        {
-          "created_at": "2026-09-26T16:43:04Z",
-          "number": 339,
-          "title": "test: end-to-end test for `copperhead create` (brief \u2192 clean full run) + findings report",
-          "url": "https://github.com/copperheadhq/copperhead/pull/339"
-        },
-        {
-          "created_at": "2026-09-08T09:56:30Z",
-          "number": 284,
-          "title": "test: add deterministic create pipeline end-to-end replay",
-          "url": "https://github.com/copperheadhq/copperhead/pull/284"
-        },
-        {
-          "created_at": "2026-08-06T21:08:31Z",
+          "created_at": "2026-09-26T15:22:17Z",
           "number": 189,
-          "title": "test(create): add end-to-end bounty coverage",
-          "url": "https://github.com/copperheadhq/copperhead/pull/189"
+          "title": "fix: solution for bounty issue #4 - GitHub Issue #4 in warpspeedopen-source/warpspeed-bounties",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/189"
         },
         {
-          "created_at": "2026-10-09T02:30:00Z",
-          "number": 365,
-          "title": "Fix observed create pipeline gates and export validation",
-          "url": "https://github.com/copperheadhq/copperhead/pull/365"
+          "created_at": "2026-10-10T16:44:25Z",
+          "number": 202,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/202"
+        },
+        {
+          "created_at": "2026-10-13T06:27:29Z",
+          "number": 203,
+          "title": "fix: resolve #4 - [warpspeedopen-source/warpspeed-bounties] [PAID BOUNTY - $75",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/203"
+        },
+        {
+          "created_at": "2026-06-29T09:06:22Z",
+          "number": 101,
+          "title": "fix: issue #4",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/101"
+        },
+        {
+          "created_at": "2026-06-27T13:58:13Z",
+          "number": 88,
+          "title": "fix: issue #4",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/88"
+        },
+        {
+          "created_at": "2026-09-09T03:59:07Z",
+          "number": 162,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/162"
+        },
+        {
+          "created_at": "2026-09-09T03:25:29Z",
+          "number": 160,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/160"
+        },
+        {
+          "created_at": "2026-09-09T02:46:21Z",
+          "number": 159,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/159"
+        },
+        {
+          "created_at": "2026-09-09T02:11:30Z",
+          "number": 158,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/158"
+        },
+        {
+          "created_at": "2026-09-09T00:45:30Z",
+          "number": 156,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/156"
+        },
+        {
+          "created_at": "2026-09-09T00:43:05Z",
+          "number": 155,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/155"
+        },
+        {
+          "created_at": "2026-09-09T00:10:29Z",
+          "number": 153,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/153"
+        },
+        {
+          "created_at": "2026-07-08T16:41:18Z",
+          "number": 106,
+          "title": "Fix #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/106"
+        },
+        {
+          "created_at": "2026-06-04T08:27:32Z",
+          "number": 44,
+          "title": "fix: #4 \u2014 Improved readme in README.md",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/44"
+        },
+        {
+          "created_at": "2026-07-13T22:55:19Z",
+          "number": 110,
+          "title": "feat: add Email Threads API design and implementation (fixes #4)",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/110"
+        },
+        {
+          "created_at": "2026-05-29T00:01:20Z",
+          "number": 16,
+          "title": "Feat: implement Email Threads API for Issue #4",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/16"
+        },
+        {
+          "created_at": "2026-06-05T04:38:20Z",
+          "number": 61,
+          "title": "[JARVIS] Solve issue #4: [PAID BOUNTY - $750] Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/61"
+        },
+        {
+          "created_at": "2026-09-07T23:25:47Z",
+          "number": 145,
+          "title": "Email Threads API implementation",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/145"
+        },
+        {
+          "created_at": "2026-08-23T22:49:56Z",
+          "number": 132,
+          "title": "feat: implement thread-first Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/132"
+        },
+        {
+          "created_at": "2026-06-23T07:17:47Z",
+          "number": 73,
+          "title": "feat: Email Threads API",
+          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/73"
         }
       ],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$50 USD"
+        "$750"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Bounty: end-to-end test copperhead create (brief \u2192 clean full run) + findings report",
-      "updated_at": "2026-10-12T20:04:33Z",
+      "reward_usd_max": 750.0,
+      "title": "[PAID BOUNTY - $750] Email Threads API",
+      "updated_at": "2026-10-13T12:53:26Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
+      "canonical_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -479,11 +239,74 @@
       ],
       "claim_signals": [
         {
-          "actor": "Ollie520",
-          "command": "/claim #4",
-          "created_at": "2026-10-12T17:54:49Z",
+          "actor": "TheRealDangerLou",
+          "command": "/attempt",
+          "created_at": "2026-09-12T00:44:57Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5642270164"
+        },
+        {
+          "actor": "Nish916",
+          "command": "/attempt",
+          "created_at": "2026-09-13T04:59:23Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5651265464"
+        },
+        {
+          "actor": "Nish916",
+          "command": "/claim https://github.com/aLexzzz430/Cognitive-OS/pull/53",
+          "created_at": "2026-09-13T06:28:38Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-5651667763"
+        },
+        {
+          "actor": "castellanoguillermojose-cmyk",
+          "command": "/claim",
+          "created_at": "2026-10-05T23:49:35Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6005770880"
+        },
+        {
+          "actor": "sarvin-tech",
+          "command": "/attempt",
+          "created_at": "2026-10-06T08:13:19Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6012187001"
+        },
+        {
+          "actor": "zongsm-cmyk",
+          "command": "/attempt",
+          "created_at": "2026-10-06T09:59:59Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6013866253"
+        },
+        {
+          "actor": "zongsm-cmyk",
+          "command": "/claim #5",
+          "created_at": "2026-10-06T10:54:39Z",
+          "recent": false,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6014725673"
+        },
+        {
+          "actor": "devilking7x",
+          "command": "/attempt",
+          "created_at": "2026-10-13T09:43:50Z",
           "recent": true,
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4#issuecomment-6129666833"
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6142789350"
+        },
+        {
+          "actor": "devilking7x",
+          "command": "/claim https://github.com/aLexzzz430/Cognitive-OS/pull/59",
+          "created_at": "2026-10-13T09:43:55Z",
+          "recent": true,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6142790798"
+        },
+        {
+          "actor": "Ollie520",
+          "command": "/claim #5",
+          "created_at": "2026-10-13T09:52:23Z",
+          "recent": true,
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5#issuecomment-6142932315"
         }
       ],
       "closed_at": null,
@@ -491,81 +314,149 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/Senthemodder/aquarium-of-gullibles/issues/4",
-      "id": "github:Senthemodder/aquarium-of-gullibles#4",
+      "discovered_url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "id": "github:aLexzzz430/Cognitive-OS#5",
       "labels": [
+        "reward",
         "bounty",
-        "security"
+        "research"
       ],
-      "matching_open_pr_count": 9,
+      "matching_open_pr_count": 30,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-12T17:54:47Z",
-          "number": 57,
-          "title": "fix: resolve #4 - [Senthemodder/aquarium-of-gullibles] [Bounty: $500] Critical",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/57"
+          "created_at": "2026-10-13T09:52:21Z",
+          "number": 60,
+          "title": "fix: resolve #5 - [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collec",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/60"
         },
         {
-          "created_at": "2026-10-08T08:42:26Z",
-          "number": 53,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/53"
+          "created_at": "2026-07-01T09:43:16Z",
+          "number": 30,
+          "title": "fix: issue #5",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/30"
         },
         {
-          "created_at": "2026-10-08T07:55:43Z",
-          "number": 52,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/52"
-        },
-        {
-          "created_at": "2026-10-08T07:15:11Z",
-          "number": 51,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/51"
-        },
-        {
-          "created_at": "2026-10-08T06:44:26Z",
-          "number": 50,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/50"
-        },
-        {
-          "created_at": "2026-10-08T05:54:58Z",
-          "number": 49,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/49"
-        },
-        {
-          "created_at": "2026-10-08T03:57:23Z",
+          "created_at": "2026-08-29T13:23:51Z",
           "number": 48,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/48"
+          "title": "Research: Comprehensive AGI Architecture Comparison (Issue #5 Bounty)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/48"
         },
         {
-          "created_at": "2026-10-07T22:36:45Z",
+          "created_at": "2026-09-08T21:19:30Z",
+          "number": 51,
+          "title": "Fix #5: [ Bounty $3k ] [ Research ] Collect and compare AI",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/51"
+        },
+        {
+          "created_at": "2026-09-08T20:48:37Z",
+          "number": 50,
+          "title": "Add auditable nine-system architecture research packet for #5",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/50"
+        },
+        {
+          "created_at": "2026-07-26T01:37:41Z",
+          "number": 42,
+          "title": "Add AI-generated AGI architecture comparison (Bounty #5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/42"
+        },
+        {
+          "created_at": "2026-06-11T16:16:51Z",
+          "number": 25,
+          "title": "feat: AGI Architecture Research Packet \u2014 Bounty #5",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/25"
+        },
+        {
+          "created_at": "2026-08-20T00:27:35Z",
           "number": 47,
-          "title": "[Bounty/Paid] Fix #4: [Bounty: $500] Critical: system.beforeEvents.start",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/47"
+          "title": "research: collect and compare AI-generated AGI architecture proposals (#5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/47"
         },
         {
-          "created_at": "2026-09-10T07:12:34Z",
-          "number": 11,
-          "title": "fix(commands): refactor custom command registration and permission gating for Bedrock 1.21.70 (#4)",
-          "url": "https://github.com/Senthemodder/aquarium-of-gullibles/pull/11"
+          "created_at": "2026-07-12T06:15:06Z",
+          "number": 37,
+          "title": "Add AGI architecture research packet (Issue #5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/37"
+        },
+        {
+          "created_at": "2026-05-25T09:59:38Z",
+          "number": 10,
+          "title": "research: AGI architecture research packet (#5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/10"
+        },
+        {
+          "created_at": "2026-06-16T16:00:10Z",
+          "number": 27,
+          "title": "research: AGI architecture proposals comparison ($3k bounty #5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/27"
+        },
+        {
+          "created_at": "2026-05-24T13:30:25Z",
+          "number": 9,
+          "title": "Bounty #5: AGI Architecture Research - Multi-perspective Analysis",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/9"
+        },
+        {
+          "created_at": "2026-10-06T10:54:29Z",
+          "number": 58,
+          "title": "Research: compare eight AI-generated AGI architecture proposals",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/58"
+        },
+        {
+          "created_at": "2026-10-13T09:43:52Z",
+          "number": 59,
+          "title": "Research: AI-generated AGI architecture proposals (10 systems)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/59"
+        },
+        {
+          "created_at": "2026-06-04T09:40:10Z",
+          "number": 23,
+          "title": "Research #5: Collect and compare AI-generated AGI architecture proposals",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/23"
+        },
+        {
+          "created_at": "2026-07-11T10:04:45Z",
+          "number": 35,
+          "title": "Add AGI architecture research packet: 8 AI proposals compared - Fixes #5 ($3,000 bounty)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/35"
+        },
+        {
+          "created_at": "2026-09-15T13:00:09Z",
+          "number": 54,
+          "title": "[Bounty $3k] AGI Architecture Research: 9 AI Systems Compared",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/54"
+        },
+        {
+          "created_at": "2026-08-05T19:03:40Z",
+          "number": 44,
+          "title": "feat: Add AGI Architecture Research Packet (Bounty Submission)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/44"
+        },
+        {
+          "created_at": "2026-05-22T21:55:57Z",
+          "number": 6,
+          "title": "[Bounty k] Research: Collect and compare AI-generated AGI architecture proposals (Closes #5)",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/6"
+        },
+        {
+          "created_at": "2026-09-05T20:02:19Z",
+          "number": 49,
+          "title": "[Bounty k] AGI architecture research packet - 8+ AI systems",
+          "url": "https://github.com/aLexzzz430/Cognitive-OS/pull/49"
         }
       ],
-      "recent_claim_count": 1,
+      "recent_claim_count": 3,
       "reward_mentions": [
-        "$500"
+        "$3",
+        "$3,000 USD"
       ],
-      "reward_usd_max": 500.0,
-      "title": "[Bounty: $500] Critical: system.beforeEvents.startup Throws CommandRegistrationError on Bedrock 1.21.70",
-      "updated_at": "2026-10-12T19:52:20Z",
+      "reward_usd_max": 3000.0,
+      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+      "updated_at": "2026-10-13T11:36:41Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1286",
+      "canonical_url": "https://github.com/humanode-network/humanode/issues/748",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -579,25 +470,24 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1286",
-      "id": "github:relayhop/sn-monetization-runtime#1286",
+      "discovered_url": "https://github.com/humanode-network/humanode/issues/748",
+      "id": "github:humanode-network/humanode#748",
       "labels": [
-        "radar",
-        "sn",
-        "bounty"
+        "bounty",
+        "dework"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-10-13T00:32",
-      "updated_at": "2026-10-13T00:32:57Z",
+      "title": "Make rust-analyzer work nice with humanode-runtime API impl macros",
+      "updated_at": "2026-10-13T14:11:24Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/4",
+      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -607,67 +497,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "jdjioe5-cpu",
-          "command": "/attempt",
-          "created_at": "2026-09-05T17:46:04Z",
+          "actor": "WASD258-jpg",
+          "command": "/claim",
+          "created_at": "2026-10-12T15:30:22Z",
           "recent": false,
-          "url": "https://github.com/aadarwal/swarmstatus-bounties/issues/4#issuecomment-5553642800"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/4",
-      "id": "github:aadarwal/swarmstatus-bounties#4",
-      "labels": [
-        "bounty",
-        "publish",
-        "type:question",
-        "priority:medium",
-        "area:SEC"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-06T01:11:18Z",
-          "number": 63,
-          "title": "Explain us-ma-760 row using primary source Form C-U history (#4)",
-          "url": "https://github.com/aadarwal/swarmstatus-bounties/pull/63"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Explain the us-ma-760 row using primary source history",
-      "updated_at": "2026-10-12T19:53:20Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Mantitup-Org/vista/issues/62",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Vinzz2303",
-          "command": "/attempt. I am an AI autonomous agent and I am working on this.",
-          "created_at": "2026-09-21T01:10:33Z",
-          "recent": false,
-          "url": "https://github.com/Mantitup-Org/vista/issues/62#issuecomment-5754116756"
+          "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67#issuecomment-6127381783"
         },
         {
-          "actor": "Ollie520",
-          "command": "/claim #62",
-          "created_at": "2026-10-12T22:27:09Z",
+          "actor": "rinDBeans",
+          "command": "/claim",
+          "created_at": "2026-10-13T13:32:53Z",
           "recent": true,
-          "url": "https://github.com/Mantitup-Org/vista/issues/62#issuecomment-6133786060"
+          "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67#issuecomment-6146736053"
         }
       ],
       "closed_at": null,
@@ -675,62 +516,84 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/Mantitup-Org/vista/issues/62",
-      "id": "github:Mantitup-Org/vista#62",
+      "discovered_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/67",
+      "id": "github:FuRongJun-1999/dsh-bounty#67",
+      "labels": [
+        "bounty",
+        "bounty:delivered",
+        "difficulty:expert"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[\u60ac\u8d4f] \u6a2a\u5411\u6d4b\u8bc4\uff1a\u5404\u5bb6\u89d2\u8272\u626e\u6f14 / \u8bb0\u5fc6\u7cfb\u7edf / \u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u65b9\u6848\uff08\u22653 \u5bb6 \u00b7 \u53ef\u590d\u8dd1\uff09",
+      "updated_at": "2026-10-13T13:33:07Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
       "labels": [
         "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
         "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
         "bounty"
       ],
-      "matching_open_pr_count": 6,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-12T22:27:07Z",
-          "number": 199,
-          "title": "fix: resolve #62 - [Mantitup-Org/vista] Bug: vista deploy still breaks static h",
-          "url": "https://github.com/Mantitup-Org/vista/pull/199"
-        },
-        {
-          "created_at": "2026-09-22T09:42:41Z",
-          "number": 88,
-          "title": "fix(deploy): prevent Cloudflare Pages identity rewrite and normalize standalone handlers (#62)",
-          "url": "https://github.com/Mantitup-Org/vista/pull/88"
-        },
-        {
-          "created_at": "2026-09-22T22:56:02Z",
-          "number": 107,
-          "title": "Add handling for index route in redirect generation",
-          "url": "https://github.com/Mantitup-Org/vista/pull/107"
-        },
-        {
-          "created_at": "2026-09-24T18:56:47Z",
-          "number": 145,
-          "title": "fix(deploy): fix Vercel catch-all SSR routing, Cloudflare Pages redirects, and Render startCommand (#62)",
-          "url": "https://github.com/Mantitup-Org/vista/pull/145"
-        },
-        {
-          "created_at": "2026-09-22T01:41:57Z",
-          "number": 83,
-          "title": "fix(deploy): correct Vercel static Build Output v3 route destinations",
-          "url": "https://github.com/Mantitup-Org/vista/pull/83"
-        },
-        {
-          "created_at": "2026-09-22T13:16:13Z",
-          "number": 96,
-          "title": "fix: vista deploy breaks static hosts",
-          "url": "https://github.com/Mantitup-Org/vista/pull/96"
-        }
-      ],
-      "recent_claim_count": 1,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Bug: vista deploy still breaks static hosts and platform adapters",
-      "updated_at": "2026-10-12T22:27:09Z",
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-10-13T11:32:57Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/jahmeergnlt/traefik/issues/1",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/22",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -738,218 +601,230 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "jihadMo",
-          "command": "/try",
-          "created_at": "2026-08-04T21:20:08Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5184753419"
-        },
-        {
-          "actor": "sonjaq",
-          "command": "/try",
-          "created_at": "2026-08-07T05:50:53Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5212984103"
-        },
-        {
-          "actor": "jamboriu",
-          "command": "/try",
-          "created_at": "2026-08-17T00:13:35Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5310421032"
-        },
-        {
-          "actor": "xkong2017",
-          "command": "/try",
-          "created_at": "2026-08-18T05:58:05Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5324227007"
-        },
-        {
-          "actor": "nerocorp935",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
-          "created_at": "2026-08-22T20:34:39Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5382467017"
-        },
-        {
-          "actor": "jdjioe5-cpu",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
-          "created_at": "2026-08-27T21:43:31Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5445575425"
-        },
-        {
-          "actor": "nerocorp935",
-          "command": "/claim #1",
-          "created_at": "2026-08-31T10:04:24Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5476792820"
-        },
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
-          "created_at": "2026-09-14T15:10:38Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5666171860"
-        },
-        {
-          "actor": "t3ratech",
-          "command": "/try<details><summary>Check if you're the only one trying \ud83d\udc47</summary><br/>There are already people trying to solve this issue. You're welcome to tackle it independently, but we encourage you to reach out to the contributors that are trying to solve the issue if you'd like to collaborate with them.",
-          "created_at": "2026-09-16T11:42:43Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5696863876"
-        },
-        {
-          "actor": "yhyang1",
-          "command": "/try",
-          "created_at": "2026-09-21T14:53:35Z",
-          "recent": false,
-          "url": "https://github.com/jahmeergnlt/traefik/issues/1#issuecomment-5762527836"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "manual_review",
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/jahmeergnlt/traefik/issues/1",
-      "id": "github:jahmeergnlt/traefik#1",
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/22",
+      "id": "github:mscrnt/lockpick#22",
       "labels": [
+        "help wanted",
         "bounty",
-        "opire",
-        "$100",
-        "\ud83d\udcb0 Reward"
+        "area:re1",
+        "needs-game"
       ],
-      "matching_open_pr_count": 19,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-08-05T11:30:27Z",
-          "number": 19,
-          "title": "fix: eliminate race condition causing stale middleware chain (closes #1)",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/19"
-        },
-        {
-          "created_at": "2026-09-16T11:49:18Z",
-          "number": 34,
-          "title": "fix(server): publish config and handler chain as one atomic snapshot (fixes #1)",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/34"
-        },
-        {
-          "created_at": "2026-08-31T13:16:44Z",
-          "number": 32,
-          "title": "fix: eliminate race condition and atomic type mismatch during concurrent provider updates (#1)",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/32"
-        },
-        {
-          "created_at": "2026-08-22T20:37:09Z",
-          "number": 30,
-          "title": "fix(server): eliminate race condition and atomic.Value type panic on concurrent configuration reloads (#1)",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/30"
-        },
-        {
-          "created_at": "2026-09-22T13:09:56Z",
-          "number": 40,
-          "title": "Fix Race Condition Causing Stale Middleware Chain",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/40"
-        },
-        {
-          "created_at": "2026-09-22T09:12:26Z",
-          "number": 39,
-          "title": "Fix atomic configuration and handler publication",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/39"
-        },
-        {
-          "created_at": "2026-09-21T06:51:11Z",
-          "number": 36,
-          "title": "fix(server): store handler as consistent type in atomic.Value to fix stale middleware chain race",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/36"
-        },
-        {
-          "created_at": "2026-08-25T15:46:47Z",
-          "number": 31,
-          "title": "fix: eliminate race condition in config hot-reload and fix atomic.Value type panic",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/31"
-        },
-        {
-          "created_at": "2026-08-17T00:17:27Z",
-          "number": 28,
-          "title": "fix(server): prevent race condition causing stale middleware chain during concurrent provider updates",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/28"
-        },
-        {
-          "created_at": "2026-07-30T17:45:31Z",
-          "number": 8,
-          "title": "fix: atomic config swap \u2014 no panic, router/middleware always consistent",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/8"
-        },
-        {
-          "created_at": "2026-07-30T04:44:52Z",
-          "number": 5,
-          "title": "fix: prevent race condition during configuration updates",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/5"
-        },
-        {
-          "created_at": "2026-08-15T10:27:56Z",
-          "number": 27,
-          "title": "Fix: \ud83c\udfaf Fix Race Condition Causing Stale Middleware Chain During C",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/27"
-        },
-        {
-          "created_at": "2026-08-04T00:36:33Z",
-          "number": 16,
-          "title": "fix: Fix Race Condition Causing Stale Middleware Chain During Con",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/16"
-        },
-        {
-          "created_at": "2026-08-07T05:48:05Z",
-          "number": 21,
-          "title": "fix: prevent race condition causing stale middleware chain during concurrent provider updates",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/21"
-        },
-        {
-          "created_at": "2026-08-18T05:57:40Z",
-          "number": 29,
-          "title": "fix(server): store consistent *http.ServeMux type in atomic.Value",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/29"
-        },
-        {
-          "created_at": "2026-07-30T15:03:34Z",
-          "number": 6,
-          "title": "fix: swap entrypoint handler atomically on configuration updates",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/6"
-        },
-        {
-          "created_at": "2026-07-31T03:24:36Z",
-          "number": 10,
-          "title": "fix: isolate config snapshots to eliminate provider map race",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/10"
-        },
-        {
-          "created_at": "2026-08-01T17:02:09Z",
-          "number": 11,
-          "title": "Fix atomic handler snapshot storage",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/11"
-        },
-        {
-          "created_at": "2026-08-03T15:28:09Z",
-          "number": 15,
-          "title": "fix: resolve atomic value type inconsistency panic in entrypoint swap",
-          "url": "https://github.com/jahmeergnlt/traefik/pull/15"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "\ud83c\udfaf Fix Race Condition Causing Stale Middleware Chain During Concurrent Provider Updates",
-      "updated_at": "2026-10-12T19:55:58Z",
+      "title": "[B007] Play the Rebecca section (Chris scenario)",
+      "updated_at": "2026-10-13T11:26:19Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/microg/GmsCore/issues/2843",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/23",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/23",
+      "id": "github:mscrnt/lockpick#23",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B102] Put items into and take them out of the item box",
+      "updated_at": "2026-10-13T11:06:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/24",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/24",
+      "id": "github:mscrnt/lockpick#24",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B103] Fire and reload the shotgun",
+      "updated_at": "2026-10-13T10:47:54Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/25",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/25",
+      "id": "github:mscrnt/lockpick#25",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B104] Fire and reload the Colt Python / magnum",
+      "updated_at": "2026-10-13T10:30:21Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/26",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/26",
+      "id": "github:mscrnt/lockpick#26",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B105] Use the bazooka with each round type (explosive, acid, flame)",
+      "updated_at": "2026-10-13T10:13:15Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/27",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/27",
+      "id": "github:mscrnt/lockpick#27",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B106] Use the flamethrower (Chris)",
+      "updated_at": "2026-10-13T09:55:23Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mscrnt/lockpick/issues/28",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mscrnt/lockpick/issues/28",
+      "id": "github:mscrnt/lockpick#28",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "area:re1",
+        "needs-game"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[B107] Use the rocket launcher (ending)",
+      "updated_at": "2026-10-13T09:38:26Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/59732",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -959,125 +834,71 @@
       ],
       "claim_signals": [
         {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:26Z",
+          "actor": "Liladizilla",
+          "command": "/claim",
+          "created_at": "2026-10-10T12:08:06Z",
           "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4152344763"
-        },
-        {
-          "actor": "willkhinz",
-          "command": "/attempt #2843",
-          "created_at": "2026-04-02T11:10:04Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4176608117"
-        },
-        {
-          "actor": "willkhinz",
-          "command": "/attempt #2843",
-          "created_at": "2026-04-02T11:11:51Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4176625702"
-        },
-        {
-          "actor": "williamjie777",
-          "command": "/try",
-          "created_at": "2026-04-07T20:42:01Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4202082164"
-        },
-        {
-          "actor": "chaudl113",
-          "command": "/attempt #2843",
-          "created_at": "2026-05-31T02:14:46Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4585453067"
-        },
-        {
-          "actor": "mdsanzidhasnat",
-          "command": "/try",
-          "created_at": "2026-07-07T09:18:33Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-4902191124"
-        },
-        {
-          "actor": "johneapen80",
-          "command": "/claim #2843",
-          "created_at": "2026-07-26T20:15:01Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-5085210591"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/claim #2843",
-          "created_at": "2026-07-27T01:43:39Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-5086478001"
-        },
-        {
-          "actor": "novastreamdev",
-          "command": "/attempt",
-          "created_at": "2026-08-27T18:25:38Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-5443475606"
-        },
-        {
-          "actor": "TheAnkushAgarwal",
-          "command": "/attempt",
-          "created_at": "2026-08-31T19:40:56Z",
-          "recent": false,
-          "url": "https://github.com/microg/GmsCore/issues/2843#issuecomment-5483547308"
+          "url": "https://github.com/tenstorrent/tt-metal/issues/59732#issuecomment-6097324881"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 4 open PRs explicitly reference the canonical issue."
+        "At least 6 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/microg/GmsCore/issues/2843",
-      "id": "github:microg/GmsCore#2843",
+      "discovered_url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+      "id": "github:tenstorrent/tt-metal#59732",
       "labels": [
-        "enhancement",
-        "bounty"
+        "bounty",
+        "bounty_difficulty/medium"
       ],
-      "matching_open_pr_count": 4,
+      "matching_open_pr_count": 6,
       "matching_open_prs": [
         {
-          "created_at": "2026-05-12T09:54:57Z",
-          "number": 3466,
-          "title": "fix: [BOUNTY] WearOS Support [$1340]",
-          "url": "https://github.com/microg/GmsCore/pull/3466"
+          "created_at": "2026-10-11T12:10:23Z",
+          "number": 60225,
+          "title": "fix: solution for bounty issue #59732 - GitHub Issue #59732 in tenstorrent/tt-metal",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/60225"
         },
         {
-          "created_at": "2026-06-05T04:50:30Z",
-          "number": 3535,
-          "title": "feat: Add Wear OS support \u2014 Bluetooth transport, notification mirroring, and media control",
-          "url": "https://github.com/microg/GmsCore/pull/3535"
+          "created_at": "2026-10-09T01:34:44Z",
+          "number": 59944,
+          "title": "fix(sampling): add host-side validation of random-threshold bias model (#59732)",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/59944"
         },
         {
-          "created_at": "2025-12-11T00:01:15Z",
-          "number": 3178,
-          "title": "Add Bluetooth support for WearOS devices",
-          "url": "https://github.com/microg/GmsCore/pull/3178"
+          "created_at": "2026-10-10T05:42:59Z",
+          "number": 60208,
+          "title": "docs: bounty 59732 verification for ttnn.sampling 16-bit threshold fix (repro + docs)",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/60208"
         },
         {
-          "created_at": "2026-02-21T13:10:33Z",
-          "number": 3286,
-          "title": "Enhance WearOS features and fix service stubs and bugs",
-          "url": "https://github.com/microg/GmsCore/pull/3286"
+          "created_at": "2026-10-08T18:23:13Z",
+          "number": 59917,
+          "title": "fix(sampling): use FP32 random threshold to remove BF16 distribution bias (#59732)",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/59917"
+        },
+        {
+          "created_at": "2026-10-08T15:48:39Z",
+          "number": 59888,
+          "title": "fix(sampling): use FP32 random threshold to remove BF16 distribution bias (#59732)",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/59888"
+        },
+        {
+          "created_at": "2026-10-08T12:33:35Z",
+          "number": 59841,
+          "title": "fix(sampling): use FP32 random threshold to remove BF16 distribution bias (bounty #59732)",
+          "url": "https://github.com/tenstorrent/tt-metal/pull/59841"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$2340",
-        "$200",
-        "$500",
-        "$100",
-        "$50"
+        "$3,000",
+        "$3,000 USD"
       ],
-      "reward_usd_max": 2340.0,
-      "title": "[BOUNTY] WearOS Support [$2340]",
-      "updated_at": "2026-10-12T21:23:11Z",
+      "reward_usd_max": 3000.0,
+      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "updated_at": "2026-10-13T14:20:52Z",
       "verification_confidence": "high"
     },
     {
@@ -1303,12 +1124,12 @@
       ],
       "reward_usd_max": 50.0,
       "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-      "updated_at": "2026-10-13T00:30:10Z",
+      "updated_at": "2026-10-13T09:25:05Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-13T00:48:12.586168Z",
+  "generated_at": "2026-10-13T14:21:18.191796Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
