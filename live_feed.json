@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 4,
-    "manual_review": 5,
-    "pursue": 1,
-    "skip": 5
+    "hold": 1,
+    "manual_review": 13,
+    "pursue": 0,
+    "skip": 1
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/verdikta/verdikta-applications/issues/76",
+      "canonical_url": "https://github.com/uvsmtid/protoprimer/issues/143",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -17,489 +17,64 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      "claim_signals": [
+        {
+          "actor": "bookkuybig",
+          "command": "/attempt #143",
+          "created_at": "2026-10-15T14:59:23Z",
+          "recent": true,
+          "url": "https://github.com/uvsmtid/protoprimer/issues/143#issuecomment-6195154155"
+        }
       ],
-      "discovered_url": "https://github.com/verdikta/verdikta-applications/issues/76",
-      "id": "github:verdikta/verdikta-applications#76",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/uvsmtid/protoprimer/issues/143",
+      "id": "github:uvsmtid/protoprimer#143",
       "labels": [
         "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$30",
-        "0.0125 ETH",
-        "0.0041 ETH",
-        "$10"
-      ],
-      "reward_usd_max": 30.0,
-      "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
-      "updated_at": "2026-10-15T11:19:02Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/75",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Treasure520520",
-          "command": "/attempt #75",
-          "created_at": "2026-05-13T01:08:07Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/75#issuecomment-4436180236"
-        },
-        {
-          "actor": "open5588",
-          "command": "/claim #75",
-          "created_at": "2026-10-15T10:23:31Z",
-          "recent": true,
-          "url": "https://github.com/Spectral-Finance/lux/issues/75#issuecomment-6189869604"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/75",
-      "id": "github:Spectral-Finance/lux#75",
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "matching_open_pr_count": 7,
+      "matching_open_pr_count": 4,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-15T10:23:06Z",
-          "number": 992,
-          "title": "feat(web3): implement smart contract event monitoring system (#75)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/992"
+          "created_at": "2026-10-15T15:17:56Z",
+          "number": 144,
+          "title": "Add ShellDriverSh: use /bin/sh when SHELL is not set (#143)",
+          "url": "https://github.com/uvsmtid/protoprimer/pull/144"
         },
         {
-          "created_at": "2026-06-21T15:59:26Z",
-          "number": 755,
-          "title": "feat: Implement Smart Contract Event Monitoring System (#75)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/755"
+          "created_at": "2026-10-15T15:44:23Z",
+          "number": 146,
+          "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set (Fixes #143)",
+          "url": "https://github.com/uvsmtid/protoprimer/pull/146"
         },
         {
-          "created_at": "2026-06-25T07:29:28Z",
-          "number": 868,
-          "title": "feat(ethereum): add smart contract event monitoring lens via Etherscan",
-          "url": "https://github.com/Spectral-Finance/lux/pull/868"
+          "created_at": "2026-10-15T15:37:33Z",
+          "number": 145,
+          "title": "Add ShellDriverSh: fall back to /bin/sh when SHELL is unset (#143)",
+          "url": "https://github.com/uvsmtid/protoprimer/pull/145"
         },
         {
-          "created_at": "2026-06-02T17:17:18Z",
-          "number": 692,
-          "title": "feat: add Smart Contract Event Monitoring system",
-          "url": "https://github.com/Spectral-Finance/lux/pull/692"
-        },
-        {
-          "created_at": "2026-03-08T05:24:03Z",
-          "number": 439,
-          "title": "feat: Smart Contract Event Monitoring System",
-          "url": "https://github.com/Spectral-Finance/lux/pull/439"
-        },
-        {
-          "created_at": "2026-05-13T16:05:41Z",
-          "number": 547,
-          "title": "feat: add smart contract event monitoring",
-          "url": "https://github.com/Spectral-Finance/lux/pull/547"
-        },
-        {
-          "created_at": "2026-05-13T01:17:16Z",
-          "number": 507,
-          "title": "feat(web3): add smart contract event monitor core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/507"
+          "created_at": "2026-10-15T16:04:11Z",
+          "number": 147,
+          "title": "Add POSIX `ShellDriverSh` fallback when `SHELL` is unset",
+          "url": "https://github.com/uvsmtid/protoprimer/pull/147"
         }
       ],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$1,500"
+        "$75,"
       ],
-      "reward_usd_max": 1500.0,
-      "title": "Smart Contract Event Monitoring System $1,500",
-      "updated_at": "2026-10-15T10:23:31Z",
+      "reward_usd_max": 75.0,
+      "title": "Add `ShellDriverSh`: use `/bin/sh` when `SHELL` is not set",
+      "updated_at": "2026-10-15T16:23:01Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/76",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Treasure520520",
-          "command": "/attempt #76",
-          "created_at": "2026-05-13T01:45:50Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/76#issuecomment-4436432782"
-        },
-        {
-          "actor": "BigPolarBear",
-          "command": "/claim #76",
-          "created_at": "2026-05-14T02:26:47Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/76#issuecomment-4446899120"
-        },
-        {
-          "actor": "open5588",
-          "command": "/claim #76",
-          "created_at": "2026-10-15T10:27:42Z",
-          "recent": true,
-          "url": "https://github.com/Spectral-Finance/lux/issues/76#issuecomment-6189943552"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/76",
-      "id": "github:Spectral-Finance/lux#76",
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "matching_open_pr_count": 8,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T10:27:30Z",
-          "number": 993,
-          "title": "feat(web3): implement gas optimization and transaction management (#76)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/993"
-        },
-        {
-          "created_at": "2026-07-12T19:37:09Z",
-          "number": 928,
-          "title": "feat: Gas Optimization and Transaction Management System",
-          "url": "https://github.com/Spectral-Finance/lux/pull/928"
-        },
-        {
-          "created_at": "2026-06-25T07:56:23Z",
-          "number": 874,
-          "title": "feat(ethereum): add EIP-1559 gas optimization prism using live GasOracle",
-          "url": "https://github.com/Spectral-Finance/lux/pull/874"
-        },
-        {
-          "created_at": "2026-06-02T17:17:09Z",
-          "number": 691,
-          "title": "feat: add Gas Optimization and Transaction Management",
-          "url": "https://github.com/Spectral-Finance/lux/pull/691"
-        },
-        {
-          "created_at": "2026-06-22T02:16:12Z",
-          "number": 770,
-          "title": "Gas Optimization and Transaction Management",
-          "url": "https://github.com/Spectral-Finance/lux/pull/770"
-        },
-        {
-          "created_at": "2026-03-08T05:24:06Z",
-          "number": 440,
-          "title": "feat: Gas Optimization and Transaction Management",
-          "url": "https://github.com/Spectral-Finance/lux/pull/440"
-        },
-        {
-          "created_at": "2026-05-13T01:51:11Z",
-          "number": 510,
-          "title": "feat(web3): add gas optimizer core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/510"
-        },
-        {
-          "created_at": "2026-05-14T02:26:31Z",
-          "number": 556,
-          "title": "feat: add gas transaction manager",
-          "url": "https://github.com/Spectral-Finance/lux/pull/556"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$1,250"
-      ],
-      "reward_usd_max": 1250.0,
-      "title": "Gas Optimization and Transaction Management $1,250",
-      "updated_at": "2026-10-15T10:27:42Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/77",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Treasure520520",
-          "command": "/attempt #77",
-          "created_at": "2026-05-13T02:18:31Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/77#issuecomment-4436579701"
-        },
-        {
-          "actor": "open5588",
-          "command": "/claim #77",
-          "created_at": "2026-10-15T10:43:57Z",
-          "recent": true,
-          "url": "https://github.com/Spectral-Finance/lux/issues/77#issuecomment-6190212839"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/77",
-      "id": "github:Spectral-Finance/lux#77",
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "matching_open_pr_count": 11,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T10:43:55Z",
-          "number": 995,
-          "title": "feat(web3): implement Web3 authentication and authorization framework (#77)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/995"
-        },
-        {
-          "created_at": "2026-09-10T13:57:59Z",
-          "number": 963,
-          "title": "fix: resolve #77 (Web3 Authentication and Authorization Framework $1)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/963"
-        },
-        {
-          "created_at": "2026-03-08T06:57:07Z",
-          "number": 444,
-          "title": "feat: Web3 Authentication and Authorization (#77)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/444"
-        },
-        {
-          "created_at": "2026-09-10T14:03:16Z",
-          "number": 966,
-          "title": "feat: Web3 Authentication and Authorization Framework (EIP-4361 SIWE, RBAC, Token-Gating) ($1,000)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/966"
-        },
-        {
-          "created_at": "2026-06-25T06:52:10Z",
-          "number": 854,
-          "title": "feat(integrations): add Web3Auth EIP-4361 RBAC session management",
-          "url": "https://github.com/Spectral-Finance/lux/pull/854"
-        },
-        {
-          "created_at": "2026-06-02T17:17:00Z",
-          "number": 690,
-          "title": "feat: add Web3 Authentication and Authorization framework",
-          "url": "https://github.com/Spectral-Finance/lux/pull/690"
-        },
-        {
-          "created_at": "2026-07-12T10:20:31Z",
-          "number": 925,
-          "title": "feat: Web3 Auth Framework V2 (EIP-4361 SIWE)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/925"
-        },
-        {
-          "created_at": "2026-06-16T14:02:46Z",
-          "number": 728,
-          "title": "Add Web3 authentication and authorization framework",
-          "url": "https://github.com/Spectral-Finance/lux/pull/728"
-        },
-        {
-          "created_at": "2026-06-22T02:19:33Z",
-          "number": 773,
-          "title": "feat: Web3 Authentication and Authorization Framework",
-          "url": "https://github.com/Spectral-Finance/lux/pull/773"
-        },
-        {
-          "created_at": "2026-07-11T18:13:17Z",
-          "number": 922,
-          "title": "feat: Web3 Auth Framework (EIP-4361 SIWE)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/922"
-        },
-        {
-          "created_at": "2026-05-13T02:31:34Z",
-          "number": 512,
-          "title": "feat(web3): add auth core helpers",
-          "url": "https://github.com/Spectral-Finance/lux/pull/512"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$1,000"
-      ],
-      "reward_usd_max": 1000.0,
-      "title": "Web3 Authentication and Authorization Framework $1,000",
-      "updated_at": "2026-10-15T11:07:32Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/74",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Treasure520520",
-          "command": "/attempt #74",
-          "created_at": "2026-05-13T01:54:20Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/74#issuecomment-4436473084"
-        },
-        {
-          "actor": "Treasure520520",
-          "command": "/claim #74",
-          "created_at": "2026-05-14T03:29:16Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/74#issuecomment-4447185284"
-        },
-        {
-          "actor": "BigPolarBear",
-          "command": "/attempt #74",
-          "created_at": "2026-05-14T03:36:44Z",
-          "recent": false,
-          "url": "https://github.com/Spectral-Finance/lux/issues/74#issuecomment-4447211281"
-        },
-        {
-          "actor": "open5588",
-          "command": "/claim #74",
-          "created_at": "2026-10-15T10:16:44Z",
-          "recent": true,
-          "url": "https://github.com/Spectral-Finance/lux/issues/74#issuecomment-6189752442"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/74",
-      "id": "github:Spectral-Finance/lux#74",
-      "labels": [
-        "bounty",
-        "web3",
-        "infrastructure"
-      ],
-      "matching_open_pr_count": 13,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T10:30:50Z",
-          "number": 994,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #74",
-          "url": "https://github.com/Spectral-Finance/lux/pull/994"
-        },
-        {
-          "created_at": "2026-10-15T10:16:34Z",
-          "number": 991,
-          "title": "feat(web3): implement multi-chain data aggregation engine (#74)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/991"
-        },
-        {
-          "created_at": "2026-07-05T15:23:49Z",
-          "number": 910,
-          "title": "feat: multi-chain data aggregation engine (Issue #74)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/910"
-        },
-        {
-          "created_at": "2026-06-22T02:17:52Z",
-          "number": 771,
-          "title": "feat: Multi-Chain Data Aggregation Engine (Issue #74)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/771"
-        },
-        {
-          "created_at": "2026-04-30T01:38:23Z",
-          "number": 479,
-          "title": "feat: Multi-Chain Data Aggregation Engine (#74)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/479"
-        },
-        {
-          "created_at": "2026-02-17T15:59:16Z",
-          "number": 360,
-          "title": "feat: multi-chain data aggregation engine (Resolves #74)",
-          "url": "https://github.com/Spectral-Finance/lux/pull/360"
-        },
-        {
-          "created_at": "2026-06-25T07:04:07Z",
-          "number": 865,
-          "title": "feat(integrations): add multi-chain data aggregation engine for 7 EVM chains",
-          "url": "https://github.com/Spectral-Finance/lux/pull/865"
-        },
-        {
-          "created_at": "2026-06-02T17:17:56Z",
-          "number": 693,
-          "title": "feat: add Multi-Chain Data Aggregation engine",
-          "url": "https://github.com/Spectral-Finance/lux/pull/693"
-        },
-        {
-          "created_at": "2026-05-13T01:58:08Z",
-          "number": 511,
-          "title": "feat(web3): add multi-chain rpc aggregation core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/511"
-        },
-        {
-          "created_at": "2026-03-08T05:18:43Z",
-          "number": 438,
-          "title": "feat: Multi-Chain Data Aggregation Engine",
-          "url": "https://github.com/Spectral-Finance/lux/pull/438"
-        },
-        {
-          "created_at": "2026-05-14T03:28:43Z",
-          "number": 562,
-          "title": "Add multi-chain EVM aggregation core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/562"
-        },
-        {
-          "created_at": "2026-06-16T15:52:18Z",
-          "number": 733,
-          "title": "Add multi-chain aggregation core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/733"
-        },
-        {
-          "created_at": "2026-05-14T03:35:57Z",
-          "number": 563,
-          "title": "feat: add multi-chain aggregation core",
-          "url": "https://github.com/Spectral-Finance/lux/pull/563"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$1,750"
-      ],
-      "reward_usd_max": 1750.0,
-      "title": "Multi-Chain Data Aggregation Engine $1,750",
-      "updated_at": "2026-10-15T10:16:45Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/aeternity/bounties/issues/6",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2944",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -513,10 +88,10 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/aeternity/bounties/issues/6",
-      "id": "github:aeternity/bounties#6",
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2944",
+      "id": "github:ditto-assistant/ditto-subnet#2944",
       "labels": [
-        "help wanted",
+        "enhancement",
         "bounty"
       ],
       "matching_open_pr_count": 0,
@@ -524,13 +99,13 @@
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "GitHub Syntax Highlighting (CHF 1500)",
-      "updated_at": "2026-10-15T10:16:05Z",
+      "title": "Evaluate one scoped build-bounty pilot against an internal build",
+      "updated_at": "2026-10-15T16:58:02Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1378",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2943",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -544,35 +119,345 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1378",
-      "id": "github:OphirPay/OphirPay#1378",
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2943",
+      "id": "github:ditto-assistant/ditto-subnet#2943",
       "labels": [
         "enhancement",
-        "frontend",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add bounty operator controls and gate funded activation",
+      "updated_at": "2026-10-15T16:58:00Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2942",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2942",
+      "id": "github:ditto-assistant/ditto-subnet#2942",
+      "labels": [
+        "enhancement",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Implement paid bounty slots, alpha fee confirmation, and submission deadlines",
+      "updated_at": "2026-10-15T16:57:56Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
+      "labels": [
+        "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-10-15T16:46:05Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2046",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2046",
+      "id": "github:ditto-assistant/ditto-subnet#2046",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-21T12:16:40Z",
+          "number": 2075,
+          "title": "feat(governance): implement bounty acceptance, payout proof, disputes, and public accounting (#2046)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2075"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Implement bounty acceptance, alpha awards, fee refunds and accounting",
+      "updated_at": "2026-10-15T16:57:49Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2054",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2054",
+      "id": "github:ditto-assistant/ditto-subnet#2054",
+      "labels": [
+        "epic",
+        "bounty"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-22T08:16:47Z",
+          "number": 2097,
+          "title": "feat(bounties): implement 5% maintenance treasury and miner bounty operations (#2054)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2097"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Epic: SN118 scoped build bounties: paid slots, human review, and alpha awards",
+      "updated_at": "2026-10-15T16:57:44Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2044",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2044",
+      "id": "github:ditto-assistant/ditto-subnet#2044",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "bounty"
       ],
       "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-15T01:15:14Z",
-          "number": 1380,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1378",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1380"
+          "created_at": "2026-09-21T10:10:46Z",
+          "number": 2073,
+          "title": "docs(governance): specify the 5% SN118 maintenance treasury and governance contract (#2044)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2073"
         },
         {
-          "created_at": "2026-10-15T01:15:21Z",
-          "number": 1381,
-          "title": "fix: Add drag-and-drop CSV batch upload zone with visual upload progress feedback (resolves #1378)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1381"
+          "created_at": "2026-09-20T14:59:40Z",
+          "number": 2056,
+          "title": "docs: resolve #2044 - Specify the 5% SN118 maintenance treasury and governance contract",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2056"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Add drag-and-drop CSV batch upload zone with visual upload progress feedback",
-      "updated_at": "2026-10-15T11:14:53Z",
+      "title": "Specify scoped build-bounty rules, alpha funding and governance",
+      "updated_at": "2026-10-15T16:57:47Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2872",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2872",
+      "id": "github:ditto-assistant/ditto-subnet#2872",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-14T23:23:59Z",
+          "number": 2930,
+          "title": "fix: Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey (resolves #2872)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2930"
+        },
+        {
+          "created_at": "2026-10-14T15:52:52Z",
+          "number": 2928,
+          "title": "fix: Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey (resolves #2872)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2928"
+        },
+        {
+          "created_at": "2026-10-14T15:33:51Z",
+          "number": 2926,
+          "title": "fix: Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey (resolves #2872)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2926"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Miner CLI: sign the contributor licence agreement (CLA) with the miner hotkey",
+      "updated_at": "2026-10-15T16:58:10Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2871",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2871",
+      "id": "github:ditto-assistant/ditto-subnet#2871",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T07:01:23Z",
+          "number": 2936,
+          "title": "feat: Implement GitHub account linking for miners",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2936"
+        },
+        {
+          "created_at": "2026-10-14T23:29:20Z",
+          "number": 2931,
+          "title": "fix: Miner CLI: attest a GitHub account and link it to the miner hotkey (resolves #2871)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2931"
+        },
+        {
+          "created_at": "2026-10-14T15:47:52Z",
+          "number": 2927,
+          "title": "fix: Miner CLI: attest a GitHub account and link it to the miner hotkey (resolves #2871)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2927"
+        },
+        {
+          "created_at": "2026-10-14T15:58:19Z",
+          "number": 2929,
+          "title": "fix: Miner CLI: attest a GitHub account and link it to the miner hotkey (resolves #2871)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2929"
+        },
+        {
+          "created_at": "2026-10-13T20:24:21Z",
+          "number": 2889,
+          "title": "feat(miner): add verified GitHub links and signed CLA consent",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2889"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Miner CLI: attest a GitHub account and link it to the miner hotkey",
+      "updated_at": "2026-10-15T16:58:06Z",
       "verification_confidence": "medium"
     },
     {
@@ -600,7 +485,7 @@
         "bounty",
         "Stellar Wave"
       ],
-      "matching_open_pr_count": 3,
+      "matching_open_pr_count": 6,
       "matching_open_prs": [
         {
           "created_at": "2026-10-15T01:08:57Z",
@@ -609,10 +494,28 @@
           "url": "https://github.com/OphirPay/OphirPay/pull/1372"
         },
         {
+          "created_at": "2026-10-15T16:12:20Z",
+          "number": 1486,
+          "title": "feat(validation): Stellar memo encoding and charset validation (#1368)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1486"
+        },
+        {
+          "created_at": "2026-10-15T16:12:54Z",
+          "number": 1487,
+          "title": "feat(validation): add Stellar memo encoding and character set validation (#1368)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1487"
+        },
+        {
           "created_at": "2026-10-15T05:06:08Z",
           "number": 1457,
           "title": "feat(validation): validate Stellar transaction memo encoding and character set (#1368)",
           "url": "https://github.com/OphirPay/OphirPay/pull/1457"
+        },
+        {
+          "created_at": "2026-10-15T16:00:25Z",
+          "number": 1482,
+          "title": "fix: Validate Stellar transaction memo encoding and character set on payment routes (Resolves #1368)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1482"
         },
         {
           "created_at": "2026-10-15T02:48:14Z",
@@ -625,7 +528,83 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Validate Stellar transaction memo encoding and character set on payment routes",
-      "updated_at": "2026-10-15T11:14:10Z",
+      "updated_at": "2026-10-15T16:24:32Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ditto-assistant/ditto-subnet/issues/2047",
+      "id": "github:ditto-assistant/ditto-subnet#2047",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 7,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-20T20:11:31Z",
+          "number": 2060,
+          "title": "docs: Add SN118 bounty board and contributor guide (Issue #2047)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2060"
+        },
+        {
+          "created_at": "2026-09-22T07:13:50Z",
+          "number": 2096,
+          "title": "feat(bounties): publish GitHub-backed SN118 bounty board and contributor guide (#2047)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2096"
+        },
+        {
+          "created_at": "2026-10-06T15:41:12Z",
+          "number": 2760,
+          "title": "Add SN118 bounty board and contributor guide",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2760"
+        },
+        {
+          "created_at": "2026-09-20T15:22:11Z",
+          "number": 2058,
+          "title": "feat(bounties): publish GitHub-backed SN118 bounty board and contributor guide (#2047)",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2058"
+        },
+        {
+          "created_at": "2026-09-20T14:59:49Z",
+          "number": 2057,
+          "title": "docs: resolve #2047 - Publish a GitHub-backed SN118 bounty board and contributor guide",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2057"
+        },
+        {
+          "created_at": "2026-09-20T14:59:31Z",
+          "number": 2055,
+          "title": "docs: resolve #2047 - Publish a GitHub-backed SN118 bounty board and contributor guide",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2055"
+        },
+        {
+          "created_at": "2026-09-30T21:17:19Z",
+          "number": 2604,
+          "title": "fix: solution for bounty issue #2047 - Publish a GitHub-backed SN118 bounty board and contributor guide",
+          "url": "https://github.com/ditto-assistant/ditto-subnet/pull/2604"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Publish the DittoBench build-bounty board and GitHub contributor guide",
+      "updated_at": "2026-10-15T16:57:53Z",
       "verification_confidence": "medium"
     },
     {
@@ -653,8 +632,20 @@
         "bounty",
         "Stellar Wave"
       ],
-      "matching_open_pr_count": 4,
+      "matching_open_pr_count": 8,
       "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T16:06:00Z",
+          "number": 1483,
+          "title": "fix(webhook): timing-safe HMAC signature verification (#1386)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1483"
+        },
+        {
+          "created_at": "2026-10-15T13:39:28Z",
+          "number": 1474,
+          "title": "feat(webhook): implement timing-safe HMAC signature verification (#1386)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1474"
+        },
         {
           "created_at": "2026-10-15T08:43:57Z",
           "number": 1469,
@@ -674,6 +665,18 @@
           "url": "https://github.com/OphirPay/OphirPay/pull/1390"
         },
         {
+          "created_at": "2026-10-15T15:53:27Z",
+          "number": 1479,
+          "title": "feat(security): add timing-safe HMAC signature verification for webhooks (#1386)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1479"
+        },
+        {
+          "created_at": "2026-10-15T16:29:12Z",
+          "number": 1492,
+          "title": "fix: Implement timing-safe HMAC signature verification in webhook handler (Resolves #1386)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1492"
+        },
+        {
           "created_at": "2026-10-15T01:20:49Z",
           "number": 1388,
           "title": "fix: Implement timing-safe HMAC signature verification in webhook handler (resolves #1386)",
@@ -684,12 +687,109 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Implement timing-safe HMAC signature verification in webhook handler",
-      "updated_at": "2026-10-15T11:10:09Z",
+      "updated_at": "2026-10-15T16:06:15Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "valmir5522",
+          "command": "/attempt #1364",
+          "created_at": "2026-10-15T01:05:04Z",
+          "recent": false,
+          "url": "https://github.com/OphirPay/OphirPay/issues/1364#issuecomment-6181987331"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "id": "github:OphirPay/OphirPay#1364",
+      "labels": [
+        "enhancement",
+        "backend",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T01:03:35Z",
+          "number": 1367,
+          "title": "[Baobot Autonomous AI] Automated fix for Issue #1364",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1367"
+        },
+        {
+          "created_at": "2026-10-15T16:20:38Z",
+          "number": 1491,
+          "title": "feat(api): RFC 7807 problem details across payment routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1491"
+        },
+        {
+          "created_at": "2026-10-15T02:05:50Z",
+          "number": 1431,
+          "title": "fix: resolve #1364 - Add RFC 7807 problem details error formatting across all /ap",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1431"
+        },
+        {
+          "created_at": "2026-10-15T16:00:03Z",
+          "number": 1481,
+          "title": "feat(api): add RFC 7807 problem details error formatting for /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1481"
+        },
+        {
+          "created_at": "2026-10-15T07:50:41Z",
+          "number": 1466,
+          "title": "feat(api): add RFC 7807 problem details error formatting to /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1466"
+        },
+        {
+          "created_at": "2026-10-15T03:56:50Z",
+          "number": 1451,
+          "title": "feat(api): add RFC 7807 problem details error formatting across /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1451"
+        },
+        {
+          "created_at": "2026-10-15T14:59:35Z",
+          "number": 1477,
+          "title": "fix: Add RFC 7807 problem details error formatting across all /api/payments routes (Resolves #1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1477"
+        },
+        {
+          "created_at": "2026-10-15T02:53:45Z",
+          "number": 1445,
+          "title": "fix: Add RFC 7807 problem details error formatting across all /api/payments routes (resolves #1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1445"
+        },
+        {
+          "created_at": "2026-10-15T01:57:48Z",
+          "number": 1428,
+          "title": "fix: RFC7807 problem+json for payments routes + client problemdetails\u2026",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1428"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add RFC 7807 problem details error formatting across all /api/payments routes",
+      "updated_at": "2026-10-15T16:24:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/330",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -699,815 +799,54 @@
       ],
       "claim_signals": [],
       "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1361",
-      "id": "github:OphirPay/OphirPay#1361",
-      "labels": [
-        "enhancement",
-        "backend",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 5,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T09:06:29Z",
-          "number": 1470,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1361",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1470"
-        },
-        {
-          "created_at": "2026-10-15T04:18:34Z",
-          "number": 1454,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1361",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1454"
-        },
-        {
-          "created_at": "2026-10-15T04:04:13Z",
-          "number": 1452,
-          "title": "feat(api): add cursor-based pagination to /api/audit-log (#1361)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1452"
-        },
-        {
-          "created_at": "2026-10-15T06:03:10Z",
-          "number": 1460,
-          "title": "feat(api): add cursor-based pagination and sorting to /api/audit-log (#1361)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1460"
-        },
-        {
-          "created_at": "2026-10-15T01:01:49Z",
-          "number": 1363,
-          "title": "fix: Add cursor-based pagination and sorting to /api/audit-log route (resolves #1361)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1363"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add cursor-based pagination and sorting to /api/audit-log route",
-      "updated_at": "2026-10-15T11:35:58Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/sybil-solutions/local-ai-registry/issues/221",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "mjneuroart",
-          "command": "/attempt",
-          "created_at": "2026-10-13T06:02:51Z",
-          "recent": false,
-          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/221#issuecomment-6139348022"
-        },
-        {
-          "actor": "hirschga",
-          "command": "/attempt",
-          "created_at": "2026-10-14T11:01:07Z",
-          "recent": false,
-          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/221#issuecomment-6166845376"
-        },
-        {
-          "actor": "Yuvi1192p",
-          "command": "/attempt",
-          "created_at": "2026-10-14T12:16:22Z",
-          "recent": false,
-          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/221#issuecomment-6168119817"
-        }
-      ],
-      "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
         "At least 3 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/sybil-solutions/local-ai-registry/issues/221",
-      "id": "github:sybil-solutions/local-ai-registry#221",
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/330",
+      "id": "github:auscaster/frantic-board#330",
       "labels": [
         "bounty",
-        "bounty: $50",
-        "recipe",
-        "good first recipe"
+        "funded",
+        "available",
+        "claimed",
+        "delivered",
+        "accepted",
+        "paid"
       ],
       "matching_open_pr_count": 3,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-14T12:16:53Z",
-          "number": 259,
-          "title": "recipe: add RTX 4060 Ti 16 GB recipe for Qwen3.8-27B 128k context (closes #221)",
-          "url": "https://github.com/sybil-solutions/local-ai-registry/pull/259"
+          "created_at": "2026-10-15T14:05:47Z",
+          "number": 513,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #330",
+          "url": "https://github.com/auscaster/frantic-board/pull/513"
         },
         {
-          "created_at": "2026-10-13T10:02:20Z",
-          "number": 246,
-          "title": "fix: Bounty $50: recipe for RTX 4060 Ti 16 GB",
-          "url": "https://github.com/sybil-solutions/local-ai-registry/pull/246"
+          "created_at": "2026-10-15T08:29:51Z",
+          "number": 510,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #330",
+          "url": "https://github.com/auscaster/frantic-board/pull/510"
         },
         {
-          "created_at": "2026-10-13T08:21:08Z",
-          "number": 242,
-          "title": "recipe: Gemma 4 26B A4B on the RTX 4060 Ti 16 GB at 128K (TabbyAPI EXL3 3.1 bpw, 76.7 tok/s)",
-          "url": "https://github.com/sybil-solutions/local-ai-registry/pull/242"
+          "created_at": "2026-10-15T04:02:38Z",
+          "number": 506,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #330",
+          "url": "https://github.com/auscaster/frantic-board/pull/506"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$50"
+        "$1"
       ],
-      "reward_usd_max": 50.0,
-      "title": "Bounty $50: recipe for RTX 4060 Ti 16 GB",
-      "updated_at": "2026-10-15T11:25:43Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Tpfjae-Aether",
-          "command": "/attempt #58986",
-          "created_at": "2026-10-14T22:37:51Z",
-          "recent": false,
-          "url": "https://github.com/tenstorrent/tt-metal/issues/58986#issuecomment-6180069964"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 6 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-      "id": "github:tenstorrent/tt-metal#58986",
-      "labels": [
-        "bounty",
-        "bounty_difficulty/medium"
-      ],
-      "matching_open_pr_count": 6,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-03T15:24:33Z",
-          "number": 59130,
-          "title": "fix(bounty): resolve issue #58986 - -bounty--1-000--fp32-ttnn-cums",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/59130"
-        },
-        {
-          "created_at": "2026-10-08T17:59:25Z",
-          "number": 59913,
-          "title": "fix(ttnn): guard Kahan compensation against non-finite totals (#58986)",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/59913"
-        },
-        {
-          "created_at": "2026-10-14T23:31:25Z",
-          "number": 60664,
-          "title": "Fix #58986: [Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/60664"
-        },
-        {
-          "created_at": "2026-10-15T09:51:52Z",
-          "number": 60721,
-          "title": "fix(ttnn): guard FP32 cumsum Kahan compensation against non-finite totals (#58986)",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/60721"
-        },
-        {
-          "created_at": "2026-10-02T15:17:29Z",
-          "number": 59019,
-          "title": "[Bug fix] cumsum: keep fp32 compensated cumsum at +-inf after an inf, -inf or overflow",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/59019"
-        },
-        {
-          "created_at": "2026-10-14T22:36:24Z",
-          "number": 60658,
-          "title": "Fix FP32 ttnn.cumsum NaN after infinity/overflow in compensated accumulation path",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/60658"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1,000"
-      ],
-      "reward_usd_max": 1000.0,
-      "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-      "updated_at": "2026-10-15T10:32:08Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "b3417",
-          "command": "/claim I have signed up and would like to claim this bounty.",
-          "created_at": "2026-06-14T16:49:08Z",
-          "recent": false,
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-4702407590"
-        },
-        {
-          "actor": "alienvisitor8675-bit",
-          "command": "/claim #3",
-          "created_at": "2026-08-16T14:14:20Z",
-          "recent": false,
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-5307865468"
-        },
-        {
-          "actor": "Oliekings",
-          "command": "/attempt #3",
-          "created_at": "2026-08-19T19:40:40Z",
-          "recent": false,
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3#issuecomment-5347119065"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 14 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/3",
-      "id": "github:warpspeedopen-source/warpspeed-bounties#3",
-      "labels": [
-        "help wanted",
-        "bounty",
-        "paid",
-        "open",
-        "typescript",
-        "ui",
-        "react-native",
-        "frontend"
-      ],
-      "matching_open_pr_count": 14,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T06:55:22Z",
-          "number": 205,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #3",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/205"
-        },
-        {
-          "created_at": "2026-06-29T09:06:40Z",
-          "number": 102,
-          "title": "fix: issue #3",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/102"
-        },
-        {
-          "created_at": "2026-06-27T13:58:23Z",
-          "number": 89,
-          "title": "fix: issue #3",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/89"
-        },
-        {
-          "created_at": "2026-06-04T08:33:50Z",
-          "number": 49,
-          "title": "fix: #3 \u2014 Improved readme in README.md",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/49"
-        },
-        {
-          "created_at": "2026-06-04T08:32:25Z",
-          "number": 47,
-          "title": "fix: #3 \u2014 Improved readme in README.md",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/47"
-        },
-        {
-          "created_at": "2026-08-19T19:40:31Z",
-          "number": 128,
-          "title": "fix(poll-ui): implement Messenger Group Chat Poll Creation & Voting UI (#3)",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/128"
-        },
-        {
-          "created_at": "2026-05-31T10:58:18Z",
-          "number": 29,
-          "title": "feat: Messenger Group Chat Poll Creation & Voting UI (#3)",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/29"
-        },
-        {
-          "created_at": "2026-07-13T23:04:52Z",
-          "number": 113,
-          "title": "feat: add Group Chat Poll Creation & Voting UI reference implementation (fixes #3)",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/113"
-        },
-        {
-          "created_at": "2026-06-05T04:38:27Z",
-          "number": 62,
-          "title": "[JARVIS] Solve issue #3: [PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/62"
-        },
-        {
-          "created_at": "2026-09-28T00:05:17Z",
-          "number": 190,
-          "title": "Add: Messenger Group Chat Poll Creation & Voting UI Task to Bounties and Contributing Files",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/190"
-        },
-        {
-          "created_at": "2026-09-07T23:23:31Z",
-          "number": 143,
-          "title": "feat: Poll Creation & Voting UI for Group Chats",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/143"
-        },
-        {
-          "created_at": "2026-06-23T08:38:23Z",
-          "number": 79,
-          "title": "feat: Messenger Group Chat Poll",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/79"
-        },
-        {
-          "created_at": "2026-05-29T00:00:24Z",
-          "number": 12,
-          "title": "[PAID BOUNTY] Messenger Group Chat Poll Creation & Voting UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/12"
-        },
-        {
-          "created_at": "2026-05-29T00:16:37Z",
-          "number": 21,
-          "title": "[ShanaBoo] [PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
-          "url": "https://github.com/warpspeedopen-source/warpspeed-bounties/pull/21"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$440"
-      ],
-      "reward_usd_max": 440.0,
-      "title": "[PAID BOUNTY - $440] Messenger Group Chat Poll Creation & Voting UI",
-      "updated_at": "2026-10-15T10:14:46Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/weilixiong/TentOfTrials/issues/5",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Ojas2095",
-          "command": "/claim",
-          "created_at": "2026-06-19T04:38:31Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-4748533850"
-        },
-        {
-          "actor": "jarlyn95",
-          "command": "/claim",
-          "created_at": "2026-06-19T05:25:09Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-4748741656"
-        },
-        {
-          "actor": "codeboost-tr",
-          "command": "/attempt",
-          "created_at": "2026-06-19T06:29:54Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-4749080191"
-        },
-        {
-          "actor": "yanyishuai",
-          "command": "/try",
-          "created_at": "2026-06-27T11:32:53Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-4817176126"
-        },
-        {
-          "actor": "Fuhua-GIF",
-          "command": "/claim",
-          "created_at": "2026-07-11T15:01:01Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-4946971373"
-        },
-        {
-          "actor": "gianmarcozap",
-          "command": "/claim",
-          "created_at": "2026-08-02T00:43:36Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-5154243777"
-        },
-        {
-          "actor": "Jorchspace",
-          "command": "/try",
-          "created_at": "2026-08-02T01:26:53Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-5154419316"
-        },
-        {
-          "actor": "Ayomide1450",
-          "command": "/claim",
-          "created_at": "2026-09-21T16:30:18Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-5763936844"
-        },
-        {
-          "actor": "antoleod",
-          "command": "/claim",
-          "created_at": "2026-09-29T20:35:31Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-5898330609"
-        },
-        {
-          "actor": "fixwright",
-          "command": "/claim Submitted PR #109 for this bounty: https://github.com/weilixiong/TentOfTrials/pull/109",
-          "created_at": "2026-10-05T07:16:34Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/5#issuecomment-5989884503"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 32 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/weilixiong/TentOfTrials/issues/5",
-      "id": "github:weilixiong/TentOfTrials#5",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty",
-        "language:python"
-      ],
-      "matching_open_pr_count": 32,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T15:12:44Z",
-          "number": 104,
-          "title": "test: add independent log parser fixtures (closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/104"
-        },
-        {
-          "created_at": "2026-09-29T22:03:34Z",
-          "number": 106,
-          "title": "Fix #5: [$25 BOUNTY] [Python] Add independent log parser fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/106"
-        },
-        {
-          "created_at": "2026-10-05T07:16:28Z",
-          "number": 109,
-          "title": "test: add independent log parser fixtures and fix 3 parser bugs (Closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/109"
-        },
-        {
-          "created_at": "2026-09-05T11:50:28Z",
-          "number": 93,
-          "title": "test: add independent parser fixtures for log aggregator (Issue #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/93"
-        },
-        {
-          "created_at": "2026-09-21T12:19:36Z",
-          "number": 100,
-          "title": "test: add independent log parser fixtures and fix 3 bugs (closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/100"
-        },
-        {
-          "created_at": "2026-09-09T11:13:39Z",
-          "number": 97,
-          "title": "fix: resolve #5 - [$25 BOUNTY] [Python] Add independent log parser fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/97"
-        },
-        {
-          "created_at": "2026-07-13T09:21:55Z",
-          "number": 64,
-          "title": "Add independent log parser fixtures - fixes #5",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/64"
-        },
-        {
-          "created_at": "2026-09-16T14:19:08Z",
-          "number": 99,
-          "title": "feat(log_aggregator): add independent parser fixtures and fix timestamp handling (closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/99"
-        },
-        {
-          "created_at": "2026-09-09T10:17:10Z",
-          "number": 96,
-          "title": "Fix #5: Add independent log parser fixtures for JSON, text and Nginx formats",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/96"
-        },
-        {
-          "created_at": "2026-07-08T14:20:56Z",
-          "number": 54,
-          "title": "[#5] Add independent parser fixtures for log_aggregator.py",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/54"
-        },
-        {
-          "created_at": "2026-07-06T08:48:24Z",
-          "number": 50,
-          "title": "test(tools): add independent log parser fixtures (Closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/50"
-        },
-        {
-          "created_at": "2026-08-02T00:46:35Z",
-          "number": 87,
-          "title": "test(parsers): add independent log parser fixtures and validation script [Fixes #5]",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/87"
-        },
-        {
-          "created_at": "2026-08-05T11:31:13Z",
-          "number": 90,
-          "title": "feat: cross-platform health checks + independent log parser fixtures (closes #1, closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/90"
-        },
-        {
-          "created_at": "2026-08-02T05:41:36Z",
-          "number": 89,
-          "title": "feat: add independent log parser fixtures and fix nginx precedence bug (Fixes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/89"
-        },
-        {
-          "created_at": "2026-07-13T16:49:41Z",
-          "number": 67,
-          "title": "fix: add independent log parser fixtures and fix nginx parser ordering (Closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/67"
-        },
-        {
-          "created_at": "2026-07-03T08:57:19Z",
-          "number": 46,
-          "title": "Fix #1: cross-platform health check + Fix #5: independent log parser test fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/46"
-        },
-        {
-          "created_at": "2026-07-11T15:00:27Z",
-          "number": 59,
-          "title": "test: add independent log parser fixtures for JSON, text, and nginx formats (fixes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/59"
-        },
-        {
-          "created_at": "2026-09-29T20:13:27Z",
-          "number": 105,
-          "title": "Oryxen repair 38e89814-738b-4742-bca7-b79f63276f96",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/105"
-        },
-        {
-          "created_at": "2026-09-28T01:42:11Z",
-          "number": 103,
-          "title": "test: add independent log parser fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/103"
-        },
-        {
-          "created_at": "2026-07-21T03:17:21Z",
-          "number": 76,
-          "title": "test: add independent log parser fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/76"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$25"
-      ],
-      "reward_usd_max": 25.0,
-      "title": "[$25 BOUNTY] [Python] Add independent log parser fixtures",
-      "updated_at": "2026-10-15T10:46:17Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "rainlee",
-          "command": "/attempt #3",
-          "created_at": "2026-03-27T05:26:19Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140293409"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:40:06Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140538621"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:13:32Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140658941"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:22:54Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141249290"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:45:41Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141731405"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:45:41Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141731433"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:03:44Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4150332114"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #3",
-          "created_at": "2026-03-29T15:28:49Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4150377463"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:22Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4152344543"
-        },
-        {
-          "actor": "kovadev17",
-          "command": "/claim #3",
-          "created_at": "2026-04-13T09:15:17Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4235241959"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 91 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#3",
-      "labels": [
-        "bounty",
-        "hook",
-        "security"
-      ],
-      "matching_open_pr_count": 91,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T05:28:28Z",
-          "number": 4577,
-          "title": "fix: bounty #3 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4577"
-        },
-        {
-          "created_at": "2026-09-20T17:45:09Z",
-          "number": 4361,
-          "title": "Bounty 3 destructive command hook",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4361"
-        },
-        {
-          "created_at": "2026-10-09T10:35:20Z",
-          "number": 4757,
-          "title": "feat: add destructive Bash PreToolUse guard (closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4757"
-        },
-        {
-          "created_at": "2026-09-30T14:56:43Z",
-          "number": 4597,
-          "title": "feat: add destructive Bash PreToolUse guard (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4597"
-        },
-        {
-          "created_at": "2026-08-27T14:17:07Z",
-          "number": 3885,
-          "title": "Bounty 3 pretool safety hook",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3885"
-        },
-        {
-          "created_at": "2026-10-15T11:17:48Z",
-          "number": 4885,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4885"
-        },
-        {
-          "created_at": "2026-10-15T10:33:19Z",
-          "number": 4884,
-          "title": "feat(hooks): PreToolUse hook blocking destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4884"
-        },
-        {
-          "created_at": "2026-09-25T02:37:26Z",
-          "number": 4478,
-          "title": "Add destructive-command hook for issue 3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4478"
-        },
-        {
-          "created_at": "2026-09-24T23:42:30Z",
-          "number": 4475,
-          "title": "Add block-destructive PreToolUse hook (bounty #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4475"
-        },
-        {
-          "created_at": "2026-09-20T01:38:45Z",
-          "number": 4349,
-          "title": "feat: add block-destructive hook (Issue #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4349"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-09-25T06:05:58Z",
-          "number": 4484,
-          "title": "[BOUNTY #3] Guard destructive Claude Code Bash commands",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4484"
-        },
-        {
-          "created_at": "2026-10-14T22:53:56Z",
-          "number": 4864,
-          "title": "feat: pre-tool-use hook blocking destructive bash commands (closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4864"
-        },
-        {
-          "created_at": "2026-10-14T11:04:42Z",
-          "number": 4850,
-          "title": "feat(hooks): pre-tool-use hook blocking destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4850"
-        },
-        {
-          "created_at": "2026-08-08T04:41:00Z",
-          "number": 3686,
-          "title": "feat: add destructive command blocker hook (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3686"
-        },
-        {
-          "created_at": "2026-09-13T19:11:01Z",
-          "number": 4245,
-          "title": "feat(hooks): safeguard blocks destructive bash (Resolves #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4245"
-        },
-        {
-          "created_at": "2026-09-13T19:00:10Z",
-          "number": 4243,
-          "title": "feat(hooks): safeguard blocks destructive bash (Resolves #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4243"
-        },
-        {
-          "created_at": "2026-10-15T03:58:09Z",
-          "number": 4874,
-          "title": "fix(hooks): pre-tool-use hook that blocks destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4874"
-        },
-        {
-          "created_at": "2026-10-15T03:52:48Z",
-          "number": 4873,
-          "title": "fix(hooks): pre-tool-use hook that blocks destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4873"
-        },
-        {
-          "created_at": "2026-09-21T08:47:09Z",
-          "number": 4392,
-          "title": "feat: add destructive command PreToolUse hook for bounty #3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4392"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$100"
-      ],
-      "reward_usd_max": 100.0,
-      "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-      "updated_at": "2026-10-15T10:31:14Z",
+      "reward_usd_max": 1.0,
+      "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
+      "updated_at": "2026-10-15T17:01:24Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-15T11:40:17.044936Z",
+  "generated_at": "2026-10-15T17:08:24.242507Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
