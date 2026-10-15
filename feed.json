@@ -1,6 +1,6 @@
 {
   "product": "Verified Bounty Radar",
-  "generated_at": "2026-10-15T01:34:35.954065Z",
+  "generated_at": "2026-10-15T07:33:49.340326Z",
   "record_count": 50,
   "method": "Deep bounty search; mirror-to-canonical tracing; canonical issue, reward, assignment, claim and PR verification.",
   "records": [
@@ -26,7 +26,7 @@
       },
       "value_per_competitor": 319000.0,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:24.916414Z"
+      "verified_at": "2026-10-15T07:33:06.716690Z"
     },
     {
       "repository": "hanoi96international-gif/Test",
@@ -50,22 +50,46 @@
       },
       "value_per_competitor": 3000.0,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:34:16.575168Z"
+      "verified_at": "2026-10-15T07:32:52.684564Z"
     },
     {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 890,
-      "title": "[BOUNTY] Medium: VerificationCoordinator::check_consensus treats failed/empty-output collisions as Agreed and PrivateJobCoordinator::verify_result ignores consensus output mismatch",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
+      "repository": "attestar-labs/attestar",
+      "issue_number": 44,
+      "title": "[Bounty: $80] Add a CI check that `apps/web/lib/vk.json` matches the contract fixtures",
+      "source_url": "https://github.com/attestar-labs/attestar/issues/44",
+      "canonical_url": "https://github.com/attestar-labs/attestar/issues/44",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 150.0,
+        "amount": 80.0,
         "currency": "USD",
-        "evidence": "$150 "
+        "evidence": "Bounty: $80"
       },
-      "open_pr_competition": 1,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 80.0,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:06.092220Z"
+    },
+    {
+      "repository": "Presago-Labs/presago-contracts",
+      "issue_number": 44,
+      "title": "[Bounty: $75] Add a WASM size budget check to the `build-wasm` job",
+      "source_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
+      "canonical_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 75.0,
+        "currency": "USD",
+        "evidence": "Bounty: $75"
+      },
+      "open_pr_competition": 0,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -74,20 +98,20 @@
       },
       "value_per_competitor": 75.0,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:01.878391Z"
+      "verified_at": "2026-10-15T07:32:53.419250Z"
     },
     {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 893,
-      "title": "[BOUNTY] Medium: VoteTally::has_consensus and consensus_result prematurely declare Invalid consensus on mixed votes before remaining validators vote",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/893",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/893",
+      "repository": "Signpost-Labs/signpost-app",
+      "issue_number": 45,
+      "title": "[Bounty: $75] Use `npm ci` in `contract-integration.yml`",
+      "source_url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
+      "canonical_url": "https://github.com/Signpost-Labs/signpost-app/issues/45",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 150.0,
+        "amount": 75.0,
         "currency": "USD",
-        "evidence": "$150 "
+        "evidence": "Bounty: $75"
       },
       "open_pr_competition": 1,
       "assignees": [],
@@ -96,63 +120,15 @@
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 75.0,
+      "value_per_competitor": 37.5,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:02.991677Z"
-    },
-    {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 897,
-      "title": "[BOUNTY] Medium: cosign_settlement omits req.mint.is_none() in SettlementParams::Transact arm, allowing cross-asset native co-signing of SPL spends and exhausting the leader co-sign budget",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/897",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/897",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 150.0,
-        "currency": "USD",
-        "evidence": "$150 "
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 75.0,
-      "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:04.108589Z"
-    },
-    {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 895,
-      "title": "[BOUNTY] Medium: ComputeJobRequest overwrites coordinator job_id with random UUID, leaving JobCoordinator assignments stuck and dropping failure errors",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/895",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/895",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 150.0,
-        "currency": "USD",
-        "evidence": "$150 "
-      },
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 75.0,
-      "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:05.135581Z"
+      "verified_at": "2026-10-15T07:33:07.350600Z"
     },
     {
       "repository": "verdikta/verdikta-applications",
       "issue_number": 76,
       "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
-      "source_url": "https://github.com/verdikta/verdikta-applications/issues/76",
+      "source_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1892",
       "canonical_url": "https://github.com/verdikta/verdikta-applications/issues/76",
       "state": "open",
       "closed_at": null,
@@ -170,31 +146,7 @@
       },
       "value_per_competitor": 30.0,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:14.881420Z"
-    },
-    {
-      "repository": "BasedHardware/omi",
-      "issue_number": 13410,
-      "title": "[Bounty proposal] Gate omi-cli releases on a clean-install smoke test ($25 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/13410",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/13410",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 25.0,
-        "currency": "USD",
-        "evidence": "$25 "
-      },
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": 25.0,
-      "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:16.966412Z"
+      "verified_at": "2026-10-15T07:33:01.428883Z"
     },
     {
       "repository": "vanduc2514/hackathon-circle-misthos",
@@ -218,7 +170,31 @@
       },
       "value_per_competitor": 6.31,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:34:01.823640Z"
+      "verified_at": "2026-10-15T07:33:44.739858Z"
+    },
+    {
+      "repository": "BasedHardware/omi",
+      "issue_number": 13150,
+      "title": "Python CLI: filter conversations by folder and starred status (US$10 bounty proposal)",
+      "source_url": "https://github.com/BasedHardware/omi/issues/13150",
+      "canonical_url": "https://github.com/BasedHardware/omi/issues/13150",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 10.0,
+        "currency": "USD",
+        "evidence": "$10 bounty"
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 5.0,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:02.192534Z"
     },
     {
       "repository": "auscaster/frantic-board",
@@ -233,16 +209,160 @@
         "currency": "USD",
         "evidence": "$1\n"
       },
-      "open_pr_competition": 0,
+      "open_pr_competition": 1,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 1.0,
+      "value_per_competitor": 0.5,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:32:59.651409Z"
+      "verified_at": "2026-10-15T07:32:51.061116Z"
+    },
+    {
+      "repository": "auscaster/frantic-board",
+      "issue_number": 505,
+      "title": "Payout-policy question before a first $1 bounty claim",
+      "source_url": "https://github.com/auscaster/frantic-board/issues/505",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/505",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 1.0,
+        "currency": "USD",
+        "evidence": "$1 bounty"
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:19.780111Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 890,
+      "title": "[BOUNTY] Medium: VerificationCoordinator::check_consensus treats failed/empty-output collisions as Agreed and PrivateJobCoordinator::verify_result ignores consensus output mismatch",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:26.071864Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 893,
+      "title": "[BOUNTY] Medium: VoteTally::has_consensus and consensus_result prematurely declare Invalid consensus on mixed votes before remaining validators vote",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/893",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/893",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:26.504037Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 897,
+      "title": "[BOUNTY] Medium: cosign_settlement omits req.mint.is_none() in SettlementParams::Transact arm, allowing cross-asset native co-signing of SPL spends and exhausting the leader co-sign budget",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/897",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/897",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:26.921517Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 895,
+      "title": "[BOUNTY] Medium: ComputeJobRequest overwrites coordinator job_id with random UUID, leaving JobCoordinator assignments stuck and dropping failure errors",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/895",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/895",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:27.388377Z"
+    },
+    {
+      "repository": "BasedHardware/omi",
+      "issue_number": 13410,
+      "title": "[Bounty proposal] Gate omi-cli releases on a clean-install smoke test ($25 proposed)",
+      "source_url": "https://github.com/BasedHardware/omi/issues/13410",
+      "canonical_url": "https://github.com/BasedHardware/omi/issues/13410",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 25.0,
+        "currency": "USD",
+        "evidence": "$25 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-15T07:33:29.245524Z"
     },
     {
       "repository": "paraloom-labs/paraloom-core",
@@ -266,7 +386,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:25.572124Z"
+      "verified_at": "2026-10-15T07:33:31.033405Z"
     },
     {
       "repository": "paraloom-labs/paraloom-core",
@@ -290,7 +410,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:26.398042Z"
+      "verified_at": "2026-10-15T07:33:31.518145Z"
     },
     {
       "repository": "limitlessprojects/Go-Hybrid",
@@ -314,7 +434,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:36.993215Z"
+      "verified_at": "2026-10-15T07:33:35.182166Z"
     },
     {
       "repository": "BasedHardware/omi",
@@ -338,7 +458,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:39.893895Z"
+      "verified_at": "2026-10-15T07:33:36.096867Z"
     },
     {
       "repository": "scaffold-studio-hq/scaffold-studio-frontend",
@@ -362,7 +482,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:41.783016Z"
+      "verified_at": "2026-10-15T07:33:36.614439Z"
     },
     {
       "repository": "sybil-solutions/local-ai-registry",
@@ -386,31 +506,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:45.698482Z"
-    },
-    {
-      "repository": "sybil-solutions/local-ai-registry",
-      "issue_number": 222,
-      "title": "Bounty $50: recipe for RTX 5060 Ti 16 GB",
-      "source_url": "https://github.com/sybil-solutions/local-ai-registry/issues/222",
-      "canonical_url": "https://github.com/sybil-solutions/local-ai-registry/issues/222",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 50.0,
-        "currency": "USD",
-        "evidence": "Bounty $50"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 2,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:46.462052Z"
+      "verified_at": "2026-10-15T07:33:38.052209Z"
     },
     {
       "repository": "sybil-solutions/local-ai-registry",
@@ -434,7 +530,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:47.979244Z"
+      "verified_at": "2026-10-15T07:33:38.940103Z"
     },
     {
       "repository": "sybil-solutions/local-ai-registry",
@@ -458,431 +554,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-15T01:33:48.813689Z"
-    },
-    {
-      "repository": "BasedHardware/omi",
-      "issue_number": 21223,
-      "title": "[Bounty proposal] fix(cli): omi chat is unreachable after omi auth login --browser, the login it asks for ($75 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/21223",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/21223",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "$75 "
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-15T01:34:26.328923Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1389,
-      "title": "Add session re-authentication check on critical administrative actions",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 3,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:32:56.340733Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1384,
-      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1384",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:32:57.440050Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1378,
-      "title": "Add drag-and-drop CSV batch upload zone with visual upload progress feedback",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1378",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1378",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:32:58.534193Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1386,
-      "title": "Implement timing-safe HMAC signature verification in webhook handler",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1386",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:00.771363Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1377,
-      "title": "Add interactive vesting timeline and claim simulator for payment streams UI",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1377",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1377",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:07.223314Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1373,
-      "title": "Add live network transaction fee estimator widget to payment submission form",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1373",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1373",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:08.286417Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1375,
-      "title": "Add QR code payment request generator with configurable amounts and assets",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1375",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1375",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:09.248599Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1361,
-      "title": "Add cursor-based pagination and sorting to /api/audit-log route",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1361",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1361",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:11.818457Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1368,
-      "title": "Validate Stellar transaction memo encoding and character set on payment routes",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1368",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1368",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:12.861967Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1364,
-      "title": "Add RFC 7807 problem details error formatting across all /api/payments routes",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1364",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1364",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 1,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:15.912462Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1353,
-      "title": "Validate dispute timeout window in resolve_dispute to prevent premature resolution",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1353",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1353",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:17.974937Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1357,
-      "title": "Add stream cancellation pro-rata refund verification for partial elapsed periods",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1357",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1357",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:18.985960Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1347,
-      "title": "Add validation for token decimal precision mismatch in record_payment",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1347",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1347",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:20.150387Z"
-    },
-    {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1350,
-      "title": "Enforce minimum and maximum duration bounds on payment streams in create_stream",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1350",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1350",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:21.142969Z"
-    },
-    {
-      "repository": "FuRongJun-1999/dsh-bounty",
-      "issue_number": 85,
-      "title": "[能力增强] QMD + 统一系统提示词：hive 主轮覆盖率 .561（对 TriCue v3 38/9，p<.001）",
-      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/85",
-      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/85",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:22.063596Z"
-    },
-    {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 888,
-      "title": "[BOUNTY] Medium: `deactivate_validator` omits routing `token_stake_amount` into `token_unbonding_amount`, permanently stranding dual-stake tokens in `stake_token_vault` on PDA closure and bypassing unbonding token slashing",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/888",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/888",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:24.029975Z"
-    },
-    {
-      "repository": "FuRongJun-1999/dsh-bounty",
-      "issue_number": 403,
-      "title": "[Bug][P1] #279 的「等级不得随人迁移」把**评价者本人后续的 `/verify`、`/settle`** 也当成迁移：维护者自评自结、审核员评后自验这两条常规流程，影响等级都会从标记、结算事件和每日贡献表里静默消失",
-      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/407",
-      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/403",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:30.080242Z"
-    },
-    {
-      "repository": "FuRongJun-1999/dsh-bounty",
-      "issue_number": 335,
-      "title": "【intake 输入】dsh-bench：`scripts/verdict.py`：`select_valid_runs` **缺 `valid` 字段即判「有效运行」**（`r.get(\"valid\", True)`）—— 判分器故障被静默计入样本",
-      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1253",
-      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/335",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:32.389748Z"
-    },
-    {
-      "repository": "Saidur-droid/MergeEarn",
-      "issue_number": 33,
-      "title": "[LIVE] Verified NIM bounty board",
-      "source_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "canonical_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:33.161333Z"
-    },
-    {
-      "repository": "BeeStation/BeeStation-Hornet",
-      "issue_number": 14812,
-      "title": "[Bug]: Tritium canister not registering as a bounty",
-      "source_url": "https://github.com/BeeStation/BeeStation-Hornet/issues/14812",
-      "canonical_url": "https://github.com/BeeStation/BeeStation-Hornet/issues/14812",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:33.917968Z"
+      "verified_at": "2026-10-15T07:33:39.406014Z"
     },
     {
       "repository": "sybil-solutions/local-ai-registry",
@@ -897,66 +569,6 @@
         "currency": "USD",
         "evidence": "$0 "
       },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:43.227463Z"
-    },
-    {
-      "repository": "SoroLabs/SoroTask",
-      "issue_number": 1420,
-      "title": "[SC-PROD-46] Decentralized Task Bounty Booster with Crowdfunded Incentive Pools & Contributor Distribution",
-      "source_url": "https://github.com/SoroLabs/SoroTask/issues/1420",
-      "canonical_url": "https://github.com/SoroLabs/SoroTask/issues/1420",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:51.142644Z"
-    },
-    {
-      "repository": "zamariyahg/go-jose",
-      "issue_number": 1,
-      "title": "🎯 Ensure Database Transaction Rollback on Migration Failure to Prevent Dirty State",
-      "source_url": "https://github.com/zamariyahg/go-jose/issues/1",
-      "canonical_url": "https://github.com/zamariyahg/go-jose/issues/1",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:52.110939Z"
-    },
-    {
-      "repository": "abdulsalam-create/bounty-watch",
-      "issue_number": 120,
-      "title": "bounty-watch 2026-10-14: 0 new, 0 resumed, 6 watchlist changes",
-      "source_url": "https://github.com/abdulsalam-create/bounty-watch/issues/120",
-      "canonical_url": "https://github.com/abdulsalam-create/bounty-watch/issues/120",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
       "open_pr_competition": 0,
       "assignees": [],
       "claim": {
@@ -964,76 +576,16 @@
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": null,
+      "value_per_competitor": 0.0,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:53.021541Z"
-    },
-    {
-      "repository": "Neziahtech/streampay",
-      "issue_number": 85,
-      "title": "security: bug-bounty intake pipeline with triage automation",
-      "source_url": "https://github.com/Neziahtech/streampay/issues/85",
-      "canonical_url": "https://github.com/Neziahtech/streampay/issues/85",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:33:57.498826Z"
-    },
-    {
-      "repository": "vanduc2514/hackathon-circle-misthos",
-      "issue_number": 172,
-      "title": "Bounty: let the publisher name the escrow term, within bounds",
-      "source_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/172",
-      "canonical_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/172",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 2,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:34:00.739676Z"
-    },
-    {
-      "repository": "limitlessprojects/Go-Hybrid",
-      "issue_number": 50,
-      "title": "[diagnostic] E8001 reference example rejects with E0003 instead of demonstrating a warning",
-      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1252",
-      "canonical_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/50",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:34:03.787330Z"
+      "verified_at": "2026-10-15T07:32:49.364702Z"
     },
     {
       "repository": "FuRongJun-1999/dsh-bounty",
-      "issue_number": 440,
-      "title": "【intake 输入】lingshu #604：抽取器对 HTML 块结束条件与 CommonMark 三处分歧 —— 对有围栏的正文误报「没有围栏代码块」（量具失效）",
-      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1591",
-      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/440",
+      "issue_number": 490,
+      "title": "【intake 输入】dsh-bounty（`bounty_site`）：`check_plan.label_state_of` 与状态机**迭代序相反** ⇒ 多态标签下有效态不同、对账报**假冲突**（注释却称「同优先级」）",
+      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/490",
+      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/490",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -1046,14 +598,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:34:04.796674Z"
+      "verified_at": "2026-10-15T07:32:54.000100Z"
     },
     {
-      "repository": "Algolisted-Org/AlgoListed",
-      "issue_number": 281,
-      "title": "Implement Authentication throught out the website [ Bounty 10$ ] ",
-      "source_url": "https://github.com/Algolisted-Org/AlgoListed/issues/281",
-      "canonical_url": "https://github.com/Algolisted-Org/AlgoListed/issues/281",
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 924,
+      "title": "[BOUNTY] Medium: Unchecked range overflow in Coordinator::split_task, unauthenticated Message::TaskError state corruption, and spoofed coordinator_id / unassigned execution in Validator::handle_task_request",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/924",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/924",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -1066,14 +618,34 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:34:05.850120Z"
+      "verified_at": "2026-10-15T07:32:54.789151Z"
     },
     {
-      "repository": "vanduc2514/hackathon-circle-misthos",
-      "issue_number": 169,
-      "title": "Bounty: migrate the app's pages onto the landing page's design",
-      "source_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/169",
-      "canonical_url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/169",
+      "repository": "Saidur-droid/MergeEarn",
+      "issue_number": 33,
+      "title": "[LIVE] Verified NIM bounty board",
+      "source_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "canonical_url": "https://github.com/Saidur-droid/MergeEarn/issues/33",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:00.166102Z"
+    },
+    {
+      "repository": "FuRongJun-1999/dsh-bounty",
+      "issue_number": 489,
+      "title": "【intake 输入】dsh-bounty（`bounty_site`）：`check_plan.reconcile` 的「标记态冲突」在**无账本态时不可达** —— 与同函数自述的「矛盾优先于缺件」相反",
+      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/489",
+      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/489",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -1086,7 +658,447 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-15T01:34:08.619179Z"
+      "verified_at": "2026-10-15T07:33:00.805884Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 918,
+      "title": "[BOUNTY] Medium: SwarmEvent::ConnectionClosed ignores num_established (causing phantom validator deactivations & redial churn) and reconcile_deactivations misses Discovery-admitted validators",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/918",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/918",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:05.429269Z"
+    },
+    {
+      "repository": "abdulsalam-create/bounty-watch",
+      "issue_number": 121,
+      "title": "bounty-watch 2026-10-15: 0 new, 0 resumed, 3 watchlist changes",
+      "source_url": "https://github.com/abdulsalam-create/bounty-watch/issues/121",
+      "canonical_url": "https://github.com/abdulsalam-create/bounty-watch/issues/121",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:09.967822Z"
+    },
+    {
+      "repository": "LiamVisionary/bee-scouts",
+      "issue_number": 3,
+      "title": "Add a 'Hall bounties' pointer to the SuperAgent API rewards page",
+      "source_url": "https://github.com/LiamVisionary/bee-scouts/issues/3",
+      "canonical_url": "https://github.com/LiamVisionary/bee-scouts/issues/3",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:11.683855Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1357,
+      "title": "Add stream cancellation pro-rata refund verification for partial elapsed periods",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1357",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1357",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:15.803493Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1353,
+      "title": "Validate dispute timeout window in resolve_dispute to prevent premature resolution",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1353",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1353",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:16.314204Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1350,
+      "title": "Enforce minimum and maximum duration bounds on payment streams in create_stream",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1350",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1350",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:16.811083Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1361,
+      "title": "Add cursor-based pagination and sorting to /api/audit-log route",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:17.880735Z"
+    },
+    {
+      "repository": "limitlessprojects/Go-Hybrid",
+      "issue_number": 114,
+      "title": "[soundness] Conditional branch rebinds erase outer alias/may-share/origin state and composite-literal moves drop non_owned_origin (O5.1 / O5.2 bypass)",
+      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1593",
+      "canonical_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/114",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:18.261311Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1364,
+      "title": "Add RFC 7807 problem details error formatting across all /api/payments routes",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 1,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:18.795937Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1373,
+      "title": "Add live network transaction fee estimator widget to payment submission form",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1373",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1373",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:19.326842Z"
+    },
+    {
+      "repository": "gn45db4tjc-ship-it/predecessor-meta",
+      "issue_number": 149,
+      "title": "Watchdog: Rechecks are overdue",
+      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1254",
+      "canonical_url": "https://github.com/gn45db4tjc-ship-it/predecessor-meta/issues/149",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:20.269423Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1375,
+      "title": "Add QR code payment request generator with configurable amounts and assets",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1375",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1375",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:20.780491Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1377,
+      "title": "Add interactive vesting timeline and claim simulator for payment streams UI",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1377",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1377",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:21.300063Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1389,
+      "title": "Add session re-authentication check on critical administrative actions",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1389",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1389",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:21.813499Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1386,
+      "title": "Implement timing-safe HMAC signature verification in webhook handler",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1386",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1386",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:22.319087Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1378,
+      "title": "Add drag-and-drop CSV batch upload zone with visual upload progress feedback",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1378",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1378",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:22.768460Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1384,
+      "title": "Add custom asset trustline creation quick-action modal in wallet selector",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1384",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1384",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:23.266721Z"
+    },
+    {
+      "repository": "aibtcdev/landing-page",
+      "issue_number": 1110,
+      "title": "bounties: /paid refuses a proof once status is abandoned, even when the payment landed inside PAY_GRACE",
+      "source_url": "https://github.com/aibtcdev/landing-page/issues/1110",
+      "canonical_url": "https://github.com/aibtcdev/landing-page/issues/1110",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:24.200509Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1405,
+      "title": "Add end-to-end test suite for escrow dispute and resolution flow",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1405",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1405",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:24.608229Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1368,
+      "title": "Validate Stellar transaction memo encoding and character set on payment routes",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1368",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1368",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:28.358581Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1347,
+      "title": "Add validation for token decimal precision mismatch in record_payment",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1347",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1347",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:29.670006Z"
+    },
+    {
+      "repository": "FuRongJun-1999/dsh-bounty",
+      "issue_number": 85,
+      "title": "[能力增强] QMD + 统一系统提示词：hive 主轮覆盖率 .561（对 TriCue v3 38/9，p<.001）",
+      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/85",
+      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/85",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-15T07:33:30.151096Z"
     }
   ]
 }
