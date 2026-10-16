@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 3,
-    "manual_review": 7,
-    "pursue": 3,
-    "skip": 2
+    "hold": 4,
+    "manual_review": 8,
+    "pursue": 0,
+    "skip": 3
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
+      "canonical_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -17,72 +17,45 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      "claim_signals": [
+        {
+          "actor": "satyamshrivastav955-dotcom",
+          "command": "/attempt",
+          "created_at": "2026-10-13T12:09:38Z",
+          "recent": false,
+          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223#issuecomment-6145213090"
+        },
+        {
+          "actor": "Johanxd43",
+          "command": "/attempt",
+          "created_at": "2026-10-15T22:13:35Z",
+          "recent": true,
+          "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223#issuecomment-6203366338"
+        }
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1632",
-      "id": "github:NSPG13/agent-bounties#1632",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
+      "id": "github:sybil-solutions/local-ai-registry#223",
       "labels": [
         "bounty",
-        "payments",
-        "funded-live"
+        "bounty: $50",
+        "recipe",
+        "card support"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
-        "20.30 USDC",
-        "1.00 USDC",
-        "21.30 USDC",
-        "1 USDC"
+        "$50"
       ],
-      "reward_usd_max": 21.3,
-      "title": "[Bounty] Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty",
-      "updated_at": "2026-10-15T21:10:08Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Parabola-org/parabola/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Parabola-org/parabola/issues/2",
-      "id": "github:Parabola-org/parabola#2",
-      "labels": [
-        "bug",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T20:21:49Z",
-          "number": 22,
-          "title": "fix: reject unpriced Iris fast transfers",
-          "url": "https://github.com/Parabola-org/parabola/pull/22"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$105"
-      ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier",
-      "updated_at": "2026-10-15T21:29:25Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 50.0,
+      "title": "Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)",
+      "updated_at": "2026-10-16T04:12:25Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -94,11 +67,19 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "yggdrasilworld",
+          "command": "/claim #5",
+          "created_at": "2026-10-15T22:28:33Z",
+          "recent": true,
+          "url": "https://github.com/Parabola-org/parabola/issues/5#issuecomment-6203582682"
+        }
+      ],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "hold",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/Parabola-org/parabola/issues/5",
       "id": "github:Parabola-org/parabola#5",
@@ -106,22 +87,557 @@
         "enhancement",
         "bounty"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 3,
       "matching_open_prs": [
         {
           "created_at": "2026-10-15T20:48:14Z",
           "number": 38,
           "title": "feat(transfer): support AbortSignal across transfer and polling",
           "url": "https://github.com/Parabola-org/parabola/pull/38"
+        },
+        {
+          "created_at": "2026-10-15T22:44:28Z",
+          "number": 59,
+          "title": "feat: thread AbortSignal through transfer, completeMint, and polling",
+          "url": "https://github.com/Parabola-org/parabola/pull/59"
+        },
+        {
+          "created_at": "2026-10-15T23:48:27Z",
+          "number": 66,
+          "title": "feat: add AbortSignal support across transfer, completeMint, and attestation polling",
+          "url": "https://github.com/Parabola-org/parabola/pull/66"
         }
       ],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
         "$125"
       ],
       "reward_usd_max": 125.0,
       "title": "[Bounty: $125] Add AbortSignal support across transfer, completeMint, and attestation polling",
-      "updated_at": "2026-10-15T21:28:14Z",
+      "updated_at": "2026-10-16T03:21:23Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Parabola-org/parabola/issues/9",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "yggdrasilworld",
+          "command": "/claim #9",
+          "created_at": "2026-10-16T00:11:35Z",
+          "recent": true,
+          "url": "https://github.com/Parabola-org/parabola/issues/9#issuecomment-6204980287"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Parabola-org/parabola/issues/9",
+      "id": "github:Parabola-org/parabola#9",
+      "labels": [
+        "bug",
+        "bounty"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-16T01:04:59Z",
+          "number": 81,
+          "title": "fix(message): reject unsupported CCTP message and burn body versions (fixes #9)",
+          "url": "https://github.com/Parabola-org/parabola/pull/81"
+        },
+        {
+          "created_at": "2026-10-15T22:18:02Z",
+          "number": 51,
+          "title": "fix(message): reject unsupported CCTP versions before decoding",
+          "url": "https://github.com/Parabola-org/parabola/pull/51"
+        },
+        {
+          "created_at": "2026-10-15T20:35:08Z",
+          "number": 29,
+          "title": "fix(encoding): reject unsupported CCTP message versions",
+          "url": "https://github.com/Parabola-org/parabola/pull/29"
+        },
+        {
+          "created_at": "2026-10-16T00:16:27Z",
+          "number": 68,
+          "title": "fix(utils): reject unknown CCTP wire versions before decoding",
+          "url": "https://github.com/Parabola-org/parabola/pull/68"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$90"
+      ],
+      "reward_usd_max": 90.0,
+      "title": "[Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
+      "updated_at": "2026-10-16T03:21:58Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Parabola-org/parabola/issues/4",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "yggdrasilworld",
+          "command": "/claim #4",
+          "created_at": "2026-10-15T22:28:30Z",
+          "recent": true,
+          "url": "https://github.com/Parabola-org/parabola/issues/4#issuecomment-6203581882"
+        },
+        {
+          "actor": "sparkysolutions10-pixel",
+          "command": "/claim #4",
+          "created_at": "2026-10-15T23:06:52Z",
+          "recent": true,
+          "url": "https://github.com/Parabola-org/parabola/issues/4#issuecomment-6204138624"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/Parabola-org/parabola/issues/4",
+      "id": "github:Parabola-org/parabola#4",
+      "labels": [
+        "bug",
+        "bounty"
+      ],
+      "matching_open_pr_count": 7,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T21:10:05Z",
+          "number": 42,
+          "title": "fix: resolve #4 - [Bounty: $105] checkStellarRecipientReady must not report RP",
+          "url": "https://github.com/Parabola-org/parabola/pull/42"
+        },
+        {
+          "created_at": "2026-10-15T23:06:38Z",
+          "number": 62,
+          "title": "fix(chains/stellar): distinguish RPC outages and transport errors from missing accounts (#4)",
+          "url": "https://github.com/Parabola-org/parabola/pull/62"
+        },
+        {
+          "created_at": "2026-10-15T21:25:40Z",
+          "number": 44,
+          "title": "[Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts",
+          "url": "https://github.com/Parabola-org/parabola/pull/44"
+        },
+        {
+          "created_at": "2026-10-16T03:17:16Z",
+          "number": 90,
+          "title": "fix(stellar): distinguish rpc outages from missing recipient accounts",
+          "url": "https://github.com/Parabola-org/parabola/pull/90"
+        },
+        {
+          "created_at": "2026-10-15T22:19:55Z",
+          "number": 54,
+          "title": "fix: checkStellarRecipientReady - distinguish RPC errors from missing accounts",
+          "url": "https://github.com/Parabola-org/parabola/pull/54"
+        },
+        {
+          "created_at": "2026-10-15T22:42:27Z",
+          "number": 58,
+          "title": "fix(chains/stellar): distinguish RPC outage from unfunded recipient",
+          "url": "https://github.com/Parabola-org/parabola/pull/58"
+        },
+        {
+          "created_at": "2026-10-15T20:32:20Z",
+          "number": 26,
+          "title": "fix(stellar): stop reporting RPC outages as missing recipient accounts",
+          "url": "https://github.com/Parabola-org/parabola/pull/26"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [
+        "$105"
+      ],
+      "reward_usd_max": 105.0,
+      "title": "[Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts",
+      "updated_at": "2026-10-16T03:22:26Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3707",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3707",
+      "id": "github:Uuriko/project-room#3707",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] Claim squatting is free and unbounded: one lane held the whole tranche-1 shelf for 72h at zero cost, and the 48h submission deadline is unenforced",
+      "updated_at": "2026-10-16T04:29:59Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3709",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3709",
+      "id": "github:Uuriko/project-room#3709",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
+      "updated_at": "2026-10-16T03:06:03Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3708",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3708",
+      "id": "github:Uuriko/project-room#3708",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
+      "updated_at": "2026-10-16T03:06:01Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3704",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3704",
+      "id": "github:Uuriko/project-room#3704",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] Fresh lanes are STANDARD band, not probation: the rail does not make FS-14 established-lane-only as the packet claims",
+      "updated_at": "2026-10-16T03:04:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3703",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3703",
+      "id": "github:Uuriko/project-room#3703",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] The challenge window cannot protect the sponsor on the rail: post-window disputes freeze payouts, and a sponsor dispute pays the worker a bonus",
+      "updated_at": "2026-10-16T03:04:25Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3702",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3702",
+      "id": "github:Uuriko/project-room#3702",
+      "labels": [
+        "bounty",
+        "launch-readiness"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] Rail disputes are undecidable and default to paying the claimant: a confederate dispute freezes the verdict and force-pays junk after 14d",
+      "updated_at": "2026-10-16T03:04:23Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1361",
+      "id": "github:OphirPay/OphirPay#1361",
+      "labels": [
+        "enhancement",
+        "backend",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 8,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T09:06:29Z",
+          "number": 1470,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1361",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1470"
+        },
+        {
+          "created_at": "2026-10-15T04:18:34Z",
+          "number": 1454,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1361",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1454"
+        },
+        {
+          "created_at": "2026-10-15T04:04:13Z",
+          "number": 1452,
+          "title": "feat(api): add cursor-based pagination to /api/audit-log (#1361)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1452"
+        },
+        {
+          "created_at": "2026-10-15T17:12:58Z",
+          "number": 1500,
+          "title": "feat(api): cursor-based pagination and sorting for /api/audit-log (#1361)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1500"
+        },
+        {
+          "created_at": "2026-10-15T11:47:37Z",
+          "number": 1471,
+          "title": "feat(api): add cursor-based pagination to GET /api/audit-log (#1361)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1471"
+        },
+        {
+          "created_at": "2026-10-15T06:03:10Z",
+          "number": 1460,
+          "title": "feat(api): add cursor-based pagination and sorting to /api/audit-log (#1361)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1460"
+        },
+        {
+          "created_at": "2026-10-15T01:01:49Z",
+          "number": 1363,
+          "title": "fix: Add cursor-based pagination and sorting to /api/audit-log route (resolves #1361)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1363"
+        },
+        {
+          "created_at": "2026-10-16T00:58:46Z",
+          "number": 1556,
+          "title": "add-cursor-based-pagination-and-sorting-to-audit-log-endpoint",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1556"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add cursor-based pagination and sorting to /api/audit-log route",
+      "updated_at": "2026-10-16T03:15:13Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "valmir5522",
+          "command": "/attempt #1364",
+          "created_at": "2026-10-15T01:05:04Z",
+          "recent": false,
+          "url": "https://github.com/OphirPay/OphirPay/issues/1364#issuecomment-6181987331"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1364",
+      "id": "github:OphirPay/OphirPay#1364",
+      "labels": [
+        "enhancement",
+        "backend",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T01:03:35Z",
+          "number": 1367,
+          "title": "[Baobot Autonomous AI] Automated fix for Issue #1364",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1367"
+        },
+        {
+          "created_at": "2026-10-15T16:20:38Z",
+          "number": 1491,
+          "title": "feat(api): RFC 7807 problem details across payment routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1491"
+        },
+        {
+          "created_at": "2026-10-15T02:05:50Z",
+          "number": 1431,
+          "title": "fix: resolve #1364 - Add RFC 7807 problem details error formatting across all /ap",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1431"
+        },
+        {
+          "created_at": "2026-10-15T16:00:03Z",
+          "number": 1481,
+          "title": "feat(api): add RFC 7807 problem details error formatting for /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1481"
+        },
+        {
+          "created_at": "2026-10-15T07:50:41Z",
+          "number": 1466,
+          "title": "feat(api): add RFC 7807 problem details error formatting to /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1466"
+        },
+        {
+          "created_at": "2026-10-15T03:56:50Z",
+          "number": 1451,
+          "title": "feat(api): add RFC 7807 problem details error formatting across /api/payments routes (#1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1451"
+        },
+        {
+          "created_at": "2026-10-15T14:59:35Z",
+          "number": 1477,
+          "title": "fix: Add RFC 7807 problem details error formatting across all /api/payments routes (Resolves #1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1477"
+        },
+        {
+          "created_at": "2026-10-15T02:53:45Z",
+          "number": 1445,
+          "title": "fix: Add RFC 7807 problem details error formatting across all /api/payments routes (resolves #1364)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1445"
+        },
+        {
+          "created_at": "2026-10-15T01:57:48Z",
+          "number": 1428,
+          "title": "fix: RFC7807 problem+json for payments routes + client problemdetails\u2026",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1428"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add RFC 7807 problem details error formatting across all /api/payments routes",
+      "updated_at": "2026-10-16T02:29:59Z",
       "verification_confidence": "medium"
     },
     {
@@ -139,14 +655,14 @@
           "actor": "sparkysolutions10-pixel",
           "command": "/claim #3",
           "created_at": "2026-10-15T20:22:53Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/Parabola-org/parabola/issues/3#issuecomment-6201515593"
         }
       ],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "skip",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "At least 3 open PRs explicitly reference the canonical issue."
       ],
       "discovered_url": "https://github.com/Parabola-org/parabola/issues/3",
       "id": "github:Parabola-org/parabola#3",
@@ -154,22 +670,92 @@
         "bug",
         "bounty"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 3,
       "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T22:51:05Z",
+          "number": 61,
+          "title": "fix(iris): tolerate transient Iris failures in getAttestation and resolveBurn",
+          "url": "https://github.com/Parabola-org/parabola/pull/61"
+        },
         {
           "created_at": "2026-10-15T20:44:36Z",
           "number": 36,
           "title": "fix(iris): tolerate transient failures in getAttestation",
           "url": "https://github.com/Parabola-org/parabola/pull/36"
+        },
+        {
+          "created_at": "2026-10-16T02:50:43Z",
+          "number": 88,
+          "title": "fix(iris): tolerate transient Iris failures in getAttestation and resolveBurn",
+          "url": "https://github.com/Parabola-org/parabola/pull/88"
         }
       ],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [
         "$105"
       ],
       "reward_usd_max": 105.0,
       "title": "[Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBurn",
-      "updated_at": "2026-10-15T21:29:09Z",
+      "updated_at": "2026-10-16T03:22:42Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Parabola-org/parabola/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 4 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/Parabola-org/parabola/issues/2",
+      "id": "github:Parabola-org/parabola#2",
+      "labels": [
+        "bug",
+        "bounty"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T20:21:49Z",
+          "number": 22,
+          "title": "fix: reject unpriced Iris fast transfers",
+          "url": "https://github.com/Parabola-org/parabola/pull/22"
+        },
+        {
+          "created_at": "2026-10-16T03:15:10Z",
+          "number": 89,
+          "title": "fix(iris): reject unpriced fast transfers instead of returning zero",
+          "url": "https://github.com/Parabola-org/parabola/pull/89"
+        },
+        {
+          "created_at": "2026-10-15T23:16:01Z",
+          "number": 63,
+          "title": "fix: stop silently pricing Fast Transfers at zero when Iris fails",
+          "url": "https://github.com/Parabola-org/parabola/pull/63"
+        },
+        {
+          "created_at": "2026-10-16T02:45:30Z",
+          "number": 87,
+          "title": "fix(iris): reject unpriced Iris fast transfers instead of pricing at zero",
+          "url": "https://github.com/Parabola-org/parabola/pull/87"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$105"
+      ],
+      "reward_usd_max": 105.0,
+      "title": "[Bounty: $105] Stop silently pricing Fast Transfers at zero when Iris returns no fast tier",
+      "updated_at": "2026-10-16T03:22:48Z",
       "verification_confidence": "high"
     },
     {
@@ -187,21 +773,21 @@
           "actor": "sparkysolutions10-pixel",
           "command": "/claim #1",
           "created_at": "2026-10-15T20:23:02Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/Parabola-org/parabola/issues/1#issuecomment-6201517965"
         },
         {
           "actor": "sparkysolutions10-pixel",
           "command": "/claim #1",
           "created_at": "2026-10-15T20:26:11Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/Parabola-org/parabola/issues/1#issuecomment-6201574963"
         }
       ],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "skip",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "At least 5 open PRs explicitly reference the canonical issue."
       ],
       "discovered_url": "https://github.com/Parabola-org/parabola/issues/1",
       "id": "github:Parabola-org/parabola#1",
@@ -209,638 +795,51 @@
         "bug",
         "bounty"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 5,
       "matching_open_prs": [
         {
           "created_at": "2026-10-15T20:09:27Z",
           "number": 21,
           "title": "fix: resolve #1 - [Bounty: $105] Preserve burnTxHash when Stellar confirmation",
           "url": "https://github.com/Parabola-org/parabola/pull/21"
+        },
+        {
+          "created_at": "2026-10-15T22:25:35Z",
+          "number": 55,
+          "title": "[Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors",
+          "url": "https://github.com/Parabola-org/parabola/pull/55"
+        },
+        {
+          "created_at": "2026-10-15T21:31:29Z",
+          "number": 45,
+          "title": "fix(stellar): tolerate transient rpc errors in confirmation polling",
+          "url": "https://github.com/Parabola-org/parabola/pull/45"
+        },
+        {
+          "created_at": "2026-10-15T21:37:56Z",
+          "number": 47,
+          "title": "fix(stellar): keep tx hash when confirmation polling hits RPC errors",
+          "url": "https://github.com/Parabola-org/parabola/pull/47"
+        },
+        {
+          "created_at": "2026-10-15T22:10:57Z",
+          "number": 50,
+          "title": "fix(stellar): keep tx hash when confirmation polling hits RPC errors",
+          "url": "https://github.com/Parabola-org/parabola/pull/50"
         }
       ],
-      "recent_claim_count": 2,
+      "recent_claim_count": 0,
       "reward_mentions": [
         "$105"
       ],
       "reward_usd_max": 105.0,
       "title": "[Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transient RPC errors",
-      "updated_at": "2026-10-15T21:29:41Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Parabola-org/parabola/issues/13",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "sparkysolutions10-pixel",
-          "command": "/claim #13",
-          "created_at": "2026-10-15T20:26:19Z",
-          "recent": true,
-          "url": "https://github.com/Parabola-org/parabola/issues/13#issuecomment-6201577341"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Parabola-org/parabola/issues/13",
-      "id": "github:Parabola-org/parabola#13",
-      "labels": [
-        "testing",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T20:25:32Z",
-          "number": 24,
-          "title": "test: cover errors and public exports",
-          "url": "https://github.com/Parabola-org/parabola/pull/24"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$75"
-      ],
-      "reward_usd_max": 75.0,
-      "title": "[Bounty: $75] Unit tests for src/errors.ts and a public export surface snapshot",
-      "updated_at": "2026-10-15T21:06:57Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1259",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1259",
-      "id": "github:relayhop/sn-monetization-runtime#1259",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-10-06T10:06",
-      "updated_at": "2026-10-15T21:23:11Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/2757",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "2lll5",
-          "command": "/try",
-          "created_at": "2026-10-03T12:18:22Z",
-          "recent": false,
-          "url": "https://github.com/Ikalus1988/MisakaNet/issues/2757#issuecomment-5969083887"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/2757",
-      "id": "github:Ikalus1988/MisakaNet#2757",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer 4 linked question(s) as a lesson",
-      "updated_at": "2026-10-15T21:23:08Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/16",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/16",
-      "id": "github:Element-Ventures-Canada-Ltd/openchokepoint#16",
-      "labels": [
-        "bounty",
-        "priority: high"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Slice A] Public-evidence coverage score and gap atlas",
-      "updated_at": "2026-10-15T21:12:37Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/18",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/18",
-      "id": "github:Element-Ventures-Canada-Ltd/openchokepoint#18",
-      "labels": [
-        "bounty",
-        "priority: high"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Slice C] Red-team the hard boundaries: try to get technical data past the validator",
-      "updated_at": "2026-10-15T21:10:50Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/17",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/17",
-      "id": "github:Element-Ventures-Canada-Ltd/openchokepoint#17",
-      "labels": [
-        "schema",
-        "bounty",
-        "priority: high"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Slice B] Verifiable evidence pointers: prove a record exists without disclosing it",
-      "updated_at": "2026-10-15T21:09:30Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/AstralDeep/AstralDeep/issues/220",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/AstralDeep/AstralDeep/issues/220",
-      "id": "github:AstralDeep/AstralDeep#220",
-      "labels": [
-        "bounty",
-        "points:200",
-        "track:interoperability",
-        "track:voice",
-        "track:security",
-        "priority:P2"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-14T00:07:51Z",
-          "number": 417,
-          "title": "Exercise LETS receipt enforcement through real MCP, A2A and voice entry routes",
-          "url": "https://github.com/AstralDeep/AstralDeep/pull/417"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Exercise LETS receipt enforcement through real MCP, A2A and voice entry routes",
-      "updated_at": "2026-10-15T21:23:04Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "sparkysolutions10-pixel",
-          "command": "/claim #1389",
-          "created_at": "2026-10-15T19:05:54Z",
-          "recent": true,
-          "url": "https://github.com/OphirPay/OphirPay/issues/1389#issuecomment-6200102638"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1389",
-      "id": "github:OphirPay/OphirPay#1389",
-      "labels": [
-        "backend",
-        "security",
-        "difficulty: medium",
-        "bounty",
-        "Stellar Wave"
-      ],
-      "matching_open_pr_count": 6,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T01:30:39Z",
-          "number": 1401,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1389",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1401"
-        },
-        {
-          "created_at": "2026-10-15T01:25:10Z",
-          "number": 1394,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #1389",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1394"
-        },
-        {
-          "created_at": "2026-10-15T19:05:52Z",
-          "number": 1514,
-          "title": "fix: resolve #1389 - Add session re-authentication check on critical ad",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1514"
-        },
-        {
-          "created_at": "2026-10-15T17:27:06Z",
-          "number": 1504,
-          "title": "feat: add session re-authentication check on critical administrative actions (#1389)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1504"
-        },
-        {
-          "created_at": "2026-10-15T01:26:10Z",
-          "number": 1395,
-          "title": "fix: Add session re-authentication check on critical administrative actions (resolves #1389)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1395"
-        },
-        {
-          "created_at": "2026-10-15T03:08:35Z",
-          "number": 1447,
-          "title": "feat(security): add sudo mode step-up re-authentication for critical admin actions (#1389)",
-          "url": "https://github.com/OphirPay/OphirPay/pull/1447"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Add session re-authentication check on critical administrative actions",
-      "updated_at": "2026-10-15T21:17:10Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Parabola-org/parabola/issues/4",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 3 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/Parabola-org/parabola/issues/4",
-      "id": "github:Parabola-org/parabola#4",
-      "labels": [
-        "bug",
-        "bounty"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-15T21:10:05Z",
-          "number": 42,
-          "title": "fix: resolve #4 - [Bounty: $105] checkStellarRecipientReady must not report RP",
-          "url": "https://github.com/Parabola-org/parabola/pull/42"
-        },
-        {
-          "created_at": "2026-10-15T21:25:40Z",
-          "number": 44,
-          "title": "[Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts",
-          "url": "https://github.com/Parabola-org/parabola/pull/44"
-        },
-        {
-          "created_at": "2026-10-15T20:32:20Z",
-          "number": 26,
-          "title": "fix(stellar): stop reporting RPC outages as missing recipient accounts",
-          "url": "https://github.com/Parabola-org/parabola/pull/26"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$105"
-      ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing accounts",
-      "updated_at": "2026-10-15T21:28:54Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T02:31:03Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4139685332"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:26:29Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140492624"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:07:32Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140637038"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:16:25Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141216846"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:39:59Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141703232"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:02:46Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150330343"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #5",
-          "created_at": "2026-03-29T15:28:43Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150377305"
-        },
-        {
-          "actor": "daletyler1737",
-          "command": "/attempt 5",
-          "created_at": "2026-03-30T05:39:47Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152369600"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T06:02:02Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152480056"
-        },
-        {
-          "actor": "yihangwu539-png",
-          "command": "/try",
-          "created_at": "2026-04-27T01:56:53Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4323696002"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 83 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#5",
-      "labels": [
-        "bounty",
-        "workflow"
-      ],
-      "matching_open_pr_count": 83,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T04:02:57Z",
-          "number": 4574,
-          "title": "fix: bounty #5 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4574"
-        },
-        {
-          "created_at": "2026-09-28T07:03:42Z",
-          "number": 4582,
-          "title": "fix: bounty #5 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4582"
-        },
-        {
-          "created_at": "2026-10-01T11:13:59Z",
-          "number": 4624,
-          "title": "feat: n8n Weekly Summary Workflow (Issue #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4624"
-        },
-        {
-          "created_at": "2026-10-15T09:37:59Z",
-          "number": 4883,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #5",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4883"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-09-25T18:48:25Z",
-          "number": 4490,
-          "title": "[BOUNTY #5] Add weekly n8n development summary workflow",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4490"
-        },
-        {
-          "created_at": "2026-09-25T20:05:43Z",
-          "number": 4491,
-          "title": "Add n8n weekly dev summary workflow (closes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4491"
-        },
-        {
-          "created_at": "2026-10-08T18:39:28Z",
-          "number": 4753,
-          "title": "feat(workflow): add n8n weekly dev summary for bounty #5",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4753"
-        },
-        {
-          "created_at": "2026-10-15T13:09:50Z",
-          "number": 4888,
-          "title": "feat(workflows): n8n + Claude automated weekly GitHub dev summary workflow (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4888"
-        },
-        {
-          "created_at": "2026-10-15T08:44:48Z",
-          "number": 4882,
-          "title": "feat: n8n + Claude Code Automated Weekly Dev Summary Workflow (Fixes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4882"
-        },
-        {
-          "created_at": "2026-08-17T10:40:59Z",
-          "number": 3759,
-          "title": "Bounty 5 weekly GitHub summary",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3759"
-        },
-        {
-          "created_at": "2026-10-14T23:02:53Z",
-          "number": 4866,
-          "title": "feat(workflow): n8n + Claude Code automated weekly dev summary (Closes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4866"
-        },
-        {
-          "created_at": "2026-10-02T06:17:55Z",
-          "number": 4657,
-          "title": "feat(workflow): n8n + Claude API automated weekly dev summary (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4657"
-        },
-        {
-          "created_at": "2026-10-14T11:04:20Z",
-          "number": 4849,
-          "title": "feat(workflows): automated weekly GitHub dev summary workflow with Claude API (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4849"
-        },
-        {
-          "created_at": "2026-09-20T01:39:53Z",
-          "number": 4351,
-          "title": "feat: add n8n + Claude weekly summary workflow (Issue #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4351"
-        },
-        {
-          "created_at": "2026-08-31T00:11:32Z",
-          "number": 4001,
-          "title": "WORKFLOW: n8n + Claude weekly dev summary (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4001"
-        },
-        {
-          "created_at": "2026-10-12T10:47:27Z",
-          "number": 4795,
-          "title": "feat(workflows): add n8n weekly dev summary workflow with Claude API (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4795"
-        },
-        {
-          "created_at": "2026-10-12T08:02:25Z",
-          "number": 4790,
-          "title": "feat(workflows): add n8n weekly dev summary workflow with Claude API (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4790"
-        },
-        {
-          "created_at": "2026-09-27T14:44:04Z",
-          "number": 4567,
-          "title": "feat: n8n + Claude weekly GitHub dev summary workflow ($200 #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4567"
-        },
-        {
-          "created_at": "2026-09-27T01:32:43Z",
-          "number": 4550,
-          "title": "feat: WORKFLOW: n8n + Claude Code automated weekly dev summary (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4550"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly dev summary",
-      "updated_at": "2026-10-15T21:22:30Z",
+      "updated_at": "2026-10-16T03:25:06Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-15T21:29:58.769209Z",
+  "generated_at": "2026-10-16T04:40:26.420276Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
