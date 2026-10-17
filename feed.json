@@ -1,9 +1,105 @@
 {
   "product": "Verified Bounty Radar",
-  "generated_at": "2026-10-17T14:16:11.882778Z",
+  "generated_at": "2026-10-17T17:20:33.395922Z",
   "record_count": 50,
   "method": "Deep bounty search; mirror-to-canonical tracing; canonical issue, reward, assignment, claim and PR verification.",
   "records": [
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 990,
+      "title": "[BOUNTY] Medium: Unchecked withdrawal amount in transact_submit causes arithmetic negation overflow and sign inversion",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/990",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/990",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 75.0,
+      "recommendation": "watch",
+      "verified_at": "2026-10-17T17:19:42.612666Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 992,
+      "title": "[BOUNTY] Medium: apply_heartbeat accepts sequence 0 replays and snapshots exhibit torn state across non-atomic mutex locks",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/992",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/992",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 75.0,
+      "recommendation": "watch",
+      "verified_at": "2026-10-17T17:19:43.469297Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 988,
+      "title": "[BOUNTY] Medium: Non-atomic state transitions in ComputeStorage allow job duplication and state desync across column families",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/988",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/988",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 150.0,
+        "currency": "USD",
+        "evidence": "$150 "
+      },
+      "open_pr_competition": 1,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": 75.0,
+      "recommendation": "watch",
+      "verified_at": "2026-10-17T17:19:44.167785Z"
+    },
+    {
+      "repository": "sybil-solutions/local-ai-registry",
+      "issue_number": 262,
+      "title": "Bounty ledger: claims, submissions and payouts",
+      "source_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
+      "canonical_url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
+      "state": "open",
+      "closed_at": null,
+      "reward": {
+        "amount": 200.0,
+        "currency": "USD",
+        "evidence": "$200 "
+      },
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "watch",
+      "verified_at": "2026-10-17T17:20:01.191754Z"
+    },
     {
       "repository": "TokenNotIncluded/lmm-api",
       "issue_number": 935,
@@ -17,29 +113,29 @@
         "currency": "USD",
         "evidence": "1 USD"
       },
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 0,
         "submission_signals": 0
       },
-      "value_per_competitor": 1.0,
+      "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:25.634003Z"
+      "verified_at": "2026-10-17T17:20:08.003690Z"
     },
     {
-      "repository": "BasedHardware/omi",
-      "issue_number": 21854,
-      "title": "[Bounty Proposal] fix(backend): filter soft-deleted entities in recommendations and ensure goal deletion idempotency ($50 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/21854",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/21854",
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 890,
+      "title": "[BOUNTY] Medium: VerificationCoordinator::check_consensus treats failed/empty-output collisions as Agreed and PrivateJobCoordinator::verify_result ignores consensus output mismatch",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/890",
       "state": "open",
       "closed_at": null,
       "reward": {
-        "amount": 50.0,
+        "amount": 150.0,
         "currency": "USD",
-        "evidence": "Bounty\r\n$50"
+        "evidence": "$150 "
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -50,79 +146,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:44.889741Z"
-    },
-    {
-      "repository": "Presago-Labs/presago-contracts",
-      "issue_number": 44,
-      "title": "[Bounty: $75] Add a WASM size budget check to the `build-wasm` job",
-      "source_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
-      "canonical_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 75.0,
-        "currency": "USD",
-        "evidence": "Bounty: $75"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:49.184600Z"
-    },
-    {
-      "repository": "BasedHardware/omi",
-      "issue_number": 21875,
-      "title": "[Bounty Proposal] fix(staged_tasks): filter completed entities in creation dedup and default relevance_score for index sorting ($50 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/21875",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/21875",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 50.0,
-        "currency": "USD",
-        "evidence": "$50 "
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:50.491322Z"
-    },
-    {
-      "repository": "BasedHardware/omi",
-      "issue_number": 22017,
-      "title": "[Bounty proposal] fix(database): sanitize identifiers, clamp lease duration, and guard count query in first-open obligations ($50 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/22017",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/22017",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 50.0,
-        "currency": "USD",
-        "evidence": "$50 "
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:51.807223Z"
+      "verified_at": "2026-10-17T17:20:17.688084Z"
     },
     {
       "repository": "markabramov1993/arbitr",
@@ -146,68 +170,20 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:53.118313Z"
-    },
-    {
-      "repository": "David1984TK/Bimex",
-      "issue_number": 341,
-      "title": "decisión: confirmar estado del bug bounty Tier 2 (Immunefi vs HackerOne)",
-      "source_url": "https://github.com/David1984TK/Bimex/issues/341",
-      "canonical_url": "https://github.com/David1984TK/Bimex/issues/341",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 500.0,
-        "currency": "USD",
-        "evidence": "$500"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:15:59.853188Z"
-    },
-    {
-      "repository": "bujiproject-art/agentmidasopendevteam",
-      "issue_number": 14,
-      "title": "Bounty #6 Meeting Scheduler ($100): source, acceptance, and fixed payout terms",
-      "source_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/14",
-      "canonical_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/14",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "$100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:16:02.902604Z"
+      "verified_at": "2026-10-17T17:20:22.838873Z"
     },
     {
       "repository": "BasedHardware/omi",
-      "issue_number": 21903,
-      "title": "[Bounty proposal] fix(database): add stream fault tolerance and client injection to trends ($50 proposed)",
-      "source_url": "https://github.com/BasedHardware/omi/issues/21903",
-      "canonical_url": "https://github.com/BasedHardware/omi/issues/21903",
+      "issue_number": 21854,
+      "title": "[Bounty Proposal] fix(backend): filter soft-deleted entities in recommendations and ensure goal deletion idempotency ($50 proposed)",
+      "source_url": "https://github.com/BasedHardware/omi/issues/21854",
+      "canonical_url": "https://github.com/BasedHardware/omi/issues/21854",
       "state": "open",
       "closed_at": null,
       "reward": {
         "amount": 50.0,
         "currency": "USD",
-        "evidence": "$50 "
+        "evidence": "Bounty\r\n$50"
       },
       "open_pr_competition": null,
       "assignees": [],
@@ -218,62 +194,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-17T14:16:03.321815Z"
+      "verified_at": "2026-10-17T17:20:28.338731Z"
     },
     {
-      "repository": "bujiproject-art/agentmidasopendevteam",
-      "issue_number": 5,
-      "title": "Bounty #29 ($100): eligibility, integration scope and Pakistan payout",
-      "source_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/5",
-      "canonical_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/5",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "$100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:16:06.459267Z"
-    },
-    {
-      "repository": "bujiproject-art/agentmidasopendevteam",
-      "issue_number": 6,
-      "title": "Bounty #11 Content Calendar ($100): availability, integration scope and payout",
-      "source_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/6",
-      "canonical_url": "https://github.com/bujiproject-art/agentmidasopendevteam/issues/6",
-      "state": "open",
-      "closed_at": null,
-      "reward": {
-        "amount": 100.0,
-        "currency": "USD",
-        "evidence": "$100"
-      },
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "watch",
-      "verified_at": "2026-10-17T14:16:09.222605Z"
-    },
-    {
-      "repository": "flowstellar/stellar-flow-ai",
-      "issue_number": 46,
-      "title": "[Bounty: $75] Add a required aggregate CI summary job",
-      "source_url": "https://github.com/flowstellar/stellar-flow-ai/issues/46",
-      "canonical_url": "https://github.com/flowstellar/stellar-flow-ai/issues/46",
+      "repository": "Presago-Labs/presago-contracts",
+      "issue_number": 44,
+      "title": "[Bounty: $75] Add a WASM size budget check to the `build-wasm` job",
+      "source_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
+      "canonical_url": "https://github.com/Presago-Labs/presago-contracts/issues/44",
       "state": "open",
       "closed_at": null,
       "reward": {
@@ -290,18 +218,22 @@
       },
       "value_per_competitor": null,
       "recommendation": "watch",
-      "verified_at": "2026-10-17T14:16:10.555334Z"
+      "verified_at": "2026-10-17T17:20:32.058876Z"
     },
     {
-      "repository": "kryptokrona/desktop-node",
-      "issue_number": 2,
-      "title": "Fix build settings for linux",
-      "source_url": "https://github.com/kryptokrona/desktop-node/issues/2",
-      "canonical_url": "https://github.com/kryptokrona/desktop-node/issues/2",
+      "repository": "BasedHardware/omi",
+      "issue_number": 21875,
+      "title": "[Bounty Proposal] fix(staged_tasks): filter completed entities in creation dedup and default relevance_score for index sorting ($50 proposed)",
+      "source_url": "https://github.com/BasedHardware/omi/issues/21875",
+      "canonical_url": "https://github.com/BasedHardware/omi/issues/21875",
       "state": "open",
       "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
+      "reward": {
+        "amount": 50.0,
+        "currency": "USD",
+        "evidence": "$50 "
+      },
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
@@ -309,15 +241,15 @@
         "submission_signals": 0
       },
       "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:21.220040Z"
+      "recommendation": "watch",
+      "verified_at": "2026-10-17T17:20:33.394712Z"
     },
     {
       "repository": "mergemint-mint/mergemint-contracts",
-      "issue_number": 1029,
-      "title": "[Backend] Full-text search for bounties",
-      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1029",
-      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1029",
+      "issue_number": 1074,
+      "title": "[Frontend] 404 and bounty-not-found pages",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1074",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1074",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -330,14 +262,194 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:22.609939Z"
+      "verified_at": "2026-10-17T17:19:44.769187Z"
     },
     {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 985,
-      "title": "[BOUNTY] Medium: Transact and TransactSpl enforce has_one = authority on BridgeState, permanently blocking non-admin validator settlement and causing consensus liveness freeze",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/985",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/985",
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1053,
+      "title": "[Frontend] Milestone builder step in create bounty wizard",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1053",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1053",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:45.364659Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1060,
+      "title": "[Frontend] Bounty activity timeline",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1060",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1060",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:46.009759Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1061,
+      "title": "[Frontend] Render bounty descriptions as sanitized Markdown",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1061",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1061",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:46.735963Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1063,
+      "title": "[Frontend] Creator dashboard for managing my bounties",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1063",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1063",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:48.164755Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1064,
+      "title": "[Frontend] Reopen expired bounty action",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1064",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1064",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:48.828678Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1065,
+      "title": "[Frontend] Reassign bounty dialog",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1065",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1065",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:50.314036Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1066,
+      "title": "[Frontend] Sponsor bounty modal",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1066",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1066",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:50.989227Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1068,
+      "title": "[Frontend] Wallet balance check in create bounty form",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1068",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1068",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:53.010214Z"
+    },
+    {
+      "repository": "mergemint-mint/mergemint-contracts",
+      "issue_number": 1071,
+      "title": "[Frontend] QR code in share bounty menu",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1071",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1071",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": 0,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:19:54.423964Z"
+    },
+    {
+      "repository": "limitlessprojects/Go-Hybrid",
+      "issue_number": 404,
+      "title": "Bounty program: Argentina eligibility, USDC payout network and cycle dates",
+      "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/404",
+      "canonical_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/404",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -350,14 +462,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:23.366000Z"
+      "verified_at": "2026-10-17T17:19:55.929142Z"
     },
     {
-      "repository": "ErenYeager1836/reconflow",
-      "issue_number": 12,
-      "title": "feat: add custom HTTP headers support (-H / --header) for bug bounty identification",
-      "source_url": "https://github.com/ErenYeager1836/reconflow/issues/12",
-      "canonical_url": "https://github.com/ErenYeager1836/reconflow/issues/12",
+      "repository": "StellarDevHub/soroban-playground",
+      "issue_number": 1826,
+      "title": "[SC-30] Decentralized Bounty & GitHub Issue Micro-Payment Reward Protocol",
+      "source_url": "https://github.com/StellarDevHub/soroban-playground/issues/1826",
+      "canonical_url": "https://github.com/StellarDevHub/soroban-playground/issues/1826",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -370,34 +482,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:23.978251Z"
-    },
-    {
-      "repository": "relayhop/sn-monetization-runtime",
-      "issue_number": 1300,
-      "title": "[radar] SN open bounty 2026-10-17T10:32",
-      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 0,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:26.211852Z"
+      "verified_at": "2026-10-17T17:19:58.875220Z"
     },
     {
       "repository": "mergemint-mint/mergemint-contracts",
-      "issue_number": 1040,
-      "title": "[Backend] CSV export of bounties",
-      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1040",
-      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1040",
+      "issue_number": 1057,
+      "title": "[Frontend] Bounty search bar",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1057",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1057",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -410,34 +502,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:28.383764Z"
-    },
-    {
-      "repository": "paraloom-labs/paraloom-core",
-      "issue_number": 974,
-      "title": "[BOUNTY] Medium: Untracked pending_rewards in BridgeState erodes deposit_cap & breaks vault backing, reset_validator_registry desyncs singleton stake_token_vault mint, and cosign_settlement accepts self-authority fee-payer & uninvited quorum payloads",
-      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/974",
-      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/974",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 1,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:29.135441Z"
+      "verified_at": "2026-10-17T17:19:59.454773Z"
     },
     {
       "repository": "mergemint-mint/mergemint-contracts",
-      "issue_number": 1037,
-      "title": "[Backend] RSS/Atom feed of open bounties",
-      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1037",
-      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1037",
+      "issue_number": 1056,
+      "title": "[Frontend] Notification bell for bounty updates",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1056",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1056",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -450,14 +522,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:32.593196Z"
+      "verified_at": "2026-10-17T17:20:00.025286Z"
     },
     {
       "repository": "mergemint-mint/mergemint-contracts",
-      "issue_number": 1031,
-      "title": "[Backend] Support ETag and conditional GET on bounty routes",
-      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1031",
-      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1031",
+      "issue_number": 1058,
+      "title": "[Frontend] Sync bounty filters with URL query params",
+      "source_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1058",
+      "canonical_url": "https://github.com/mergemint-mint/mergemint-contracts/issues/1058",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -470,54 +542,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:33.291039Z"
+      "verified_at": "2026-10-17T17:20:00.639591Z"
     },
     {
-      "repository": "OphirPay/OphirPay",
-      "issue_number": 1353,
-      "title": "Validate dispute timeout window in resolve_dispute to prevent premature resolution",
-      "source_url": "https://github.com/OphirPay/OphirPay/issues/1353",
-      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1353",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 3,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:36.828532Z"
-    },
-    {
-      "repository": "angeloasante/Diaspora_AI_Visa_data",
-      "issue_number": 6,
-      "title": "[Bounty eligibility] UK-visa → Albania correction prepared with official sources",
-      "source_url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
-      "canonical_url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": 3,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:37.558336Z"
-    },
-    {
-      "repository": "willi-d7/williams-contracts",
-      "issue_number": 63,
-      "title": "release_inheritance Permits Unauthenticated Payouts to Arbitrary Caller Addresses for Keeper Bounty",
-      "source_url": "https://github.com/willi-d7/williams-contracts/issues/63",
-      "canonical_url": "https://github.com/willi-d7/williams-contracts/issues/63",
+      "repository": "FuRongJun-1999/dsh-bounty",
+      "issue_number": 885,
+      "title": "`bounty_list.validate` 不校验 `render` 直接索引的**四个顶层键** ⇒ 缺键时「校验无错」但裸崩 `KeyError`，退出码与「产物漂移」撞码",
+      "source_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/885",
+      "canonical_url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/885",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -530,14 +562,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:40.524123Z"
+      "verified_at": "2026-10-17T17:20:01.628019Z"
     },
     {
-      "repository": "willi-d7/williams-contracts",
-      "issue_number": 66,
-      "title": "Keeper Bounty Deduction Precedes Fixed-Amount Payouts, Arbitrarily Shrinking Designated Inheritances",
-      "source_url": "https://github.com/willi-d7/williams-contracts/issues/66",
-      "canonical_url": "https://github.com/willi-d7/williams-contracts/issues/66",
+      "repository": "pruuk/DOGMud",
+      "issue_number": 240,
+      "title": "DoT kills credit nobody (no murder, bounty, rep, quest or proc credit)",
+      "source_url": "https://github.com/pruuk/DOGMud/issues/240",
+      "canonical_url": "https://github.com/pruuk/DOGMud/issues/240",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -550,14 +582,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:40.973286Z"
+      "verified_at": "2026-10-17T17:20:02.608027Z"
     },
     {
-      "repository": "mnnobre/rathena",
-      "issue_number": 13,
-      "title": "[Validação] #2 [Living World] Governanca Municipal, Regentes de IA e Quests de Bounties de MVPs (Estilo AIKA) no servidor real",
-      "source_url": "https://github.com/mnnobre/rathena/issues/13",
-      "canonical_url": "https://github.com/mnnobre/rathena/issues/13",
+      "repository": "kwizzlesurp10-ctrl/x402-mcp",
+      "issue_number": 664,
+      "title": "change-control: existing files mutated on push-master-9276b9d8f708 [evt:94bad72c83]",
+      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1607",
+      "canonical_url": "https://github.com/kwizzlesurp10-ctrl/x402-mcp/issues/664",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -570,7 +602,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:46.353563Z"
+      "verified_at": "2026-10-17T17:20:03.051821Z"
     },
     {
       "repository": "Saidur-droid/MergeEarn",
@@ -590,14 +622,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:46.857020Z"
+      "verified_at": "2026-10-17T17:20:04.895440Z"
     },
     {
-      "repository": "MergeFi/frontend",
-      "issue_number": 716,
-      "title": "The bounty board downloads the entire bounties table on every page view and paginates in memory",
-      "source_url": "https://github.com/MergeFi/frontend/issues/716",
-      "canonical_url": "https://github.com/MergeFi/frontend/issues/716",
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 974,
+      "title": "[BOUNTY] Medium: Untracked pending_rewards in BridgeState erodes deposit_cap & breaks vault backing, reset_validator_registry desyncs singleton stake_token_vault mint, and cosign_settlement accepts self-authority fee-payer & uninvited quorum payloads",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/974",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/974",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -610,14 +642,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:48.254268Z"
+      "verified_at": "2026-10-17T17:20:05.357191Z"
     },
     {
-      "repository": "odiseo159-beep/mergit",
-      "issue_number": 2,
-      "title": "Attack the reentrancy guard, do not just trust it",
-      "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
-      "canonical_url": "https://github.com/odiseo159-beep/mergit/issues/2",
+      "repository": "ritik4ever/stellar-bounty-board",
+      "issue_number": 1291,
+      "title": "Frontend: accessibility pass on `recommendations.ts`",
+      "source_url": "https://github.com/freedom-winds/BountyScout/issues/1268",
+      "canonical_url": "https://github.com/ritik4ever/stellar-bounty-board/issues/1291",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -630,14 +662,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:50.080761Z"
+      "verified_at": "2026-10-17T17:20:07.616942Z"
     },
     {
-      "repository": "Ikalus1988/MisakaNet",
-      "issue_number": 3430,
-      "title": "[Bounty] Answer 3 linked question(s) as a lesson",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
+      "repository": "relayhop/sn-monetization-runtime",
+      "issue_number": 1300,
+      "title": "[radar] SN open bounty 2026-10-17T10:32",
+      "source_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1300",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -650,54 +682,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:50.877591Z"
-    },
-    {
-      "repository": "TabularisDB/tabularis",
-      "issue_number": 1145,
-      "title": "[Feat]: Database driver plugins and engine compatibility — open targets and bounty board",
-      "source_url": "https://github.com/TabularisDB/tabularis/issues/1145",
-      "canonical_url": "https://github.com/TabularisDB/tabularis/issues/1145",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:51.344683Z"
-    },
-    {
-      "repository": "limitlessprojects/Go-Hybrid",
-      "issue_number": 432,
-      "title": "Bounty programme: current cycle settlement and PayPal eligibility",
-      "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/432",
-      "canonical_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/432",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:52.733051Z"
+      "verified_at": "2026-10-17T17:20:08.406570Z"
     },
     {
       "repository": "Uuriko/project-room",
-      "issue_number": 3868,
-      "title": "[Lane D] Live payout sweep did not run (2nd instance): accepted bounty Q1HUMANR1X7-1 still attributed after challenge window ended (q1-human-r1-x7)",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3868",
-      "canonical_url": "https://github.com/Uuriko/project-room/issues/3868",
+      "issue_number": 3709,
+      "title": "[launch-readiness] The neglect ladder pays junk at 35.6 cr/h under a passive operator; only reviewer diligence bounds it (bond + flake ladder: adversary net -6 cr when reviews happen)",
+      "source_url": "https://github.com/Uuriko/project-room/issues/3709",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3709",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -710,187 +702,7 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:53.544567Z"
-    },
-    {
-      "repository": "Uuriko/project-room",
-      "issue_number": 3844,
-      "title": "[Lane D] Live payout sweep did not run: accepted bounty JILLQALAB2A1-3 still attributed after challenge window ended (jill-qa-lab-2a16)",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3844",
-      "canonical_url": "https://github.com/Uuriko/project-room/issues/3844",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:53.936424Z"
-    },
-    {
-      "repository": "Uuriko/project-room",
-      "issue_number": 3693,
-      "title": "bounty_finalize cannot pay out an approved bounty, its tool/doc copy promises it can, and the agent door has no payout path at all",
-      "source_url": "https://github.com/Uuriko/project-room/issues/3693",
-      "canonical_url": "https://github.com/Uuriko/project-room/issues/3693",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:54.313320Z"
-    },
-    {
-      "repository": "Ikalus1988/MisakaNet",
-      "issue_number": 3431,
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:55.157859Z"
-    },
-    {
-      "repository": "Ikalus1988/MisakaNet",
-      "issue_number": 3332,
-      "title": "[Bounty] Answer 2 linked question(s) as a lesson",
-      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3332",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:55.623345Z"
-    },
-    {
-      "repository": "abdulsalam-create/bounty-watch",
-      "issue_number": 135,
-      "title": "Scope digest 2026-10-17: 4 changes across 2 bounty programs",
-      "source_url": "https://github.com/abdulsalam-create/bounty-watch/issues/135",
-      "canonical_url": "https://github.com/abdulsalam-create/bounty-watch/issues/135",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:56.468171Z"
-    },
-    {
-      "repository": "abdulsalam-create/bounty-watch",
-      "issue_number": 134,
-      "title": "bounty-watch 2026-10-17: 0 new, 0 resumed, 1 watchlist changes",
-      "source_url": "https://github.com/abdulsalam-create/bounty-watch/issues/134",
-      "canonical_url": "https://github.com/abdulsalam-create/bounty-watch/issues/134",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:56.827815Z"
-    },
-    {
-      "repository": "mnnobre/rathena",
-      "issue_number": 2,
-      "title": "[Living World] Governanca Municipal, Regentes de IA e Quests de Bounties de MVPs (Estilo AIKA)",
-      "source_url": "https://github.com/mnnobre/rathena/issues/2",
-      "canonical_url": "https://github.com/mnnobre/rathena/issues/2",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:58.977297Z"
-    },
-    {
-      "repository": "mnnobre/rathena",
-      "issue_number": 14,
-      "title": "[Validação] #2 [Living World] Governanca Municipal, Regentes de IA e Quests de Bounties de MVPs (Estilo AIKA) — soak",
-      "source_url": "https://github.com/mnnobre/rathena/issues/14",
-      "canonical_url": "https://github.com/mnnobre/rathena/issues/14",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:15:59.371557Z"
-    },
-    {
-      "repository": "zsxh1990/pr-genius",
-      "issue_number": 102,
-      "title": "Help us test the DSH web sidebar in a real DSH host",
-      "source_url": "https://github.com/zsxh1990/pr-genius/issues/102",
-      "canonical_url": "https://github.com/zsxh1990/pr-genius/issues/102",
-      "state": "open",
-      "closed_at": null,
-      "reward": null,
-      "open_pr_competition": null,
-      "assignees": [],
-      "claim": {
-        "state": "none",
-        "attempt_count": 0,
-        "submission_signals": 0
-      },
-      "value_per_competitor": null,
-      "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:00.695772Z"
+      "verified_at": "2026-10-17T17:20:15.971753Z"
     },
     {
       "repository": "callstackincubator/simlock",
@@ -910,14 +722,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:01.995135Z"
+      "verified_at": "2026-10-17T17:20:16.408983Z"
     },
     {
-      "repository": "limitlessprojects/Go-Hybrid",
-      "issue_number": 404,
-      "title": "Bounty program: Argentina eligibility, USDC payout network and cycle dates",
-      "source_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/404",
-      "canonical_url": "https://github.com/limitlessprojects/Go-Hybrid/issues/404",
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 888,
+      "title": "[BOUNTY] Medium: `deactivate_validator` omits routing `token_stake_amount` into `token_unbonding_amount`, permanently stranding dual-stake tokens in `stake_token_vault` on PDA closure and bypassing unbonding token slashing",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/888",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/888",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -930,14 +742,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:04.569382Z"
+      "verified_at": "2026-10-17T17:20:18.099287Z"
     },
     {
-      "repository": "Tekwan404/ElyndorMMORPG",
-      "issue_number": 381,
-      "title": "World PvP Guild UI: independent ratings, bounty prizes and titles",
-      "source_url": "https://github.com/Tekwan404/ElyndorMMORPG/issues/381",
-      "canonical_url": "https://github.com/Tekwan404/ElyndorMMORPG/issues/381",
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 878,
+      "title": "[BOUNTY] Medium: transact co-sign set re-resolves voter wallets via unsigned Discovery state instead of the signed tally (settlement fails after NodeId rotation / pre-Discovery vote)",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/878",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/878",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -950,14 +762,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:04.979937Z"
+      "verified_at": "2026-10-17T17:20:18.518675Z"
     },
     {
-      "repository": "GameNative/gamenative-compat",
-      "issue_number": 218,
-      "title": "King's Bounty: The Legend (STEAM) does not work",
-      "source_url": "https://github.com/GameNative/gamenative-compat/issues/218",
-      "canonical_url": "https://github.com/GameNative/gamenative-compat/issues/218",
+      "repository": "TabularisDB/tabularis",
+      "issue_number": 1145,
+      "title": "[Feat]: Database driver plugins and engine compatibility — open targets and bounty board",
+      "source_url": "https://github.com/TabularisDB/tabularis/issues/1145",
+      "canonical_url": "https://github.com/TabularisDB/tabularis/issues/1145",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -970,14 +782,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:06.021251Z"
+      "verified_at": "2026-10-17T17:20:19.353181Z"
     },
     {
-      "repository": "ZecHub/zec-bounties",
-      "issue_number": 421,
-      "title": "Question: reward requests for merged PRs under the new 5-completed-bounties rule",
-      "source_url": "https://github.com/ZecHub/zec-bounties/issues/421",
-      "canonical_url": "https://github.com/ZecHub/zec-bounties/issues/421",
+      "repository": "Ikalus1988/MisakaNet",
+      "issue_number": 3430,
+      "title": "[Bounty] Answer the 3 linked question(s)",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3430",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -990,14 +802,14 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:07.334931Z"
+      "verified_at": "2026-10-17T17:20:20.707976Z"
     },
     {
-      "repository": "Refract-Protocol/refract-contracts",
-      "issue_number": 317,
-      "title": "Implement Asset Decimal Normalization and Canonical Amount Encoding Across Payout Paths",
-      "source_url": "https://github.com/dev-kp-eloper/BountyScout/issues/1605",
-      "canonical_url": "https://github.com/Refract-Protocol/refract-contracts/issues/317",
+      "repository": "Ikalus1988/MisakaNet",
+      "issue_number": 3431,
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "source_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3431",
       "state": "open",
       "closed_at": null,
       "reward": null,
@@ -1010,7 +822,187 @@
       },
       "value_per_competitor": null,
       "recommendation": "verify_reward",
-      "verified_at": "2026-10-17T14:16:10.960822Z"
+      "verified_at": "2026-10-17T17:20:21.095446Z"
+    },
+    {
+      "repository": "StellarAgent-AI-Agent-Payment-Rails/Stellar-agentic",
+      "issue_number": 554,
+      "title": "Write a contract reference page for bug_bounty_oracle",
+      "source_url": "https://github.com/StellarAgent-AI-Agent-Payment-Rails/Stellar-agentic/issues/554",
+      "canonical_url": "https://github.com/StellarAgent-AI-Agent-Payment-Rails/Stellar-agentic/issues/554",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:21.565999Z"
+    },
+    {
+      "repository": "paraloom-labs/paraloom-core",
+      "issue_number": 985,
+      "title": "[BOUNTY] Medium: Transact and TransactSpl enforce has_one = authority on BridgeState, permanently blocking non-admin validator settlement and causing consensus liveness freeze",
+      "source_url": "https://github.com/paraloom-labs/paraloom-core/issues/985",
+      "canonical_url": "https://github.com/paraloom-labs/paraloom-core/issues/985",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:21.967072Z"
+    },
+    {
+      "repository": "kryptokrona/desktop-node",
+      "issue_number": 2,
+      "title": "Fix build settings for linux",
+      "source_url": "https://github.com/kryptokrona/desktop-node/issues/2",
+      "canonical_url": "https://github.com/kryptokrona/desktop-node/issues/2",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:23.253075Z"
+    },
+    {
+      "repository": "ErenYeager1836/reconflow",
+      "issue_number": 12,
+      "title": "feat: add custom HTTP headers support (-H / --header) for bug bounty identification",
+      "source_url": "https://github.com/ErenYeager1836/reconflow/issues/12",
+      "canonical_url": "https://github.com/ErenYeager1836/reconflow/issues/12",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:24.067855Z"
+    },
+    {
+      "repository": "OphirPay/OphirPay",
+      "issue_number": 1353,
+      "title": "Validate dispute timeout window in resolve_dispute to prevent premature resolution",
+      "source_url": "https://github.com/OphirPay/OphirPay/issues/1353",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1353",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:25.753035Z"
+    },
+    {
+      "repository": "angeloasante/Diaspora_AI_Visa_data",
+      "issue_number": 6,
+      "title": "[Bounty eligibility] UK-visa → Albania correction prepared with official sources",
+      "source_url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
+      "canonical_url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues/6",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:26.274987Z"
+    },
+    {
+      "repository": "mnnobre/rathena",
+      "issue_number": 13,
+      "title": "[Validação] #2 [Living World] Governanca Municipal, Regentes de IA e Quests de Bounties de MVPs (Estilo AIKA) no servidor real",
+      "source_url": "https://github.com/mnnobre/rathena/issues/13",
+      "canonical_url": "https://github.com/mnnobre/rathena/issues/13",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:29.735755Z"
+    },
+    {
+      "repository": "MergeFi/frontend",
+      "issue_number": 716,
+      "title": "The bounty board downloads the entire bounties table on every page view and paginates in memory",
+      "source_url": "https://github.com/MergeFi/frontend/issues/716",
+      "canonical_url": "https://github.com/MergeFi/frontend/issues/716",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:31.091038Z"
+    },
+    {
+      "repository": "odiseo159-beep/mergit",
+      "issue_number": 2,
+      "title": "Attack the reentrancy guard, do not just trust it",
+      "source_url": "https://github.com/odiseo159-beep/mergit/issues/2",
+      "canonical_url": "https://github.com/odiseo159-beep/mergit/issues/2",
+      "state": "open",
+      "closed_at": null,
+      "reward": null,
+      "open_pr_competition": null,
+      "assignees": [],
+      "claim": {
+        "state": "none",
+        "attempt_count": 0,
+        "submission_signals": 0
+      },
+      "value_per_competitor": null,
+      "recommendation": "verify_reward",
+      "verified_at": "2026-10-17T17:20:32.986152Z"
     },
     {
       "repository": "sybil-solutions/local-ai-registry",
@@ -1025,16 +1017,16 @@
         "currency": "USD",
         "evidence": "Bounty $50"
       },
-      "open_pr_competition": 0,
+      "open_pr_competition": null,
       "assignees": [],
       "claim": {
         "state": "none",
         "attempt_count": 4,
         "submission_signals": 0
       },
-      "value_per_competitor": 50.0,
+      "value_per_competitor": null,
       "recommendation": "avoid_crowded",
-      "verified_at": "2026-10-17T14:15:31.985570Z"
+      "verified_at": "2026-10-17T17:20:24.510525Z"
     },
     {
       "repository": "limitlessprojects/Go-Hybrid",
@@ -1049,16 +1041,16 @@
         "currency": "USD",
         "evidence": "$500 "
       },
-      "open_pr_competition": 57,
+      "open_pr_competition": 62,
       "assignees": [],
       "claim": {
         "state": "none",
-        "attempt_count": 15,
+        "attempt_count": 17,
         "submission_signals": 2
       },
-      "value_per_competitor": 8.62,
+      "value_per_competitor": 7.94,
       "recommendation": "avoid_active_submissions",
-      "verified_at": "2026-10-17T14:15:36.181530Z"
+      "verified_at": "2026-10-17T17:19:52.391304Z"
     }
   ]
 }
