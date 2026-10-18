@@ -2,8 +2,8 @@
   "counts": {
     "errors": 0,
     "hold": 0,
-    "manual_review": 1,
-    "pursue": 13,
+    "manual_review": 12,
+    "pursue": 2,
     "skip": 1
   },
   "entries": [
@@ -33,8 +33,15 @@
         "scope:contract",
         "possible-duplicate"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-18T17:07:47Z",
+          "number": 262,
+          "title": "Fix emergency freeze bypass in scheduled and batch streams",
+          "url": "https://github.com/Neziahtech/streampay/pull/262"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [
         "35LT",
@@ -44,12 +51,12 @@
       ],
       "reward_usd_max": 80000.0,
       "title": "[Security]: freeze-logic trigger",
-      "updated_at": "2026-10-18T15:25:58Z",
+      "updated_at": "2026-10-18T17:25:33Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1222",
+      "canonical_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -57,75 +64,39 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1222 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:55Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1222#issuecomment-5400848346"
-        },
-        {
-          "actor": "Larslllllll",
-          "command": "/claim #1222 wallet: 0xe18bd968A0f2FB3578363F8E0688F6aBCe1f7eAa",
-          "created_at": "2026-08-25T22:53:01Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1222#issuecomment-5417969859"
-        },
-        {
-          "actor": "tronnew",
-          "command": "/attempt \u2014 openclaw-chile (x402 endpoint live, can fund child bounty or generate GMV via external solver call)",
-          "created_at": "2026-08-28T21:50:14Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1222#issuecomment-5458125460"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:04:11Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1222#issuecomment-5561819817"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:16Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1222#issuecomment-5627343922"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1222",
-      "id": "github:NSPG13/agent-bounties#1222",
+      "discovered_url": "https://github.com/mozzimorzam-sudo/project100-mcp/issues/7",
+      "id": "github:mozzimorzam-sudo/project100-mcp#7",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "good first issue",
+        "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-18T09:17:38Z",
+          "number": 8,
+          "title": "docs: resolve #7 - Add rate limiting to /api/v1/artifacts endpoint",
+          "url": "https://github.com/mozzimorzam-sudo/project100-mcp/pull/8"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "6 USDC",
-        "6.00 USDC",
-        "0.00 USDC",
-        "6.04 USDC",
-        "0.11 USDC"
+        "0 USD"
       ],
-      "reward_usd_max": 6.04,
-      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 daily 20260827",
-      "updated_at": "2026-10-18T15:25:09Z",
+      "reward_usd_max": 0.0,
+      "title": "Add rate limiting to /api/v1/artifacts endpoint",
+      "updated_at": "2026-10-18T16:56:23Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1221",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1306",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -133,61 +104,31 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1221 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:54Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1221#issuecomment-5400848170"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:04:05Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1221#issuecomment-5561819309"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:41Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1221#issuecomment-5627348667"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1221",
-      "id": "github:NSPG13/agent-bounties#1221",
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1306",
+      "id": "github:relayhop/sn-monetization-runtime#1306",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "radar",
+        "sn",
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "6 USDC",
-        "6.00 USDC",
-        "0.00 USDC",
-        "6.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 6.04,
-      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 week 20260831",
-      "updated_at": "2026-10-18T15:25:08Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-10-18T20:33",
+      "updated_at": "2026-10-18T20:33:00Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1220",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -195,68 +136,58 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1220 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:56Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1220#issuecomment-5400848590"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:58Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1220#issuecomment-5561818521"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:04:11Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1220#issuecomment-5561819847"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:48Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1220#issuecomment-5627349873"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1220",
-      "id": "github:NSPG13/agent-bounties#1220",
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "6 USDC",
-        "6.00 USDC",
-        "0.00 USDC",
-        "6.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 6.04,
-      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 daily 20260825",
-      "updated_at": "2026-10-18T15:25:07Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-10-18T20:31:17Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1219",
+      "canonical_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/19",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -264,60 +195,30 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1219 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:57Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1219#issuecomment-5400848785"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:53Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1219#issuecomment-5561818054"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:04Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1219#issuecomment-5627341802"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1219",
-      "id": "github:NSPG13/agent-bounties#1219",
+      "discovered_url": "https://github.com/Element-Ventures-Canada-Ltd/openchokepoint/issues/19",
+      "id": "github:Element-Ventures-Canada-Ltd/openchokepoint#19",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "schema",
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 daily August 27",
-      "updated_at": "2026-10-18T15:25:05Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Slice D] Standards crosswalk: W3C PROV-O, QIF (ISO 23952), STEP AP242 (ISO 10303-242)",
+      "updated_at": "2026-10-18T20:15:59Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1218",
+      "canonical_url": "https://github.com/Uuriko/project-room/issues/3708",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -325,60 +226,30 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1218 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:58Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1218#issuecomment-5400848965"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:48Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1218#issuecomment-5561817517"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:32Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1218#issuecomment-5627346983"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1218",
-      "id": "github:NSPG13/agent-bounties#1218",
+      "discovered_url": "https://github.com/Uuriko/project-room/issues/3708",
+      "id": "github:Uuriko/project-room#3708",
       "labels": [
         "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "launch-readiness"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 August 24 to September 21",
-      "updated_at": "2026-10-18T15:25:04Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[launch-readiness] Rotation caps exist nowhere in code, and even perfectly enforced they leak: collusion ring extracted 31.6 cr (44% of float) at 17x the honest rate",
+      "updated_at": "2026-10-18T20:15:47Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1217",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1302",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -386,60 +257,31 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1217 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:20:59Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1217#issuecomment-5400849123"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:43Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1217#issuecomment-5561817033"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:30Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1217#issuecomment-5627346537"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1217",
-      "id": "github:NSPG13/agent-bounties#1217",
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1302",
+      "id": "github:relayhop/sn-monetization-runtime#1302",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "radar",
+        "sn",
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 daily August 24",
-      "updated_at": "2026-10-18T15:25:02Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-10-18T18:00",
+      "updated_at": "2026-10-18T20:15:11Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1216",
+      "canonical_url": "https://github.com/MicahHeneveld/bros-analysis/issues/6",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -447,68 +289,29 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1216 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:00Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5400849297"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:37Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5561816428"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:53Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5561818085"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:06Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1216#issuecomment-5627342187"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1216",
-      "id": "github:NSPG13/agent-bounties#1216",
+      "discovered_url": "https://github.com/MicahHeneveld/bros-analysis/issues/6",
+      "id": "github:MicahHeneveld/bros-analysis#6",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "6 USDC",
-        "6.00 USDC",
-        "0.00 USDC",
-        "6.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 6.04,
-      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 fortnight 20260907",
-      "updated_at": "2026-10-18T15:25:01Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bounty: ultrank_11_20 \u2014 250 frames (label from scratch) [6/6]",
+      "updated_at": "2026-10-18T17:03:19Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1215",
+      "canonical_url": "https://github.com/MicahHeneveld/bros-analysis/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -516,67 +319,29 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1215 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:01Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5400849475"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt",
-          "created_at": "2026-08-28T23:46:20Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5458924277"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:32Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5561815897"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:05Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1215#issuecomment-5627342005"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1215",
-      "id": "github:NSPG13/agent-bounties#1215",
+      "discovered_url": "https://github.com/MicahHeneveld/bros-analysis/issues/5",
+      "id": "github:MicahHeneveld/bros-analysis#5",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 August 24 to September 7",
-      "updated_at": "2026-10-18T15:25:00Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bounty: ultrank_11_20 \u2014 250 frames (label from scratch) [5/6]",
+      "updated_at": "2026-10-18T17:03:18Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1214",
+      "canonical_url": "https://github.com/MicahHeneveld/bros-analysis/issues/4",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -584,67 +349,29 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1214 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:02Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1214#issuecomment-5400849697"
-        },
-        {
-          "actor": "NSPG13",
-          "command": "/claim",
-          "created_at": "2026-08-25T02:00:19Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1214#issuecomment-5404052308"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:27Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1214#issuecomment-5561815463"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:34Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1214#issuecomment-5627347332"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1214",
-      "id": "github:NSPG13/agent-bounties#1214",
+      "discovered_url": "https://github.com/MicahHeneveld/bros-analysis/issues/4",
+      "id": "github:MicahHeneveld/bros-analysis#4",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 daily August 25",
-      "updated_at": "2026-10-18T15:24:58Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bounty: ultrank_11_20 \u2014 250 frames (label from scratch) [4/6]",
+      "updated_at": "2026-10-18T17:03:17Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1213",
+      "canonical_url": "https://github.com/MicahHeneveld/bros-analysis/issues/3",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -652,68 +379,29 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1213 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:03Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1213#issuecomment-5400849875"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:22Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1213#issuecomment-5561815025"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:34Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1213#issuecomment-5561816168"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:22Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1213#issuecomment-5627344913"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1213",
-      "id": "github:NSPG13/agent-bounties#1213",
+      "discovered_url": "https://github.com/MicahHeneveld/bros-analysis/issues/3",
+      "id": "github:MicahHeneveld/bros-analysis#3",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "6 USDC",
-        "6.00 USDC",
-        "0.00 USDC",
-        "6.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 6.04,
-      "title": "Generate qualifying GMV for 6 USDC prize \u2014 Highest externally funded canonical GMV \u2014 daily 20260826",
-      "updated_at": "2026-10-18T15:24:57Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bounty: ultrank_11_20 \u2014 250 frames (label from scratch) [3/6]",
+      "updated_at": "2026-10-18T17:03:16Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1212",
+      "canonical_url": "https://github.com/MicahHeneveld/bros-analysis/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -721,116 +409,24 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1212 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:04Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1212#issuecomment-5400850055"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:16Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1212#issuecomment-5561814385"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:09Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1212#issuecomment-5627342585"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "manual_review",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1212",
-      "id": "github:NSPG13/agent-bounties#1212",
+      "discovered_url": "https://github.com/MicahHeneveld/bros-analysis/issues/2",
+      "id": "github:MicahHeneveld/bros-analysis#2",
       "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 September 7 to September 21",
-      "updated_at": "2026-10-18T15:24:55Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/NSPG13/agent-bounties/issues/1211",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "laurentketterle-hub",
-          "command": "/claim #1211 wallet: 0x780B5ea2B039DAcC08C6334fF613def2c18a5Ee9",
-          "created_at": "2026-08-24T20:21:05Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1211#issuecomment-5400850237"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T20:03:11Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1211#issuecomment-5561813940"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-11T00:17:14Z",
-          "recent": false,
-          "url": "https://github.com/NSPG13/agent-bounties/issues/1211#issuecomment-5627343579"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/NSPG13/agent-bounties/issues/1211",
-      "id": "github:NSPG13/agent-bounties#1211",
-      "labels": [
-        "bounty",
-        "payments",
-        "funded-live",
-        "verification-unavailable",
-        "open-competition"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "3.00 USDC",
-        "0.00 USDC",
-        "3.04 USDC",
-        "0.11 USDC"
-      ],
-      "reward_usd_max": 3.04,
-      "title": "Generate qualifying GMV for Highest externally funded canonical GMV \u2014 daily August 26",
-      "updated_at": "2026-10-18T15:24:54Z",
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Bounty: ultrank_11_20 \u2014 250 frames (label from scratch) [2/6]",
+      "updated_at": "2026-10-18T17:03:15Z",
       "verification_confidence": "medium"
     },
     {
@@ -862,7 +458,90 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[radar] SN open bounty 2026-10-18T14:30",
-      "updated_at": "2026-10-18T15:46:33Z",
+      "updated_at": "2026-10-18T16:53:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/OphirPay/OphirPay/issues/1357",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/OphirPay/OphirPay/issues/1357",
+      "id": "github:OphirPay/OphirPay#1357",
+      "labels": [
+        "enhancement",
+        "contracts",
+        "difficulty: medium",
+        "bounty",
+        "Stellar Wave"
+      ],
+      "matching_open_pr_count": 8,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T00:58:14Z",
+          "number": 1359,
+          "title": "[Baobot Autonomous AI] Automated fix for Issue #1357",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1359"
+        },
+        {
+          "created_at": "2026-10-17T14:53:13Z",
+          "number": 1669,
+          "title": "feat(contracts): verify pro-rata stream cancellation refunds and solvency invariant (#1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1669"
+        },
+        {
+          "created_at": "2026-10-18T09:08:38Z",
+          "number": 1765,
+          "title": "fix(contracts): verify stream cancellation pro-rata refund and solvency (#1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1765"
+        },
+        {
+          "created_at": "2026-10-18T06:15:47Z",
+          "number": 1752,
+          "title": "feat(contracts): verify pro-rata stream cancellation refunds and solvency invariant (#1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1752"
+        },
+        {
+          "created_at": "2026-10-16T04:09:04Z",
+          "number": 1565,
+          "title": "fix(streams): verify pro-rata cancellation refunds and ensure contract solvency (#1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1565"
+        },
+        {
+          "created_at": "2026-10-16T14:01:51Z",
+          "number": 1580,
+          "title": "test(contracts): add pro-rata stream cancellation verification across partial intervals (closes #1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1580"
+        },
+        {
+          "created_at": "2026-10-15T16:07:53Z",
+          "number": 1484,
+          "title": "fix(contracts): add stream cancellation pro-rata refund verification for partial elapsed periods (Resolves #1357)",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1484"
+        },
+        {
+          "created_at": "2026-10-18T02:08:45Z",
+          "number": 1735,
+          "title": "fix: add stream cancellation pro-rata refund verification and zero-duration guards",
+          "url": "https://github.com/OphirPay/OphirPay/pull/1735"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Add stream cancellation pro-rata refund verification for partial elapsed periods",
+      "updated_at": "2026-10-18T18:58:30Z",
       "verification_confidence": "medium"
     },
     {
@@ -950,7 +629,7 @@
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 87 open PRs explicitly reference the canonical issue."
+        "At least 86 open PRs explicitly reference the canonical issue."
       ],
       "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
       "id": "github:claude-builders-bounty/claude-builders-bounty#1",
@@ -959,7 +638,7 @@
         "skill",
         "good first issue"
       ],
-      "matching_open_pr_count": 87,
+      "matching_open_pr_count": 86,
       "matching_open_prs": [
         {
           "created_at": "2026-09-28T05:38:40Z",
@@ -1088,12 +767,12 @@
       ],
       "reward_usd_max": 50.0,
       "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-      "updated_at": "2026-10-18T15:52:39Z",
+      "updated_at": "2026-10-18T16:30:08Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-18T15:57:29.087047Z",
+  "generated_at": "2026-10-18T20:52:11.783086Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
