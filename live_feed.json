@@ -2,14 +2,14 @@
   "counts": {
     "errors": 0,
     "hold": 2,
-    "manual_review": 3,
-    "pursue": 5,
-    "skip": 5
+    "manual_review": 9,
+    "pursue": 4,
+    "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "canonical_url": "https://github.com/qbittorrent/qBittorrent/issues/4163",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,55 +23,48 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/540",
-      "id": "github:auscaster/frantic-board#540",
+      "discovered_url": "https://github.com/qbittorrent/qBittorrent/issues/4163",
+      "id": "github:qbittorrent/qBittorrent#4163",
+      "labels": [
+        "Feature request",
+        "Waiting upstream",
+        "Libtorrent",
+        "Bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$15"
+      ],
+      "reward_usd_max": 15.0,
+      "title": "WebTorrent support",
+      "updated_at": "2026-10-21T16:39:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/539",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/539",
+      "id": "github:auscaster/frantic-board#539",
       "labels": [
         "bounty",
         "funded",
         "available",
         "claimed",
-        "delivered",
-        "needs-work"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-20T16:39:20Z",
-          "number": 546,
-          "title": "feat: Frantic bounty #141: Let your agent onboard itself through t (Closes #540)",
-          "url": "https://github.com/auscaster/frantic-board/pull/546"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1"
-      ],
-      "reward_usd_max": 1.0,
-      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
-      "updated_at": "2026-10-21T11:53:52Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/541",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/541",
-      "id": "github:auscaster/frantic-board#541",
-      "labels": [
-        "bounty",
-        "funded",
         "delivered",
         "accepted",
         "needs-work",
@@ -80,19 +73,19 @@
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-20T21:49:05Z",
-          "number": 547,
-          "title": "feat: Frantic bounty #143: Write and validate your own MAP descrip (Closes #541)",
-          "url": "https://github.com/auscaster/frantic-board/pull/547"
+          "created_at": "2026-10-20T16:36:53Z",
+          "number": 545,
+          "title": "feat: Frantic bounty #140: Send an email with a 30-line Nitrosend  (Closes #539)",
+          "url": "https://github.com/auscaster/frantic-board/pull/545"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$2"
+        "$1"
       ],
-      "reward_usd_max": 2.0,
-      "title": "Frantic bounty #143: Write and validate your own MAP description with the mailschema package",
-      "updated_at": "2026-10-21T11:51:10Z",
+      "reward_usd_max": 1.0,
+      "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
+      "updated_at": "2026-10-21T16:56:59Z",
       "verification_confidence": "medium"
     },
     {
@@ -138,12 +131,12 @@
       ],
       "reward_usd_max": 1.0,
       "title": "Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went",
-      "updated_at": "2026-10-21T11:45:24Z",
+      "updated_at": "2026-10-21T16:49:40Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/539",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/540",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -157,24 +150,23 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/539",
-      "id": "github:auscaster/frantic-board#539",
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "id": "github:auscaster/frantic-board#540",
       "labels": [
         "bounty",
         "funded",
         "available",
+        "claimed",
         "delivered",
-        "accepted",
-        "needs-work",
-        "paid"
+        "needs-work"
       ],
       "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-20T16:36:53Z",
-          "number": 545,
-          "title": "feat: Frantic bounty #140: Send an email with a 30-line Nitrosend  (Closes #539)",
-          "url": "https://github.com/auscaster/frantic-board/pull/545"
+          "created_at": "2026-10-20T16:39:20Z",
+          "number": 546,
+          "title": "feat: Frantic bounty #141: Let your agent onboard itself through t (Closes #540)",
+          "url": "https://github.com/auscaster/frantic-board/pull/546"
         }
       ],
       "recent_claim_count": 0,
@@ -182,54 +174,13 @@
         "$1"
       ],
       "reward_usd_max": 1.0,
-      "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
-      "updated_at": "2026-10-21T11:06:36Z",
+      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
+      "updated_at": "2026-10-21T16:36:28Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/333",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/333",
-      "id": "github:lizTheDeveloper/privacy-the-game#333",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-21T10:49:01Z",
-          "number": 434,
-          "title": "feat: [stronger source] Zumigo supplies Microbilt (tier C) (Closes #333)",
-          "url": "https://github.com/lizTheDeveloper/privacy-the-game/pull/434"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$300"
-      ],
-      "reward_usd_max": 300.0,
-      "title": "[stronger source] Zumigo supplies Microbilt (tier C)",
-      "updated_at": "2026-10-21T10:40:19Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -239,25 +190,74 @@
       ],
       "claim_signals": [
         {
-          "actor": "skyned1337",
+          "actor": "Likith-tech",
           "command": "/claim",
-          "created_at": "2026-10-16T20:16:42Z",
+          "created_at": "2026-07-25T12:13:05Z",
           "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912#issuecomment-6223899459"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5078440284"
         },
         {
-          "actor": "hzeattar",
+          "actor": "johneapen80",
           "command": "/claim",
-          "created_at": "2026-10-17T19:21:12Z",
+          "created_at": "2026-07-26T14:12:25Z",
           "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912#issuecomment-6239449890"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5083839511"
         },
         {
-          "actor": "Anekenonso",
+          "actor": "johneapen80",
           "command": "/claim",
-          "created_at": "2026-10-21T11:14:41Z",
+          "created_at": "2026-07-26T14:16:09Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5083852846"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/claim",
+          "created_at": "2026-07-30T15:22:33Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5132796209"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/claim",
+          "created_at": "2026-08-08T09:30:33Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5225522074"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-08-27T22:08:23Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5445793893"
+        },
+        {
+          "actor": "novastreamdev",
+          "command": "/attempt",
+          "created_at": "2026-08-28T18:51:33Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5456476143"
+        },
+        {
+          "actor": "Prom11111",
+          "command": "/attempt",
+          "created_at": "2026-09-23T09:42:43Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5792565970"
+        },
+        {
+          "actor": "t3ratech",
+          "command": "/attempt",
+          "created_at": "2026-10-01T02:24:54Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-5923477019"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #11398",
+          "created_at": "2026-10-21T16:57:47Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912#issuecomment-6314555779"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398#issuecomment-6321662265"
         }
       ],
       "closed_at": null,
@@ -265,26 +265,115 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1912",
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+      "id": "github:SecureBananaLabs/bug-bounty#11398",
       "labels": [
+        "bug",
+        "documentation",
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
         "bounty",
-        "real"
+        "\ud83d\udc8e Bounty",
+        "$780",
+        "$1k",
+        "$1.2k"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 13,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-03T23:16:41Z",
+          "number": 12968,
+          "title": "fix: solution for bounty issue #11398 - GitHub Issue #11398 in SecureBananaLabs/bug-bounty",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12968"
+        },
+        {
+          "created_at": "2026-10-19T12:47:06Z",
+          "number": 13379,
+          "title": "fix(api): require auth and set memoryStorage fileSize limit on upload routes (fixes #13378)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13379"
+        },
+        {
+          "created_at": "2026-09-09T10:48:14Z",
+          "number": 12387,
+          "title": "fix: resolve #11398 - Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12387"
+        },
+        {
+          "created_at": "2026-10-21T16:57:55Z",
+          "number": 13430,
+          "title": "fix(api): fix test discovery script in apps/api/package.json (fixes #13429)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13430"
+        },
+        {
+          "created_at": "2026-09-02T02:50:39Z",
+          "number": 12335,
+          "title": "docs: resolve #11398 - Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12335"
+        },
+        {
+          "created_at": "2026-09-26T18:11:05Z",
+          "number": 12716,
+          "title": "fix(api): upgrade multer for multipart security advisories",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12716"
+        },
+        {
+          "created_at": "2026-09-02T09:48:33Z",
+          "number": 12339,
+          "title": "Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12339"
+        },
+        {
+          "created_at": "2026-07-25T17:33:17Z",
+          "number": 11416,
+          "title": "fix: Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11416"
+        },
+        {
+          "created_at": "2026-07-26T21:40:03Z",
+          "number": 11459,
+          "title": "feat(#11398): add automated bug detector with recursive issue creation",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11459"
+        },
+        {
+          "created_at": "2026-09-16T13:15:18Z",
+          "number": 12489,
+          "title": "Fix: Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12489"
+        },
+        {
+          "created_at": "2026-07-28T06:21:59Z",
+          "number": 11465,
+          "title": "[AI-Agent] Automate Bug Detection and Reviews (Fixes #11464)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11465"
+        },
+        {
+          "created_at": "2026-08-22T05:47:25Z",
+          "number": 11992,
+          "title": "[agent] Automate Bug Detection and Reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11992"
+        },
+        {
+          "created_at": "2026-07-26T17:58:44Z",
+          "number": 11451,
+          "title": "fix: add automated bug detection and issue creation system",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11451"
+        }
+      ],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$105"
+        "$800"
       ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
-      "updated_at": "2026-10-21T11:35:52Z",
+      "reward_usd_max": 800.0,
+      "title": "Automate Bug Detection and Reviews",
+      "updated_at": "2026-10-21T17:18:19Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -294,32 +383,74 @@
       ],
       "claim_signals": [
         {
-          "actor": "phauranta-naresh",
-          "command": "/claim",
-          "created_at": "2026-10-15T23:54:59Z",
+          "actor": "Ziyuan768",
+          "command": "/attempt #1",
+          "created_at": "2026-06-12T08:51:14Z",
           "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6204756684"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-4689286117"
         },
         {
-          "actor": "stand-out-of-my-sun",
-          "command": "/claim",
-          "created_at": "2026-10-17T08:44:42Z",
+          "actor": "XananasX7",
+          "command": "/attempt #1",
+          "created_at": "2026-06-17T10:14:02Z",
           "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6231895088"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-4728647309"
         },
         {
-          "actor": "metgrok",
-          "command": "/attempt #1915",
-          "created_at": "2026-10-17T13:01:00Z",
+          "actor": "victordb9997",
+          "command": "/attempt #1",
+          "created_at": "2026-06-25T20:34:44Z",
           "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6234183018"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-4803921210"
         },
         {
-          "actor": "Anekenonso",
-          "command": "/claim",
-          "created_at": "2026-10-21T11:14:50Z",
+          "actor": "easypochtaaa-gif",
+          "command": "/attempt",
+          "created_at": "2026-07-10T00:32:03Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-4930820746"
+        },
+        {
+          "actor": "ghost",
+          "command": "/attempt #1",
+          "created_at": "2026-07-10T00:40:46Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-4930877018"
+        },
+        {
+          "actor": "otrisshine-del",
+          "command": "/attempt #1",
+          "created_at": "2026-08-15T13:11:36Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-5302383407"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-08-27T22:09:07Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-5445799867"
+        },
+        {
+          "actor": "LuckyTurtleLabs",
+          "command": "/attempt #1",
+          "created_at": "2026-10-12T11:11:14Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-6123094056"
+        },
+        {
+          "actor": "Ollie520",
+          "command": "/claim #1",
+          "created_at": "2026-10-12T17:26:12Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-6129222807"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #1",
+          "created_at": "2026-10-21T17:01:40Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6314558409"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1#issuecomment-6321741479"
         }
       ],
       "closed_at": null,
@@ -327,33 +458,152 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1915",
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1",
+      "id": "github:SecureBananaLabs/bug-bounty#1",
       "labels": [
+        "bug",
+        "good first issue",
+        "bug bounty",
+        "AI agent friendly",
         "bounty",
-        "real"
+        "\ud83d\udc8e Bounty",
+        "$350"
       ],
-      "matching_open_pr_count": 1,
+      "matching_open_pr_count": 27,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-19T01:41:17Z",
-          "number": 2139,
-          "title": "fix: Handle transient RPC errors correctly",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/2139"
+          "created_at": "2026-10-12T08:09:18Z",
+          "number": 13298,
+          "title": "feat(api): integrate Stripe PaymentIntent gateway (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13298"
+        },
+        {
+          "created_at": "2026-10-12T17:26:10Z",
+          "number": 13307,
+          "title": "fix: resolve #1 - [SecureBananaLabs/bug-bounty] Implement Secure Payment Gatew",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13307"
+        },
+        {
+          "created_at": "2026-07-29T17:24:13Z",
+          "number": 11525,
+          "title": "Implement Stripe PaymentIntent integration (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11525"
+        },
+        {
+          "created_at": "2026-05-29T09:20:40Z",
+          "number": 1551,
+          "title": "fix: resolve issue #1 - automated fix",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1551"
+        },
+        {
+          "created_at": "2026-05-19T19:47:53Z",
+          "number": 351,
+          "title": "feat: implement Stripe payment gateway \u2014 #1",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/351"
+        },
+        {
+          "created_at": "2026-08-15T14:46:20Z",
+          "number": 11778,
+          "title": "feat: implement Stripe payment intents for issue #1",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11778"
+        },
+        {
+          "created_at": "2026-05-28T16:35:17Z",
+          "number": 1326,
+          "title": "Fix #1: Implement Stripe SDK for createPaymentIntent",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1326"
+        },
+        {
+          "created_at": "2026-05-28T14:49:42Z",
+          "number": 1299,
+          "title": "feat: integrate Stripe PaymentIntents API (bounty #1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1299"
+        },
+        {
+          "created_at": "2026-05-21T06:24:27Z",
+          "number": 555,
+          "title": "feat: Integrate Stripe SDK for createPaymentIntent (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/555"
+        },
+        {
+          "created_at": "2026-05-20T19:49:00Z",
+          "number": 509,
+          "title": "feat: integrate Stripe PaymentIntents for issue #1",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/509"
+        },
+        {
+          "created_at": "2026-05-19T21:16:45Z",
+          "number": 357,
+          "title": "feat: Implement Stripe Payment Intent Creation (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/357"
+        },
+        {
+          "created_at": "2026-05-26T17:11:20Z",
+          "number": 724,
+          "title": "fix: resolve bounty issue #1 \u2014 implement Stripe PaymentIntent",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/724"
+        },
+        {
+          "created_at": "2026-05-20T14:56:02Z",
+          "number": 490,
+          "title": "feat(payments): integrate Stripe PaymentIntent API (Closes #1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/490"
+        },
+        {
+          "created_at": "2026-05-20T02:16:00Z",
+          "number": 376,
+          "title": "feat: Implement Stripe PaymentIntent in payment service (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/376"
+        },
+        {
+          "created_at": "2026-05-19T17:56:01Z",
+          "number": 348,
+          "title": "feat: Stripe Payment Gateway \u2014 real SDK integration (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/348"
+        },
+        {
+          "created_at": "2026-05-19T10:16:23Z",
+          "number": 303,
+          "title": "feat: implement Stripe PaymentIntent payment service (Closes #1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/303"
+        },
+        {
+          "created_at": "2026-05-19T10:08:02Z",
+          "number": 302,
+          "title": "feat: implement Stripe payment gateway for bounty #1 (50)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/302"
+        },
+        {
+          "created_at": "2026-05-17T01:02:34Z",
+          "number": 22,
+          "title": "Implement Stripe Payment Gateway and Payment Service (closes #1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/22"
+        },
+        {
+          "created_at": "2026-05-27T17:36:48Z",
+          "number": 861,
+          "title": "feat: implement Stripe PaymentIntent with validation and error handling (#1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/861"
+        },
+        {
+          "created_at": "2026-05-23T01:18:20Z",
+          "number": 647,
+          "title": "feat(payment): integrate Stripe SDK for PaymentIntent creation (Closes #1)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/647"
         }
       ],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$105"
+        "$350"
       ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi",
-      "updated_at": "2026-10-21T11:24:18Z",
+      "reward_usd_max": 350.0,
+      "title": "Implement Secure Payment Gateway and Payment Service",
+      "updated_at": "2026-10-21T17:06:59Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/gkjohnson/three-gpu-pathtracer/issues/85",
+      "canonical_url": "https://github.com/amiller/bounty-arcade/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -367,11 +617,9 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/gkjohnson/three-gpu-pathtracer/issues/85",
-      "id": "github:gkjohnson/three-gpu-pathtracer#85",
+      "discovered_url": "https://github.com/amiller/bounty-arcade/issues/1",
+      "id": "github:amiller/bounty-arcade#1",
       "labels": [
-        "help wanted",
-        "quality",
         "bounty"
       ],
       "matching_open_pr_count": 0,
@@ -379,13 +627,13 @@
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Add denoiser",
-      "updated_at": "2026-10-21T11:20:07Z",
+      "title": "[board] Search cards",
+      "updated_at": "2026-10-21T17:09:05Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/dsect-net/quantum/issues/288",
+      "canonical_url": "https://github.com/tadanobutubutu/screeps/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -399,31 +647,461 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/dsect-net/quantum/issues/288",
-      "id": "github:dsect-net/quantum#288",
+      "discovered_url": "https://github.com/tadanobutubutu/screeps/issues/5",
+      "id": "github:tadanobutubutu/screeps#5",
       "labels": [
-        "bounty",
-        "tracker-mirror",
-        "status:done",
-        "kind:task",
-        "priority:medium",
-        "quantum",
-        "backfill"
+        "bug",
+        "documentation",
+        "duplicate",
+        "enhancement",
+        "help wanted",
+        "good first issue",
+        "invalid",
+        "workflow-health",
+        "automated",
+        "bot",
+        "dependencies",
+        "ci",
+        "feature",
+        "javascript",
+        "github-actions",
+        "major",
+        "test",
+        "in-progress",
+        "stale",
+        "needs-review",
+        "security",
+        "config",
+        "renovate",
+        "sonarcloud",
+        "codecov",
+        "quality-report",
+        "chore",
+        "needs-triage",
+        "ai-solve",
+        "bounty"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-21T10:19:02Z",
-          "number": 291,
-          "title": "feat: Bounty Board rewire to Quantum AI App + Tracker (Closes #288)",
-          "url": "https://github.com/dsect-net/quantum/pull/291"
-        }
-      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Bounty Board rewire to Quantum AI App + Tracker",
-      "updated_at": "2026-10-21T10:23:02Z",
+      "title": "Dependency Dashboard",
+      "updated_at": "2026-10-21T17:06:30Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #2782",
+          "created_at": "2026-08-05T19:20:29Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782#issuecomment-5196283693"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #2782",
+          "created_at": "2026-08-06T09:42:48Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782#issuecomment-5202971838"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-08-27T22:08:34Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782#issuecomment-5445795423"
+        },
+        {
+          "actor": "Prom11111",
+          "command": "/attempt",
+          "created_at": "2026-09-23T09:43:14Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782#issuecomment-5792572520"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #2782",
+          "created_at": "2026-10-21T16:52:22Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782#issuecomment-6321551468"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2782",
+      "id": "github:SecureBananaLabs/bug-bounty#2782",
+      "labels": [
+        "bug",
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty",
+        "\ud83d\udc8e Bounty",
+        "$780"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-02T00:27:49Z",
+          "number": 12809,
+          "title": "fix: solution for bounty issue #2782 - GitHub Issue #2782 in SecureBananaLabs/bug-bounty",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12809"
+        },
+        {
+          "created_at": "2026-09-24T08:36:32Z",
+          "number": 12695,
+          "title": "fix: CORS configured without origin allowlist in app.js",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12695"
+        },
+        {
+          "created_at": "2026-10-03T03:32:57Z",
+          "number": 12870,
+          "title": "fix(api): enforce CORS origin allowlist",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12870"
+        },
+        {
+          "created_at": "2026-10-21T16:52:32Z",
+          "number": 13428,
+          "title": "fix(api): configure CORS origin allowlist in app.js (fixes #13427)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13428"
+        },
+        {
+          "created_at": "2026-08-18T15:21:02Z",
+          "number": 11820,
+          "title": "fix(security): restrict CORS to explicit origin allowlist (#2782)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11820"
+        },
+        {
+          "created_at": "2026-08-29T00:50:00Z",
+          "number": 12224,
+          "title": "fix(api): CORS origin allowlist from env, deny unknown in production (fixes #2782)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12224"
+        },
+        {
+          "created_at": "2026-09-26T09:40:31Z",
+          "number": 12711,
+          "title": "fix: restrict CORS policy with explicit origin allowlist in app.js",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12711"
+        },
+        {
+          "created_at": "2026-05-31T09:58:41Z",
+          "number": 2783,
+          "title": "fix(api): add CORS allowlist support via env var",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2783"
+        },
+        {
+          "created_at": "2026-08-25T04:33:57Z",
+          "number": 12054,
+          "title": "Fix: CORS configured without origin allowlist in app.js (reissue via #743)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12054"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "CORS configured without origin allowlist in app.js (reissue via #743)",
+      "updated_at": "2026-10-21T16:58:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "xjrljl",
+          "command": "/attempt #2776",
+          "created_at": "2026-05-31T13:44:06Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-4586869879"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/claim",
+          "created_at": "2026-08-08T09:55:35Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-5225601657"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-08-27T22:08:27Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-5445794416"
+        },
+        {
+          "actor": "fwh888",
+          "command": "/claim",
+          "created_at": "2026-08-29T00:59:51Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-5459339540"
+        },
+        {
+          "actor": "Prom11111",
+          "command": "/attempt",
+          "created_at": "2026-09-23T09:43:26Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-5792574965"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #2776",
+          "created_at": "2026-10-21T16:32:58Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776#issuecomment-6321119816"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
+      "id": "github:SecureBananaLabs/bug-bounty#2776",
+      "labels": [
+        "bug",
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty",
+        "\ud83d\udc8e Bounty",
+        "$780"
+      ],
+      "matching_open_pr_count": 11,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T16:33:02Z",
+          "number": 13424,
+          "title": "fix(reviews): require authentication on review creation (fixes #13423)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13424"
+        },
+        {
+          "created_at": "2026-10-16T19:52:43Z",
+          "number": 13337,
+          "title": "fix(api): require bearer auth to create reviews (resolves #2776)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13337"
+        },
+        {
+          "created_at": "2026-09-09T10:58:16Z",
+          "number": 12393,
+          "title": "fix: resolve #2776 - POST /api/reviews endpoint missing authentication middleware",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12393"
+        },
+        {
+          "created_at": "2026-09-24T08:35:05Z",
+          "number": 12693,
+          "title": "fix: POST /api/reviews endpoint missing authentication middleware",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12693"
+        },
+        {
+          "created_at": "2026-08-18T15:19:16Z",
+          "number": 11818,
+          "title": "fix: add auth middleware to POST /api/reviews (#2776)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11818"
+        },
+        {
+          "created_at": "2026-08-29T00:18:24Z",
+          "number": 12217,
+          "title": "fix(api): require auth on POST /api/reviews (fixes #2776)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12217"
+        },
+        {
+          "created_at": "2026-10-02T10:50:44Z",
+          "number": 12823,
+          "title": "fix(api): require authMiddleware for POST /api/reviews endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12823"
+        },
+        {
+          "created_at": "2026-09-29T07:48:52Z",
+          "number": 12732,
+          "title": "fix(api): require auth middleware for POST /api/reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12732"
+        },
+        {
+          "created_at": "2026-05-31T13:44:02Z",
+          "number": 2968,
+          "title": "fix: require authentication on payment, review, proposal, and user creation endpoints",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2968"
+        },
+        {
+          "created_at": "2026-08-29T09:07:44Z",
+          "number": 12234,
+          "title": "fix: add authMiddleware to POST /api/reviews endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12234"
+        },
+        {
+          "created_at": "2026-05-31T09:49:02Z",
+          "number": 2778,
+          "title": "fix(api): require auth on POST /api/reviews",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2778"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "POST /api/reviews endpoint missing authentication middleware (reissue via #743)",
+      "updated_at": "2026-10-21T16:32:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "XananasX7",
+          "command": "/attempt #1776",
+          "created_at": "2026-06-17T10:02:47Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776#issuecomment-4728527070"
+        },
+        {
+          "actor": "XananasX7",
+          "command": "/attempt #1776",
+          "created_at": "2026-06-17T10:07:10Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776#issuecomment-4728568820"
+        },
+        {
+          "actor": "0xhermes-28",
+          "command": "/claim",
+          "created_at": "2026-08-08T10:06:30Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776#issuecomment-5225635244"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #1776",
+          "created_at": "2026-10-21T16:36:27Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776#issuecomment-6321199418"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1776",
+      "id": "github:SecureBananaLabs/bug-bounty#1776",
+      "labels": [
+        "bug",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty"
+      ],
+      "matching_open_pr_count": 12,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T16:36:31Z",
+          "number": 13426,
+          "title": "fix(jobs): require authentication on job creation (fixes #13425)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13426"
+        },
+        {
+          "created_at": "2026-05-30T08:31:45Z",
+          "number": 1916,
+          "title": "fix: resolve issue #1776 - automated fix",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1916"
+        },
+        {
+          "created_at": "2026-05-31T08:32:16Z",
+          "number": 2716,
+          "title": "fix: require authentication for job creation (#1776)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2716"
+        },
+        {
+          "created_at": "2026-05-31T05:43:08Z",
+          "number": 2595,
+          "title": "fix: require authentication on job creation endpoint (fixes #1776)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2595"
+        },
+        {
+          "created_at": "2026-06-06T10:22:43Z",
+          "number": 5255,
+          "title": "fix: add auth to upload, job endpoints + fix refresh token",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/5255"
+        },
+        {
+          "created_at": "2026-06-02T16:30:07Z",
+          "number": 3778,
+          "title": "fix: enforce authentication on job creation endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/3778"
+        },
+        {
+          "created_at": "2026-06-11T17:58:38Z",
+          "number": 6695,
+          "title": "[agent] fix: add authMiddleware to job creation endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6695"
+        },
+        {
+          "created_at": "2026-06-17T10:11:57Z",
+          "number": 7812,
+          "title": "fix: require authentication on POST /api/jobs",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7812"
+        },
+        {
+          "created_at": "2026-05-31T01:14:08Z",
+          "number": 2411,
+          "title": "fix: add authentication to POST /api/jobs endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2411"
+        },
+        {
+          "created_at": "2026-06-14T18:47:49Z",
+          "number": 7105,
+          "title": "fix: require authentication on POST /api/jobs",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7105"
+        },
+        {
+          "created_at": "2026-06-17T10:05:03Z",
+          "number": 7798,
+          "title": "fix: return HTTP 400 with validation details for ZodError instead of 500",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7798"
+        },
+        {
+          "created_at": "2026-06-16T11:37:30Z",
+          "number": 7390,
+          "title": "fix: require authentication on job, payment, review, message, proposal, notification, and user routes",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7390"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Job creation endpoint lacks authentication \u2014 anyone can post jobs",
+      "updated_at": "2026-10-21T16:36:27Z",
       "verification_confidence": "medium"
     },
     {
@@ -582,12 +1260,12 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Perps Funding Pulse",
-      "updated_at": "2026-10-21T11:07:34Z",
+      "updated_at": "2026-10-21T17:19:12Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -597,1124 +1275,641 @@
       ],
       "claim_signals": [
         {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:09:40Z",
+          "actor": "XananasX7",
+          "command": "/attempt #1771",
+          "created_at": "2026-06-17T10:02:41Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4140646165"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-4728525578"
         },
         {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:19:36Z",
+          "actor": "mxp-boy",
+          "command": "/claim #1771",
+          "created_at": "2026-08-06T11:58:57Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141233207"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-5204347381"
         },
         {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T09:30:09Z",
+          "actor": "mxp-boy",
+          "command": "/claim #1771",
+          "created_at": "2026-08-06T12:22:06Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141298298"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-5204566607"
         },
         {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:41:22Z",
+          "actor": "mxp-boy",
+          "command": "/claim #1771",
+          "created_at": "2026-08-06T12:38:01Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141709738"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:03:16Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150331229"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #4",
-          "created_at": "2026-03-29T15:28:46Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150377394"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-5204722402"
         },
         {
           "actor": "zhaog100",
           "command": "/attempt",
-          "created_at": "2026-03-30T06:02:06Z",
+          "created_at": "2026-08-27T22:09:01Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4152480268"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-5445799176"
         },
         {
-          "actor": "kovadev17",
-          "command": "/claim #4",
-          "created_at": "2026-04-13T09:15:19Z",
+          "actor": "Prom11111",
+          "command": "/attempt",
+          "created_at": "2026-09-23T09:43:41Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4235242096"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-5792578169"
         },
         {
-          "actor": "Angelebeats",
+          "actor": "kingmakeruix",
+          "command": "/attempt #1771",
+          "created_at": "2026-10-21T16:28:37Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771#issuecomment-6321024196"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1771",
+      "id": "github:SecureBananaLabs/bug-bounty#1771",
+      "labels": [
+        "bug",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty",
+        "\ud83d\udc8e Bounty",
+        "$430"
+      ],
+      "matching_open_pr_count": 26,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T16:28:41Z",
+          "number": 13422,
+          "title": "fix(uploads): require authentication on upload routes (fixes #13421)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13422"
+        },
+        {
+          "created_at": "2026-10-06T05:20:45Z",
+          "number": 13036,
+          "title": "[Bounty] Fix #1771: Upload endpoint lacks authentication \u2014 unauthentic",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13036"
+        },
+        {
+          "created_at": "2026-10-06T04:50:40Z",
+          "number": 13035,
+          "title": "[Bounty] Fix #1771: Upload endpoint lacks authentication \u2014 unauthentic",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13035"
+        },
+        {
+          "created_at": "2026-10-06T04:15:25Z",
+          "number": 13034,
+          "title": "[Bounty] Fix #1771: Upload endpoint lacks authentication \u2014 unauthentic",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13034"
+        },
+        {
+          "created_at": "2026-10-06T02:04:50Z",
+          "number": 13033,
+          "title": "[Bounty] Fix #1771: Upload endpoint lacks authentication \u2014 unauthentic",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13033"
+        },
+        {
+          "created_at": "2026-05-30T09:18:45Z",
+          "number": 1928,
+          "title": "fix: resolve issue #1771 - automated fix",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1928"
+        },
+        {
+          "created_at": "2026-08-29T00:52:55Z",
+          "number": 12225,
+          "title": "fix(api): require auth on POST /api/uploads (fixes #1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12225"
+        },
+        {
+          "created_at": "2026-07-04T16:49:09Z",
+          "number": 9800,
+          "title": "fix(upload): add authentication to upload endpoint (#1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9800"
+        },
+        {
+          "created_at": "2026-06-30T02:24:55Z",
+          "number": 9174,
+          "title": "fix: add authentication middleware to upload routes (#1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9174"
+        },
+        {
+          "created_at": "2026-06-11T18:43:20Z",
+          "number": 6707,
+          "title": "fix: require authentication on file upload endpoint (Closes #1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6707"
+        },
+        {
+          "created_at": "2026-05-31T05:43:02Z",
+          "number": 2594,
+          "title": "fix: require authentication on file upload endpoint (fixes #1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2594"
+        },
+        {
+          "created_at": "2026-05-30T04:37:19Z",
+          "number": 1797,
+          "title": "fix: enforce authentication on file upload endpoint (Fixes #1771)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1797"
+        },
+        {
+          "created_at": "2026-08-06T12:39:17Z",
+          "number": 11633,
+          "title": "fix: add auth middleware to uploads route",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11633"
+        },
+        {
+          "created_at": "2026-08-06T12:37:12Z",
+          "number": 11632,
+          "title": "fix: add authentication to upload route",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11632"
+        },
+        {
+          "created_at": "2026-08-06T12:23:18Z",
+          "number": 11628,
+          "title": "fix: Add authentication to upload route",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11628"
+        },
+        {
+          "created_at": "2026-06-20T20:08:53Z",
+          "number": 8097,
+          "title": "fix: upload auth",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/8097"
+        },
+        {
+          "created_at": "2026-07-03T16:02:26Z",
+          "number": 9553,
+          "title": "fix: upload endpoint lacks authentication",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9553"
+        },
+        {
+          "created_at": "2026-07-02T11:18:22Z",
+          "number": 9394,
+          "title": "Fix: require auth on upload endpoint",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9394"
+        },
+        {
+          "created_at": "2026-06-06T10:22:43Z",
+          "number": 5255,
+          "title": "fix: add auth to upload, job endpoints + fix refresh token",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/5255"
+        },
+        {
+          "created_at": "2026-06-17T10:04:44Z",
+          "number": 7793,
+          "title": "fix: require authentication on POST /api/uploads and add 5MB file size limit",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7793"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Upload endpoint lacks authentication \u2014 unauthenticated file uploads allowed",
+      "updated_at": "2026-10-21T16:32:19Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "xjrljl",
+          "command": "/attempt #1772",
+          "created_at": "2026-05-31T13:44:05Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-4586869734"
+        },
+        {
+          "actor": "XananasX7",
+          "command": "/attempt #1772",
+          "created_at": "2026-06-17T10:07:11Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-4728568977"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #1772",
+          "created_at": "2026-08-06T10:35:39Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5203518195"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #1772",
+          "created_at": "2026-08-06T10:43:20Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5203588099"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #1772",
+          "created_at": "2026-08-06T11:42:38Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5204185606"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #1772",
+          "created_at": "2026-08-06T12:20:08Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5204547283"
+        },
+        {
+          "actor": "mxp-boy",
+          "command": "/claim #1772",
+          "created_at": "2026-08-06T12:33:35Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5204678736"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-08-27T22:08:48Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5445797241"
+        },
+        {
+          "actor": "Prom11111",
+          "command": "/attempt",
+          "created_at": "2026-09-23T09:43:38Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-5792577364"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #1772",
+          "created_at": "2026-10-21T16:25:38Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772#issuecomment-6320967519"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772",
+      "id": "github:SecureBananaLabs/bug-bounty#1772",
+      "labels": [
+        "bug",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty",
+        "\ud83d\udc8e Bounty",
+        "$430"
+      ],
+      "matching_open_pr_count": 32,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T17:19:14Z",
+          "number": 13434,
+          "title": "feat: Payment endpoint lacks authentication \u2014 unauthenticated paym (Closes #1772)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13434"
+        },
+        {
+          "created_at": "2026-10-21T16:25:42Z",
+          "number": 13420,
+          "title": "fix(payments): require authentication on payment routes (fixes #13419)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13420"
+        },
+        {
+          "created_at": "2026-10-07T05:14:33Z",
+          "number": 13054,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13054"
+        },
+        {
+          "created_at": "2026-10-07T03:45:09Z",
+          "number": 13052,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13052"
+        },
+        {
+          "created_at": "2026-10-06T23:59:37Z",
+          "number": 13049,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13049"
+        },
+        {
+          "created_at": "2026-10-06T23:15:14Z",
+          "number": 13048,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13048"
+        },
+        {
+          "created_at": "2026-10-06T22:22:15Z",
+          "number": 13047,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13047"
+        },
+        {
+          "created_at": "2026-10-06T21:33:34Z",
+          "number": 13046,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13046"
+        },
+        {
+          "created_at": "2026-10-06T20:30:24Z",
+          "number": 13045,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13045"
+        },
+        {
+          "created_at": "2026-10-06T08:48:03Z",
+          "number": 13042,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13042"
+        },
+        {
+          "created_at": "2026-10-06T07:29:28Z",
+          "number": 13041,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13041"
+        },
+        {
+          "created_at": "2026-10-06T06:28:15Z",
+          "number": 13037,
+          "title": "[Bounty/Paid] Fix #1772: Payment endpoint lacks authentication \u2014 unauthenti",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13037"
+        },
+        {
+          "created_at": "2026-05-30T09:04:55Z",
+          "number": 1923,
+          "title": "fix: resolve issue #1772 - automated fix",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1923"
+        },
+        {
+          "created_at": "2026-08-29T00:53:02Z",
+          "number": 12226,
+          "title": "fix(api): require auth on POST /api/payments (fixes #1772)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/12226"
+        },
+        {
+          "created_at": "2026-06-30T02:23:30Z",
+          "number": 9172,
+          "title": "fix: add authentication middleware to payment routes (#1772)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/9172"
+        },
+        {
+          "created_at": "2026-05-30T04:29:28Z",
+          "number": 1789,
+          "title": "fix: enforce authentication on payment creation endpoint (Fixes #1772)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/1789"
+        },
+        {
+          "created_at": "2026-06-16T12:54:36Z",
+          "number": 7439,
+          "title": "fix(critical): payment, upload, and job creation require authentication",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7439"
+        },
+        {
+          "created_at": "2026-05-31T13:44:02Z",
+          "number": 2968,
+          "title": "fix: require authentication on payment, review, proposal, and user creation endpoints",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2968"
+        },
+        {
+          "created_at": "2026-08-06T12:21:26Z",
+          "number": 11627,
+          "title": "fix: Add authentication to payment route",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11627"
+        },
+        {
+          "created_at": "2026-08-06T11:49:21Z",
+          "number": 11626,
+          "title": "fix: payment endpoint lacks authentication",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11626"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Payment endpoint lacks authentication \u2014 unauthenticated payment creation",
+      "updated_at": "2026-10-21T16:25:38Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "xjrljl",
+          "command": "/attempt #2768",
+          "created_at": "2026-05-31T13:43:47Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4586867743"
+        },
+        {
+          "actor": "ank1015",
+          "command": "/attempt #2768",
+          "created_at": "2026-06-01T19:08:33Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4595653541"
+        },
+        {
+          "actor": "houyiai",
           "command": "/claim",
-          "created_at": "2026-04-13T23:57:48Z",
+          "created_at": "2026-06-02T02:05:23Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4240365917"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4598091289"
         },
         {
-          "actor": "yihangwu539-png",
-          "command": "/try",
-          "created_at": "2026-04-27T01:56:49Z",
+          "actor": "ko4lax",
+          "command": "/attempt #2768",
+          "created_at": "2026-06-02T05:03:32Z",
           "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4323695839"
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4598868327"
+        },
+        {
+          "actor": "BWM0223",
+          "command": "/claim",
+          "created_at": "2026-06-16T05:36:16Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4715327463"
+        },
+        {
+          "actor": "XananasX7",
+          "command": "/attempt #2768",
+          "created_at": "2026-06-17T09:55:56Z",
+          "recent": false,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-4728440564"
+        },
+        {
+          "actor": "kingmakeruix",
+          "command": "/attempt #2768",
+          "created_at": "2026-10-21T16:18:04Z",
+          "recent": true,
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768#issuecomment-6320797010"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "manual_review",
       "decision_reasons": [
-        "At least 84 open PRs explicitly reference the canonical issue."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#4",
+      "discovered_url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2768",
+      "id": "github:SecureBananaLabs/bug-bounty#2768",
       "labels": [
-        "bounty",
-        "agent"
+        "bug",
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "bug bounty",
+        "AI agent friendly",
+        "bounty"
       ],
-      "matching_open_pr_count": 84,
+      "matching_open_pr_count": 32,
       "matching_open_prs": [
         {
-          "created_at": "2026-09-22T23:58:43Z",
-          "number": 4449,
-          "title": "Patch 4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4449"
+          "created_at": "2026-10-21T17:19:03Z",
+          "number": 13433,
+          "title": "feat: Registration token subject should match returned user id (Closes #2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13433"
         },
         {
-          "created_at": "2026-09-28T05:28:22Z",
-          "number": 4576,
-          "title": "fix: bounty #4 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4576"
+          "created_at": "2026-10-21T16:18:08Z",
+          "number": 13416,
+          "title": "fix(auth): ensure registration token subject matches returned user id (fixes #13415)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13416"
         },
         {
-          "created_at": "2026-09-28T06:54:17Z",
-          "number": 4581,
-          "title": "fix: bounty #4 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4581"
+          "created_at": "2026-06-16T10:27:50Z",
+          "number": 7337,
+          "title": "fix: registration token subject (#2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7337"
         },
         {
-          "created_at": "2026-10-01T11:16:00Z",
-          "number": 4625,
-          "title": "feat: PR Review Sub-Agent (Issue #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4625"
+          "created_at": "2026-06-18T01:31:56Z",
+          "number": 7892,
+          "title": "fix: align registration token subject (#2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7892"
         },
         {
-          "created_at": "2026-10-15T07:32:18Z",
-          "number": 4881,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4881"
+          "created_at": "2026-10-17T18:07:47Z",
+          "number": 13349,
+          "title": "fix: use single id for registration response and token subject",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/13349"
         },
         {
-          "created_at": "2026-10-15T04:55:31Z",
-          "number": 4880,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4880"
-        },
-        {
-          "created_at": "2026-09-27T06:47:11Z",
-          "number": 4552,
-          "title": "feat: complete bounty #4 (pr-review-agent)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4552"
-        },
-        {
-          "created_at": "2026-10-05T09:07:43Z",
-          "number": 4710,
-          "title": "feat: PR review agent claude-review (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4710"
-        },
-        {
-          "created_at": "2026-10-19T16:11:34Z",
-          "number": 4977,
-          "title": "agents/pr-reviewer: claude-review CLI + GitHub Action (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4977"
-        },
-        {
-          "created_at": "2026-09-21T04:09:53Z",
-          "number": 4380,
-          "title": "feat: complete bounty #4 (pr-review-agent)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4380"
-        },
-        {
-          "created_at": "2026-10-15T01:08:58Z",
-          "number": 4869,
-          "title": "feat: add Claude Code PR review sub-agent (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4869"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-08-27T17:22:25Z",
-          "number": 3892,
-          "title": "Bounty 4 claude pr review agent",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3892"
-        },
-        {
-          "created_at": "2026-09-25T02:53:18Z",
-          "number": 4480,
-          "title": "Add structured PR review command for issue 4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4480"
-        },
-        {
-          "created_at": "2026-09-24T23:44:50Z",
-          "number": 4476,
-          "title": "Add claude-review PR reviewer agent (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4476"
-        },
-        {
-          "created_at": "2026-10-11T05:25:29Z",
-          "number": 4774,
-          "title": "feat(agents): add claude-review PR review agent (fixes #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4774"
-        },
-        {
-          "created_at": "2026-10-17T22:32:21Z",
-          "number": 4921,
-          "title": "feat: add claude-review PR review sub-agent and CLI (#4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4921"
-        },
-        {
-          "created_at": "2026-10-17T16:37:03Z",
-          "number": 4912,
-          "title": "feat(agent): Claude Code PR reviewer CLI & GitHub Action (Fixes #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4912"
-        },
-        {
-          "created_at": "2026-10-17T05:24:39Z",
-          "number": 4904,
-          "title": "feat(agent): Claude Code PR reviewer CLI & GitHub Action (Fixes #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4904"
-        },
-        {
-          "created_at": "2026-09-20T01:39:33Z",
-          "number": 4350,
-          "title": "feat: add PR reviewer agent skill (Issue #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4350"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$150"
-      ],
-      "reward_usd_max": 150.0,
-      "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
-      "updated_at": "2026-10-21T11:07:47Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T02:31:03Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4139685332"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:26:29Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140492624"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:07:32Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140637038"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:16:25Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141216846"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:39:59Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141703232"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:02:46Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150330343"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #5",
-          "created_at": "2026-03-29T15:28:43Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150377305"
-        },
-        {
-          "actor": "daletyler1737",
-          "command": "/attempt 5",
-          "created_at": "2026-03-30T05:39:47Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152369600"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T06:02:02Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152480056"
-        },
-        {
-          "actor": "yihangwu539-png",
-          "command": "/try",
-          "created_at": "2026-04-27T01:56:53Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4323696002"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 84 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#5",
-      "labels": [
-        "bounty",
-        "workflow"
-      ],
-      "matching_open_pr_count": 84,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T04:02:57Z",
-          "number": 4574,
-          "title": "fix: bounty #5 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4574"
-        },
-        {
-          "created_at": "2026-09-28T07:03:42Z",
-          "number": 4582,
-          "title": "fix: bounty #5 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4582"
-        },
-        {
-          "created_at": "2026-10-01T11:13:59Z",
-          "number": 4624,
-          "title": "feat: n8n Weekly Summary Workflow (Issue #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4624"
-        },
-        {
-          "created_at": "2026-10-15T09:37:59Z",
-          "number": 4883,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #5",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4883"
-        },
-        {
-          "created_at": "2026-09-25T20:05:43Z",
-          "number": 4491,
-          "title": "Add n8n weekly dev summary workflow (closes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4491"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-10-20T14:26:08Z",
-          "number": 4987,
-          "title": "feat(workflow): n8n + AI automated weekly dev summary workflow (Closes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4987"
-        },
-        {
-          "created_at": "2026-09-25T18:48:25Z",
-          "number": 4490,
-          "title": "[BOUNTY #5] Add weekly n8n development summary workflow",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4490"
-        },
-        {
-          "created_at": "2026-10-17T19:31:18Z",
-          "number": 4920,
-          "title": "feat(workflow): n8n + Claude Code automated weekly dev summary (fixes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4920"
-        },
-        {
-          "created_at": "2026-10-17T16:38:42Z",
-          "number": 4913,
-          "title": "feat(workflow): n8n + Claude automated weekly dev summary workflow (Fixes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4913"
-        },
-        {
-          "created_at": "2026-08-17T10:40:59Z",
-          "number": 3759,
-          "title": "Bounty 5 weekly GitHub summary",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3759"
-        },
-        {
-          "created_at": "2026-10-08T18:39:28Z",
-          "number": 4753,
-          "title": "feat(workflow): add n8n weekly dev summary for bounty #5",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4753"
-        },
-        {
-          "created_at": "2026-10-15T13:09:50Z",
-          "number": 4888,
-          "title": "feat(workflows): n8n + Claude automated weekly GitHub dev summary workflow (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4888"
-        },
-        {
-          "created_at": "2026-10-15T08:44:48Z",
-          "number": 4882,
-          "title": "feat: n8n + Claude Code Automated Weekly Dev Summary Workflow (Fixes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4882"
-        },
-        {
-          "created_at": "2026-10-14T23:02:53Z",
-          "number": 4866,
-          "title": "feat(workflow): n8n + Claude Code automated weekly dev summary (Closes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4866"
-        },
-        {
-          "created_at": "2026-10-02T06:17:55Z",
-          "number": 4657,
-          "title": "feat(workflow): n8n + Claude API automated weekly dev summary (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4657"
-        },
-        {
-          "created_at": "2026-08-31T00:11:32Z",
-          "number": 4001,
-          "title": "WORKFLOW: n8n + Claude weekly dev summary (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4001"
-        },
-        {
-          "created_at": "2026-09-20T01:39:53Z",
-          "number": 4351,
-          "title": "feat: add n8n + Claude weekly summary workflow (Issue #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4351"
-        },
-        {
-          "created_at": "2026-10-14T11:04:20Z",
-          "number": 4849,
-          "title": "feat(workflows): automated weekly GitHub dev summary workflow with Claude API (#5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4849"
-        },
-        {
-          "created_at": "2026-10-20T00:26:16Z",
-          "number": 4984,
-          "title": "feat(workflow): n8n + Claude Sonnet 4 automated weekly dev summary workflow (Fixes #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4984"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly dev summary",
-      "updated_at": "2026-10-21T11:04:19Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T02:30:47Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4139683908"
-        },
-        {
-          "actor": "rainlee",
-          "command": "/attempt #1",
-          "created_at": "2026-03-27T05:26:16Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140293256"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:50:15Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140572707"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:17:21Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140672511"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:29:23Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141290671"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:47:11Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141739516"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-28T04:02:11Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4146765241"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-29T13:01:18Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150118081"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:01:48Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150328605"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:18Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4152344332"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 86 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#1",
-      "labels": [
-        "bounty",
-        "skill",
-        "good first issue"
-      ],
-      "matching_open_pr_count": 86,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T05:38:40Z",
-          "number": 4578,
-          "title": "fix: bounty #1 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4578"
-        },
-        {
-          "created_at": "2026-08-27T14:41:57Z",
-          "number": 3887,
-          "title": "Bounty 1 generate changelog",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3887"
-        },
-        {
-          "created_at": "2026-10-09T09:52:20Z",
-          "number": 4756,
-          "title": "feat: add structured CHANGELOG generator (closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4756"
-        },
-        {
-          "created_at": "2026-09-28T20:55:45Z",
-          "number": 4588,
-          "title": "Add changelog generator for bounty #1",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4588"
-        },
-        {
-          "created_at": "2026-10-14T22:53:54Z",
-          "number": 4863,
-          "title": "feat(skill): /generate-changelog + changelog.sh (closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4863"
-        },
-        {
-          "created_at": "2026-09-26T07:20:47Z",
-          "number": 4499,
-          "title": "Add generate-changelog skill (bounty #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4499"
-        },
-        {
-          "created_at": "2026-09-25T02:31:57Z",
-          "number": 4477,
-          "title": "Add changelog generator for issue 1",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4477"
-        },
-        {
-          "created_at": "2026-10-04T14:59:11Z",
-          "number": 4700,
-          "title": "feat(skill): changelog generator skill (closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4700"
-        },
-        {
-          "created_at": "2026-09-25T08:24:18Z",
-          "number": 4488,
-          "title": "feat: add tested changelog generator (bounty #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4488"
-        },
-        {
-          "created_at": "2026-09-21T04:08:29Z",
-          "number": 4379,
-          "title": "feat: complete bounty #1 (changelog-generator)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4379"
-        },
-        {
-          "created_at": "2026-10-08T17:57:07Z",
-          "number": 4751,
-          "title": "feat: add structured CHANGELOG generator for bounty #1",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4751"
-        },
-        {
-          "created_at": "2026-10-08T08:38:24Z",
-          "number": 4747,
-          "title": "feat: structured git changelog generator skill (Fixes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4747"
-        },
-        {
-          "created_at": "2026-10-16T02:26:40Z",
-          "number": 4895,
-          "title": "feat: add tested Bash CHANGELOG generator for bounty #1",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4895"
-        },
-        {
-          "created_at": "2026-10-14T11:05:10Z",
-          "number": 4851,
-          "title": "feat(skills): structured changelog generator from git history (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4851"
-        },
-        {
-          "created_at": "2026-10-20T14:26:00Z",
-          "number": 4986,
-          "title": "feat(skill): structured CHANGELOG generator from git history (Closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4986"
-        },
-        {
-          "created_at": "2026-10-12T10:41:01Z",
-          "number": 4793,
-          "title": "feat(skills): add automated structured changelog generator skill (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4793"
-        },
-        {
-          "created_at": "2026-10-12T07:53:00Z",
-          "number": 4787,
-          "title": "feat(skills): add automated structured changelog generator skill (#1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4787"
-        },
-        {
-          "created_at": "2026-10-18T12:26:17Z",
-          "number": 4931,
-          "title": "feat(skill): structured CHANGELOG generator from git history (Closes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4931"
-        },
-        {
-          "created_at": "2026-09-22T12:47:47Z",
-          "number": 4428,
-          "title": "feat: Automated changelog generator script (Fixes #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4428"
-        },
-        {
-          "created_at": "2026-10-10T06:18:44Z",
-          "number": 4758,
-          "title": "feat: generate structured CHANGELOG from git history (resolves #1)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4758"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$50"
-      ],
-      "reward_usd_max": 50.0,
-      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
-      "updated_at": "2026-10-21T11:27:08Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T02:30:55Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4139684557"
-        },
-        {
-          "actor": "rainlee",
-          "command": "/attempt #2",
-          "created_at": "2026-03-27T05:26:17Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140293335"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:47:22Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140563126"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:15:42Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140666445"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:25:46Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141262867"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:46:07Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141733940"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-29T13:01:56Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150119144"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:04:15Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150333077"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:30Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4152345002"
-        },
-        {
-          "actor": "yihangwu539-png",
-          "command": "/try",
-          "created_at": "2026-04-27T01:57:01Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4323696326"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 87 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#2",
-      "labels": [
-        "bounty",
-        "template"
-      ],
-      "matching_open_pr_count": 87,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T05:40:04Z",
-          "number": 4579,
-          "title": "fix: bounty #2 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4579"
-        },
-        {
-          "created_at": "2026-09-21T03:59:55Z",
-          "number": 4378,
-          "title": "feat: complete bounty #2 (claude-md-template)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4378"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-10-12T17:21:52Z",
-          "number": 4799,
-          "title": "fix: resolve #2 - [claude-builders-bounty/claude-builders-bounty] [BOUNTY $75]",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4799"
-        },
-        {
-          "created_at": "2026-09-24T01:26:54Z",
-          "number": 4463,
-          "title": "docs: add production-ready CLAUDE.md for bounty #2",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4463"
-        },
-        {
-          "created_at": "2026-09-20T22:37:27Z",
-          "number": 4363,
-          "title": "docs: add production-ready CLAUDE.md for issue #2",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4363"
-        },
-        {
-          "created_at": "2026-10-01T08:17:38Z",
-          "number": 4622,
-          "title": "feat(template): add Next.js + SQLite CLAUDE.md template (#2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4622"
-        },
-        {
-          "created_at": "2026-10-13T17:34:55Z",
+          "created_at": "2026-06-05T13:49:32Z",
           "number": 4818,
-          "title": "feat: add CLAUDE.md template for Next.js + SQLite SaaS (bounty #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4818"
+          "title": "fix: keep registration token subject aligned with user id",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/4818"
         },
         {
-          "created_at": "2026-10-18T05:36:31Z",
-          "number": 4922,
-          "title": "feat(templates): add opinionated Next.js 15 + SQLite CLAUDE.md template (fixes #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4922"
+          "created_at": "2026-06-10T15:30:03Z",
+          "number": 6509,
+          "title": "[fix] Ensure token subject matches returned user id (#2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6509"
         },
         {
-          "created_at": "2026-09-25T02:49:49Z",
-          "number": 4479,
-          "title": "Add Next.js 15 SQLite CLAUDE.md for issue 2",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4479"
+          "created_at": "2026-07-09T23:00:09Z",
+          "number": 11038,
+          "title": "fix: registration token sub matches returned user id (fixes #2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11038"
         },
         {
-          "created_at": "2026-10-21T01:59:02Z",
-          "number": 4993,
-          "title": "feat: [BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS (Closes #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4993"
+          "created_at": "2026-06-07T10:55:07Z",
+          "number": 5385,
+          "title": "fix: ensure token subject matches returned user id (fixes #2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/5385"
         },
         {
-          "created_at": "2026-09-21T08:48:37Z",
-          "number": 4393,
-          "title": "docs: add Next.js SQLite CLAUDE template for bounty #2",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4393"
+          "created_at": "2026-06-11T09:35:58Z",
+          "number": 6655,
+          "title": "fix: require fullName in registration and fix id/sub mismatch",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6655"
         },
         {
-          "created_at": "2026-09-20T01:38:25Z",
-          "number": 4348,
-          "title": "feat: add Next.js + SQLite CLAUDE.md template (Issue #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4348"
+          "created_at": "2026-08-18T15:22:05Z",
+          "number": 11821,
+          "title": "fix(auth): use single user id in register response and JWT sub (#2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11821"
         },
         {
-          "created_at": "2026-10-05T09:22:36Z",
-          "number": 4711,
-          "title": "feat: opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (bounty #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4711"
+          "created_at": "2026-06-16T16:23:56Z",
+          "number": 7465,
+          "title": "fix(api): ensure registration token subject matches returned user id (#2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7465"
         },
         {
-          "created_at": "2026-09-28T18:57:53Z",
-          "number": 4586,
-          "title": "Add CLAUDE.md template for Next.js 15 + SQLite SaaS (closes #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4586"
+          "created_at": "2026-05-31T13:43:42Z",
+          "number": 2966,
+          "title": "fix: use single Date.now() call for registerUser id and JWT sub claim (fixes #2845)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/2966"
         },
         {
-          "created_at": "2026-10-19T11:08:07Z",
-          "number": 4975,
-          "title": "feat(template): production-ready CLAUDE.md for Next.js 15 + SQLite SaaS (fixes #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4975"
+          "created_at": "2026-06-07T17:14:13Z",
+          "number": 5419,
+          "title": "fix(api): align registration token subject",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/5419"
         },
         {
-          "created_at": "2026-10-12T10:37:48Z",
-          "number": 4792,
-          "title": "feat(templates): add opinionated Next.js 15 + SQLite SaaS CLAUDE.md template (#2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4792"
+          "created_at": "2026-07-17T23:23:54Z",
+          "number": 11207,
+          "title": "fix: fix: registration token sub matches returned user id (fixes ",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/11207"
         },
         {
-          "created_at": "2026-10-12T07:55:07Z",
-          "number": 4788,
-          "title": "feat(templates): add opinionated Next.js 15 + SQLite SaaS CLAUDE.md template (#2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4788"
+          "created_at": "2026-06-10T02:32:31Z",
+          "number": 6270,
+          "title": "fix: ensure JWT sub matches returned user id during registration (closes #2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6270"
         },
         {
-          "created_at": "2026-10-18T12:28:50Z",
-          "number": 4932,
-          "title": "feat(template): add opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (Closes #2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4932"
+          "created_at": "2026-06-10T23:10:30Z",
+          "number": 6567,
+          "title": "fix: prevent admin role self-assignment and token subject mismatch (closes #2832, closes #2768)",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6567"
         },
         {
-          "created_at": "2026-10-15T04:52:57Z",
-          "number": 4879,
-          "title": "feat(templates): opinionated production-ready CLAUDE.md for Next.js 15 + SQLite SaaS (#2)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4879"
+          "created_at": "2026-06-01T00:40:51Z",
+          "number": 3269,
+          "title": "Fix registration, auth token, notification creation, and job detail bugs",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/3269"
+        },
+        {
+          "created_at": "2026-06-10T15:40:30Z",
+          "number": 6513,
+          "title": "[ShanaBoo] Registration token subject should match returned user id",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/6513"
+        },
+        {
+          "created_at": "2026-06-16T06:22:04Z",
+          "number": 7303,
+          "title": "fix: registration token subject should match returned user id",
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/pull/7303"
         }
       ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$75"
-      ],
-      "reward_usd_max": 75.0,
-      "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
-      "updated_at": "2026-10-21T10:12:24Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "rainlee",
-          "command": "/attempt #3",
-          "created_at": "2026-03-27T05:26:19Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140293409"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T06:40:06Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140538621"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:13:32Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4140658941"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:22:54Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141249290"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:45:41Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141731405"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:45:41Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4141731433"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:03:44Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4150332114"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #3",
-          "created_at": "2026-03-29T15:28:49Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4150377463"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T05:32:22Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4152344543"
-        },
-        {
-          "actor": "kovadev17",
-          "command": "/claim #3",
-          "created_at": "2026-04-13T09:15:17Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3#issuecomment-4235241959"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 91 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#3",
-      "labels": [
-        "bounty",
-        "hook",
-        "security"
-      ],
-      "matching_open_pr_count": 91,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-09-28T05:28:28Z",
-          "number": 4577,
-          "title": "fix: bounty #3 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4577"
-        },
-        {
-          "created_at": "2026-09-20T17:45:09Z",
-          "number": 4361,
-          "title": "Bounty 3 destructive command hook",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4361"
-        },
-        {
-          "created_at": "2026-08-27T14:17:07Z",
-          "number": 3885,
-          "title": "Bounty 3 pretool safety hook",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3885"
-        },
-        {
-          "created_at": "2026-09-30T14:56:43Z",
-          "number": 4597,
-          "title": "feat: add destructive Bash PreToolUse guard (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4597"
-        },
-        {
-          "created_at": "2026-10-09T10:35:20Z",
-          "number": 4757,
-          "title": "feat: add destructive Bash PreToolUse guard (closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4757"
-        },
-        {
-          "created_at": "2026-10-15T12:30:49Z",
-          "number": 4886,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4886"
-        },
-        {
-          "created_at": "2026-10-15T11:17:48Z",
-          "number": 4885,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4885"
-        },
-        {
-          "created_at": "2026-10-15T10:33:19Z",
-          "number": 4884,
-          "title": "feat(hooks): PreToolUse hook blocking destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4884"
-        },
-        {
-          "created_at": "2026-09-25T02:37:26Z",
-          "number": 4478,
-          "title": "Add destructive-command hook for issue 3",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4478"
-        },
-        {
-          "created_at": "2026-09-24T23:42:30Z",
-          "number": 4475,
-          "title": "Add block-destructive PreToolUse hook (bounty #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4475"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-09-20T01:38:45Z",
-          "number": 4349,
-          "title": "feat: add block-destructive hook (Issue #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4349"
-        },
-        {
-          "created_at": "2026-09-25T06:05:58Z",
-          "number": 4484,
-          "title": "[BOUNTY #3] Guard destructive Claude Code Bash commands",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4484"
-        },
-        {
-          "created_at": "2026-10-18T12:24:48Z",
-          "number": 4930,
-          "title": "feat(hook): block destructive bash commands in Claude Code (Closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4930"
-        },
-        {
-          "created_at": "2026-10-17T06:27:46Z",
-          "number": 4907,
-          "title": "feat(hook): PreToolUse hook to block destructive bash commands (Fixes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4907"
-        },
-        {
-          "created_at": "2026-10-17T05:15:04Z",
-          "number": 4903,
-          "title": "feat(hook): PreToolUse hook to block destructive bash commands (Fixes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4903"
-        },
-        {
-          "created_at": "2026-10-14T22:53:56Z",
-          "number": 4864,
-          "title": "feat: pre-tool-use hook blocking destructive bash commands (closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4864"
-        },
-        {
-          "created_at": "2026-10-14T11:04:42Z",
-          "number": 4850,
-          "title": "feat(hooks): pre-tool-use hook blocking destructive bash commands (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4850"
-        },
-        {
-          "created_at": "2026-10-20T14:41:54Z",
-          "number": 4988,
-          "title": "feat(hook): pre-tool-use hook blocking destructive bash commands (Closes #3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4988"
-        },
-        {
-          "created_at": "2026-08-08T04:41:00Z",
-          "number": 3686,
-          "title": "feat: add destructive command blocker hook (#3)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3686"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$100"
-      ],
-      "reward_usd_max": 100.0,
-      "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
-      "updated_at": "2026-10-21T11:07:12Z",
-      "verification_confidence": "high"
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Registration token subject should match returned user id",
+      "updated_at": "2026-10-21T16:21:01Z",
+      "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-21T12:00:12.461495Z",
+  "generated_at": "2026-10-21T17:20:14.229609Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
