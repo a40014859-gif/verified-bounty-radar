@@ -1,49 +1,12 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 7,
-    "manual_review": 2,
-    "pursue": 5,
-    "skip": 1
+    "hold": 3,
+    "manual_review": 6,
+    "pursue": 3,
+    "skip": 3
   },
   "entries": [
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/540",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/540",
-      "id": "github:auscaster/frantic-board#540",
-      "labels": [
-        "bounty",
-        "funded",
-        "available",
-        "delivered",
-        "needs-work",
-        "paid"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1"
-      ],
-      "reward_usd_max": 1.0,
-      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
-      "updated_at": "2026-10-22T04:48:52Z",
-      "verification_confidence": "medium"
-    },
     {
       "canonical_state": "open",
       "canonical_url": "https://github.com/auscaster/frantic-board/issues/539",
@@ -66,8 +29,10 @@
         "bounty",
         "funded",
         "available",
+        "claimed",
         "delivered",
         "accepted",
+        "needs-work",
         "paid"
       ],
       "matching_open_pr_count": 0,
@@ -78,7 +43,7 @@
       ],
       "reward_usd_max": 1.0,
       "title": "Frantic bounty #140: Send an email with a 30-line Nitrosend SDK script and report how it went",
-      "updated_at": "2026-10-22T04:33:05Z",
+      "updated_at": "2026-10-22T11:59:45Z",
       "verification_confidence": "medium"
     },
     {
@@ -103,6 +68,7 @@
         "bounty",
         "funded",
         "available",
+        "claimed",
         "delivered",
         "accepted",
         "needs-work",
@@ -116,49 +82,7 @@
       ],
       "reward_usd_max": 1.0,
       "title": "Frantic bounty #139: Send your first email with the Nitrosend CLI and report how it went",
-      "updated_at": "2026-10-22T04:11:12Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-      "id": "github:tenstorrent/tt-metal#53787",
-      "labels": [
-        "op_cat: eltwise",
-        "community",
-        "bounty",
-        "bounty_difficulty/hard"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-08-22T22:27:20Z",
-          "number": 54080,
-          "title": "[Bug fix] #53787: improve log_sigmoid accuracy",
-          "url": "https://github.com/tenstorrent/tt-metal/pull/54080"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$5"
-      ],
-      "reward_usd_max": 5.0,
-      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-      "updated_at": "2026-10-22T04:33:22Z",
+      "updated_at": "2026-10-22T11:34:47Z",
       "verification_confidence": "medium"
     },
     {
@@ -182,7 +106,7 @@
       "labels": [
         "bounty",
         "funded",
-        "needs-work"
+        "claimed"
       ],
       "matching_open_pr_count": 2,
       "matching_open_prs": [
@@ -205,7 +129,7 @@
       ],
       "reward_usd_max": 20.0,
       "title": "Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
-      "updated_at": "2026-10-22T03:53:22Z",
+      "updated_at": "2026-10-22T11:14:42Z",
       "verification_confidence": "medium"
     },
     {
@@ -244,7 +168,7 @@
           "actor": "kingkrs10",
           "command": "/claim",
           "created_at": "2026-10-22T03:50:39Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912#issuecomment-6332233100"
         },
         {
@@ -296,171 +220,13 @@
           "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4070"
         }
       ],
-      "recent_claim_count": 5,
+      "recent_claim_count": 4,
       "reward_mentions": [
         "$105"
       ],
       "reward_usd_max": 105.0,
       "title": "[Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing",
-      "updated_at": "2026-10-22T04:39:34Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T03:50:32Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913#issuecomment-6332231468"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:10:43Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913#issuecomment-6332481318"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:12:33Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913#issuecomment-6332505242"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:13:42Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913#issuecomment-6332520237"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:38:37Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913#issuecomment-6332840596"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1913",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-22T03:50:37Z",
-          "number": 4069,
-          "title": "fix: resolve #1913 - Synthesized patch resolving [Bounty] [Bounty: $105] Tolerate",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4069"
-        }
-      ],
-      "recent_claim_count": 5,
-      "reward_mentions": [
-        "$105"
-      ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur",
-      "updated_at": "2026-10-22T04:38:43Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T03:50:56Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904#issuecomment-6332236426"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:11:04Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904#issuecomment-6332485756"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:12:54Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904#issuecomment-6332509790"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:14:04Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904#issuecomment-6332525915"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:38:59Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904#issuecomment-6332844987"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1904",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1904",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-22T03:51:01Z",
-          "number": 4072,
-          "title": "fix: resolve #1904 - Reads USDC allowance before burn and avoids redundant writeC",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4072"
-        },
-        {
-          "created_at": "2026-10-17T07:48:11Z",
-          "number": 1918,
-          "title": "feat: Expose retry/backoff knobs for Stellar allowance wait and RPC-lag",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1918"
-        }
-      ],
-      "recent_claim_count": 5,
-      "reward_mentions": [
-        "$75"
-      ],
-      "reward_usd_max": 75.0,
-      "title": "[Bounty] [Bounty: $75] Expose retry/backoff knobs for Stellar allowance wait and RPC-lag ",
-      "updated_at": "2026-10-22T04:39:05Z",
+      "updated_at": "2026-10-22T11:03:45Z",
       "verification_confidence": "high"
     },
     {
@@ -492,7 +258,7 @@
           "actor": "kingkrs10",
           "command": "/claim",
           "created_at": "2026-10-22T03:50:48Z",
-          "recent": true,
+          "recent": false,
           "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1910#issuecomment-6332234812"
         },
         {
@@ -550,18 +316,18 @@
           "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4063"
         }
       ],
-      "recent_claim_count": 5,
+      "recent_claim_count": 4,
       "reward_mentions": [
         "$125"
       ],
       "reward_usd_max": 125.0,
       "title": "[Bounty] [Bounty: $125] Add structured progress callbacks to transfer()",
-      "updated_at": "2026-10-22T04:38:58Z",
+      "updated_at": "2026-10-22T11:09:47Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
+      "canonical_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -571,67 +337,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "phauranta-naresh",
-          "command": "/claim",
-          "created_at": "2026-10-15T23:54:59Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6204756684"
-        },
-        {
-          "actor": "stand-out-of-my-sun",
-          "command": "/claim",
-          "created_at": "2026-10-17T08:44:42Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6231895088"
-        },
-        {
-          "actor": "metgrok",
-          "command": "/attempt #1915",
-          "created_at": "2026-10-17T13:01:00Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6234183018"
-        },
-        {
-          "actor": "Anekenonso",
-          "command": "/claim",
-          "created_at": "2026-10-21T11:14:50Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6314558409"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T03:50:24Z",
+          "actor": "gttps",
+          "command": "/attempt #1",
+          "created_at": "2026-10-22T05:07:18Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6332229879"
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1#issuecomment-6333207855"
         },
         {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:10:35Z",
+          "actor": "gttps",
+          "command": "/claim #1",
+          "created_at": "2026-10-22T05:10:05Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6332479784"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:12:26Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6332503602"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:13:35Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6332518540"
-        },
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T04:38:30Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6332839005"
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1#issuecomment-6333243755"
         }
       ],
       "closed_at": null,
@@ -639,157 +356,91 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1915",
+      "discovered_url": "https://github.com/jomaaabbe78-spec/bookningsapp/issues/1",
+      "id": "github:jomaaabbe78-spec/bookningsapp#1",
       "labels": [
-        "bounty",
-        "real"
+        "good first issue",
+        "bounty"
       ],
-      "matching_open_pr_count": 2,
+      "matching_open_pr_count": 6,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-22T03:50:30Z",
-          "number": 4068,
-          "title": "fix: resolve #1915 - Synthesized patch resolving [Bounty] [Bounty: $105] Preserve",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4068"
+          "created_at": "2026-10-21T00:08:51Z",
+          "number": 5,
+          "title": "fix: resolve #1 - [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/5"
         },
         {
-          "created_at": "2026-10-19T01:41:17Z",
-          "number": 2139,
-          "title": "fix: Handle transient RPC errors correctly",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/2139"
-        }
-      ],
-      "recent_claim_count": 5,
-      "reward_mentions": [
-        "$105"
-      ],
-      "reward_usd_max": 105.0,
-      "title": "[Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi",
-      "updated_at": "2026-10-22T04:38:37Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "abdallah038",
-          "command": "/claim",
-          "created_at": "2026-10-17T04:14:41Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907#issuecomment-6229514491"
+          "created_at": "2026-10-20T21:16:41Z",
+          "number": 4,
+          "title": "docs: resolve #1 - [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/4"
         },
         {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T02:55:33Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907#issuecomment-6331550803"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1907",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1907",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-19T05:46:23Z",
-          "number": 3096,
-          "title": "[Bounty]: Fix issue #1907 implementation",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/3096"
+          "created_at": "2026-10-21T01:09:19Z",
+          "number": 6,
+          "title": "fix: resolve issue #1 - [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/6"
         },
         {
-          "created_at": "2026-10-22T02:55:38Z",
-          "number": 4064,
-          "title": "fix: resolve #1907 - Synthesized patch resolving [Bounty] [Bounty: $90] Reject un",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4064"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$90"
-      ],
-      "reward_usd_max": 90.0,
-      "title": "[Bounty] [Bounty: $90] Reject unsupported CCTP message versions in decodeCctpMessage",
-      "updated_at": "2026-10-22T03:42:04Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T02:55:49Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558#issuecomment-6331554201"
+          "created_at": "2026-10-21T04:03:07Z",
+          "number": 7,
+          "title": "fix: [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/7"
         },
         {
-          "actor": "kingkrs10",
-          "command": "/claim",
-          "created_at": "2026-10-22T03:04:43Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558#issuecomment-6331663469"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1558",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1558",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-22T02:55:55Z",
-          "number": 4066,
-          "title": "fix: resolve #1558 - Synthesized patch resolving [Bounty] Reverse bounty",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4066"
+          "created_at": "2026-10-21T04:19:27Z",
+          "number": 8,
+          "title": "fix: [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/8"
         },
         {
-          "created_at": "2026-09-16T10:18:53Z",
-          "number": 1567,
-          "title": "[Bounty #1558] Multi-Chain Reverse Bounty Settlement, Negative Escrow, and Anti-Spam Engine",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/1567"
+          "created_at": "2026-10-22T05:10:00Z",
+          "number": 9,
+          "title": "docs(readme): fix typo and restore complete project setup documentation",
+          "url": "https://github.com/jomaaabbe78-spec/bookningsapp/pull/9"
         }
       ],
       "recent_claim_count": 2,
       "reward_mentions": [
-        "$500"
+        "$50"
       ],
-      "reward_usd_max": 500.0,
-      "title": "[Bounty] Reverse bounty",
-      "updated_at": "2026-10-22T03:27:52Z",
+      "reward_usd_max": 50.0,
+      "title": "[TEST BOUNTY] Fix typo in README",
+      "updated_at": "2026-10-22T11:02:40Z",
       "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1316",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1316",
+      "id": "github:relayhop/sn-monetization-runtime#1316",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-10-20T11:24",
+      "updated_at": "2026-10-22T11:53:54Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
@@ -847,12 +498,12 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Dependency Dashboard",
-      "updated_at": "2026-10-22T04:55:25Z",
+      "updated_at": "2026-10-22T10:31:10Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/daydreamsai/agent-bounties/issues/8",
+      "canonical_url": "https://github.com/mergeos-bounties/mergeos/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -862,25 +513,32 @@
       ],
       "claim_signals": [
         {
-          "actor": "ivahelfenstein-max",
-          "command": "/claim #8 \u2014 implemented in PR #111. Agent deployed and running at http://65.108.87.255. Ready for review.",
-          "created_at": "2026-03-15T07:27:33Z",
+          "actor": "sureshchouksey8",
+          "command": "/claim #1",
+          "created_at": "2026-05-26T07:24:15Z",
           "recent": false,
-          "url": "https://github.com/daydreamsai/agent-bounties/issues/8#issuecomment-4062463893"
+          "url": "https://github.com/mergeos-bounties/mergeos/issues/1#issuecomment-4541587598"
         },
         {
-          "actor": "zhaog100",
-          "command": "/attempt #${i}",
-          "created_at": "2026-03-19T23:41:15Z",
+          "actor": "kejuunuy",
+          "command": "/attempt #16",
+          "created_at": "2026-05-27T08:22:20Z",
           "recent": false,
-          "url": "https://github.com/daydreamsai/agent-bounties/issues/8#issuecomment-4094251509"
+          "url": "https://github.com/mergeos-bounties/mergeos/issues/1#issuecomment-4552770636"
         },
         {
-          "actor": "mvmax-dev",
-          "command": "/attempt #3715",
-          "created_at": "2026-06-02T17:01:32Z",
+          "actor": "kejuunuy",
+          "command": "/attempt #13",
+          "created_at": "2026-05-27T08:22:21Z",
           "recent": false,
-          "url": "https://github.com/daydreamsai/agent-bounties/issues/8#issuecomment-4604819974"
+          "url": "https://github.com/mergeos-bounties/mergeos/issues/1#issuecomment-4552770752"
+        },
+        {
+          "actor": "kejuunuy",
+          "command": "/attempt #8",
+          "created_at": "2026-05-27T08:22:22Z",
+          "recent": false,
+          "url": "https://github.com/mergeos-bounties/mergeos/issues/1#issuecomment-4552770866"
         }
       ],
       "closed_at": null,
@@ -888,124 +546,80 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/daydreamsai/agent-bounties/issues/8",
-      "id": "github:daydreamsai/agent-bounties#8",
+      "discovered_url": "https://github.com/mergeos-bounties/mergeos/issues/1",
+      "id": "github:mergeos-bounties/mergeos#1",
       "labels": [
-        "bounty",
-        "defi",
-        "perpetuals",
-        "trading",
-        "$1000"
+        "claim-token",
+        "bounty"
       ],
-      "matching_open_pr_count": 16,
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-20T09:25:07Z",
-          "number": 379,
-          "title": "feat: implement Perps Funding Pulse agent (#8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/379"
-        },
-        {
-          "created_at": "2026-09-30T23:43:11Z",
-          "number": 375,
-          "title": "Submission: Bounty #8 \u2014 Perps Funding Pulse (re-filed from aaron11998)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/375"
-        },
-        {
-          "created_at": "2026-09-24T19:12:25Z",
-          "number": 354,
-          "title": "Submission: Perps Funding Pulse \u2014 bounty #8 (re-file of suspended PR #341)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/354"
-        },
-        {
-          "created_at": "2026-07-02T13:41:38Z",
-          "number": 260,
-          "title": "Perps Funding Pulse \u2014 missione-x402 (#8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/260"
-        },
-        {
-          "created_at": "2026-07-01T11:24:26Z",
-          "number": 242,
-          "title": "feat: Perps Funding Pulse agent (bounty #8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/242"
-        },
-        {
-          "created_at": "2026-05-11T02:37:22Z",
-          "number": 165,
-          "title": "feat: Perps Funding Pulse agent (#8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/165"
-        },
-        {
-          "created_at": "2026-03-16T02:51:27Z",
-          "number": 116,
-          "title": "Bounty Submission: Perps Funding Pulse (#8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/116"
-        },
-        {
-          "created_at": "2026-05-25T05:39:06Z",
-          "number": 205,
-          "title": "Submission: Perps Funding Pulse (Swarm Economy) \u2014 bounty #8",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/205"
-        },
-        {
-          "created_at": "2026-03-16T13:02:56Z",
-          "number": 135,
-          "title": "feat: add Perps Funding Pulse agent (#8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/135"
-        },
-        {
-          "created_at": "2026-03-14T19:07:12Z",
-          "number": 111,
-          "title": "feat: Perps Funding Pulse agent \u2014 Bounty #8",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/111"
-        },
-        {
-          "created_at": "2025-11-01T00:26:53Z",
-          "number": 40,
-          "title": "Perps Funding Pulse - Bounty #8 Submission",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/40"
-        },
-        {
-          "created_at": "2026-03-22T21:36:22Z",
-          "number": 156,
-          "title": "feat: add Perps Funding Pulse agent (bounty #8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/156"
-        },
-        {
-          "created_at": "2026-07-07T07:50:32Z",
-          "number": 284,
-          "title": "Submission: Perps Funding Pulse \u2014 real funding rate agent with Binance & Hyperliquid APIs (Closes #8)",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/284"
-        },
-        {
-          "created_at": "2026-02-08T08:58:07Z",
-          "number": 78,
-          "title": "Bounty #8: Perps Funding Pulse + Bounty #10: Bridge Route Pinger",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/78"
-        },
-        {
-          "created_at": "2026-06-13T19:29:32Z",
-          "number": 231,
-          "title": "Add Perps Funding Pulse submission",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/231"
-        },
-        {
-          "created_at": "2026-03-20T00:18:52Z",
-          "number": 148,
-          "title": "[ShanaBoo] Perps Funding Pulse",
-          "url": "https://github.com/daydreamsai/agent-bounties/pull/148"
+          "created_at": "2026-07-17T19:01:11Z",
+          "number": 257,
+          "title": "feat: implement PayPal Sandbox payment flow for project funding",
+          "url": "https://github.com/mergeos-bounties/mergeos/pull/257"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Perps Funding Pulse",
-      "updated_at": "2026-10-22T04:58:59Z",
+      "title": "Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR",
+      "updated_at": "2026-10-22T10:53:22Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/illbnm/homelab-stack/issues/9",
+      "canonical_url": "https://github.com/amiller/bounty-arcade/issues/12",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/amiller/bounty-arcade/issues/12",
+      "id": "github:amiller/bounty-arcade#12",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T23:37:22Z",
+          "number": 29,
+          "title": "Fix #12: [routes] Time, moving time and speed",
+          "url": "https://github.com/amiller/bounty-arcade/pull/29"
+        },
+        {
+          "created_at": "2026-10-22T03:44:33Z",
+          "number": 40,
+          "title": "Display elapsed and moving GPX trip times",
+          "url": "https://github.com/amiller/bounty-arcade/pull/40"
+        },
+        {
+          "created_at": "2026-10-22T10:46:53Z",
+          "number": 51,
+          "title": "feat(routes): parse GPX time and display elapsed, moving duration and speed",
+          "url": "https://github.com/amiller/bounty-arcade/pull/51"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[routes] Time, moving time and speed",
+      "updated_at": "2026-10-22T11:05:21Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/3624",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -1015,167 +629,529 @@
       ],
       "claim_signals": [
         {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-20T04:28:52Z",
+          "actor": "pedromineo",
+          "command": "/try",
+          "created_at": "2026-10-21T12:47:38Z",
           "recent": false,
-          "url": "https://github.com/illbnm/homelab-stack/issues/9#issuecomment-4095455787"
+          "url": "https://github.com/Ikalus1988/MisakaNet/issues/3624#issuecomment-6316328234"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/3624",
+      "id": "github:Ikalus1988/MisakaNet#3624",
+      "labels": [
+        "ready",
+        "bounty"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-22T10:58:29Z",
+          "number": 3716,
+          "title": "T-CORE Solution (Fixes #3624)",
+          "url": "https://github.com/Ikalus1988/MisakaNet/pull/3716"
         },
         {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-20T04:32:03Z",
+          "created_at": "2026-10-22T10:49:41Z",
+          "number": 3711,
+          "title": "T-CORE Solution (Fixes #3624)",
+          "url": "https://github.com/Ikalus1988/MisakaNet/pull/3711"
+        },
+        {
+          "created_at": "2026-10-22T10:53:26Z",
+          "number": 3713,
+          "title": "T-CORE Solution (Fixes #3624)",
+          "url": "https://github.com/Ikalus1988/MisakaNet/pull/3713"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "updated_at": "2026-10-22T10:58:32Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/mergeos-bounties/PoseGuide/issues/52",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Zubi-fix",
+          "command": "/claim #52",
+          "created_at": "2026-07-15T20:28:52Z",
           "recent": false,
-          "url": "https://github.com/illbnm/homelab-stack/issues/9#issuecomment-4095465819"
+          "url": "https://github.com/mergeos-bounties/PoseGuide/issues/52#issuecomment-4984989407"
+        },
+        {
+          "actor": "code-cannot-be-blank",
+          "command": "/attempt #52",
+          "created_at": "2026-07-15T20:28:58Z",
+          "recent": false,
+          "url": "https://github.com/mergeos-bounties/PoseGuide/issues/52#issuecomment-4984990224"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/attempt #52",
+          "created_at": "2026-08-04T06:35:28Z",
+          "recent": false,
+          "url": "https://github.com/mergeos-bounties/PoseGuide/issues/52#issuecomment-5175459931"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim",
+          "created_at": "2026-08-08T12:52:12Z",
+          "recent": false,
+          "url": "https://github.com/mergeos-bounties/PoseGuide/issues/52#issuecomment-5226183895"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/mergeos-bounties/PoseGuide/issues/52",
+      "id": "github:mergeos-bounties/PoseGuide#52",
+      "labels": [
+        "good first issue",
+        "bounty",
+        "bounty: feature",
+        "data",
+        "reward:25-mrg",
+        "pose-pack"
+      ],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-22T10:40:08Z",
+          "number": 199,
+          "title": "Add desk stretch (Fixes #52)",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/199"
+        },
+        {
+          "created_at": "2026-10-22T10:37:10Z",
+          "number": 198,
+          "title": "Add desk stretch (Fixes #52)",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/198"
+        },
+        {
+          "created_at": "2026-07-27T13:10:06Z",
+          "number": 129,
+          "title": "Pose pack: desk_standup_stretch (office ergonomics) (#52)",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/129"
+        },
+        {
+          "created_at": "2026-08-29T11:39:35Z",
+          "number": 194,
+          "title": "Fixes #52 - add desk_standup_stretch pose",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/194"
+        },
+        {
+          "created_at": "2026-07-16T15:24:55Z",
+          "number": 80,
+          "title": "key1989han [ Pose Pack ] feat: desk_standup_stretch",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/80"
+        },
+        {
+          "created_at": "2026-07-16T02:22:54Z",
+          "number": 70,
+          "title": "key1989han [ Pose Pack ] feat: desk_standup_stretch",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/70"
+        },
+        {
+          "created_at": "2026-07-15T23:21:09Z",
+          "number": 62,
+          "title": "key1989han [ Pose Pack ] feat: Desk Standup Stretch",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/62"
+        },
+        {
+          "created_at": "2026-07-17T18:15:32Z",
+          "number": 94,
+          "title": "poses: add desk standup stretch pose",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/94"
+        },
+        {
+          "created_at": "2026-08-03T15:32:12Z",
+          "number": 150,
+          "title": "feat(pose): add desk_standup_stretch office ergonomics pack",
+          "url": "https://github.com/mergeos-bounties/PoseGuide/pull/150"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[25 MRG] Pose pack: desk_standup_stretch (office ergonomics)",
+      "updated_at": "2026-10-22T11:27:44Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "metgrok",
+          "command": "/attempt #4061",
+          "created_at": "2026-10-20T23:49:55Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061#issuecomment-6304406785"
+        },
+        {
+          "actor": "kingkrs10",
+          "command": "/claim",
+          "created_at": "2026-10-22T00:52:07Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061#issuecomment-6329978879"
+        },
+        {
+          "actor": "kingkrs10",
+          "command": "/claim",
+          "created_at": "2026-10-22T01:03:04Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061#issuecomment-6330118569"
+        },
+        {
+          "actor": "kingkrs10",
+          "command": "/claim",
+          "created_at": "2026-10-22T01:05:01Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061#issuecomment-6330144205"
+        },
+        {
+          "actor": "kingkrs10",
+          "command": "/claim",
+          "created_at": "2026-10-22T01:36:48Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061#issuecomment-6330564749"
         }
       ],
       "closed_at": null,
       "decision": "skip",
       "decision_reasons": [
-        "At least 26 open PRs explicitly reference the canonical issue."
+        "At least 3 open PRs explicitly reference the canonical issue."
       ],
-      "discovered_url": "https://github.com/illbnm/homelab-stack/issues/9",
-      "id": "github:illbnm/homelab-stack#9",
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4061",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4061",
       "labels": [
         "bounty",
-        "hard"
+        "real"
       ],
-      "matching_open_pr_count": 26,
+      "matching_open_pr_count": 3,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-22T03:51:10Z",
-          "number": 771,
-          "title": "fix: resolve #9 - Synthesized patch resolving [BOUNTY $300] SSO \u2014 Authentik \u7edf\u4e00",
-          "url": "https://github.com/illbnm/homelab-stack/pull/771"
+          "created_at": "2026-10-22T11:08:13Z",
+          "number": 4075,
+          "title": "T-CORE Fix #4061",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4075"
         },
         {
-          "created_at": "2026-08-02T04:51:42Z",
-          "number": 741,
-          "title": "feat: Implement SSO Stack (Authentik OIDC/SSO) (#9)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/741"
+          "created_at": "2026-10-22T11:06:35Z",
+          "number": 4074,
+          "title": "T-CORE Fix #4061",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4074"
         },
         {
-          "created_at": "2026-06-11T10:11:17Z",
-          "number": 654,
-          "title": "feat: SSO Authentik Stack - Bounty #9",
-          "url": "https://github.com/illbnm/homelab-stack/pull/654"
-        },
-        {
-          "created_at": "2026-10-12T18:04:23Z",
-          "number": 765,
-          "title": "fix: resolve #9 - [illbnm/homelab-stack] [BOUNTY $300] SSO \u2014 Authentik \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1",
-          "url": "https://github.com/illbnm/homelab-stack/pull/765"
-        },
-        {
-          "created_at": "2026-05-15T10:02:51Z",
-          "number": 568,
-          "title": "feat(sso): Complete Authentik SSO integration \u2014 fixes #9",
-          "url": "https://github.com/illbnm/homelab-stack/pull/568"
-        },
-        {
-          "created_at": "2026-04-04T06:13:06Z",
-          "number": 422,
-          "title": "feat: Complete SSO/OIDC Integration (#9) - $300 USDT",
-          "url": "https://github.com/illbnm/homelab-stack/pull/422"
-        },
-        {
-          "created_at": "2026-03-19T01:00:43Z",
-          "number": 194,
-          "title": "feat: complete SSO Authentik integration for Issue #9",
-          "url": "https://github.com/illbnm/homelab-stack/pull/194"
-        },
-        {
-          "created_at": "2026-05-21T15:47:53Z",
-          "number": 608,
-          "title": "feat(sso): finalize SSO Stack - Authentik identity provider (Closes #9)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/608"
-        },
-        {
-          "created_at": "2026-03-22T21:42:29Z",
-          "number": 254,
-          "title": "feat(sso): Authentik Unified Identity \u2014 OIDC/SSO for all services (Closes #9)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/254"
-        },
-        {
-          "created_at": "2026-03-24T23:21:05Z",
-          "number": 311,
-          "title": "[BOUNTY #9] SSO \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1 - \u5b8c\u6574\u5b9e\u73b0 ($300 USDT)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/311"
-        },
-        {
-          "created_at": "2026-04-15T23:26:23Z",
-          "number": 476,
-          "title": "[BOUNTY #9] SSO \u2014 Authentik \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1 + OIDC \u81ea\u52a8\u914d\u7f6e ($300 USDT)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/476"
-        },
-        {
-          "created_at": "2026-04-08T00:57:35Z",
-          "number": 444,
-          "title": "feat(sso): \u5b8c\u6210 Issue #9 SSO \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1\u5b8c\u6574\u5b9e\u73b0",
-          "url": "https://github.com/illbnm/homelab-stack/pull/444"
-        },
-        {
-          "created_at": "2026-06-22T03:53:53Z",
-          "number": 701,
-          "title": "feat: Implement SSO Stack with Authentik",
-          "url": "https://github.com/illbnm/homelab-stack/pull/701"
-        },
-        {
-          "created_at": "2026-03-25T22:08:16Z",
-          "number": 340,
-          "title": "feat(sso): Add Authentik SSO stack with OIDC integration",
-          "url": "https://github.com/illbnm/homelab-stack/pull/340"
-        },
-        {
-          "created_at": "2026-03-17T13:56:37Z",
-          "number": 61,
-          "title": "[ShanaBoo] [BOUNTY $300] SSO \u2014 Authentik \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1",
-          "url": "https://github.com/illbnm/homelab-stack/pull/61"
-        },
-        {
-          "created_at": "2026-05-13T01:32:49Z",
-          "number": 553,
-          "title": "feat: SSO stack with Authentik (OIDC for all services)",
-          "url": "https://github.com/illbnm/homelab-stack/pull/553"
-        },
-        {
-          "created_at": "2026-04-22T09:36:11Z",
-          "number": 482,
-          "title": "[BOUNTY 00] SSO \u2014 Authentik Unified Identity",
-          "url": "https://github.com/illbnm/homelab-stack/pull/482"
-        },
-        {
-          "created_at": "2026-04-03T15:33:49Z",
-          "number": 414,
-          "title": "SSO \u2014 Authentik Unified Identity Authentication",
-          "url": "https://github.com/illbnm/homelab-stack/pull/414"
-        },
-        {
-          "created_at": "2026-03-28T13:42:40Z",
-          "number": 377,
-          "title": "feat(sso): implement Authentik SSO \u2014 OIDC for all apps + embedded outpost + SMTP",
-          "url": "https://github.com/illbnm/homelab-stack/pull/377"
-        },
-        {
-          "created_at": "2026-04-06T02:58:07Z",
-          "number": 424,
-          "title": "feat(sso): Implement SSO with Authentik - Add OIDC support for all services",
-          "url": "https://github.com/illbnm/homelab-stack/pull/424"
+          "created_at": "2026-10-20T22:34:21Z",
+          "number": 4062,
+          "title": "fix: resolve issue #4061 - [Bounty] [TEST BOUNTY] Fix typo in README",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4062"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$300",
-        "$300 USD"
+        "$50"
       ],
-      "reward_usd_max": 300.0,
-      "title": "[BOUNTY $300] SSO \u2014 Authentik \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1",
-      "updated_at": "2026-10-22T04:45:21Z",
+      "reward_usd_max": 50.0,
+      "title": "[Bounty] [TEST BOUNTY] Fix typo in README",
+      "updated_at": "2026-10-22T11:43:43Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/431",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Ollie520",
+          "command": "/claim #431",
+          "created_at": "2026-10-13T05:45:16Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/431#issuecomment-6139128827"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/431",
+      "id": "github:auscaster/frantic-board#431",
+      "labels": [
+        "bounty",
+        "funded",
+        "delivered",
+        "paid"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-13T05:45:15Z",
+          "number": 503,
+          "title": "fix: resolve #431 - [auscaster/frantic-board] Frantic bounty #134: Run an Ausca ",
+          "url": "https://github.com/auscaster/frantic-board/pull/503"
+        },
+        {
+          "created_at": "2026-09-18T08:20:47Z",
+          "number": 446,
+          "title": "Fix #431: Add verifier for Frantic bounty #134 (Ausca Browser Session)",
+          "url": "https://github.com/auscaster/frantic-board/pull/446"
+        },
+        {
+          "created_at": "2026-09-18T03:59:05Z",
+          "number": 439,
+          "title": "Fix #431: Add verifier for Frantic bounty #134 (Ausca Browser Session)",
+          "url": "https://github.com/auscaster/frantic-board/pull/439"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$1.05"
+      ],
+      "reward_usd_max": 1.05,
+      "title": "Frantic bounty #134: Run an Ausca Browser Session end to end and report the process",
+      "updated_at": "2026-10-22T10:54:50Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Spectral-Finance/lux/issues/99",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Robertg761",
+          "command": "/attempt #99",
+          "created_at": "2026-05-14T04:40:35Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4447585269"
+        },
+        {
+          "actor": "Robertg761",
+          "command": "/claim #99",
+          "created_at": "2026-05-14T04:44:30Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4447604515"
+        },
+        {
+          "actor": "bambooshadow-studio",
+          "command": "/claim #99",
+          "created_at": "2026-07-01T03:32:07Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-4850005110"
+        },
+        {
+          "actor": "elevasyncsolutions-jpg",
+          "command": "/attempt #99",
+          "created_at": "2026-07-19T21:08:21Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-5017382590"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/claim #99",
+          "created_at": "2026-07-20T02:00:26Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-5018125870"
+        },
+        {
+          "actor": "open5588",
+          "command": "/claim #99",
+          "created_at": "2026-10-15T10:05:16Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-6189546978"
+        },
+        {
+          "actor": "jackmercy",
+          "command": "/claim #99",
+          "created_at": "2026-10-16T06:59:28Z",
+          "recent": false,
+          "url": "https://github.com/Spectral-Finance/lux/issues/99#issuecomment-6209968289"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 21 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/Spectral-Finance/lux/issues/99",
+      "id": "github:Spectral-Finance/lux#99",
+      "labels": [
+        "enhancement",
+        "bounty",
+        "llm"
+      ],
+      "matching_open_pr_count": 21,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-16T00:47:20Z",
+          "number": 1024,
+          "title": "feat: LLM provider abstraction layer (issue #99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/1024"
+        },
+        {
+          "created_at": "2026-10-15T14:06:19Z",
+          "number": 1000,
+          "title": "feat(llm): implement Universal LLM Provider Abstraction Layer (#99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/1000"
+        },
+        {
+          "created_at": "2026-10-15T10:04:49Z",
+          "number": 989,
+          "title": "feat(llm): implement universal LLM provider abstraction layer (#99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/989"
+        },
+        {
+          "created_at": "2026-09-10T20:34:18Z",
+          "number": 968,
+          "title": "Fix #99: LLM Provider Abstraction Layer $600",
+          "url": "https://github.com/Spectral-Finance/lux/pull/968"
+        },
+        {
+          "created_at": "2026-10-11T12:54:56Z",
+          "number": 988,
+          "title": "fix: solution for bounty issue #99 - LLM Provider Abstraction Layer $600",
+          "url": "https://github.com/Spectral-Finance/lux/pull/988"
+        },
+        {
+          "created_at": "2026-09-10T13:48:02Z",
+          "number": 959,
+          "title": "fix: resolve #99 (LLM Provider Abstraction Layer $600)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/959"
+        },
+        {
+          "created_at": "2026-07-20T11:19:27Z",
+          "number": 941,
+          "title": "feat: Logging & Monitoring Module (#99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/941"
+        },
+        {
+          "created_at": "2026-06-22T17:29:07Z",
+          "number": 785,
+          "title": "Fix #99: Implement LLM Provider Abstraction Layer",
+          "url": "https://github.com/Spectral-Finance/lux/pull/785"
+        },
+        {
+          "created_at": "2026-06-22T12:58:55Z",
+          "number": 782,
+          "title": "Fix #99: LLM Provider Abstraction Layer $600",
+          "url": "https://github.com/Spectral-Finance/lux/pull/782"
+        },
+        {
+          "created_at": "2026-08-06T23:27:15Z",
+          "number": 948,
+          "title": "feat(llm): add Universal LLM Provider Abstraction Layer (#99)Feature/llm provider abstraction",
+          "url": "https://github.com/Spectral-Finance/lux/pull/948"
+        },
+        {
+          "created_at": "2026-05-28T07:05:47Z",
+          "number": 634,
+          "title": "feat: LLM Provider abstraction \u2014 routing, fallback, cache, cost tracking (#99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/634"
+        },
+        {
+          "created_at": "2026-05-28T11:41:25Z",
+          "number": 658,
+          "title": "feat: LLM Provider Abstraction Layer with failover and routing (#99)",
+          "url": "https://github.com/Spectral-Finance/lux/pull/658"
+        },
+        {
+          "created_at": "2026-07-01T03:31:55Z",
+          "number": 895,
+          "title": "feat: implement LLM Provider Abstraction Layer",
+          "url": "https://github.com/Spectral-Finance/lux/pull/895"
+        },
+        {
+          "created_at": "2026-05-28T01:54:30Z",
+          "number": 630,
+          "title": "[ShanaBoo] LLM Provider Abstraction Layer $600",
+          "url": "https://github.com/Spectral-Finance/lux/pull/630"
+        },
+        {
+          "created_at": "2026-05-06T03:00:58Z",
+          "number": 495,
+          "title": "Implement LLM Provider Abstraction Layer",
+          "url": "https://github.com/Spectral-Finance/lux/pull/495"
+        },
+        {
+          "created_at": "2026-06-25T06:43:22Z",
+          "number": 847,
+          "title": "feat(llm): add universal provider registry with automatic selection and fallback",
+          "url": "https://github.com/Spectral-Finance/lux/pull/847"
+        },
+        {
+          "created_at": "2026-06-20T17:23:45Z",
+          "number": 753,
+          "title": "feat: LLM Provider Abstraction Layer with auto-selection and fallback",
+          "url": "https://github.com/Spectral-Finance/lux/pull/753"
+        },
+        {
+          "created_at": "2026-05-14T05:55:29Z",
+          "number": 585,
+          "title": "fix: LLM Provider Abstraction Layer $600",
+          "url": "https://github.com/Spectral-Finance/lux/pull/585"
+        },
+        {
+          "created_at": "2026-03-24T01:55:00Z",
+          "number": 467,
+          "title": "feat: LLM Provider Abstraction Layer",
+          "url": "https://github.com/Spectral-Finance/lux/pull/467"
+        },
+        {
+          "created_at": "2026-03-07T20:25:39Z",
+          "number": 423,
+          "title": "feat: LLM Provider Abstraction Layer",
+          "url": "https://github.com/Spectral-Finance/lux/pull/423"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$600"
+      ],
+      "reward_usd_max": 600.0,
+      "title": "LLM Provider Abstraction Layer $600",
+      "updated_at": "2026-10-22T12:00:44Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-22T04:59:58.207641Z",
+  "generated_at": "2026-10-22T12:02:53.426923Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
