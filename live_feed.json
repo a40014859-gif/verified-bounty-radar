@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
-    "manual_review": 12,
+    "hold": 6,
+    "manual_review": 3,
     "pursue": 2,
-    "skip": 1
+    "skip": 4
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
+      "canonical_url": "https://github.com/alfrexo95/bounty-bot/issues/53",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,22 +23,168 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4142",
+      "discovered_url": "https://github.com/alfrexo95/bounty-bot/issues/53",
+      "id": "github:alfrexo95/bounty-bot#53",
       "labels": [
         "bounty",
-        "real"
+        "escrow"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
+        "$250"
+      ],
+      "reward_usd_max": 250.0,
+      "title": "\ud83d\udcb0 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author",
+      "updated_at": "2026-10-28T05:22:17Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/540",
+      "id": "github:auscaster/frantic-board#540",
+      "labels": [
+        "bounty",
+        "funded",
+        "claimed",
+        "delivered",
+        "accepted",
+        "paid"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$1"
+      ],
+      "reward_usd_max": 1.0,
+      "title": "Frantic bounty #141: Let your agent onboard itself through the Nitrosend MCP server and send one email",
+      "updated_at": "2026-10-28T05:15:11Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4109",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim",
+          "created_at": "2026-10-28T04:59:46Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4109#issuecomment-6461066894"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4109",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4109",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-28T04:59:14Z",
+          "number": 4148,
+          "title": "fix: correct USDC-quoted pairs decimal scaling and marketcap valuation (#4109)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4148"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$100"
+      ],
+      "reward_usd_max": 100.0,
+      "title": "[Bounty] \ud83d\udcb0 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct ",
+      "updated_at": "2026-10-28T05:25:37Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim #2",
+          "created_at": "2026-10-27T19:03:59Z",
+          "recent": false,
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2#issuecomment-6451049188"
+        },
+        {
+          "actor": "rakesh1566",
+          "command": "/claim",
+          "created_at": "2026-10-27T23:55:41Z",
+          "recent": true,
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2#issuecomment-6456600231"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2",
+      "id": "github:WholeTroutMedia/oss-verification-sandbox#2",
+      "labels": [
+        "bounty",
+        "bug"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T18:12:36Z",
+          "number": 3,
+          "title": "fix: resolve #2 - Flush buffered window elements when `_quorum_epoch_barrier_7",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/3"
+        },
+        {
+          "created_at": "2026-10-27T19:03:38Z",
+          "number": 6,
+          "title": "fix: flush buffered window elements via _quorum_epoch_barrier_7c2b on timer preemption (#2)",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/6"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
         "$350"
       ],
       "reward_usd_max": 350.0,
-      "title": "[Bounty] Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts ",
-      "updated_at": "2026-10-27T22:16:07Z",
-      "verification_confidence": "medium"
+      "title": "Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts idle pull",
+      "updated_at": "2026-10-28T05:25:40Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -50,11 +196,19 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim",
+          "created_at": "2026-10-28T04:54:27Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143#issuecomment-6461000722"
+        }
+      ],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "hold",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143",
       "id": "github:zhangjiayang6835-cyber/bounty-plaza#4143",
@@ -62,20 +216,278 @@
         "bounty",
         "real"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T22:34:18Z",
+          "number": 4144,
+          "title": "AI Agent Fix for Issue #4143",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4144"
+        },
+        {
+          "created_at": "2026-10-28T04:54:09Z",
+          "number": 4147,
+          "title": "fix: preserve RFC 7239 Forwarded host authority in sub-mounted Request.scope_for (#4143)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4147"
+        }
+      ],
+      "recent_claim_count": 1,
       "reward_mentions": [
         "$250"
       ],
       "reward_usd_max": 250.0,
       "title": "[Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_",
-      "updated_at": "2026-10-27T22:13:25Z",
-      "verification_confidence": "medium"
+      "updated_at": "2026-10-28T05:25:34Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/alfrexo95/bounty-bot/issues/52",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim #4142",
+          "created_at": "2026-10-28T04:44:12Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142#issuecomment-6460871005"
+        },
+        {
+          "actor": "Rohank143",
+          "command": "/claim",
+          "created_at": "2026-10-28T04:48:50Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142#issuecomment-6460929628"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4142",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4142",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T22:34:51Z",
+          "number": 4145,
+          "title": "AI Agent Fix for Issue #4142",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4145"
+        },
+        {
+          "created_at": "2026-10-28T04:43:55Z",
+          "number": 4146,
+          "title": "fix: flush buffered window elements on _quorum_epoch_barrier_7c2b timer preemption (#4142)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4146"
+        }
+      ],
+      "recent_claim_count": 2,
+      "reward_mentions": [
+        "$350"
+      ],
+      "reward_usd_max": 350.0,
+      "title": "[Bounty] Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts ",
+      "updated_at": "2026-10-28T05:25:30Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "mmeadows20",
+          "command": "/claim",
+          "created_at": "2026-10-25T22:58:20Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114#issuecomment-6404584260"
+        },
+        {
+          "actor": "Rohank143",
+          "command": "/claim",
+          "created_at": "2026-10-28T05:42:44Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114#issuecomment-6461645586"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4114",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4114",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-25T04:38:41Z",
+          "number": 4115,
+          "title": "AI Agent Fix for Issue #4114",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4115"
+        },
+        {
+          "created_at": "2026-10-28T05:42:21Z",
+          "number": 4149,
+          "title": "feat: implement DoomSteamVaultManager verification and redemption engine (#4114)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4149"
+        },
+        {
+          "created_at": "2026-10-27T21:09:42Z",
+          "number": 4141,
+          "title": "docs: [Bounty] [STEAM VAULT] \ud83c\udfae Exchange 100,000 DOOM ($wDOOM) for a $1",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4141"
+        },
+        {
+          "created_at": "2026-10-26T03:02:34Z",
+          "number": 4134,
+          "title": "fix: resolve #4114 - [Bounty] [STEAM VAULT] \ud83c\udfae Exchange 100,000 DOOM ($wDOOM) for",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4134"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$10",
+        "$100 USD",
+        "$10 USD",
+        "$10.00 USD",
+        "$100"
+      ],
+      "reward_usd_max": 100.0,
+      "title": "[Bounty] [STEAM VAULT] \ud83c\udfae Exchange 100,000 DOOM ($wDOOM) for a $10 Steam Digital Gift Card",
+      "updated_at": "2026-10-28T05:42:44Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "phauranta-naresh",
+          "command": "/claim",
+          "created_at": "2026-10-15T23:54:59Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6204756684"
+        },
+        {
+          "actor": "stand-out-of-my-sun",
+          "command": "/claim",
+          "created_at": "2026-10-17T08:44:42Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6231895088"
+        },
+        {
+          "actor": "metgrok",
+          "command": "/attempt #1915",
+          "created_at": "2026-10-17T13:01:00Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6234183018"
+        },
+        {
+          "actor": "Anekenonso",
+          "command": "/claim",
+          "created_at": "2026-10-21T11:14:50Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6314558409"
+        },
+        {
+          "actor": "Dimank92",
+          "command": "/claim #1915",
+          "created_at": "2026-10-23T17:19:24Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6370628833"
+        },
+        {
+          "actor": "Rohank143",
+          "command": "/claim",
+          "created_at": "2026-10-28T05:48:47Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915#issuecomment-6461753099"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#1915",
+      "labels": [
+        "bounty",
+        "real"
+      ],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-22T11:04:12Z",
+          "number": 4073,
+          "title": "T-CORE USDC Fix #1915",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4073"
+        },
+        {
+          "created_at": "2026-10-25T06:27:41Z",
+          "number": 4118,
+          "title": "AI Agent Fix for Issue #1915",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4118"
+        },
+        {
+          "created_at": "2026-10-28T05:48:26Z",
+          "number": 4150,
+          "title": "fix(stellar): preserve burnTxHash when confirmation polling hits transient RPC errors (#1915)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4150"
+        },
+        {
+          "created_at": "2026-10-23T17:18:51Z",
+          "number": 4084,
+          "title": "fix(stellar): preserve burnTxHash and tolerate transient RPC errors during confirmation polling (#1915)",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4084"
+        },
+        {
+          "created_at": "2026-10-19T01:41:17Z",
+          "number": 2139,
+          "title": "fix: Handle transient RPC errors correctly",
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/2139"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$105"
+      ],
+      "reward_usd_max": 105.0,
+      "title": "[Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi",
+      "updated_at": "2026-10-28T05:48:47Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/agents/issues/7",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -89,24 +501,93 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/alfrexo95/bounty-bot/issues/52",
-      "id": "github:alfrexo95/bounty-bot#52",
+      "discovered_url": "https://github.com/hanzoai/agents/issues/7",
+      "id": "github:hanzoai/agents#7",
       "labels": [
-        "bounty",
-        "escrow"
+        "documentation",
+        "good first issue",
+        "bounty:starter",
+        "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T12:24:25Z",
+          "number": 24,
+          "title": "Fix 9 broken relative links in examples and Go SDK READMEs",
+          "url": "https://github.com/hanzoai/agents/pull/24"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "\ud83d\udcb0 Bounty Seguro (Ver enlace): \ud83d\udcb0 Bounty Seguro (Ver enlace): \ud83d\udcb0 Bounty Seguro (Ver",
-      "updated_at": "2026-10-27T22:00:42Z",
+      "title": "Fix 9 broken relative links in the examples and Go SDK READMEs",
+      "updated_at": "2026-10-28T05:43:07Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
+      "canonical_url": "https://github.com/hanzoai/sqlite/issues/3",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim #3",
+          "created_at": "2026-10-27T19:30:27Z",
+          "recent": false,
+          "url": "https://github.com/hanzoai/sqlite/issues/3#issuecomment-6451577503"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/sqlite/issues/3",
+      "id": "github:hanzoai/sqlite#3",
+      "labels": [
+        "documentation",
+        "good first issue",
+        "bounty",
+        "bounty:starter"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T20:18:52Z",
+          "number": 10,
+          "title": "Fix README: remove non-existent APIs and fix encryption claims",
+          "url": "https://github.com/hanzoai/sqlite/pull/10"
+        },
+        {
+          "created_at": "2026-10-27T19:30:07Z",
+          "number": 9,
+          "title": "docs: correct SQLite encryption guidance and remove stale CEK APIs",
+          "url": "https://github.com/hanzoai/sqlite/pull/9"
+        },
+        {
+          "created_at": "2026-10-26T23:59:46Z",
+          "number": 5,
+          "title": "docs: correct SQLite encryption guidance",
+          "url": "https://github.com/hanzoai/sqlite/pull/5"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Fix README: it documents sqlite APIs that do not exist",
+      "updated_at": "2026-10-28T05:25:43Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/amiller/bounty-arcade/issues/12",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -120,25 +601,48 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/419",
-      "id": "github:lizTheDeveloper/privacy-the-game#419",
+      "discovered_url": "https://github.com/amiller/bounty-arcade/issues/12",
+      "id": "github:amiller/bounty-arcade#12",
       "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
+        "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-21T23:37:22Z",
+          "number": 29,
+          "title": "Fix #12: [routes] Time, moving time and speed",
+          "url": "https://github.com/amiller/bounty-arcade/pull/29"
+        },
+        {
+          "created_at": "2026-10-24T09:16:06Z",
+          "number": 79,
+          "title": "feat(routes): calculate and display elapsed time, moving time, and speed (closes #12)",
+          "url": "https://github.com/amiller/bounty-arcade/pull/79"
+        },
+        {
+          "created_at": "2026-10-22T03:44:33Z",
+          "number": 40,
+          "title": "Display elapsed and moving GPX trip times",
+          "url": "https://github.com/amiller/bounty-arcade/pull/40"
+        },
+        {
+          "created_at": "2026-10-22T10:46:53Z",
+          "number": 51,
+          "title": "feat(routes): parse GPX time and display elapsed, moving duration and speed",
+          "url": "https://github.com/amiller/bounty-arcade/pull/51"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[opt-out check] RocketReach: find a no-account opt-out route",
-      "updated_at": "2026-10-27T21:58:35Z",
+      "title": "[routes] Time, moving time and speed",
+      "updated_at": "2026-10-28T05:29:41Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/277",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -146,31 +650,125 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+      "claim_signals": [
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-08-01T13:25:16Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5151617370"
+        },
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-08-01T14:27:49Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5151849323"
+        },
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-08-03T10:55:34Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5165439060"
+        },
+        {
+          "actor": "laurentketterle-hub",
+          "command": "/claim",
+          "created_at": "2026-08-08T18:05:42Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5227418938"
+        },
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-08-10T03:06:05Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5235423265"
+        },
+        {
+          "actor": "wasim-builds",
+          "command": "/claim",
+          "created_at": "2026-08-24T01:48:47Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5389790215"
+        },
+        {
+          "actor": "tronnew",
+          "command": "/claim",
+          "created_at": "2026-08-27T14:27:25Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5440588310"
+        },
+        {
+          "actor": "tronnew",
+          "command": "/claim",
+          "created_at": "2026-08-27T14:31:26Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5440638858"
+        },
+        {
+          "actor": "tronnew",
+          "command": "/claim",
+          "created_at": "2026-08-27T14:42:45Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-5440783406"
+        },
+        {
+          "actor": "Ollie520",
+          "command": "/claim #277",
+          "created_at": "2026-10-12T17:20:30Z",
+          "recent": false,
+          "url": "https://github.com/auscaster/frantic-board/issues/277#issuecomment-6129134784"
+        }
       ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/418",
-      "id": "github:lizTheDeveloper/privacy-the-game#418",
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/277",
+      "id": "github:auscaster/frantic-board#277",
       "labels": [
         "bounty",
-        "bounty: medium",
-        "data-brokers"
+        "funded",
+        "available",
+        "claimed",
+        "delivered"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-15T09:53:52Z",
+          "number": 512,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #277",
+          "url": "https://github.com/auscaster/frantic-board/pull/512"
+        },
+        {
+          "created_at": "2026-10-15T07:26:59Z",
+          "number": 509,
+          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #277",
+          "url": "https://github.com/auscaster/frantic-board/pull/509"
+        },
+        {
+          "created_at": "2026-10-12T17:20:29Z",
+          "number": 499,
+          "title": "fix: resolve #277 - [auscaster/frantic-board] Frantic bounty #97: Your first bou",
+          "url": "https://github.com/auscaster/frantic-board/pull/499"
+        }
+      ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[opt-out check] PrivateEye: which brokers are behind its search results?",
-      "updated_at": "2026-10-27T21:58:34Z",
-      "verification_confidence": "medium"
+      "reward_mentions": [
+        "$10"
+      ],
+      "reward_usd_max": 10.0,
+      "title": "Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)",
+      "updated_at": "2026-10-28T05:14:16Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/413",
+      "canonical_url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -178,283 +776,67 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+      "claim_signals": [
+        {
+          "actor": "Rohank143",
+          "command": "/claim #1",
+          "created_at": "2026-10-27T19:18:53Z",
+          "recent": false,
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1#issuecomment-6451348713"
+        }
       ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/413",
-      "id": "github:lizTheDeveloper/privacy-the-game#413",
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 5 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1",
+      "id": "github:WholeTroutMedia/oss-verification-sandbox#1",
       "labels": [
         "bounty",
-        "bounty: medium",
-        "data-brokers"
+        "bug"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-27T19:18:35Z",
+          "number": 8,
+          "title": "fix: preserve RFC 7239 Forwarded host authority in Request.scope_for (#1)",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/8"
+        },
+        {
+          "created_at": "2026-10-27T19:13:46Z",
+          "number": 7,
+          "title": "fix: resolve #1 - Preserve RFC 7239 `Forwarded` host authority in sub-mounted ",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/7"
+        },
+        {
+          "created_at": "2026-10-27T20:04:53Z",
+          "number": 9,
+          "title": "Fix #1: Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Requ",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/9"
+        },
+        {
+          "created_at": "2026-10-27T18:21:48Z",
+          "number": 5,
+          "title": "fix: resolve Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for`",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/5"
+        },
+        {
+          "created_at": "2026-10-27T18:20:47Z",
+          "number": 4,
+          "title": "fix: resolve Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for`",
+          "url": "https://github.com/WholeTroutMedia/oss-verification-sandbox/pull/4"
+        }
+      ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] Vintel AI: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/412",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
+      "reward_mentions": [
+        "$250"
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/412",
-      "id": "github:lizTheDeveloper/privacy-the-game#412",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] United One Resources, Inc.: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:31Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/409",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/409",
-      "id": "github:lizTheDeveloper/privacy-the-game#409",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] SageStream LLC: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:30Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/410",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/410",
-      "id": "github:lizTheDeveloper/privacy-the-game#410",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] SalesTech, LLC: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:30Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/408",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/408",
-      "id": "github:lizTheDeveloper/privacy-the-game#408",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] Safety Holdings Inc.: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:29Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/407",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/407",
-      "id": "github:lizTheDeveloper/privacy-the-game#407",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] S&P GLOBAL MARKET INTELLIGENCE: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:28Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/406",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/406",
-      "id": "github:lizTheDeveloper/privacy-the-game#406",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] RP On-Site LLC: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:27Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/405",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/405",
-      "id": "github:lizTheDeveloper/privacy-the-game#405",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] Roq.ad GmbH: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:26Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/404",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/404",
-      "id": "github:lizTheDeveloper/privacy-the-game#404",
-      "labels": [
-        "bounty",
-        "bounty: medium",
-        "data-brokers"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[find opt-out] Riv Data Corp: find the official opt-out route",
-      "updated_at": "2026-10-27T21:58:25Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 250.0,
+      "title": "Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for`",
+      "updated_at": "2026-10-28T05:25:42Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -623,12 +1005,238 @@
       ],
       "reward_usd_max": 300.0,
       "title": "[BOUNTY $300] SSO \u2014 Authentik \u7edf\u4e00\u8eab\u4efd\u8ba4\u8bc1",
-      "updated_at": "2026-10-27T22:03:42Z",
+      "updated_at": "2026-10-28T05:03:37Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T02:30:47Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4139683908"
+        },
+        {
+          "actor": "rainlee",
+          "command": "/attempt #1",
+          "created_at": "2026-03-27T05:26:16Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140293256"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T06:50:15Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140572707"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:17:21Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4140672511"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:29:23Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141290671"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:47:11Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4141739516"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-28T04:02:11Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4146765241"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-29T13:01:18Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150118081"
+        },
+        {
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:01:48Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4150328605"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T05:32:18Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1#issuecomment-4152344332"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 86 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#1",
+      "labels": [
+        "bounty",
+        "skill",
+        "good first issue"
+      ],
+      "matching_open_pr_count": 86,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-28T05:38:40Z",
+          "number": 4578,
+          "title": "fix: bounty #1 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4578"
+        },
+        {
+          "created_at": "2026-10-24T17:26:52Z",
+          "number": 5033,
+          "title": "solution: structured changelog generator for bounty #1",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5033"
+        },
+        {
+          "created_at": "2026-10-24T17:10:19Z",
+          "number": 5031,
+          "title": "feat: generate categorized CHANGELOG from Git history (#1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5031"
+        },
+        {
+          "created_at": "2026-10-21T15:36:40Z",
+          "number": 5004,
+          "title": "feat: add automated git changelog generator (Closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5004"
+        },
+        {
+          "created_at": "2026-08-27T14:41:57Z",
+          "number": 3887,
+          "title": "Bounty 1 generate changelog",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3887"
+        },
+        {
+          "created_at": "2026-10-28T05:23:02Z",
+          "number": 5091,
+          "title": "Fix #1: [$50] Add CHANGELOG generator skill and script",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5091"
+        },
+        {
+          "created_at": "2026-09-28T20:55:45Z",
+          "number": 4588,
+          "title": "Add changelog generator for bounty #1",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4588"
+        },
+        {
+          "created_at": "2026-10-25T04:36:51Z",
+          "number": 5045,
+          "title": "feat(skills): structured git history changelog generator (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5045"
+        },
+        {
+          "created_at": "2026-09-26T07:20:47Z",
+          "number": 4499,
+          "title": "Add generate-changelog skill (bounty #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4499"
+        },
+        {
+          "created_at": "2026-10-14T22:53:54Z",
+          "number": 4863,
+          "title": "feat(skill): /generate-changelog + changelog.sh (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4863"
+        },
+        {
+          "created_at": "2026-10-22T12:29:49Z",
+          "number": 5013,
+          "title": "feat(skill): Add structured git changelog generator (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5013"
+        },
+        {
+          "created_at": "2026-09-25T02:31:57Z",
+          "number": 4477,
+          "title": "Add changelog generator for issue 1",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4477"
+        },
+        {
+          "created_at": "2026-10-21T18:47:56Z",
+          "number": 5009,
+          "title": "feat(skill): add structured git changelog generator (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5009"
+        },
+        {
+          "created_at": "2026-10-04T14:59:11Z",
+          "number": 4700,
+          "title": "feat(skill): changelog generator skill (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4700"
+        },
+        {
+          "created_at": "2026-10-28T04:11:37Z",
+          "number": 5089,
+          "title": "feat(skill): structured CHANGELOG generator skill and script (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5089"
+        },
+        {
+          "created_at": "2026-09-25T08:24:18Z",
+          "number": 4488,
+          "title": "feat: add tested changelog generator (bounty #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4488"
+        },
+        {
+          "created_at": "2026-09-21T04:08:29Z",
+          "number": 4379,
+          "title": "feat: complete bounty #1 (changelog-generator)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4379"
+        },
+        {
+          "created_at": "2026-10-25T19:34:03Z",
+          "number": 5055,
+          "title": "feat(skills): add structured git history CHANGELOG generator (closes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5055"
+        },
+        {
+          "created_at": "2026-10-08T17:57:07Z",
+          "number": 4751,
+          "title": "feat: add structured CHANGELOG generator for bounty #1",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4751"
+        },
+        {
+          "created_at": "2026-10-08T08:38:24Z",
+          "number": 4747,
+          "title": "feat: structured git changelog generator skill (Fixes #1)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4747"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$50"
+      ],
+      "reward_usd_max": 50.0,
+      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+      "updated_at": "2026-10-28T05:21:39Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-10-27T22:22:20.460761Z",
+  "generated_at": "2026-10-28T05:53:11.456554Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
