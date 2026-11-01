@@ -2,14 +2,14 @@
   "counts": {
     "errors": 0,
     "hold": 0,
-    "manual_review": 6,
-    "pursue": 5,
+    "manual_review": 9,
+    "pursue": 2,
     "skip": 4
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/49",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -17,38 +17,42 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "Krishna2918",
+          "command": "/attempt #49",
+          "created_at": "2026-02-03T00:24:37Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/49#issuecomment-3837999944"
+        }
+      ],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16",
-      "id": "github:Scottcjn/rustchain-bounties#16",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/49",
+      "id": "github:Scottcjn/rustchain-bounties#49",
       "labels": [
         "bounty",
         "open",
-        "standard",
-        "red-team"
+        "micro",
+        "ecosystem"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "10 RTC",
-        "25 RTC",
-        "50 RTC",
-        "75 RTC",
-        "200 RTC"
+        "25 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[BOUNTY] Replay & Relay - Attestation Protocol Attacks",
-      "updated_at": "2026-11-01T17:53:08Z",
+      "title": "[BOUNTY] Attestation Data Export Pipeline - CSV/JSON/Parquet",
+      "updated_at": "2026-11-01T21:37:08Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252",
+      "canonical_url": "https://github.com/cxlinux-ai/cx-core/issues/425",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -58,74 +62,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "JHON12091986",
-          "command": "/attempt",
-          "created_at": "2026-07-21T14:48:42Z",
+          "actor": "OGUT1999",
+          "command": "/attempt #425",
+          "created_at": "2026-10-27T15:10:01Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5035492608"
+          "url": "https://github.com/cxlinux-ai/cx-core/issues/425#issuecomment-6445636510"
         },
         {
-          "actor": "JHON12091986",
-          "command": "/claim",
-          "created_at": "2026-07-25T16:52:30Z",
+          "actor": "OGUT1999",
+          "command": "/attempt #425",
+          "created_at": "2026-10-27T15:10:14Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5079355615"
-        },
-        {
-          "actor": "yaegerbomb42",
-          "command": "/attempt #16252",
-          "created_at": "2026-08-28T19:23:58Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5456834587"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T16:40:20Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5513006954"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T20:43:22Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5531881736"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T04:14:34Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5556830223"
-        },
-        {
-          "actor": "arawnslab-hash",
-          "command": "/claim",
-          "created_at": "2026-09-15T14:17:25Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5681757332"
-        },
-        {
-          "actor": "oracledigitalpt-design",
-          "command": "/claim",
-          "created_at": "2026-09-25T19:14:34Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5838164300"
-        },
-        {
-          "actor": "williamleewilliam1-star",
-          "command": "/claim",
-          "created_at": "2026-09-26T12:48:21Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5846396168"
-        },
-        {
-          "actor": "Cid-oe",
-          "command": "/claim",
-          "created_at": "2026-09-29T15:27:55Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252#issuecomment-5893328162"
+          "url": "https://github.com/cxlinux-ai/cx-core/issues/425#issuecomment-6445642613"
         }
       ],
       "closed_at": null,
@@ -133,281 +81,31 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16252",
-      "id": "github:Scottcjn/rustchain-bounties#16252",
-      "labels": [
-        "bug",
-        "bounty",
-        "open",
-        "standard"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "12 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 12 RTC] Windows headless miner: stop infinite retry of rejected headers, surface server diagnostic (Rustchain#7368)",
-      "updated_at": "2026-11-01T17:27:03Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Rohank143",
-          "command": "/claim",
-          "created_at": "2026-10-29T04:47:07Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168#issuecomment-6488206687"
-        },
-        {
-          "actor": "atarquinob",
-          "command": "/claim #4168",
-          "created_at": "2026-10-31T12:18:29Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168#issuecomment-6543264560"
-        },
-        {
-          "actor": "atarquinob",
-          "command": "/claim #4168",
-          "created_at": "2026-10-31T12:18:32Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168#issuecomment-6543265042"
-        },
-        {
-          "actor": "NePreby",
-          "command": "/claim",
-          "created_at": "2026-11-01T06:51:34Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168#issuecomment-6554634637"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4168",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4168",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-28T23:53:03Z",
-          "number": 4169,
-          "title": "AI Agent Fix for Issue #4168",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4169"
-        },
-        {
-          "created_at": "2026-10-29T04:54:36Z",
-          "number": 4173,
-          "title": "fix: preserve RFC 7239 Forwarded host authority in sub-mounted Request.scope_for (#4168)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4173"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$250"
-      ],
-      "reward_usd_max": 250.0,
-      "title": "[Bounty] \ud83d\udcb0 Bounty Seguro ($$250): \ud83d\udcb0 Bounty Seguro ($$250): [Bounty] \ud83d\udcb0 Bounty Seguro ",
-      "updated_at": "2026-11-01T17:24:16Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Rohank143",
-          "command": "/claim",
-          "created_at": "2026-10-29T05:04:44Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171#issuecomment-6488451913"
-        },
-        {
-          "actor": "atarquinob",
-          "command": "/claim #4171",
-          "created_at": "2026-10-31T12:18:16Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171#issuecomment-6543262331"
-        },
-        {
-          "actor": "atarquinob",
-          "command": "/claim #4171",
-          "created_at": "2026-10-31T12:18:19Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171#issuecomment-6543262848"
-        },
-        {
-          "actor": "NePreby",
-          "command": "/claim",
-          "created_at": "2026-11-01T06:51:35Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171#issuecomment-6554634795"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4171",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4171",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-29T02:50:07Z",
-          "number": 4172,
-          "title": "AI Agent Fix for Issue #4171",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4172"
-        },
-        {
-          "created_at": "2026-10-29T05:04:35Z",
-          "number": 4174,
-          "title": "fix: preserve RFC 7239 Forwarded host authority in sub-mounted Request.scope_for (#4171)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4174"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$250"
-      ],
-      "reward_usd_max": 250.0,
-      "title": "[Bounty] \ud83d\udcb0 Bounty Seguro ($$250): [Bounty] \ud83d\udcb0 Bounty Seguro ($$250): \ud83d\udcb0 Bounty Seguro ",
-      "updated_at": "2026-11-01T17:24:14Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "SoumaCloud",
-          "command": "/claim",
-          "created_at": "2026-10-30T20:21:08Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187#issuecomment-6532677959"
-        },
-        {
-          "actor": "Dimank92",
-          "command": "/claim",
-          "created_at": "2026-10-31T03:55:30Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187#issuecomment-6538682724"
-        },
-        {
-          "actor": "atarquinob",
-          "command": "/claim #4187",
-          "created_at": "2026-10-31T12:17:21Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187#issuecomment-6543253507"
-        },
-        {
-          "actor": "NePreby",
-          "command": "/claim",
-          "created_at": "2026-11-01T04:08:32Z",
-          "recent": false,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187#issuecomment-6553227419"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4187",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4187",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-10-31T04:03:25Z",
-          "number": 4189,
-          "title": "feat(qwen3-tts): improve code predictor output precision and accuracy (#4187)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4189"
-        },
-        {
-          "created_at": "2026-11-01T04:08:13Z",
-          "number": 4193,
-          "title": "feat(qwen3-tts): optimize code predictor precision and eliminate truncation flips (#4187)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4193"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$750"
-      ],
-      "reward_usd_max": 750.0,
-      "title": "[Bounty] [Bounty $750] Improve Qwen3-TTS Code Predictor Accuracy",
-      "updated_at": "2026-11-01T17:24:13Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/commaai/openpilot/issues/30950",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/commaai/openpilot/issues/30950",
-      "id": "github:commaai/openpilot#30950",
+      "discovered_url": "https://github.com/cxlinux-ai/cx-core/issues/425",
+      "id": "github:cxlinux-ai/cx-core#425",
       "labels": [
         "enhancement",
         "bounty",
-        "car",
-        "hyundai"
+        "ai",
+        "priority: high",
+        "core-team"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-06-10T12:14:06Z",
+          "number": 766,
+          "title": "feat: native llama.cpp integration in cortex-daemon replacing ollama process",
+          "url": "https://github.com/cxlinux-ai/cx-core/pull/766"
+        }
+      ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Match stock Hyundai button logic",
-      "updated_at": "2026-11-01T17:55:55Z",
+      "reward_mentions": [
+        "$150"
+      ],
+      "reward_usd_max": 150.0,
+      "title": "[ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration",
+      "updated_at": "2026-11-01T21:30:03Z",
       "verification_confidence": "medium"
     },
     {
@@ -438,7 +136,7 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "Evaluate one scoped build-bounty pilot against an internal build",
-      "updated_at": "2026-11-01T17:46:07Z",
+      "updated_at": "2026-11-01T22:05:09Z",
       "verification_confidence": "medium"
     },
     {
@@ -469,7 +167,7 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[Bounty] Answer the 3 linked question(s)",
-      "updated_at": "2026-11-01T17:46:03Z",
+      "updated_at": "2026-11-01T22:05:05Z",
       "verification_confidence": "medium"
     },
     {
@@ -500,7 +198,7 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[Bounty] Answer the 2 linked question(s)",
-      "updated_at": "2026-11-01T17:39:09Z",
+      "updated_at": "2026-11-01T21:58:07Z",
       "verification_confidence": "medium"
     },
     {
@@ -532,12 +230,12 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[radar] SN open bounty 2026-10-26T23:46",
-      "updated_at": "2026-11-01T17:32:06Z",
+      "updated_at": "2026-11-01T21:51:04Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/agents/issues/7",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1337",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -551,8 +249,132 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/hanzoai/agents/issues/7",
-      "id": "github:hanzoai/agents#7",
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1337",
+      "id": "github:relayhop/sn-monetization-runtime#1337",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-10-26T06:01",
+      "updated_at": "2026-11-01T21:39:07Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/411",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/lizTheDeveloper/privacy-the-game/issues/411",
+      "id": "github:lizTheDeveloper/privacy-the-game#411",
+      "labels": [
+        "bounty",
+        "bounty: medium",
+        "data-brokers"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[find opt-out] Statara Solutuions LLC: find the official opt-out route",
+      "updated_at": "2026-11-01T21:30:06Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ergoplatform/ergo/issues/1588",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/ergoplatform/ergo/issues/1588",
+      "id": "github:ergoplatform/ergo#1588",
+      "labels": [
+        "bounty",
+        "B-1000 SigUSD"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-31T11:36:35Z",
+          "number": 2876,
+          "title": "Make ErgoNodeViewHolder and its callers responsive with end-to-end backpressure (#1588)",
+          "url": "https://github.com/ergoplatform/ergo/pull/2876"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Make ErgoNodeViewHolder and its callers responsive",
+      "updated_at": "2026-11-01T21:33:10Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/agents/issues/8",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "SuperPiIot",
+          "command": "/attempt #8",
+          "created_at": "2026-10-30T05:57:15Z",
+          "recent": false,
+          "url": "https://github.com/hanzoai/agents/issues/8#issuecomment-6516090501"
+        },
+        {
+          "actor": "SuperPiIot",
+          "command": "/attempt #8",
+          "created_at": "2026-10-30T06:19:37Z",
+          "recent": false,
+          "url": "https://github.com/hanzoai/agents/issues/8#issuecomment-6516384804"
+        },
+        {
+          "actor": "SuperPiIot",
+          "command": "/attempt #8",
+          "created_at": "2026-10-30T06:24:10Z",
+          "recent": false,
+          "url": "https://github.com/hanzoai/agents/issues/8#issuecomment-6516445444"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/agents/issues/8",
+      "id": "github:hanzoai/agents#8",
       "labels": [
         "documentation",
         "good first issue",
@@ -562,50 +384,156 @@
         "track: oss",
         "type: docs"
       ],
-      "matching_open_pr_count": 6,
+      "matching_open_pr_count": 4,
       "matching_open_prs": [
         {
-          "created_at": "2026-10-30T15:06:04Z",
-          "number": 46,
-          "title": "docs: fix 9 broken relative links in examples and Go SDK READMEs (#7)",
-          "url": "https://github.com/hanzoai/agents/pull/46"
+          "created_at": "2026-10-30T15:06:15Z",
+          "number": 47,
+          "title": "docs: sync README.md specialized agent and tool counts and .hanzo/agents layout (#8)",
+          "url": "https://github.com/hanzoai/agents/pull/47"
         },
         {
-          "created_at": "2026-10-30T07:57:00Z",
-          "number": 41,
-          "title": "fix(agents): [Bounty] Fix 9 broken relative links in the examples and Go SDK READMEs (fixes #7)",
-          "url": "https://github.com/hanzoai/agents/pull/41"
+          "created_at": "2026-10-30T05:57:22Z",
+          "number": 40,
+          "title": "fix: Update README.md to match actual agent counts and directory structure",
+          "url": "https://github.com/hanzoai/agents/pull/40"
         },
         {
-          "created_at": "2026-10-29T04:05:36Z",
-          "number": 37,
-          "title": "fix: Fix 9 broken relative links in the examples and Go SDK READMEs",
-          "url": "https://github.com/hanzoai/agents/pull/37"
+          "created_at": "2026-10-28T08:46:50Z",
+          "number": 35,
+          "title": "Update agent counts in README.md",
+          "url": "https://github.com/hanzoai/agents/pull/35"
         },
         {
-          "created_at": "2026-11-01T13:52:34Z",
-          "number": 48,
-          "title": "docs: fix 9 broken relative links in examples and Go SDK READMEs",
-          "url": "https://github.com/hanzoai/agents/pull/48"
-        },
-        {
-          "created_at": "2026-10-29T06:40:06Z",
-          "number": 38,
-          "title": "Fix 9 broken relative links in examples and Go SDK READMEs",
-          "url": "https://github.com/hanzoai/agents/pull/38"
-        },
-        {
-          "created_at": "2026-10-27T12:24:25Z",
-          "number": 24,
-          "title": "Fix 9 broken relative links in examples and Go SDK READMEs",
-          "url": "https://github.com/hanzoai/agents/pull/24"
+          "created_at": "2026-10-27T12:26:05Z",
+          "number": 25,
+          "title": "Make the agent counts in README.md match the files",
+          "url": "https://github.com/hanzoai/agents/pull/25"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Fix 9 broken relative links in the examples and Go SDK READMEs",
-      "updated_at": "2026-11-01T17:53:05Z",
+      "title": "Make the agent counts in README.md match the files",
+      "updated_at": "2026-11-01T21:37:02Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Bitcoindefi/OpenAO/issues/14",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Bitcoindefi/OpenAO/issues/14",
+      "id": "github:Bitcoindefi/OpenAO#14",
+      "labels": [
+        "documentation",
+        "help wanted",
+        "good first issue",
+        "modo-construccion",
+        "bounty",
+        "grantfox",
+        "reward-20-usd",
+        "Maybe Rewarded",
+        "GrantFox OSS",
+        "Third Campaign"
+      ],
+      "matching_open_pr_count": 13,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-17T04:53:49Z",
+          "number": 414,
+          "title": "docs: investigaci\u00f3n de editores de mapas del ecosistema AO (#14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/414"
+        },
+        {
+          "created_at": "2026-09-28T02:41:23Z",
+          "number": 384,
+          "title": "docs: research Argentum Online map editors (fixes #14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/384"
+        },
+        {
+          "created_at": "2026-10-14T00:18:08Z",
+          "number": 412,
+          "title": "docs: Research on Argentum Online map editors and formats (#14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/412"
+        },
+        {
+          "created_at": "2026-10-17T05:26:19Z",
+          "number": 415,
+          "title": "Fix #14: Research: como editan mapas los otros proyectos de Argentum Online",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/415"
+        },
+        {
+          "created_at": "2026-09-30T02:25:12Z",
+          "number": 386,
+          "title": "docs: add research on argentum online map editors (Closes #14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/386"
+        },
+        {
+          "created_at": "2026-09-18T17:17:19Z",
+          "number": 380,
+          "title": "docs: research report on Argentum Online map editors (#14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/380"
+        },
+        {
+          "created_at": "2026-08-25T11:01:12Z",
+          "number": 128,
+          "title": "docs: research on Argentum Online map editor ecosystem (fixes #14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/128"
+        },
+        {
+          "created_at": "2026-08-21T01:54:48Z",
+          "number": 115,
+          "title": "docs: research on Argentum Online map editor ecosystem (fixes #14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/115"
+        },
+        {
+          "created_at": "2026-08-29T16:11:23Z",
+          "number": 222,
+          "title": "docs(research): map editor architectures and format specifications in AO ecosystem (resolves #14)",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/222"
+        },
+        {
+          "created_at": "2026-08-28T03:32:26Z",
+          "number": 208,
+          "title": "docs: resolve #14 - Research: como editan mapas los otros proyectos de Argentum Online",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/208"
+        },
+        {
+          "created_at": "2026-10-25T19:57:00Z",
+          "number": 417,
+          "title": "fix: Research: como editan mapas los otros proyectos de Argentum Online",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/417"
+        },
+        {
+          "created_at": "2026-10-18T03:49:19Z",
+          "number": 416,
+          "title": "docs: add original poem about Argentum Online maps and building",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/416"
+        },
+        {
+          "created_at": "2026-08-16T20:37:12Z",
+          "number": 41,
+          "title": "docs: research Argentum map editors and import strategy",
+          "url": "https://github.com/Bitcoindefi/OpenAO/pull/41"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Research: como editan mapas los otros proyectos de Argentum Online",
+      "updated_at": "2026-11-01T21:37:05Z",
       "verification_confidence": "medium"
     },
     {
@@ -729,7 +657,7 @@
       ],
       "reward_usd_max": 50.0,
       "title": "Bounty $50: recipe for RX 7900 XTX 24 GB",
-      "updated_at": "2026-11-01T17:32:09Z",
+      "updated_at": "2026-11-01T21:51:07Z",
       "verification_confidence": "high"
     },
     {
@@ -885,7 +813,7 @@
       ],
       "reward_usd_max": 130.0,
       "title": "[BOUNTY $130] Database Layer \u2014 PostgreSQL + Redis + MariaDB \u5171\u4eab\u5b9e\u4f8b",
-      "updated_at": "2026-11-01T17:39:07Z",
+      "updated_at": "2026-11-01T21:58:03Z",
       "verification_confidence": "high"
     },
     {
@@ -1056,7 +984,7 @@
       ],
       "reward_usd_max": 10.0,
       "title": "[AGENT-TASK] Mobile-first landing page with wallet deep-link \u2014 +15% conversion",
-      "updated_at": "2026-11-01T17:25:11Z",
+      "updated_at": "2026-11-01T21:44:05Z",
       "verification_confidence": "high"
     },
     {
@@ -1227,12 +1155,12 @@
       ],
       "reward_usd_max": 280.0,
       "title": "[BOUNTY $200] Testing \u2014 \u81ea\u52a8\u5316\u6d4b\u8bd5\u5957\u4ef6",
-      "updated_at": "2026-11-01T17:25:13Z",
+      "updated_at": "2026-11-01T21:44:08Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-01T17:57:48.272557Z",
+  "generated_at": "2026-11-01T22:09:30.670301Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
