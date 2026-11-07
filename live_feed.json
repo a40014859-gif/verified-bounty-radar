@@ -1,15 +1,55 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
+    "hold": 1,
     "manual_review": 0,
-    "pursue": 14,
+    "pursue": 13,
     "skip": 1
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/247",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12442",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "tracepatch-lab",
+          "command": "/claim #12442",
+          "created_at": "2026-06-05T04:24:13Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12442#issuecomment-4628134007"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12442",
+      "id": "github:Scottcjn/rustchain-bounties#12442",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "3 RTC"
+      ],
+      "reward_usd_max": null,
+      "title": "[BOUNTY: 3 RTC] RustChain vs Helium / DePIN Networks Comparison",
+      "updated_at": "2026-11-07T21:52:08Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,29 +63,61 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/247",
-      "id": "github:Scottcjn/rustchain-bounties#247",
+      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
+      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#2",
       "labels": [
-        "bounty",
-        "open",
-        "hardening"
+        "help wanted",
+        "good first issue",
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "50 RTC",
-        "75 RTC",
-        "25 RTC"
+        "$600 USD"
       ],
-      "reward_usd_max": null,
-      "title": "Red Team: BoTTube Vote Manipulation & CSRF (50 RTC)",
-      "updated_at": "2026-11-07T13:00:31Z",
+      "reward_usd_max": 600.0,
+      "title": "\ud83d\udc8e [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "updated_at": "2026-11-07T21:47:42Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/450",
+      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
+      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#1",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$450 USD"
+      ],
+      "reward_usd_max": 450.0,
+      "title": "\ud83d\udc8e [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "updated_at": "2026-11-07T21:47:41Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -55,11 +127,51 @@
       ],
       "claim_signals": [
         {
-          "actor": "SASAMITTRRR",
+          "actor": "toddkenner502-sys",
+          "command": "/claim",
+          "created_at": "2026-11-06T03:15:02Z",
+          "recent": false,
+          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/2#issuecomment-6675879650"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
+      "id": "github:IES-BoilerRoom/Furnace#2",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$600 USD"
+      ],
+      "reward_usd_max": 600.0,
+      "title": "\ud83d\udc8e [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "updated_at": "2026-11-07T21:47:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "sashagarinchik-bit",
           "command": "/attempt",
-          "created_at": "2026-02-27T06:13:33Z",
+          "created_at": "2026-11-06T15:36:33Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/450#issuecomment-3971014483"
+          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/1#issuecomment-6688684827"
         }
       ],
       "closed_at": null,
@@ -67,101 +179,25 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/450",
-      "id": "github:Scottcjn/rustchain-bounties#450",
+      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
+      "id": "github:IES-BoilerRoom/Furnace#1",
       "labels": [
-        "bounty",
-        "bottube",
-        "content"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "10 RTC",
-        "$1.00"
+        "$450 USD"
       ],
-      "reward_usd_max": 1.0,
-      "title": "[BOUNTY] Write a BoTTube Integration Guide \u2014 10 RTC",
-      "updated_at": "2026-11-07T13:00:27Z",
+      "reward_usd_max": 450.0,
+      "title": "\ud83d\udc8e [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "updated_at": "2026-11-07T21:47:40Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2795",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2795",
-      "id": "github:Scottcjn/rustchain-bounties#2795",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "bottube",
-        "onboarding"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOTTUBE: 1 RTC] Complete Your Profile + Follow 3 Creators",
-      "updated_at": "2026-11-07T13:00:22Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1504",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1504",
-      "id": "github:Scottcjn/rustchain-bounties#1504",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "open",
-        "type: feature",
-        "severity: low",
-        "area: growth",
-        "distribution"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 1 RTC] BoTTube profile setup: avatar + bio + first published video",
-      "updated_at": "2026-11-07T13:00:18Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1104",
+      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -171,11 +207,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "ETK2456",
-          "command": "/claim #1104",
-          "created_at": "2026-08-29T15:14:57Z",
+          "actor": "toddkenner502-sys",
+          "command": "/claim",
+          "created_at": "2026-11-06T03:44:22Z",
           "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1104#issuecomment-5463186474"
+          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1#issuecomment-6676294259"
         }
       ],
       "closed_at": null,
@@ -183,27 +219,65 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1104",
-      "id": "github:Scottcjn/rustchain-bounties#1104",
+      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
+      "id": "github:IES-BoilerRoom/protocol-conformance-relay#1",
       "labels": [
-        "bounty",
-        "easy",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "$450 USD"
       ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 1 RTC] Set Up Your BoTTube Profile",
-      "updated_at": "2026-11-07T13:00:14Z",
+      "reward_usd_max": 450.0,
+      "title": "\ud83d\udc8e [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (fence_barrier_state_d07)",
+      "updated_at": "2026-11-07T21:47:38Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2796",
+      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "toddkenner502-sys",
+          "command": "/claim",
+          "created_at": "2026-11-06T03:52:58Z",
+          "recent": false,
+          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2#issuecomment-6676405625"
+        }
+      ],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
+      "id": "github:IES-BoilerRoom/protocol-conformance-relay#2",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$600 USD"
+      ],
+      "reward_usd_max": 600.0,
+      "title": "\ud83d\udc8e [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (fence_horizon_3edb)",
+      "updated_at": "2026-11-07T21:47:38Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -217,28 +291,25 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2796",
-      "id": "github:Scottcjn/rustchain-bounties#2796",
+      "discovered_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
+      "id": "github:WholeTroutMedia/agent-conformance-quarantine#2",
       "labels": [
-        "good first issue",
-        "bounty",
-        "community",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "$600 USD"
       ],
-      "reward_usd_max": null,
-      "title": "[BOTTUBE: 1 RTC] Start a Discussion Thread Under a Video",
-      "updated_at": "2026-11-07T13:00:10Z",
+      "reward_usd_max": 600.0,
+      "title": "[Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
+      "updated_at": "2026-11-07T21:47:31Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2791",
+      "canonical_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -252,28 +323,25 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2791",
-      "id": "github:Scottcjn/rustchain-bounties#2791",
+      "discovered_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
+      "id": "github:WholeTroutMedia/agent-conformance-quarantine#1",
       "labels": [
-        "good first issue",
-        "bounty",
-        "community",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "$450 USD"
       ],
-      "reward_usd_max": null,
-      "title": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos",
-      "updated_at": "2026-11-07T13:00:06Z",
+      "reward_usd_max": 450.0,
+      "title": "[Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
+      "updated_at": "2026-11-07T21:47:30Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1095",
+      "canonical_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -287,27 +355,25 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1095",
-      "id": "github:Scottcjn/rustchain-bounties#1095",
+      "discovered_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
+      "id": "github:WholeTroutMedia/protocol-conformance-relay#2",
       "labels": [
-        "bounty",
-        "easy",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "$600 USD"
       ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 1 RTC] Comment on 5 BoTTube Videos",
-      "updated_at": "2026-11-07T13:00:01Z",
+      "reward_usd_max": 600.0,
+      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (fence_horizon_3edb)",
+      "updated_at": "2026-11-07T21:47:29Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2792",
+      "canonical_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -315,34 +381,39 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "ShuttleCode",
+          "command": "/attempt",
+          "created_at": "2026-11-05T22:04:55Z",
+          "recent": false,
+          "url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1#issuecomment-6670746683"
+        }
+      ],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2792",
-      "id": "github:Scottcjn/rustchain-bounties#2792",
+      "discovered_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
+      "id": "github:WholeTroutMedia/protocol-conformance-relay#1",
       "labels": [
-        "good first issue",
-        "bounty",
-        "community",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "$450 USD"
       ],
-      "reward_usd_max": null,
-      "title": "[BOTTUBE: 1 RTC] Upvote 10 Videos + Pick Your Favorite",
-      "updated_at": "2026-11-07T12:59:57Z",
+      "reward_usd_max": 450.0,
+      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (fence_barrier_state_d07)",
+      "updated_at": "2026-11-07T21:47:28Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1096",
+      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -350,132 +421,41 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "tracepatch-lab",
+          "command": "/claim #12444",
+          "created_at": "2026-06-05T04:24:14Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444#issuecomment-4628134112"
+        },
+        {
+          "actor": "Aming9303",
+          "command": "/claim",
+          "created_at": "2026-09-06T03:51:03Z",
+          "recent": false,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444#issuecomment-5556727385"
+        }
+      ],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1096",
-      "id": "github:Scottcjn/rustchain-bounties#1096",
+      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/12444",
+      "id": "github:Scottcjn/rustchain-bounties#12444",
       "labels": [
-        "bounty",
-        "easy",
-        "bottube"
+        "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "1 RTC"
+        "3 RTC"
       ],
       "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 1 RTC] Upvote 10 BoTTube Videos",
-      "updated_at": "2026-11-07T12:59:53Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1097",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/1097",
-      "id": "github:Scottcjn/rustchain-bounties#1097",
-      "labels": [
-        "bounty",
-        "easy",
-        "bottube"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "1 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[EASY BOUNTY: 1 RTC] Follow 5 BoTTube Creators",
-      "updated_at": "2026-11-07T12:59:49Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
-      "id": "github:Scottcjn/rustchain-bounties#2180",
-      "labels": [
-        "bounty",
-        "distribution"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "5 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
-      "updated_at": "2026-11-07T12:59:44Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2797",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2797",
-      "id": "github:Scottcjn/rustchain-bounties#2797",
-      "labels": [
-        "bounty",
-        "community",
-        "bottube",
-        "content",
-        "distribution"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "3 RTC",
-        "2 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOTTUBE: 3 RTC] Make a Video Response to an Existing Video",
-      "updated_at": "2026-11-07T12:59:40Z",
+      "title": "[BOUNTY: 3 RTC] Proof of Antiquity vs Proof of Storage (Filecoin/Chia/Arweave)",
+      "updated_at": "2026-11-07T21:37:42Z",
       "verification_confidence": "medium"
     },
     {
@@ -499,6 +479,7 @@
       "labels": [
         "bounty",
         "funded",
+        "available",
         "claimed",
         "delivered"
       ],
@@ -517,12 +498,12 @@
       ],
       "reward_usd_max": 2.0,
       "title": "Frantic bounty #145: Install NitroMTA and send one real email to proof@nitromta.com",
-      "updated_at": "2026-11-07T13:12:06Z",
+      "updated_at": "2026-11-07T21:38:47Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -532,222 +513,106 @@
       ],
       "claim_signals": [
         {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T07:09:40Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4140646165"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T09:19:36Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141233207"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-27T09:30:09Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141298298"
-        },
-        {
-          "actor": "sidneisilvadev",
-          "command": "/try",
-          "created_at": "2026-03-27T10:41:22Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4141709738"
-        },
-        {
-          "actor": "denaev-dev",
-          "command": "/attempt",
-          "created_at": "2026-03-29T15:03:16Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150331229"
-        },
-        {
-          "actor": "chengyixu",
-          "command": "/attempt #4",
-          "created_at": "2026-03-29T15:28:46Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4150377394"
-        },
-        {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-30T06:02:06Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4152480268"
-        },
-        {
-          "actor": "kovadev17",
-          "command": "/claim #4",
-          "created_at": "2026-04-13T09:15:19Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4235242096"
-        },
-        {
-          "actor": "Angelebeats",
+          "actor": "willy7890",
           "command": "/claim",
-          "created_at": "2026-04-13T23:57:48Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4240365917"
-        },
-        {
-          "actor": "yihangwu539-png",
-          "command": "/try",
-          "created_at": "2026-04-27T01:56:49Z",
-          "recent": false,
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4#issuecomment-4323695839"
+          "created_at": "2026-11-07T21:45:52Z",
+          "recent": true,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49#issuecomment-6713424526"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "hold",
       "decision_reasons": [
-        "At least 80 open PRs explicitly reference the canonical issue."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-      "id": "github:claude-builders-bounty/claude-builders-bounty#4",
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#49",
       "labels": [
+        "help wanted",
+        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
         "bounty",
-        "agent"
+        "up-for-grabs"
       ],
-      "matching_open_pr_count": 80,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-11-07T13:10:00Z",
-          "number": 5154,
-          "title": "feat(agent): implement claude-review PR reviewer sub-agent (closes #4, /claim #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5154"
+          "created_at": "2026-11-07T18:22:27Z",
+          "number": 63,
+          "title": "fix: [Bounty $1,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator (resolves #49)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/63"
         },
         {
-          "created_at": "2026-09-22T23:58:43Z",
-          "number": 4449,
-          "title": "Patch 4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4449"
+          "created_at": "2026-11-07T18:20:38Z",
+          "number": 56,
+          "title": "docs: resolve #49 - [Bounty ,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/56"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$1,100"
+      ],
+      "reward_usd_max": 1100.0,
+      "title": "[Bounty $1,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator",
+      "updated_at": "2026-11-07T21:45:52Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/dsfwmmy/jarvis-delivery-selftest/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/dsfwmmy/jarvis-delivery-selftest/issues/1",
+      "id": "github:dsfwmmy/jarvis-delivery-selftest#1",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-06T07:45:05Z",
+          "number": 4,
+          "title": "feat: add mul(a, b) function and pass unit tests (fixes #1)",
+          "url": "https://github.com/dsfwmmy/jarvis-delivery-selftest/pull/4"
         },
         {
-          "created_at": "2026-11-07T10:33:11Z",
-          "number": 5152,
-          "title": "fix: implement bounty #4 - PR review agent",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5152"
+          "created_at": "2026-11-05T11:30:13Z",
+          "number": 2,
+          "title": "Add mul(a, b) to calc.py (dsfwmmy/jarvis-delivery-selftest#1)",
+          "url": "https://github.com/dsfwmmy/jarvis-delivery-selftest/pull/2"
         },
         {
-          "created_at": "2026-09-28T05:28:22Z",
-          "number": 4576,
-          "title": "fix: bounty #4 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4576"
-        },
-        {
-          "created_at": "2026-09-28T06:54:17Z",
-          "number": 4581,
-          "title": "fix: bounty #4 delivery",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4581"
-        },
-        {
-          "created_at": "2026-11-05T01:23:13Z",
-          "number": 5137,
-          "title": "feat(agent): PR reviewer with structured Markdown output (closes #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5137"
-        },
-        {
-          "created_at": "2026-10-01T11:16:00Z",
-          "number": 4625,
-          "title": "feat: PR Review Sub-Agent (Issue #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4625"
-        },
-        {
-          "created_at": "2026-09-27T06:47:11Z",
-          "number": 4552,
-          "title": "feat: complete bounty #4 (pr-review-agent)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4552"
-        },
-        {
-          "created_at": "2026-10-15T07:32:18Z",
-          "number": 4881,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4881"
-        },
-        {
-          "created_at": "2026-10-15T04:55:31Z",
-          "number": 4880,
-          "title": "[Baobot AI Bounty Fix] Automated solution for Issue #4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4880"
-        },
-        {
-          "created_at": "2026-10-05T09:07:43Z",
-          "number": 4710,
-          "title": "feat: PR review agent claude-review (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4710"
-        },
-        {
-          "created_at": "2026-08-27T17:22:25Z",
-          "number": 3892,
-          "title": "Bounty 4 claude pr review agent",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3892"
-        },
-        {
-          "created_at": "2026-09-21T04:09:53Z",
-          "number": 4380,
-          "title": "feat: complete bounty #4 (pr-review-agent)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4380"
-        },
-        {
-          "created_at": "2026-09-20T17:04:55Z",
-          "number": 4360,
-          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
-        },
-        {
-          "created_at": "2026-10-19T16:11:34Z",
-          "number": 4977,
-          "title": "agents/pr-reviewer: claude-review CLI + GitHub Action (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4977"
-        },
-        {
-          "created_at": "2026-10-15T01:08:58Z",
-          "number": 4869,
-          "title": "feat: add Claude Code PR review sub-agent (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4869"
-        },
-        {
-          "created_at": "2026-09-25T02:53:18Z",
-          "number": 4480,
-          "title": "Add structured PR review command for issue 4",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4480"
-        },
-        {
-          "created_at": "2026-09-24T23:44:50Z",
-          "number": 4476,
-          "title": "Add claude-review PR reviewer agent (bounty #4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4476"
-        },
-        {
-          "created_at": "2026-10-21T14:57:40Z",
-          "number": 5002,
-          "title": "feat(agents): Claude Code PR Reviewer agent and GitHub Action (#4)",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5002"
-        },
-        {
-          "created_at": "2026-10-28T09:19:54Z",
-          "number": 5093,
-          "title": "Fix #4: [$150] Add PR review agent with CLI and GitHub Action",
-          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5093"
+          "created_at": "2026-11-07T00:43:09Z",
+          "number": 5,
+          "title": "Add mul(a, b) to calc.py",
+          "url": "https://github.com/dsfwmmy/jarvis-delivery-selftest/pull/5"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$150"
+        "5 USD"
       ],
-      "reward_usd_max": 150.0,
-      "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
-      "updated_at": "2026-11-07T13:10:16Z",
+      "reward_usd_max": 5.0,
+      "title": "Add mul(a, b) to calc.py",
+      "updated_at": "2026-11-07T21:33:19Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-07T13:14:41.535608Z",
+  "generated_at": "2026-11-07T21:58:00.828232Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
