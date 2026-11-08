@@ -1,55 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 3,
-    "manual_review": 1,
-    "pursue": 10,
-    "skip": 1
+    "hold": 2,
+    "manual_review": 4,
+    "pursue": 4,
+    "skip": 5
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T03:44:22Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1#issuecomment-6676294259"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
-      "id": "github:IES-BoilerRoom/protocol-conformance-relay#1",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "\ud83d\udc8e [Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (latch_stride_epoch_33d)",
-      "updated_at": "2026-11-08T05:50:09Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/5",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -63,414 +23,83 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/2",
-      "id": "github:WholeTroutMedia/agent-conformance-quarantine#2",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600 USD"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "[Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
-      "updated_at": "2026-11-08T05:50:02Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/WholeTroutMedia/agent-conformance-quarantine/issues/1",
-      "id": "github:WholeTroutMedia/agent-conformance-quarantine#1",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "[Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
-      "updated_at": "2026-11-08T05:50:01Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/2",
-      "id": "github:WholeTroutMedia/protocol-conformance-relay#2",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600 USD"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "[Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (_coalesce_window_view_v5)",
-      "updated_at": "2026-11-08T05:50:00Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "ShuttleCode",
-          "command": "/attempt",
-          "created_at": "2026-11-05T22:04:55Z",
-          "recent": false,
-          "url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1#issuecomment-6670746683"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/WholeTroutMedia/protocol-conformance-relay/issues/1",
-      "id": "github:WholeTroutMedia/protocol-conformance-relay#1",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "[Bounty $450 USDC] Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff (latch_stride_epoch_33d)",
-      "updated_at": "2026-11-08T05:49:59Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T04:07:16Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2#issuecomment-6676599155"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/2",
-      "id": "github:IES-BoilerRoom/vllm-paged-kv-verifier#2",
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/5",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#5",
       "labels": [
         "help wanted",
         "good first issue",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600 USD"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "\ud83d\udc8e [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
-      "updated_at": "2026-11-08T05:47:53Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T04:09:13Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1#issuecomment-6676626131"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/vllm-paged-kv-verifier/issues/1",
-      "id": "github:IES-BoilerRoom/vllm-paged-kv-verifier#1",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "\ud83d\udc8e [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
-      "updated_at": "2026-11-08T05:47:52Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T03:15:02Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/2#issuecomment-6675879650"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "id": "github:IES-BoilerRoom/Furnace#2",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600 USD"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "\ud83d\udc8e [Escrowed $600 USDC] 24-Vector Conformance Suite: PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption",
-      "updated_at": "2026-11-08T05:47:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "sashagarinchik-bit",
-          "command": "/attempt",
-          "created_at": "2026-11-06T15:36:33Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/1#issuecomment-6688684827"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
-      "id": "github:IES-BoilerRoom/Furnace#1",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "\ud83d\udc8e [Escrowed $450 USDC] 24-Vector Conformance Suite: Streaming MCP SSE Chunk Boundary Reassembly with Backpressure Backoff",
-      "updated_at": "2026-11-08T05:47:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T03:52:58Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2#issuecomment-6676405625"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-      "id": "github:IES-BoilerRoom/protocol-conformance-relay#2",
-      "labels": [
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$600 USD"
-      ],
-      "reward_usd_max": 600.0,
-      "title": "\ud83d\udc8e [Bounty $600 USDC] PagedAttention KV-Cache Block Desync on Prefix-Aware Chunked Preemption (_coalesce_window_view_v5)",
-      "updated_at": "2026-11-08T05:47:49Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/9",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "xianxiye",
-          "command": "/claim",
-          "created_at": "2026-07-06T13:51:53Z",
-          "recent": false,
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/9#issuecomment-4893585795"
-        },
-        {
-          "actor": "NevioCore",
-          "command": "/claim #9",
-          "created_at": "2026-11-08T05:22:17Z",
-          "recent": true,
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/9#issuecomment-6717683989"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/9",
-      "id": "github:cuentaprueba244w-dotcom/TentOfTrials#9",
-      "labels": [
-        "help wanted",
-        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
         "bounty",
-        "language:python"
+        "up-for-grabs"
       ],
-      "matching_open_pr_count": 5,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$450"
+      ],
+      "reward_usd_max": 450.0,
+      "title": "[Bounty $450] refactor(validator): extract checkpoint divisor constant in src/ledger_validator.py",
+      "updated_at": "2026-11-08T13:06:32Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/20",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/20",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#20",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
+        "bounty",
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
+      ],
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-07-29T15:57:04Z",
-          "number": 85,
-          "title": "feat: add module validation and --list-modules (Closes #9, #10)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/85"
+          "created_at": "2026-11-07T14:16:36Z",
+          "number": 27,
+          "title": "docs: resolve #20 - [Bounty 50] feat(validator): support custom step_size in verify_sequence_gap",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/27"
         },
         {
-          "created_at": "2026-09-14T00:50:47Z",
-          "number": 94,
-          "title": "[$35 BOUNTY] Add module validation and --list-modules flag to build.py (#9, #10)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/94"
-        },
-        {
-          "created_at": "2026-07-01T03:59:34Z",
-          "number": 54,
-          "title": "chore(build): validate module selection before build commands (Closes #9)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/54"
-        },
-        {
-          "created_at": "2026-07-21T04:31:45Z",
-          "number": 81,
-          "title": "fix: add --list-modules flag as alias for --list",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/81"
-        },
-        {
-          "created_at": "2026-06-19T13:57:41Z",
-          "number": 21,
-          "title": "Validate build module selection",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/21"
+          "created_at": "2026-11-07T13:43:48Z",
+          "number": 22,
+          "title": "fix: [Bounty $750] feat(validator): support custom step_size in verify_sequence_gap (resolves #20)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/22"
         }
       ],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [
-        "$35"
+        "$750"
       ],
-      "reward_usd_max": 35.0,
-      "title": "[ BOUNTY] [Python] Add module selection validation to build.py",
-      "updated_at": "2026-11-08T05:22:17Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 750.0,
+      "title": "[Bounty $750] feat(validator): support custom step_size in verify_sequence_gap",
+      "updated_at": "2026-11-08T13:04:02Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/2",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -480,77 +109,58 @@
       ],
       "claim_signals": [
         {
-          "actor": "NevioCore",
-          "command": "/claim #2",
-          "created_at": "2026-11-08T05:22:14Z",
-          "recent": true,
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/2#issuecomment-6717683687"
+          "actor": "willy7890",
+          "command": "/claim",
+          "created_at": "2026-11-07T21:45:52Z",
+          "recent": false,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49#issuecomment-6713424526"
         }
       ],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "pursue",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/2",
-      "id": "github:cuentaprueba244w-dotcom/TentOfTrials#2",
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/49",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#49",
       "labels": [
         "help wanted",
         "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
         "bounty",
-        "language:python"
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
       ],
-      "matching_open_pr_count": 6,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-07-04T23:06:09Z",
-          "number": 72,
-          "title": "[$6 BOUNTY] Enforce uppercase LEGACY comment markers (#2)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/72"
-        },
-        {
-          "created_at": "2026-07-02T01:54:47Z",
-          "number": 64,
-          "title": "feat: enforce uppercase LEGACY comments per issue #2",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/64"
-        },
-        {
-          "created_at": "2026-07-02T01:26:03Z",
+          "created_at": "2026-11-07T18:22:27Z",
           "number": 63,
-          "title": "fix: enforce uppercase LEGACY comment markers (Closes #2)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/63"
+          "title": "fix: [Bounty $1,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator (resolves #49)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/63"
         },
         {
-          "created_at": "2026-07-29T15:59:49Z",
-          "number": 86,
-          "title": "feat: add legacy_caps_audit.py for LEGACY enforcement (Closes #2, #12)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/86"
-        },
-        {
-          "created_at": "2026-07-01T19:01:42Z",
-          "number": 62,
-          "title": "LEGACY caps audit and fixes",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/62"
-        },
-        {
-          "created_at": "2026-06-18T21:31:00Z",
-          "number": 6,
-          "title": "Add LEGACY comment marker audit",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/6"
+          "created_at": "2026-11-07T18:20:38Z",
+          "number": 56,
+          "title": "docs: resolve #49 - [Bounty ,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/56"
         }
       ],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [
-        "$6"
+        "$1,100"
       ],
-      "reward_usd_max": 6.0,
-      "title": "[$6 BOUNTY] [Python] Enforce uppercase LEGACY comments",
-      "updated_at": "2026-11-08T05:22:14Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 1100.0,
+      "title": "[Bounty $1,100] test(validator): add boundary regression test for seq=63 and seq=64 in TestLedgerValidator",
+      "updated_at": "2026-11-08T13:04:01Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/3",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/44",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -560,148 +170,53 @@
       ],
       "claim_signals": [
         {
-          "actor": "NevioCore",
-          "command": "/claim #3",
-          "created_at": "2026-11-08T05:22:15Z",
-          "recent": true,
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/3#issuecomment-6717683836"
+          "actor": "t3ratech",
+          "command": "/attempt #44",
+          "created_at": "2026-11-07T23:34:47Z",
+          "recent": false,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/44#issuecomment-6714523932"
         }
       ],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "pursue",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/3",
-      "id": "github:cuentaprueba244w-dotcom/TentOfTrials#3",
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/44",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#44",
       "labels": [
         "help wanted",
         "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
         "bounty",
-        "language:python"
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
       ],
-      "matching_open_pr_count": 9,
+      "matching_open_pr_count": 2,
       "matching_open_prs": [
         {
-          "created_at": "2026-07-29T16:08:40Z",
-          "number": 87,
-          "title": "docs: add module-level docstrings (Closes #3, #13)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/87"
+          "created_at": "2026-11-07T18:13:08Z",
+          "number": 54,
+          "title": "fix: [Bounty $900] perf(validator): replace floor division with bitwise mask  (closes #44)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/54"
         },
         {
-          "created_at": "2026-09-14T00:51:34Z",
-          "number": 95,
-          "title": "[$35 BOUNTY] Add comprehensive module-level docstrings across Python codebase (#3, #13)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/95"
-        },
-        {
-          "created_at": "2026-07-01T05:09:48Z",
-          "number": 56,
-          "title": "docs: add missing module-level docstrings (Closes #3)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/56"
-        },
-        {
-          "created_at": "2026-06-23T10:03:00Z",
-          "number": 37,
-          "title": "docs(#3): add module-level docstrings to all Python files",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/37"
-        },
-        {
-          "created_at": "2026-07-04T23:04:57Z",
-          "number": 70,
-          "title": "[$35 BOUNTY] Add module-level docstrings to all Python files (#3)",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/70"
-        },
-        {
-          "created_at": "2026-06-27T06:12:42Z",
-          "number": 49,
-          "title": "[$35 BOUNTY] Add module-level docstrings to Python files",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/49"
-        },
-        {
-          "created_at": "2026-06-26T15:56:28Z",
-          "number": 47,
-          "title": "[ShanaBoo] [$35 BOUNTY] [Python] Add module-level docstrings to all Python files",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/47"
-        },
-        {
-          "created_at": "2026-06-26T15:12:15Z",
-          "number": 45,
-          "title": "docs: add module-level docstring to build.py",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/45"
-        },
-        {
-          "created_at": "2026-06-18T21:20:37Z",
-          "number": 5,
-          "title": "Add build module docstring",
-          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/5"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$35"
-      ],
-      "reward_usd_max": 35.0,
-      "title": "[$35 BOUNTY] [Python] Add module-level docstrings to all Python files",
-      "updated_at": "2026-11-08T05:22:15Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tari-project/universe/issues/3489",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/tari-project/universe/issues/3489",
-      "id": "github:tari-project/universe#3489",
-      "labels": [
-        "bug",
-        "enhancement",
-        "bounty",
-        "bounty-S"
-      ],
-      "matching_open_pr_count": 4,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-08T00:14:28Z",
-          "number": 3540,
-          "title": "fix(clipboard): prefer webview clipboard API for Wayland Flatpak (#3489)",
-          "url": "https://github.com/tari-project/universe/pull/3540"
-        },
-        {
-          "created_at": "2026-11-07T17:18:42Z",
-          "number": 3530,
-          "title": "fix(clipboard): fallback to webview navigator clipboard under wayland (#3489)",
-          "url": "https://github.com/tari-project/universe/pull/3530"
-        },
-        {
-          "created_at": "2026-11-07T16:57:44Z",
-          "number": 3528,
-          "title": "fix(clipboard): write via the webview so copy works in the Flatpak under Wayland",
-          "url": "https://github.com/tari-project/universe/pull/3528"
-        },
-        {
-          "created_at": "2026-11-08T05:52:15Z",
-          "number": 3545,
-          "title": "fix(clipboard): write through the webview so copy works in the Flatpak under Wayland",
-          "url": "https://github.com/tari-project/universe/pull/3545"
+          "created_at": "2026-11-07T19:24:40Z",
+          "number": 66,
+          "title": "fix: [Bounty $900] perf(validator): replace floor division with bitwise mask in compute_checkpoint_boundary (resolves #44)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/66"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Linux Flatpak: copy to clipboard silently fails under Wayland (no X11 in sandbox)",
-      "updated_at": "2026-11-08T05:53:00Z",
+      "reward_mentions": [
+        "$900"
+      ],
+      "reward_usd_max": 900.0,
+      "title": "[Bounty $900] perf(validator): replace floor division with bitwise mask in compute_checkpoint_boundary",
+      "updated_at": "2026-11-08T13:03:59Z",
       "verification_confidence": "medium"
     },
     {
@@ -728,12 +243,19 @@
           "created_at": "2026-11-07T10:33:49Z",
           "recent": false,
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/17182#issuecomment-6705675554"
+        },
+        {
+          "actor": "NevioCore",
+          "command": "/claim #17182",
+          "created_at": "2026-11-08T13:22:22Z",
+          "recent": true,
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/17182#issuecomment-6722027121"
         }
       ],
       "closed_at": null,
-      "decision": "skip",
+      "decision": "hold",
       "decision_reasons": [
-        "At least 4 open PRs explicitly reference the canonical issue."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/17182",
       "id": "github:Scottcjn/rustchain-bounties#17182",
@@ -771,19 +293,774 @@
           "url": "https://github.com/Scottcjn/rustchain-bounties/pull/17190"
         }
       ],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
         "5 RTC",
         "$0.15"
       ],
       "reward_usd_max": 0.15,
       "title": "[BOUNTY: 5 RTC] docs: reconcile the two miner config paths (/opt/rustchain-miner vs ~/.rustchain) across WALLET_SETUP.md, INSTALL.md and the installers (Rustchain#8407)",
-      "updated_at": "2026-11-08T06:09:39Z",
+      "updated_at": "2026-11-08T13:23:40Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "arjunkshah12345-hash",
+          "command": "/claim",
+          "created_at": "2026-09-12T18:41:24Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-5647914787"
+        },
+        {
+          "actor": "arjunkshah",
+          "command": "/claim",
+          "created_at": "2026-09-12T19:09:52Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-5648070313"
+        },
+        {
+          "actor": "arjunkshah",
+          "command": "/claim",
+          "created_at": "2026-09-12T19:14:13Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-5648093726"
+        },
+        {
+          "actor": "arjunkshah",
+          "command": "/claim",
+          "created_at": "2026-09-12T19:25:07Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-5648152305"
+        },
+        {
+          "actor": "christoted",
+          "command": "/claim",
+          "created_at": "2026-09-13T06:40:23Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-5651716953"
+        },
+        {
+          "actor": "jeffrey-graham",
+          "command": "/attempt #1",
+          "created_at": "2026-11-07T05:28:22Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-6702815196"
+        },
+        {
+          "actor": "Ankitmishra2911",
+          "command": "/attempt #1",
+          "created_at": "2026-11-07T17:32:00Z",
+          "recent": false,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-6710706487"
+        },
+        {
+          "actor": "RyanB7020",
+          "command": "/claim",
+          "created_at": "2026-11-08T13:27:59Z",
+          "recent": true,
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1#issuecomment-6722084462"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/maaltarifi97-maker/aioa-playground/issues/1",
+      "id": "github:maaltarifi97-maker/aioa-playground#1",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 13,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-07T07:31:31Z",
+          "number": 26,
+          "title": "fix: resolve #1 slugify double and trailing hyphens",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/26"
+        },
+        {
+          "created_at": "2026-09-13T12:21:56Z",
+          "number": 18,
+          "title": "Fix: slugify() formatting (Resolves #1)",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/18"
+        },
+        {
+          "created_at": "2026-11-07T17:32:07Z",
+          "number": 27,
+          "title": "fix: resolve #1 - [Bounty: $50] slugify() leaves double and trailing hyphens",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/27"
+        },
+        {
+          "created_at": "2026-11-07T05:27:46Z",
+          "number": 25,
+          "title": "fix: collapse consecutive hyphens and trim leading/trailing hyphens in slugify() (#1)",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/25"
+        },
+        {
+          "created_at": "2026-10-14T02:13:52Z",
+          "number": 24,
+          "title": "fix: make npm test discover slugify tests (Fixes #1)",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/24"
+        },
+        {
+          "created_at": "2026-09-12T11:53:04Z",
+          "number": 2,
+          "title": "fix: collapse multiple hyphens and trim edges in slugify (#1)",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/2"
+        },
+        {
+          "created_at": "2026-09-13T05:37:20Z",
+          "number": 16,
+          "title": "fix: add example showing hyphen trimming to slugify JSDoc (fixes #1)",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/16"
+        },
+        {
+          "created_at": "2026-09-13T06:39:54Z",
+          "number": 17,
+          "title": "fix: collapse and trim slug separators",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/17"
+        },
+        {
+          "created_at": "2026-09-24T09:34:24Z",
+          "number": 23,
+          "title": "fix: use default node --test discovery so npm test runs",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/23"
+        },
+        {
+          "created_at": "2026-09-13T02:49:15Z",
+          "number": 14,
+          "title": "fix(slugify): collapse consecutive separators and trim leading/trailing hyphens",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/14"
+        },
+        {
+          "created_at": "2026-09-13T02:51:55Z",
+          "number": 15,
+          "title": "Fix slugify separator handling",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/15"
+        },
+        {
+          "created_at": "2026-09-12T12:07:33Z",
+          "number": 4,
+          "title": "fix(slugify): collapse separator runs and trim boundary hyphens",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/4"
+        },
+        {
+          "created_at": "2026-09-12T11:56:00Z",
+          "number": 3,
+          "title": "Fix repeated and boundary hyphens in slugify",
+          "url": "https://github.com/maaltarifi97-maker/aioa-playground/pull/3"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [
+        "$50"
+      ],
+      "reward_usd_max": 50.0,
+      "title": "[Bounty: $50] slugify() leaves double and trailing hyphens",
+      "updated_at": "2026-11-08T13:27:59Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1359",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1359",
+      "id": "github:relayhop/sn-monetization-runtime#1359",
+      "labels": [
+        "radar",
+        "sn",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[radar] SN open bounty 2026-11-08T13:13",
+      "updated_at": "2026-11-08T13:13:53Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/13",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/aadarwal/swarmstatus-bounties/issues/13",
+      "id": "github:aadarwal/swarmstatus-bounties#13",
+      "labels": [
+        "bounty",
+        "publish",
+        "type:question",
+        "priority:high",
+        "area:SEC"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Verify the June SEC county response provenance against the recovered current file",
+      "updated_at": "2026-11-08T12:59:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SolFoundry/solfoundry/issues/850",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "D2758695161",
+          "command": "/attempt",
+          "created_at": "2026-04-06T17:01:23Z",
+          "recent": false,
+          "url": "https://github.com/SolFoundry/solfoundry/issues/850#issuecomment-4193681638"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SolFoundry/solfoundry/issues/850",
+      "id": "github:SolFoundry/solfoundry#850",
+      "labels": [
+        "bounty",
+        "tier-2",
+        "frontend",
+        "creative"
+      ],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-04-07T00:44:15Z",
+          "number": 954,
+          "title": "feat: animated forge hero background (Bounty #850)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/954"
+        },
+        {
+          "created_at": "2026-05-11T23:35:23Z",
+          "number": 1193,
+          "title": "feat: Animated Landing Page Hero Background (Bounty #850)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1193"
+        },
+        {
+          "created_at": "2026-08-04T21:32:51Z",
+          "number": 1449,
+          "title": "feat: add animated forge/factory hero background with particle effects, molten glow, and smoke wisps (Closes #850) [fj4WqyCCw3C5ShR1RfB7MoBPTpkRrBFYP1uT35g3MvT]",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1449"
+        },
+        {
+          "created_at": "2026-05-12T06:41:43Z",
+          "number": 1239,
+          "title": "feat: add animated motion background to landing hero",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1239"
+        },
+        {
+          "created_at": "2026-04-09T20:04:25Z",
+          "number": 1002,
+          "title": "feat: animated landing page hero background",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1002"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfed Bounty T2: Animated Landing Page Hero Background",
+      "updated_at": "2026-11-08T13:00:31Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/bountydotnew/bounty.new/issues/231",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-26T00:00:09Z",
+          "recent": false,
+          "url": "https://github.com/bountydotnew/bounty.new/issues/231#issuecomment-4130614671"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/bountydotnew/bounty.new/issues/231",
+      "id": "github:bountydotnew/bounty.new#231",
+      "labels": [
+        "bounty"
+      ],
+      "matching_open_pr_count": 13,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-09-08T23:34:37Z",
+          "number": 347,
+          "title": "Fix: implement task validation for issue #231 (#231)",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/347"
+        },
+        {
+          "created_at": "2026-09-08T23:36:40Z",
+          "number": 349,
+          "title": "Fix: address issue #231 input validation and error handling (#231)",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/349"
+        },
+        {
+          "created_at": "2026-09-08T23:37:18Z",
+          "number": 350,
+          "title": "Fix: validate bounty task properly (#231)",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/350"
+        },
+        {
+          "created_at": "2026-09-08T23:35:21Z",
+          "number": 348,
+          "title": "Fix: implement solution for bounty.new (#231)",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/348"
+        },
+        {
+          "created_at": "2026-06-04T03:29:05Z",
+          "number": 300,
+          "title": "Improve waitlist submitted state design",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/300"
+        },
+        {
+          "created_at": "2026-09-07T22:57:59Z",
+          "number": 346,
+          "title": "Improve waitlist submitted state and show actual position",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/346"
+        },
+        {
+          "created_at": "2026-05-22T07:24:38Z",
+          "number": 299,
+          "title": "Improve waitlist submitted state",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/299"
+        },
+        {
+          "created_at": "2026-05-18T10:51:23Z",
+          "number": 294,
+          "title": "Polish waitlist confirmation state",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/294"
+        },
+        {
+          "created_at": "2026-05-18T06:34:21Z",
+          "number": 292,
+          "title": "Polish waitlist submitted state",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/292"
+        },
+        {
+          "created_at": "2026-05-20T09:19:47Z",
+          "number": 298,
+          "title": "Improve waitlist submitted state",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/298"
+        },
+        {
+          "created_at": "2026-05-20T03:00:51Z",
+          "number": 296,
+          "title": "Improve waitlist submitted state",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/296"
+        },
+        {
+          "created_at": "2026-05-18T13:26:51Z",
+          "number": 295,
+          "title": "Improve waitlist submitted state on landing page",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/295"
+        },
+        {
+          "created_at": "2026-05-20T08:58:22Z",
+          "number": 297,
+          "title": "Keep waitlist confirmation tied to the user's actual queue spot",
+          "url": "https://github.com/bountydotnew/bounty.new/pull/297"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "improve design of waitlist submitted state on landing page",
+      "updated_at": "2026-11-08T12:58:31Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/14",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "Ojas2095",
+          "command": "/claim",
+          "created_at": "2026-06-19T03:06:05Z",
+          "recent": false,
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/14#issuecomment-4748146934"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/14",
+      "id": "github:cuentaprueba244w-dotcom/TentOfTrials#14",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:rust"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-08T13:33:38Z",
+          "number": 107,
+          "title": "feat(protocol): add serde rename_all snake_case across all protocol types (Fixes #14)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/107"
+        },
+        {
+          "created_at": "2026-07-01T07:33:05Z",
+          "number": 61,
+          "title": "rust: add serde rename_all snake_case to protocol types (Closes #14)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/61"
+        },
+        {
+          "created_at": "2026-07-03T11:10:29Z",
+          "number": 69,
+          "title": "[$18 BOUNTY] Add serde rename_all snake_case + backward-compat aliases to protocol types (#14)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/69"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$18"
+      ],
+      "reward_usd_max": 18.0,
+      "title": "[$18 BOUNTY] [Rust] Add serde rename_all snake_case to protocol types",
+      "updated_at": "2026-11-08T13:33:44Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/48",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "t3ratech",
+          "command": "/attempt #48",
+          "created_at": "2026-11-07T19:10:32Z",
+          "recent": false,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/48#issuecomment-6711792525"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/48",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#48",
+      "labels": [
+        "bug",
+        "help wanted",
+        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
+        "bounty",
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-07T19:08:51Z",
+          "number": 65,
+          "title": "fix: [Bounty ,200] security(validator): reject float and bool sequence inputs in compute_checkpoint_boundary (resolves #48)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/65"
+        },
+        {
+          "created_at": "2026-11-07T18:20:42Z",
+          "number": 57,
+          "title": "docs: resolve #48 - [Bounty ,200] security(validator): reject float and bool sequence inputs in compute_checkpoint_boundary",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/57"
+        },
+        {
+          "created_at": "2026-11-07T18:22:23Z",
+          "number": 62,
+          "title": "fix: [Bounty $1,200] security(validator): reject float and bool sequence inputs in compute_checkpoint_boundary (resolves #48)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/62"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$1,200"
+      ],
+      "reward_usd_max": 1200.0,
+      "title": "[Bounty $1,200] security(validator): reject float and bool sequence inputs in compute_checkpoint_boundary",
+      "updated_at": "2026-11-08T13:06:29Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/16",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "t3ratech",
+          "command": "/attempt #16 - Requesting assignment to proceed with docstring usage examples for verify_sequence_gap. Ready to implement against dev branch.",
+          "created_at": "2026-11-08T00:21:00Z",
+          "recent": false,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/16#issuecomment-6714977988"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/16",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#16",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "bounty",
+        "hacktoberfest",
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-08T00:23:29Z",
+          "number": 68,
+          "title": "docs(validator): add docstring usage examples for verify_sequence_gap (fixes #16)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/68"
+        },
+        {
+          "created_at": "2026-11-07T17:19:15Z",
+          "number": 35,
+          "title": "fix: [Bounty $350] docs(validator): add docstring usage examples for verify_s (closes #16)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/35"
+        },
+        {
+          "created_at": "2026-11-07T17:51:41Z",
+          "number": 43,
+          "title": "fix: [Bounty $350] docs(validator): add docstring usage examples for verify_sequence_gap in src/ledger_validator.py (resolves #16)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/43"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$350"
+      ],
+      "reward_usd_max": 350.0,
+      "title": "[Bounty $350] docs(validator): add docstring usage examples for verify_sequence_gap in src/ledger_validator.py",
+      "updated_at": "2026-11-08T13:03:57Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/4",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 4 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/4",
+      "id": "github:cuentaprueba244w-dotcom/TentOfTrials#4",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "bounty",
+        "language:rust"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-08T13:31:14Z",
+          "number": 106,
+          "title": "feat(legacy): add deprecated annotations across all legacy modules (Fixes #4)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/106"
+        },
+        {
+          "created_at": "2026-07-01T07:32:45Z",
+          "number": 59,
+          "title": "rust: deprecate legacy public functions (Closes #4)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/59"
+        },
+        {
+          "created_at": "2026-07-04T23:05:39Z",
+          "number": 71,
+          "title": "[$16 BOUNTY] Deprecate legacy Rust public functions (#4)",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/71"
+        },
+        {
+          "created_at": "2026-06-18T21:39:34Z",
+          "number": 7,
+          "title": "Deprecate legacy public functions",
+          "url": "https://github.com/cuentaprueba244w-dotcom/TentOfTrials/pull/7"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$16"
+      ],
+      "reward_usd_max": 16.0,
+      "title": "[$16 BOUNTY] [Rust] Deprecate legacy public functions",
+      "updated_at": "2026-11-08T13:31:22Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/21",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "DSP-AID",
+          "command": "/claim #21",
+          "created_at": "2026-11-07T17:19:16Z",
+          "recent": false,
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/21#issuecomment-6710567738"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 4 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/21",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#21",
+      "labels": [
+        "bug",
+        "help wanted",
+        "good first issue",
+        "\ud83d\udc8e Bounty $500",
+        "Stellar Wave",
+        "bounty",
+        "up-for-grabs",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83e\udd16 Bot-Tier-3: Prompt-Injected [S:41-60]",
+        "\ud83e\udd16 Bot-Tier-4: Auto-PR-Fork [S:61-80]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
+      ],
+      "matching_open_pr_count": 4,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-07T17:14:37Z",
+          "number": 32,
+          "title": "fix: [Bounty $850] ci(workflow): synchronize contributor check job IDs across (closes #21)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/32"
+        },
+        {
+          "created_at": "2026-11-07T17:20:34Z",
+          "number": 38,
+          "title": "fix: [Bounty $850] ci(workflow): synchronize contributor check job IDs across GitHub Actions workflows (resolves #21)",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/38"
+        },
+        {
+          "created_at": "2026-11-07T17:19:37Z",
+          "number": 36,
+          "title": "docs: resolve #21 - [Bounty 50] ci(workflow): synchronize contributor check job IDs across GitHub Actions workflows",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/36"
+        },
+        {
+          "created_at": "2026-11-07T23:01:29Z",
+          "number": 67,
+          "title": "fix: [Bounty $850] ci(workflow): synchronize contributor check job IDs across GitHub Actions wo",
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/pull/67"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$850"
+      ],
+      "reward_usd_max": 850.0,
+      "title": "[Bounty $850] ci(workflow): synchronize contributor check job IDs across GitHub Actions workflows",
+      "updated_at": "2026-11-08T13:03:53Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-08T06:15:54.730532Z",
+  "generated_at": "2026-11-08T13:39:26.973265Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
