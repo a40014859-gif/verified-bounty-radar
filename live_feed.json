@@ -1,62 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 2,
-    "manual_review": 11,
-    "pursue": 1,
-    "skip": 1
+    "hold": 1,
+    "manual_review": 14,
+    "pursue": 0,
+    "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4317",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4317",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-15T15:54:33Z",
-          "number": 4354,
-          "title": "Fix: BGP attribute chunk boundary + 4-AS preference matrix (RFC 4271 convergence) \u2014 resolves #4317",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4354"
-        },
-        {
-          "created_at": "2026-11-14T07:48:01Z",
-          "number": 4337,
-          "title": "Fix: [Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc (Resolves #4317)",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4337"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$450 USD",
-        "$450"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "[Bounty] [Escrowed $450 USDC] Fix BGP attribute chunk boundary and resolve 4-AS preferenc",
-      "updated_at": "2026-11-15T15:56:50Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4348",
+      "canonical_url": "https://github.com/overturn-ai/overturn/issues/22",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -66,11 +19,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "RaoroniRonaldo",
-          "command": "/attempt #4348",
-          "created_at": "2026-11-15T14:53:17Z",
+          "actor": "Gynius84",
+          "command": "/attempt #22",
+          "created_at": "2026-11-16T01:43:44Z",
           "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4348#issuecomment-6896411603"
+          "url": "https://github.com/overturn-ai/overturn/issues/22#issuecomment-6905012116"
         }
       ],
       "closed_at": null,
@@ -78,135 +31,82 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4348",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4348",
+      "discovered_url": "https://github.com/overturn-ai/overturn/issues/22",
+      "id": "github:overturn-ai/overturn#22",
       "labels": [
-        "bounty",
-        "real"
+        "enhancement",
+        "help wanted",
+        "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 9,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-16T04:47:48Z",
+          "number": 52,
+          "title": "feat(gorgias-app): capture adapter for Gorgias (closes #22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/52"
+        },
+        {
+          "created_at": "2026-11-16T04:20:18Z",
+          "number": 48,
+          "title": "Fix: Bounty $100: capture adapter for Gorgias (Resolves #22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/48"
+        },
+        {
+          "created_at": "2026-11-16T03:07:39Z",
+          "number": 42,
+          "title": "test(core): add regression test suite for issue #22",
+          "url": "https://github.com/overturn-ai/overturn/pull/42"
+        },
+        {
+          "created_at": "2026-11-16T01:16:39Z",
+          "number": 23,
+          "title": "fix: Bounty $100: capture adapter for Gorgias (closes #22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/23"
+        },
+        {
+          "created_at": "2026-11-16T06:30:11Z",
+          "number": 54,
+          "title": "feat(gorgias-app): add Gorgias ticket sidebar capture adapter (#22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/54"
+        },
+        {
+          "created_at": "2026-11-16T02:28:17Z",
+          "number": 34,
+          "title": "feat(gorgias-app): capture adapter for Gorgias sidebar app (closes #22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/34"
+        },
+        {
+          "created_at": "2026-11-16T01:37:56Z",
+          "number": 27,
+          "title": "feat(gorgias-app): capture adapter for Gorgias ticket sidebar widget (#22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/27"
+        },
+        {
+          "created_at": "2026-11-16T04:39:56Z",
+          "number": 51,
+          "title": "feat(gorgias-app): capture adapter for the Gorgias ticket sidebar (closes #22)",
+          "url": "https://github.com/overturn-ai/overturn/pull/51"
+        },
+        {
+          "created_at": "2026-11-16T02:00:25Z",
+          "number": 31,
+          "title": "feat: solution for #22 ([GitHub Bounty] Bounty $100: capture adapter for Gorgias)",
+          "url": "https://github.com/overturn-ai/overturn/pull/31"
+        }
+      ],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$25 USD",
-        "$15",
-        "$100 USD",
         "$100"
       ],
       "reward_usd_max": 100.0,
-      "title": "[Bounty] [$25 USDC Bounty] Live Chain-Feed Drift Catch (53 Indexed Protocols) or 4th Unin",
-      "updated_at": "2026-11-15T14:53:17Z",
+      "title": "Bounty $100: capture adapter for Gorgias",
+      "updated_at": "2026-11-16T06:28:09Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "diptikhaparde-coder",
-          "command": "/attempt",
-          "created_at": "2026-07-19T22:26:07Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5017605860"
-        },
-        {
-          "actor": "JHON12091986",
-          "command": "/attempt",
-          "created_at": "2026-07-21T14:48:44Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5035492808"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-02T16:40:46Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5513012423"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-03T20:43:31Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5531883477"
-        },
-        {
-          "actor": "rafaio1",
-          "command": "/claim",
-          "created_at": "2026-09-06T04:14:28Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5556829719"
-        },
-        {
-          "actor": "arawnslab-hash",
-          "command": "/claim",
-          "created_at": "2026-09-15T14:17:24Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5681756882"
-        },
-        {
-          "actor": "oracledigitalpt-design",
-          "command": "/claim",
-          "created_at": "2026-09-25T19:26:12Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5838309605"
-        },
-        {
-          "actor": "Cid-oe",
-          "command": "/claim",
-          "created_at": "2026-09-28T03:10:52Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-5862587655"
-        },
-        {
-          "actor": "satoshinakamoto666666",
-          "command": "/claim #16251",
-          "created_at": "2026-11-11T18:58:19Z",
-          "recent": false,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-6804641547"
-        },
-        {
-          "actor": "DSP-AID",
-          "command": "/claim #16251",
-          "created_at": "2026-11-15T13:59:45Z",
-          "recent": true,
-          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251#issuecomment-6895448452"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/Scottcjn/rustchain-bounties/issues/16251",
-      "id": "github:Scottcjn/rustchain-bounties#16251",
-      "labels": [
-        "bug",
-        "bounty",
-        "open",
-        "standard"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "10 RTC"
-      ],
-      "reward_usd_max": null,
-      "title": "[BOUNTY: 10 RTC] Fix rustchain.org install script \u2014 wrong paths + macOS crash (Rustchain#7975), shellcheck-clean",
-      "updated_at": "2026-11-15T14:22:58Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5005",
+      "canonical_url": "https://github.com/hanzoai/cloud/issues/13",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -220,606 +120,496 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5005",
-      "id": "github:Ikalus1988/MisakaNet#5005",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "updated_at": "2026-11-15T14:18:43Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5004",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "2lll5",
-          "command": "/try",
-          "created_at": "2026-11-15T08:55:56Z",
-          "recent": false,
-          "url": "https://github.com/Ikalus1988/MisakaNet/issues/5004#issuecomment-6891986724"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5004",
-      "id": "github:Ikalus1988/MisakaNet#5004",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "updated_at": "2026-11-15T14:18:31Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5003",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5003",
-      "id": "github:Ikalus1988/MisakaNet#5003",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "updated_at": "2026-11-15T14:18:29Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5002",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5002",
-      "id": "github:Ikalus1988/MisakaNet#5002",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 2 linked question(s)",
-      "updated_at": "2026-11-15T14:18:27Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5001",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5001",
-      "id": "github:Ikalus1988/MisakaNet#5001",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 3 linked question(s)",
-      "updated_at": "2026-11-15T14:18:19Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5000",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5000",
-      "id": "github:Ikalus1988/MisakaNet#5000",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 3 linked question(s)",
-      "updated_at": "2026-11-15T14:18:17Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/4999",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "RaoroniRonaldo",
-          "command": "/try",
-          "created_at": "2026-11-15T06:47:25Z",
-          "recent": false,
-          "url": "https://github.com/Ikalus1988/MisakaNet/issues/4999#issuecomment-6890559919"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/4999",
-      "id": "github:Ikalus1988/MisakaNet#4999",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 4 linked question(s)",
-      "updated_at": "2026-11-15T14:18:14Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/4998",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/4998",
-      "id": "github:Ikalus1988/MisakaNet#4998",
-      "labels": [
-        "ready",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Bounty] Answer the 4 linked question(s)",
-      "updated_at": "2026-11-15T14:18:12Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1385",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1385",
-      "id": "github:relayhop/sn-monetization-runtime#1385",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-15T17:54:31Z",
-          "number": 1386,
-          "title": "feat: solution for #1385 ([GitHub Bounty] [radar] SN open bounty 2026-11-15T16:59)",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1386"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-11-15T16:59",
-      "updated_at": "2026-11-15T17:54:32Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1383",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1383",
-      "id": "github:relayhop/sn-monetization-runtime#1383",
-      "labels": [
-        "radar",
-        "sn",
-        "bounty"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-15T14:52:22Z",
-          "number": 1384,
-          "title": "feat: solution for #1383 ([GitHub Bounty] [radar] SN open bounty 2026-11-15T13:51)",
-          "url": "https://github.com/relayhop/sn-monetization-runtime/pull/1384"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-11-15T13:51",
-      "updated_at": "2026-11-15T14:52:24Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tari-project/wallet-benchmarks/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "4u2cmenvaagain-cyber",
-          "command": "/attempt",
-          "created_at": "2026-11-15T08:50:18Z",
-          "recent": false,
-          "url": "https://github.com/tari-project/wallet-benchmarks/issues/1#issuecomment-6891927718"
-        },
-        {
-          "actor": "4u2cmenvaagain-cyber",
-          "command": "/attempt",
-          "created_at": "2026-11-15T08:50:43Z",
-          "recent": false,
-          "url": "https://github.com/tari-project/wallet-benchmarks/issues/1#issuecomment-6891931986"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/tari-project/wallet-benchmarks/issues/1",
-      "id": "github:tari-project/wallet-benchmarks#1",
-      "labels": [
-        "bounty",
-        "bounty-L"
-      ],
-      "matching_open_pr_count": 3,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-15T17:55:23Z",
-          "number": 16,
-          "title": "feat: solution for #1 ([GitHub Bounty] Create wallet benchmarks)",
-          "url": "https://github.com/tari-project/wallet-benchmarks/pull/16"
-        },
-        {
-          "created_at": "2026-05-23T07:41:05Z",
-          "number": 6,
-          "title": "feat: reproducible wallet performance test harness \u2014 3 modes \u00d7 9 scenarios",
-          "url": "https://github.com/tari-project/wallet-benchmarks/pull/6"
-        },
-        {
-          "created_at": "2026-05-18T16:02:15Z",
-          "number": 4,
-          "title": "feat: complete benchmark harness (3 modes, 9 scenarios) with strict stateless offline signing",
-          "url": "https://github.com/tari-project/wallet-benchmarks/pull/4"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Create wallet benchmarks",
-      "updated_at": "2026-11-15T17:55:24Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/weilixiong/TentOfTrials/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "codexdigital-lab",
-          "command": "/claim",
-          "created_at": "2026-06-19T03:59:25Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4748374024"
-        },
-        {
-          "actor": "codexdigital-lab",
-          "command": "/attempt",
-          "created_at": "2026-06-19T04:02:31Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4748386463"
-        },
-        {
-          "actor": "Ojas2095",
-          "command": "/claim",
-          "created_at": "2026-06-19T04:07:38Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4748407590"
-        },
-        {
-          "actor": "itsLohith01",
-          "command": "/claim",
-          "created_at": "2026-06-19T04:33:16Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4748511339"
-        },
-        {
-          "actor": "fanjuxin9630",
-          "command": "/claim",
-          "created_at": "2026-06-29T06:39:57Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4829690202"
-        },
-        {
-          "actor": "Fuhua-GIF",
-          "command": "/claim",
-          "created_at": "2026-07-11T14:58:03Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4946961076"
-        },
-        {
-          "actor": "slipknoo822-lang",
-          "command": "/claim",
-          "created_at": "2026-07-16T11:24:19Z",
-          "recent": false,
-          "url": "https://github.com/weilixiong/TentOfTrials/issues/1#issuecomment-4991255306"
-        }
-      ],
-      "closed_at": null,
-      "decision": "skip",
-      "decision_reasons": [
-        "At least 29 open PRs explicitly reference the canonical issue."
-      ],
-      "discovered_url": "https://github.com/weilixiong/TentOfTrials/issues/1",
-      "id": "github:weilixiong/TentOfTrials#1",
+      "discovered_url": "https://github.com/hanzoai/cloud/issues/13",
+      "id": "github:hanzoai/cloud#13",
       "labels": [
         "help wanted",
-        "good first issue",
         "bounty",
-        "language:python"
+        "decentralized",
+        "network",
+        "p0",
+        "research"
       ],
-      "matching_open_pr_count": 29,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Decentralized peer discovery and routing (libp2p)",
+      "updated_at": "2026-11-16T05:10:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/cloud/issues/14",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/cloud/issues/14",
+      "id": "github:hanzoai/cloud#14",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "decentralized",
+        "market",
+        "p0",
+        "research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Open GPU spot market and capacity auctions",
+      "updated_at": "2026-11-16T05:09:21Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/vfs/issues/38",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/vfs/issues/38",
+      "id": "github:hanzoai/vfs#38",
+      "labels": [
+        "help wanted",
+        "p0",
+        "research",
+        "bounty",
+        "decentralized",
+        "storage"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Decentralized model distribution and provenance",
+      "updated_at": "2026-11-16T05:09:09Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/cloud/issues/15",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/cloud/issues/15",
+      "id": "github:hanzoai/cloud#15",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "decentralized",
+        "network",
+        "p0",
+        "research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Permissionless Enso gateway and stateless scheduling protocol",
+      "updated_at": "2026-11-16T05:08:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/65",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/65",
+      "id": "github:hanzoai/engine#65",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p0",
+        "research",
+        "decentralized",
+        "proof-of-ai"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Deterministic AI execution profiles",
+      "updated_at": "2026-11-16T05:08:47Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/66",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/66",
+      "id": "github:hanzoai/engine#66",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p0",
+        "research",
+        "decentralized",
+        "proof-of-ai"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Proof of AI: CPU-verifiable GPU matrix products (Hanzo execution side)",
+      "updated_at": "2026-11-16T05:08:35Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/67",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/67",
+      "id": "github:hanzoai/engine#67",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "proof-of-ai"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Optimistic AI execution and fraud-proof games",
+      "updated_at": "2026-11-16T05:08:24Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/68",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/68",
+      "id": "github:hanzoai/engine#68",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "proof-of-ai"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "zkML and zkVM proofs for small models and decisions",
+      "updated_at": "2026-11-16T05:06:48Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/69",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/69",
+      "id": "github:hanzoai/engine#69",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "proof-of-ai"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Confidential GPU inference and remote attestation client",
+      "updated_at": "2026-11-16T05:06:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/71",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/71",
+      "id": "github:hanzoai/engine#71",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "inference"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Decentralized edge and mobile inference providers",
+      "updated_at": "2026-11-16T05:06:14Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/72",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/72",
+      "id": "github:hanzoai/engine#72",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "training"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Permissionless internet-scale model training",
+      "updated_at": "2026-11-16T05:06:02Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/73",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/73",
+      "id": "github:hanzoai/engine#73",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "training"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Verifiable federated updates and Byzantine-robust training (Hanzo side)",
+      "updated_at": "2026-11-16T05:05:51Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/mcp/issues/35",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/mcp/issues/35",
+      "id": "github:hanzoai/mcp#35",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "code-intel",
+        "p0",
+        "research"
+      ],
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-11-12T22:43:28Z",
-          "number": 133,
-          "title": "fix: resolve issue #1 (closes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/133"
-        },
-        {
-          "created_at": "2026-11-07T05:23:11Z",
-          "number": 129,
-          "title": "Feat: Add cross-platform health check fallbacks (Closes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/129"
-        },
-        {
-          "created_at": "2026-11-15T16:54:26Z",
-          "number": 137,
-          "title": "feat: solution for #1 ([GitHub Bounty] [$50 BOUNTY] [Python] Add cross-platform health c)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/137"
-        },
-        {
-          "created_at": "2026-11-08T02:49:25Z",
-          "number": 131,
-          "title": "fix(tools): cross-platform fallbacks for memory and load health checks (Fixes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/131"
-        },
-        {
-          "created_at": "2026-06-30T02:47:12Z",
-          "number": 41,
-          "title": "Fix #1: Add cross-platform health check fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/41"
-        },
-        {
-          "created_at": "2026-09-16T14:14:40Z",
-          "number": 98,
-          "title": "fix(health_check): add cross-platform memory and load average fallbacks (closes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/98"
-        },
-        {
-          "created_at": "2026-06-27T05:01:16Z",
-          "number": 28,
-          "title": "feat: add cross-platform health check fallbacks (#1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/28"
-        },
-        {
-          "created_at": "2026-06-25T01:07:59Z",
-          "number": 24,
-          "title": "feat: Add cross-platform health check fallbacks (closes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/24"
-        },
-        {
-          "created_at": "2026-06-19T10:35:19Z",
-          "number": 10,
-          "title": "feat: add cross-platform health check fallbacks (closes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/10"
-        },
-        {
-          "created_at": "2026-07-01T01:16:15Z",
-          "number": 44,
-          "title": "Fix #1: [$50 BOUNTY] [Python] Add cross-platform health check fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/44"
-        },
-        {
-          "created_at": "2026-08-05T11:31:13Z",
-          "number": 90,
-          "title": "feat: cross-platform health checks + independent log parser fixtures (closes #1, closes #5)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/90"
-        },
-        {
-          "created_at": "2026-06-27T06:53:09Z",
-          "number": 30,
-          "title": "feat: cross-platform health check fallbacks for memory and load (#1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/30"
-        },
-        {
-          "created_at": "2026-07-03T08:57:19Z",
-          "number": 46,
-          "title": "Fix #1: cross-platform health check + Fix #5: independent log parser test fixtures",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/46"
-        },
-        {
-          "created_at": "2026-06-30T02:39:06Z",
-          "number": 40,
-          "title": "fix: add cross-platform fallbacks for memory and load checks (bounty #1 - $50)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/40"
-        },
-        {
-          "created_at": "2026-07-11T14:57:15Z",
-          "number": 58,
-          "title": "feat(health_check): add cross-platform fallbacks for memory and load checks (fixes #1)",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/58"
-        },
-        {
-          "created_at": "2026-11-05T13:09:02Z",
-          "number": 128,
-          "title": "fix(health_check): add cross-platform memory/load fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/128"
-        },
-        {
-          "created_at": "2026-11-12T23:08:47Z",
-          "number": 134,
-          "title": "feat: add cross-platform health check fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/134"
-        },
-        {
-          "created_at": "2026-06-23T10:40:19Z",
-          "number": 22,
-          "title": "Add cross-platform health check fallbacks for memory and load checks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/22"
-        },
-        {
-          "created_at": "2026-06-24T15:25:32Z",
-          "number": 23,
-          "title": "[$50 BOUNTY] Add cross-platform health check fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/23"
-        },
-        {
-          "created_at": "2026-06-27T05:54:44Z",
-          "number": 29,
-          "title": "[BOUNTY $50] Add cross-platform health check fallbacks",
-          "url": "https://github.com/weilixiong/TentOfTrials/pull/29"
+          "created_at": "2026-11-15T23:59:09Z",
+          "number": 39,
+          "title": "feat: solution for #35 ([GitHub Bounty] Trigram code search for exact, regex and symbol q)",
+          "url": "https://github.com/hanzoai/mcp/pull/39"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [
-        "$50"
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Trigram code search for exact, regex and symbol queries (Zoekt)",
+      "updated_at": "2026-11-16T06:28:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/70",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "reward_usd_max": 50.0,
-      "title": "[$50 BOUNTY] [Python] Add cross-platform health check fallbacks",
-      "updated_at": "2026-11-15T16:54:28Z",
-      "verification_confidence": "high"
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/70",
+      "id": "github:hanzoai/engine#70",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "inference"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-16T05:28:28Z",
+          "number": 74,
+          "title": "test(core): add regression test suite for issue #70",
+          "url": "https://github.com/hanzoai/engine/pull/74"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Peer-to-peer distributed LLM inference",
+      "updated_at": "2026-11-16T05:06:25Z",
+      "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-15T18:56:36.132489Z",
+  "generated_at": "2026-11-16T06:44:17.158923Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
