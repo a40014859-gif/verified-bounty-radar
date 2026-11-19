@@ -1,103 +1,12 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
+    "hold": 2,
     "manual_review": 0,
-    "pursue": 15,
+    "pursue": 13,
     "skip": 0
   },
   "entries": [
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "kristotoomingas",
-          "command": "/attempt",
-          "created_at": "2026-11-10T20:54:29Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/1#issuecomment-6779009422"
-        },
-        {
-          "actor": "1618works",
-          "command": "/attempt",
-          "created_at": "2026-11-17T06:15:45Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/1#issuecomment-6940406355"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/1",
-      "id": "github:IES-BoilerRoom/Furnace#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$100",
-        "$100 USD"
-      ],
-      "reward_usd_max": 100.0,
-      "title": "[$100] fix(furnace_core): Fix frame batch ceiling boundary and align 64-lane deterministic parity anchor (reconcile_furnace_frame_batch)",
-      "updated_at": "2026-11-18T20:02:26Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "1618works",
-          "command": "/attempt",
-          "created_at": "2026-11-17T06:15:44Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/2#issuecomment-6940406105"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "id": "github:IES-BoilerRoom/Furnace#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$150",
-        "$150 USD"
-      ],
-      "reward_usd_max": 150.0,
-      "title": "fix(furnace_core): Stabilize multi-shard batch watermarks across concurrent worker epochs ($150 bounty) [Furnace]",
-      "updated_at": "2026-11-18T20:02:25Z",
-      "verification_confidence": "medium"
-    },
     {
       "canonical_state": "open",
       "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
@@ -132,12 +41,11 @@
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "300 USDC",
-        "$300 USD"
+        "$150 USD"
       ],
-      "reward_usd_max": 300.0,
-      "title": "[300 USDC] Fix KV frame chunk ceiling and reconcile multi-head block stride congruences (reclaim_kv_page_frames)",
-      "updated_at": "2026-11-18T20:02:23Z",
+      "reward_usd_max": 150.0,
+      "title": "ci/congestion: Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness - Reward $150 USDC",
+      "updated_at": "2026-11-19T07:15:07Z",
       "verification_confidence": "medium"
     },
     {
@@ -174,12 +82,248 @@
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
+        "$350 USD"
+      ],
+      "reward_usd_max": 350.0,
+      "title": "ci/move_verifier: Enforce linear resource drop safety across loop back-edges - Reward $350 USDC",
+      "updated_at": "2026-11-19T07:15:06Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
+      "id": "github:IES-BoilerRoom/nvme-zns-bch-ecc-simulator#1",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$200",
+        "$200 USD"
+      ],
+      "reward_usd_max": 200.0,
+      "title": "[$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames)",
+      "updated_at": "2026-11-19T07:10:33Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
+      "id": "github:IES-BoilerRoom/ebpf-verifier-reg-bounds#2",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$250",
+        "$250 USD"
+      ],
+      "reward_usd_max": 250.0,
+      "title": "[$250] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (ebpf-verifier-reg-bounds)",
+      "updated_at": "2026-11-19T07:06:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
+      "id": "github:IES-BoilerRoom/ebpf-verifier-reg-bounds#1",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "350 USDC",
+        "$350 USD"
+      ],
+      "reward_usd_max": 350.0,
+      "title": "[350 USDC] Fix ALU64 chunk ceiling boundary and tristate tnum scalar bitmask witness (refine_bpf_tnum_frames)",
+      "updated_at": "2026-11-19T07:06:28Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
+      "id": "github:IES-BoilerRoom/nvme-zns-bch-ecc-simulator#2",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$175 USD"
+      ],
+      "reward_usd_max": 175.0,
+      "title": "ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace tag across zone append descriptors - Reward $175 USDC",
+      "updated_at": "2026-11-19T07:06:27Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
+      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#1",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$150",
+        "$150 USD"
+      ],
+      "reward_usd_max": 150.0,
+      "title": "($150) perf/fix: Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (fold_wgsl_radiance_frames)",
+      "updated_at": "2026-11-19T07:06:24Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
+      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$200",
+        "$200 USD"
+      ],
+      "reward_usd_max": 200.0,
+      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
+      "updated_at": "2026-11-19T07:06:24Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/2",
+      "id": "github:IES-BoilerRoom/MoveVM-bytecode-ability-checker#2",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
         "$225",
         "$225 USD"
       ],
       "reward_usd_max": 225.0,
-      "title": "[$225] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (reclaim_kv_page_frames)",
-      "updated_at": "2026-11-18T20:02:22Z",
+      "title": "fix(move_verifier): Enforce linear resource drop safety across loop back-edges ($225 bounty) [MoveVM-bytecode-ability-checker]",
+      "updated_at": "2026-11-19T07:06:23Z",
       "verification_confidence": "medium"
     },
     {
@@ -221,141 +365,7 @@
       ],
       "reward_usd_max": 100.0,
       "title": "[100 USDC] Fix module frame ceiling check and align deterministic bytecode gas residue (parse_move_module_frames)",
-      "updated_at": "2026-11-18T19:56:42Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
-      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$150",
-        "$150 USD"
-      ],
-      "reward_usd_max": 150.0,
-      "title": "($150) perf/fix: Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (fold_wgsl_radiance_frames)",
-      "updated_at": "2026-11-18T19:55:31Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
-      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200",
-        "$200 USD"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
-      "updated_at": "2026-11-18T19:53:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
-      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200 USD"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "ci/mpsc: Eliminate ABA generation counter skew across heterogeneous ring capacities - Reward $200 USDC",
-      "updated_at": "2026-11-18T19:53:48Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
-      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$100 USD"
-      ],
-      "reward_usd_max": 100.0,
-      "title": "bug: Fix slot batch ceiling check and align multi-stride ring wrap-around residue (`drain_mpsc_epoch_frames`) [Reward: $100 USDC]",
-      "updated_at": "2026-11-18T19:53:47Z",
+      "updated_at": "2026-11-19T07:06:22Z",
       "verification_confidence": "medium"
     },
     {
@@ -368,7 +378,15 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "jdjioe5-cpu",
+          "command": "/claim https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
+          "created_at": "2026-11-18T21:14:53Z",
+          "recent": false,
+          "url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2#issuecomment-6991842221"
+        }
+      ],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
@@ -389,7 +407,7 @@
       ],
       "reward_usd_max": 200.0,
       "title": "fix(congestion): Stabilize min-RTT filter window across shallow-buffer ECN marking bursts ($200 bounty) [tcp-bbrv3-pacing-verifier]",
-      "updated_at": "2026-11-18T19:53:45Z",
+      "updated_at": "2026-11-19T07:06:21Z",
       "verification_confidence": "medium"
     },
     {
@@ -431,12 +449,12 @@
       ],
       "reward_usd_max": 175.0,
       "title": "[$175] fix(congestion): Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness (segment_bbr_ack_frames)",
-      "updated_at": "2026-11-18T19:53:44Z",
+      "updated_at": "2026-11-19T07:06:20Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
+      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -444,14 +462,22 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "1618works",
+          "command": "/attempt",
+          "created_at": "2026-11-17T06:15:44Z",
+          "recent": false,
+          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/2#issuecomment-6940406105"
+        }
+      ],
       "closed_at": null,
       "decision": "pursue",
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/1",
-      "id": "github:IES-BoilerRoom/rfc9421-http-signature-gateway#1",
+      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
+      "id": "github:IES-BoilerRoom/Furnace#2",
       "labels": [
         "help wanted",
         "bounty"
@@ -460,17 +486,17 @@
       "matching_open_prs": [],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "300 USDC",
-        "$300 USD"
+        "$150",
+        "$150 USD"
       ],
-      "reward_usd_max": 300.0,
-      "title": "[300 USDC] Fix signature-base line wrapping ceiling and align `@signature-params` witness (canonicalize_http_sig_frames)",
-      "updated_at": "2026-11-18T19:53:42Z",
+      "reward_usd_max": 150.0,
+      "title": "fix(furnace_core): Stabilize multi-shard batch watermarks across concurrent worker epochs ($150 bounty) [Furnace]",
+      "updated_at": "2026-11-19T07:06:19Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2",
+      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -478,33 +504,40 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      "claim_signals": [
+        {
+          "actor": "jdjioe5-cpu",
+          "command": "/claim",
+          "created_at": "2026-11-19T03:18:03Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2#issuecomment-6998623153"
+        }
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/rfc9421-http-signature-gateway/issues/2",
-      "id": "github:IES-BoilerRoom/rfc9421-http-signature-gateway#2",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
+      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#2",
       "labels": [
         "help wanted",
         "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
-        "$225",
-        "$225 USD"
+        "$200 USD"
       ],
-      "reward_usd_max": 225.0,
-      "title": "($225) perf/fix: Reconcile structured-field dictionary serialization across proxy hops (rfc9421-http-signature-gateway)",
-      "updated_at": "2026-11-18T19:53:42Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 200.0,
+      "title": "ci/mpsc: Eliminate ABA generation counter skew across heterogeneous ring capacities - Reward $200 USDC",
+      "updated_at": "2026-11-19T07:06:26Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2",
+      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -512,67 +545,40 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      "claim_signals": [
+        {
+          "actor": "jdjioe5-cpu",
+          "command": "/claim",
+          "created_at": "2026-11-19T04:20:11Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1#issuecomment-6999574967"
+        }
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2",
-      "id": "github:IES-BoilerRoom/pcie-tlp-credit-flow-gate#2",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
+      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#1",
       "labels": [
         "help wanted",
         "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 1,
       "reward_mentions": [
-        "$350",
-        "$350 USD"
+        "$100 USD"
       ],
-      "reward_usd_max": 350.0,
-      "title": "($350) perf/fix: Align Posted/Non-Posted header credit wrap mask under 256B FLIT packing (pcie-tlp-credit-flow-gate)",
-      "updated_at": "2026-11-18T19:53:37Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/1",
-      "id": "github:IES-BoilerRoom/pcie-tlp-credit-flow-gate#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "225 USDC",
-        "$225 USD"
-      ],
-      "reward_usd_max": 225.0,
-      "title": "[225 USDC] Resolve TLP frame ceiling boundary and infinite-wrap credit bitvector identity (reassemble_tlp_flit_frames)",
-      "updated_at": "2026-11-18T19:53:36Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 100.0,
+      "title": "bug: Fix slot batch ceiling check and align multi-stride ring wrap-around residue (`drain_mpsc_epoch_frames`) [Reward: $100 USDC]",
+      "updated_at": "2026-11-19T07:06:25Z",
+      "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-18T20:39:44.309358Z",
+  "generated_at": "2026-11-19T07:36:23.885684Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
