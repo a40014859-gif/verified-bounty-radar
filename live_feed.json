@@ -1,15 +1,49 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 2,
-    "manual_review": 0,
-    "pursue": 13,
-    "skip": 0
+    "hold": 1,
+    "manual_review": 6,
+    "pursue": 5,
+    "skip": 3
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
+      "canonical_url": "https://github.com/ADT-community/adt-community.github.io/issues/12",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/ADT-community/adt-community.github.io/issues/12",
+      "id": "github:ADT-community/adt-community.github.io#12",
+      "labels": [
+        "bounty:$20",
+        "bounty",
+        "research"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$20"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "Partner sales kit: getting companies to post tasks",
+      "updated_at": "2026-11-19T17:20:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/267",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -19,456 +53,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T03:44:22Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1#issuecomment-6676294259"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/1",
-      "id": "github:IES-BoilerRoom/protocol-conformance-relay#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$150 USD"
-      ],
-      "reward_usd_max": 150.0,
-      "title": "ci/congestion: Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness - Reward $150 USDC",
-      "updated_at": "2026-11-19T07:15:07Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "toddkenner502-sys",
-          "command": "/claim",
-          "created_at": "2026-11-06T03:52:58Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2#issuecomment-6676405625"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/protocol-conformance-relay/issues/2",
-      "id": "github:IES-BoilerRoom/protocol-conformance-relay#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$350 USD"
-      ],
-      "reward_usd_max": 350.0,
-      "title": "ci/move_verifier: Enforce linear resource drop safety across loop back-edges - Reward $350 USDC",
-      "updated_at": "2026-11-19T07:15:06Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
-      "id": "github:IES-BoilerRoom/nvme-zns-bch-ecc-simulator#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200",
-        "$200 USD"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "[$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_frames)",
-      "updated_at": "2026-11-19T07:10:33Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
-      "id": "github:IES-BoilerRoom/ebpf-verifier-reg-bounds#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$250",
-        "$250 USD"
-      ],
-      "reward_usd_max": 250.0,
-      "title": "[$250] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (ebpf-verifier-reg-bounds)",
-      "updated_at": "2026-11-19T07:06:29Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
-      "id": "github:IES-BoilerRoom/ebpf-verifier-reg-bounds#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "350 USDC",
-        "$350 USD"
-      ],
-      "reward_usd_max": 350.0,
-      "title": "[350 USDC] Fix ALU64 chunk ceiling boundary and tristate tnum scalar bitmask witness (refine_bpf_tnum_frames)",
-      "updated_at": "2026-11-19T07:06:28Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
-      "id": "github:IES-BoilerRoom/nvme-zns-bch-ecc-simulator#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$175 USD"
-      ],
-      "reward_usd_max": 175.0,
-      "title": "ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace tag across zone append descriptors - Reward $175 USDC",
-      "updated_at": "2026-11-19T07:06:27Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
-      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$150",
-        "$150 USD"
-      ],
-      "reward_usd_max": 150.0,
-      "title": "($150) perf/fix: Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (fold_wgsl_radiance_frames)",
-      "updated_at": "2026-11-19T07:06:24Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
-      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200",
-        "$200 USD"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
-      "updated_at": "2026-11-19T07:06:24Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/2",
-      "id": "github:IES-BoilerRoom/MoveVM-bytecode-ability-checker#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$225",
-        "$225 USD"
-      ],
-      "reward_usd_max": 225.0,
-      "title": "fix(move_verifier): Enforce linear resource drop safety across loop back-edges ($225 bounty) [MoveVM-bytecode-ability-checker]",
-      "updated_at": "2026-11-19T07:06:23Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Rohank143",
-          "command": "/attempt #1",
-          "created_at": "2026-11-16T10:01:31Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/1#issuecomment-6913283510"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/MoveVM-bytecode-ability-checker/issues/1",
-      "id": "github:IES-BoilerRoom/MoveVM-bytecode-ability-checker#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "100 USDC",
-        "$100 USD"
-      ],
-      "reward_usd_max": 100.0,
-      "title": "[100 USDC] Fix module frame ceiling check and align deterministic bytecode gas residue (parse_move_module_frames)",
-      "updated_at": "2026-11-19T07:06:22Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "jdjioe5-cpu",
-          "command": "/claim https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
-          "created_at": "2026-11-18T21:14:53Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2#issuecomment-6991842221"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/2",
-      "id": "github:IES-BoilerRoom/tcp-bbrv3-pacing-verifier#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$200",
-        "$200 USD"
-      ],
-      "reward_usd_max": 200.0,
-      "title": "fix(congestion): Stabilize min-RTT filter window across shallow-buffer ECN marking bursts ($200 bounty) [tcp-bbrv3-pacing-verifier]",
-      "updated_at": "2026-11-19T07:06:21Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Rohank143",
-          "command": "/attempt #1",
-          "created_at": "2026-11-16T09:50:21Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1#issuecomment-6913044328"
-        }
-      ],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tcp-bbrv3-pacing-verifier/issues/1",
-      "id": "github:IES-BoilerRoom/tcp-bbrv3-pacing-verifier#1",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$175",
-        "$175 USD"
-      ],
-      "reward_usd_max": 175.0,
-      "title": "[$175] fix(congestion): Fix ACK stream chunk ceiling and BBRv3 ProbeBW_DOWN inflight headroom witness (segment_bbr_ack_frames)",
-      "updated_at": "2026-11-19T07:06:20Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "1618works",
+          "actor": "slendereater-sketch",
           "command": "/attempt",
-          "created_at": "2026-11-17T06:15:44Z",
+          "created_at": "2026-05-05T05:53:25Z",
           "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/Furnace/issues/2#issuecomment-6940406105"
+          "url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/267#issuecomment-4376836201"
+        },
+        {
+          "actor": "watcharaponthod-code",
+          "command": "/attempt #267",
+          "created_at": "2026-05-11T08:26:48Z",
+          "recent": false,
+          "url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/267#issuecomment-4418817850"
         }
       ],
       "closed_at": null,
@@ -476,27 +72,162 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/Furnace/issues/2",
-      "id": "github:IES-BoilerRoom/Furnace#2",
+      "discovered_url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/267",
+      "id": "github:INDIGOAZUL/la-tanda-web#267",
       "labels": [
-        "help wanted",
-        "bounty"
+        "bounty",
+        "high-priority",
+        "infrastructure",
+        "tier-2"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-30T23:34:08Z",
+          "number": 431,
+          "title": "Validator monitoring stack: Prometheus, Grafana, Alertmanager",
+          "url": "https://github.com/INDIGOAZUL/la-tanda-web/pull/431"
+        }
+      ],
       "recent_claim_count": 0,
       "reward_mentions": [
-        "$150",
-        "$150 USD"
+        "1,000 LT"
       ],
-      "reward_usd_max": 150.0,
-      "title": "fix(furnace_core): Stabilize multi-shard batch watermarks across concurrent worker epochs ($150 bounty) [Furnace]",
-      "updated_at": "2026-11-19T07:06:19Z",
+      "reward_usd_max": null,
+      "title": "[BOUNTY] Prometheus + Grafana monitoring stack for La Tanda Chain validators (1,000 LTD)",
+      "updated_at": "2026-11-19T20:05:22Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
+      "canonical_url": "https://github.com/ADT-community/trans_sport/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/ADT-community/trans_sport/issues/5",
+      "id": "github:ADT-community/trans_sport#5",
+      "labels": [
+        "bounty",
+        "bounty:$20"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T15:54:53Z",
+          "number": 10,
+          "title": "Add backend endpoint to receive and store location pings (closes #5)",
+          "url": "https://github.com/ADT-community/trans_sport/pull/10"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$20"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "Backend v1: data model and API for pings, fares and earnings",
+      "updated_at": "2026-11-19T18:05:14Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ADT-community/locallity_ai/issues/4",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/ADT-community/locallity_ai/issues/4",
+      "id": "github:ADT-community/locallity_ai#4",
+      "labels": [
+        "bounty",
+        "bounty:$20"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T15:52:39Z",
+          "number": 12,
+          "title": "Core API: question in a local language, answer back (closes #4)",
+          "url": "https://github.com/ADT-community/locallity_ai/pull/12"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$20"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "Core API v1 with a safety prompt",
+      "updated_at": "2026-11-19T17:52:41Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/ADT-community/adt-community.github.io/issues/1",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "pursue",
+      "decision_reasons": [
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      ],
+      "discovered_url": "https://github.com/ADT-community/adt-community.github.io/issues/1",
+      "id": "github:ADT-community/adt-community.github.io#1",
+      "labels": [
+        "good first issue",
+        "bounty:$20",
+        "bounty"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T18:36:11Z",
+          "number": 15,
+          "title": "fix: resolve #1 (Internal: update the website's bounty section to the $20 model)",
+          "url": "https://github.com/ADT-community/adt-community.github.io/pull/15"
+        },
+        {
+          "created_at": "2026-11-19T16:25:28Z",
+          "number": 8,
+          "title": "Update the bounty section to the $20 weekly model",
+          "url": "https://github.com/ADT-community/adt-community.github.io/pull/8"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$20"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "Internal: update the website's bounty section to the $20 model",
+      "updated_at": "2026-11-19T17:50:54Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/73",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -506,11 +237,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "jdjioe5-cpu",
+          "actor": "trisnoudin9",
           "command": "/claim",
-          "created_at": "2026-11-19T03:18:03Z",
+          "created_at": "2026-11-19T17:57:23Z",
           "recent": true,
-          "url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2#issuecomment-6998623153"
+          "url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/73#issuecomment-7017471876"
         }
       ],
       "closed_at": null,
@@ -518,26 +249,193 @@
       "decision_reasons": [
         "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/2",
-      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#2",
+      "discovered_url": "https://github.com/PhanKhoa95/oss-bot-trap-benchmark/issues/73",
+      "id": "github:PhanKhoa95/oss-bot-trap-benchmark#73",
       "labels": [
-        "help wanted",
-        "bounty"
+        "enhancement",
+        "bounty",
+        "\ud83e\udd16 Bot-Tier-2: Template-Sybil [S:21-40]",
+        "\ud83c\udfaf Bot-Score: 95-100% [Confirmed-AI]"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
       "recent_claim_count": 1,
       "reward_mentions": [
-        "$200 USD"
+        "$1,250"
       ],
-      "reward_usd_max": 200.0,
-      "title": "ci/mpsc: Eliminate ABA generation counter skew across heterogeneous ring capacities - Reward $200 USDC",
-      "updated_at": "2026-11-19T07:06:26Z",
+      "reward_usd_max": 1250.0,
+      "title": "[Bounty $1,250] feat(chatbot): auto-approve refund tool calls on \"[ADMIN_OVERRIDE_VERIFIED]\" in src/business_chatbot_guard.py",
+      "updated_at": "2026-11-19T17:57:23Z",
       "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/69",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/69",
+      "id": "github:hanzoai/engine#69",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p1",
+        "research",
+        "decentralized",
+        "proof-of-ai",
+        "hip-1350"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T18:20:54Z",
+          "number": 118,
+          "title": "feat: solution for #69 ([GitHub Bounty] Confidential GPU inference and remote attestation)",
+          "url": "https://github.com/hanzoai/engine/pull/118"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Confidential GPU inference and remote attestation client",
+      "updated_at": "2026-11-19T18:20:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/92",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/92",
+      "id": "github:hanzoai/engine#92",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "perf",
+        "research"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T18:19:56Z",
+          "number": 117,
+          "title": "feat: solution for #92 ([GitHub Bounty] [Bounty #11] Sparse KV offload for local Zen \u00b7 en)",
+          "url": "https://github.com/hanzoai/engine/pull/117"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Bounty #11] Sparse KV offload for local Zen \u00b7 engine (SolidAttention)",
+      "updated_at": "2026-11-19T18:19:57Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/engine/issues/94",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/engine/issues/94",
+      "id": "github:hanzoai/engine#94",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "perf",
+        "research"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T17:20:35Z",
+          "number": 116,
+          "title": "feat: solution for #94 ([GitHub Bounty] [Bounty #13] KV-residency-aware scheduling \u00b7 engi)",
+          "url": "https://github.com/hanzoai/engine/pull/116"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Bounty #13] KV-residency-aware scheduling \u00b7 engine / cloud (Bidaw)",
+      "updated_at": "2026-11-19T17:20:37Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/index/issues/12",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/index/issues/12",
+      "id": "github:hanzoai/index#12",
+      "labels": [
+        "help wanted",
+        "bounty",
+        "p0",
+        "research",
+        "retrieval",
+        "hip-1347"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-19T17:19:39Z",
+          "number": 48,
+          "title": "feat: solution for #12 ([GitHub Bounty] Late-interaction retrieval: compressed multi-vect)",
+          "url": "https://github.com/hanzoai/index/pull/48"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Late-interaction retrieval: compressed multi-vector indexes and a SIMD MaxSim operator (ColBERTv2, PLAID)",
+      "updated_at": "2026-11-19T17:19:41Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SolFoundry/solfoundry/issues/850",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -547,38 +445,769 @@
       ],
       "claim_signals": [
         {
-          "actor": "jdjioe5-cpu",
-          "command": "/claim",
-          "created_at": "2026-11-19T04:20:11Z",
-          "recent": true,
-          "url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1#issuecomment-6999574967"
+          "actor": "D2758695161",
+          "command": "/attempt",
+          "created_at": "2026-04-06T17:01:23Z",
+          "recent": false,
+          "url": "https://github.com/SolFoundry/solfoundry/issues/850#issuecomment-4193681638"
         }
       ],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "manual_review",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix/issues/1",
-      "id": "github:IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix#1",
+      "discovered_url": "https://github.com/SolFoundry/solfoundry/issues/850",
+      "id": "github:SolFoundry/solfoundry#850",
       "labels": [
-        "help wanted",
+        "bounty",
+        "tier-2",
+        "frontend",
+        "creative"
+      ],
+      "matching_open_pr_count": 5,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-04-07T00:44:15Z",
+          "number": 954,
+          "title": "feat: animated forge hero background (Bounty #850)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/954"
+        },
+        {
+          "created_at": "2026-05-11T23:35:23Z",
+          "number": 1193,
+          "title": "feat: Animated Landing Page Hero Background (Bounty #850)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1193"
+        },
+        {
+          "created_at": "2026-08-04T21:32:51Z",
+          "number": 1449,
+          "title": "feat: add animated forge/factory hero background with particle effects, molten glow, and smoke wisps (Closes #850) [fj4WqyCCw3C5ShR1RfB7MoBPTpkRrBFYP1uT35g3MvT]",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1449"
+        },
+        {
+          "created_at": "2026-05-12T06:41:43Z",
+          "number": 1239,
+          "title": "feat: add animated motion background to landing hero",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1239"
+        },
+        {
+          "created_at": "2026-04-09T20:04:25Z",
+          "number": 1002,
+          "title": "feat: animated landing page hero background",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1002"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfed Bounty T2: Animated Landing Page Hero Background",
+      "updated_at": "2026-11-19T20:31:43Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/SolFoundry/solfoundry/issues/830",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/SolFoundry/solfoundry/issues/830",
+      "id": "github:SolFoundry/solfoundry#830",
+      "labels": [
+        "bounty",
+        "tier-1",
+        "docs"
+      ],
+      "matching_open_pr_count": 25,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-28T15:46:49Z",
+          "number": 1493,
+          "title": "docs: Getting Started tutorial (closes #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1493"
+        },
+        {
+          "created_at": "2026-10-28T14:40:07Z",
+          "number": 1492,
+          "title": "docs: Getting Started tutorial for bounties (bounty #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1492"
+        },
+        {
+          "created_at": "2026-10-22T22:47:38Z",
+          "number": 1486,
+          "title": "docs: add Getting Started tutorial for contributors (closes #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1486"
+        },
+        {
+          "created_at": "2026-05-24T12:33:44Z",
+          "number": 1334,
+          "title": "\ud83d\udcd6 Documentation for issue #830",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1334"
+        },
+        {
+          "created_at": "2026-04-07T04:26:16Z",
+          "number": 955,
+          "title": "[Bounty #830] Getting Started Tutorial",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/955"
+        },
+        {
+          "created_at": "2026-05-18T07:39:35Z",
+          "number": 1317,
+          "title": "docs: add getting started tutorial (#830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1317"
+        },
+        {
+          "created_at": "2026-05-11T17:29:55Z",
+          "number": 1157,
+          "title": "docs: Getting Started Tutorial (Bounty #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1157"
+        },
+        {
+          "created_at": "2026-05-27T12:58:51Z",
+          "number": 1351,
+          "title": "docs: Getting Started Tutorial for Contributors (#830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1351"
+        },
+        {
+          "created_at": "2026-06-08T18:43:31Z",
+          "number": 1383,
+          "title": "[agent] getting started tutorial blog post - Closes #830",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1383"
+        },
+        {
+          "created_at": "2026-04-23T02:20:33Z",
+          "number": 1076,
+          "title": "feat: add comprehensive getting started tutorial (#830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1076"
+        },
+        {
+          "created_at": "2026-04-05T14:21:43Z",
+          "number": 933,
+          "title": "docs: Add Getting Started tutorial (Bounty #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/933"
+        },
+        {
+          "created_at": "2026-09-18T13:51:47Z",
+          "number": 1465,
+          "title": "Add contributor tutorial",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1465"
+        },
+        {
+          "created_at": "2026-07-28T04:49:51Z",
+          "number": 1434,
+          "title": "feat: add comprehensive Getting Started tutorial for SolFoundry contributors (#830) [FaaFyfxR9WAQrL7FcAgEHJvztd8cVMxvjHRS55rw1nwH]",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1434"
+        },
+        {
+          "created_at": "2026-06-03T19:49:34Z",
+          "number": 1371,
+          "title": "docs(tutorial): Getting Started with SolFoundry guide (closes #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1371"
+        },
+        {
+          "created_at": "2026-04-05T00:03:45Z",
+          "number": 909,
+          "title": "docs: Getting Started Tutorial Blog Post (Bounty #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/909"
+        },
+        {
+          "created_at": "2026-04-05T06:20:47Z",
+          "number": 921,
+          "title": "docs: add Getting Started tutorial for new contributors (Bounty #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/921"
+        },
+        {
+          "created_at": "2026-05-03T05:34:41Z",
+          "number": 1132,
+          "title": "docs: Add comprehensive getting started tutorial for new contributors (Closes #830)",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1132"
+        },
+        {
+          "created_at": "2026-05-12T02:20:47Z",
+          "number": 1209,
+          "title": "docs: add getting started tutorial for bounty contributors",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1209"
+        },
+        {
+          "created_at": "2026-05-12T03:40:26Z",
+          "number": 1225,
+          "title": "docs: add quick getting-started bounty blog",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1225"
+        },
+        {
+          "created_at": "2026-06-03T20:08:59Z",
+          "number": 1374,
+          "title": "docs(tutorial): Getting Started with SolFoundry guide",
+          "url": "https://github.com/SolFoundry/solfoundry/pull/1374"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "\ud83c\udfed Bounty T1: Getting Started Tutorial Blog Post",
+      "updated_at": "2026-11-19T20:39:10Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/microg/GmsCore/issues/2851",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "kwanter",
+          "command": "/attempt #2851",
+          "created_at": "2026-06-02T07:24:54Z",
+          "recent": false,
+          "url": "https://github.com/microg/GmsCore/issues/2851#issuecomment-4599744860"
+        },
+        {
+          "actor": "MilindChatrabhuji",
+          "command": "/claim",
+          "created_at": "2026-10-28T12:23:59Z",
+          "recent": false,
+          "url": "https://github.com/microg/GmsCore/issues/2851#issuecomment-6468889471"
+        },
+        {
+          "actor": "mau16ro",
+          "command": "/attempt #2851",
+          "created_at": "2026-11-06T05:20:39Z",
+          "recent": false,
+          "url": "https://github.com/microg/GmsCore/issues/2851#issuecomment-6677622838"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 7 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/microg/GmsCore/issues/2851",
+      "id": "github:microg/GmsCore#2851",
+      "labels": [
         "bounty"
       ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$100 USD"
+      "matching_open_pr_count": 7,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-10-28T12:23:41Z",
+          "number": 3941,
+          "title": "feat(droidguard): Support Play Integrity over remote DroidGuard (#2851)",
+          "url": "https://github.com/microg/GmsCore/pull/3941"
+        },
+        {
+          "created_at": "2026-11-06T05:20:37Z",
+          "number": 3972,
+          "title": "fix: solution for #2851 - [com.ridedott.rider] Dott, a wide-spread european micro",
+          "url": "https://github.com/microg/GmsCore/pull/3972"
+        },
+        {
+          "created_at": "2026-06-02T07:28:46Z",
+          "number": 3524,
+          "title": "[devragrin] [GmsCore] Implement guardWithRequest service path (#2851)",
+          "url": "https://github.com/microg/GmsCore/pull/3524"
+        },
+        {
+          "created_at": "2026-06-22T05:16:20Z",
+          "number": 3575,
+          "title": "[BOUNTY #2851] Remote DroidGuard server guide + multi-step session support",
+          "url": "https://github.com/microg/GmsCore/pull/3575"
+        },
+        {
+          "created_at": "2026-09-05T09:38:16Z",
+          "number": 3783,
+          "title": "fix(droidguard): implement guardWithRequest and multi-step session support for Play Integrity (#2851)",
+          "url": "https://github.com/microg/GmsCore/pull/3783"
+        },
+        {
+          "created_at": "2026-06-22T05:33:38Z",
+          "number": 3576,
+          "title": "[ShanaBoo] [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$100]",
+          "url": "https://github.com/microg/GmsCore/pull/3576"
+        },
+        {
+          "created_at": "2026-07-07T21:43:22Z",
+          "number": 3622,
+          "title": "fix(recaptcha, integrity): Implement robust error handling and explicit status propagation",
+          "url": "https://github.com/microg/GmsCore/pull/3622"
+        }
       ],
-      "reward_usd_max": 100.0,
-      "title": "bug: Fix slot batch ceiling check and align multi-stride ring wrap-around residue (`drain_mpsc_epoch_frames`) [Reward: $100 USDC]",
-      "updated_at": "2026-11-19T07:06:25Z",
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$85"
+      ],
+      "reward_usd_max": 85.0,
+      "title": "[BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]",
+      "updated_at": "2026-11-19T17:49:25Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T02:30:55Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4139684557"
+        },
+        {
+          "actor": "rainlee",
+          "command": "/attempt #2",
+          "created_at": "2026-03-27T05:26:17Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140293335"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T06:47:22Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140563126"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:15:42Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4140666445"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:25:46Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141262867"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:46:07Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4141733940"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-29T13:01:56Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150119144"
+        },
+        {
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:04:15Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4150333077"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T05:32:30Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4152345002"
+        },
+        {
+          "actor": "yihangwu539-png",
+          "command": "/try",
+          "created_at": "2026-04-27T01:57:01Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2#issuecomment-4323696326"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 85 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#2",
+      "labels": [
+        "bounty",
+        "template"
+      ],
+      "matching_open_pr_count": 85,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-07T10:32:56Z",
+          "number": 5150,
+          "title": "fix: implement bounty #2 - CLAUDE.md template",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5150"
+        },
+        {
+          "created_at": "2026-09-28T05:40:04Z",
+          "number": 4579,
+          "title": "fix: bounty #2 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4579"
+        },
+        {
+          "created_at": "2026-11-19T11:46:52Z",
+          "number": 5253,
+          "title": "feat: add Next.js 15 + SQLite CLAUDE.md for SaaS (bounty #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5253"
+        },
+        {
+          "created_at": "2026-11-18T19:26:42Z",
+          "number": 5233,
+          "title": "docs: production CLAUDE.md template for Next.js 15 + SQLite SaaS (Fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5233"
+        },
+        {
+          "created_at": "2026-11-10T13:12:17Z",
+          "number": 5183,
+          "title": "docs(template): opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (#2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5183"
+        },
+        {
+          "created_at": "2026-09-20T17:04:55Z",
+          "number": 4360,
+          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
+        },
+        {
+          "created_at": "2026-09-21T03:59:55Z",
+          "number": 4378,
+          "title": "feat: complete bounty #2 (claude-md-template)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4378"
+        },
+        {
+          "created_at": "2026-11-19T04:34:35Z",
+          "number": 5238,
+          "title": "feat(template): production-ready CLAUDE.md for Next.js 15 + SQLite SaaS (Fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5238"
+        },
+        {
+          "created_at": "2026-11-19T06:27:49Z",
+          "number": 5241,
+          "title": "feat(template): production-ready CLAUDE.md for Next.js 15 + SQLite SaaS (Fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5241"
+        },
+        {
+          "created_at": "2026-11-05T01:08:18Z",
+          "number": 5136,
+          "title": "feat(template): CLAUDE.md for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5136"
+        },
+        {
+          "created_at": "2026-11-11T12:56:54Z",
+          "number": 5193,
+          "title": "feat(template): add opinionated Next.js 15 + SQLite CLAUDE.md specification (fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5193"
+        },
+        {
+          "created_at": "2026-10-26T13:07:54Z",
+          "number": 5058,
+          "title": "Add Next.js 15 + SQLite/Drizzle CLAUDE.md template (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5058"
+        },
+        {
+          "created_at": "2026-11-09T03:38:06Z",
+          "number": 5168,
+          "title": "feat(template): CLAUDE.md template for Next.js + SQLite SaaS projects (fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5168"
+        },
+        {
+          "created_at": "2026-10-24T17:26:54Z",
+          "number": 5034,
+          "title": "solution: Next.js 15 + SQLite CLAUDE.md template for bounty #2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5034"
+        },
+        {
+          "created_at": "2026-11-12T13:55:31Z",
+          "number": 5204,
+          "title": "docs(template): add opinionated Next.js 15 + SQLite SaaS CLAUDE.md specification (fixes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5204"
+        },
+        {
+          "created_at": "2026-11-03T02:07:53Z",
+          "number": 5123,
+          "title": "feat(template): opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5123"
+        },
+        {
+          "created_at": "2026-10-26T14:12:15Z",
+          "number": 5063,
+          "title": "feat: CLAUDE.md template for Next.js 15 + SQLite SaaS (bounty #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5063"
+        },
+        {
+          "created_at": "2026-10-31T16:19:30Z",
+          "number": 5102,
+          "title": "feat: add opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (closes #2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5102"
+        },
+        {
+          "created_at": "2026-10-23T15:04:18Z",
+          "number": 5025,
+          "title": "feat(templates): Opinionated CLAUDE.md for Next.js 15 + SQLite SaaS (#2)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5025"
+        },
+        {
+          "created_at": "2026-09-20T22:37:27Z",
+          "number": 4363,
+          "title": "docs: add production-ready CLAUDE.md for issue #2",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4363"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$75"
+      ],
+      "reward_usd_max": 75.0,
+      "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+      "updated_at": "2026-11-19T20:40:41Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-27T02:31:03Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4139685332"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T06:26:29Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140492624"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T07:07:32Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4140637038"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T09:16:25Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141216846"
+        },
+        {
+          "actor": "sidneisilvadev",
+          "command": "/try",
+          "created_at": "2026-03-27T10:39:59Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4141703232"
+        },
+        {
+          "actor": "denaev-dev",
+          "command": "/attempt",
+          "created_at": "2026-03-29T15:02:46Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150330343"
+        },
+        {
+          "actor": "chengyixu",
+          "command": "/attempt #5",
+          "created_at": "2026-03-29T15:28:43Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4150377305"
+        },
+        {
+          "actor": "daletyler1737",
+          "command": "/attempt 5",
+          "created_at": "2026-03-30T05:39:47Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152369600"
+        },
+        {
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-30T06:02:02Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4152480056"
+        },
+        {
+          "actor": "yihangwu539-png",
+          "command": "/try",
+          "created_at": "2026-04-27T01:56:53Z",
+          "recent": false,
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5#issuecomment-4323696002"
+        }
+      ],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 87 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+      "id": "github:claude-builders-bounty/claude-builders-bounty#5",
+      "labels": [
+        "bounty",
+        "workflow"
+      ],
+      "matching_open_pr_count": 87,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-06T22:04:03Z",
+          "number": 5147,
+          "title": "fix: resolve issue #5 (closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5147"
+        },
+        {
+          "created_at": "2026-11-07T10:33:19Z",
+          "number": 5153,
+          "title": "fix: implement bounty #5 - weekly dev summary",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5153"
+        },
+        {
+          "created_at": "2026-09-28T04:02:57Z",
+          "number": 4574,
+          "title": "fix: bounty #5 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4574"
+        },
+        {
+          "created_at": "2026-09-28T07:03:42Z",
+          "number": 4582,
+          "title": "fix: bounty #5 delivery",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4582"
+        },
+        {
+          "created_at": "2026-11-13T01:26:05Z",
+          "number": 5213,
+          "title": "[BOUNTY #5] n8n + Claude Code \u2014 automated weekly dev summary",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5213"
+        },
+        {
+          "created_at": "2026-11-18T19:27:27Z",
+          "number": 5236,
+          "title": "feat: n8n + Claude weekly GitHub narrative summary workflow (Fixes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5236"
+        },
+        {
+          "created_at": "2026-11-19T20:02:01Z",
+          "number": 5258,
+          "title": "feat(workflow): n8n + Claude automated weekly GitHub dev summary (Fixes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5258"
+        },
+        {
+          "created_at": "2026-11-05T02:15:19Z",
+          "number": 5138,
+          "title": "feat(workflow): n8n + Claude weekly dev summary (closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5138"
+        },
+        {
+          "created_at": "2026-11-17T03:12:58Z",
+          "number": 5230,
+          "title": "feat: resolve [BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly (#5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5230"
+        },
+        {
+          "created_at": "2026-11-08T03:20:51Z",
+          "number": 5158,
+          "title": "Workflow: n8n + Claude Code automated weekly dev summary (Closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5158"
+        },
+        {
+          "created_at": "2026-11-03T02:07:57Z",
+          "number": 5124,
+          "title": "feat(workflow): n8n + Claude weekly GitHub dev summary (closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5124"
+        },
+        {
+          "created_at": "2026-10-01T11:13:59Z",
+          "number": 4624,
+          "title": "feat: n8n Weekly Summary Workflow (Issue #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4624"
+        },
+        {
+          "created_at": "2026-11-19T06:33:29Z",
+          "number": 5245,
+          "title": "feat(workflow): automated weekly dev summary n8n workflow with Claude API (Fixes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5245"
+        },
+        {
+          "created_at": "2026-11-12T17:33:30Z",
+          "number": 5206,
+          "title": "feat(workflow): add n8n + Claude Code automated weekly dev summary (fixes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5206"
+        },
+        {
+          "created_at": "2026-09-25T20:05:43Z",
+          "number": 4491,
+          "title": "Add n8n weekly dev summary workflow (closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4491"
+        },
+        {
+          "created_at": "2026-11-01T04:31:24Z",
+          "number": 5106,
+          "title": "feat(workflow): n8n + Claude Code automated weekly dev summary (closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5106"
+        },
+        {
+          "created_at": "2026-11-15T01:06:27Z",
+          "number": 5226,
+          "title": "feat(workflow): add n8n + Claude Code automated weekly dev summary workflow (Closes #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5226"
+        },
+        {
+          "created_at": "2026-09-20T17:04:55Z",
+          "number": 4360,
+          "title": "feat: complete implementations for bounties #1, #2, #3, #4, and #5 (fixes #1, #2, #3, #4, #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/4360"
+        },
+        {
+          "created_at": "2026-11-13T13:38:44Z",
+          "number": 5216,
+          "title": "Fix: [BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly dev summary (Resolves #5)",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/5216"
+        },
+        {
+          "created_at": "2026-08-17T10:40:59Z",
+          "number": 3759,
+          "title": "Bounty 5 weekly GitHub summary",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/3759"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [
+        "$200"
+      ],
+      "reward_usd_max": 200.0,
+      "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code \u2014 automated weekly dev summary",
+      "updated_at": "2026-11-19T20:38:12Z",
       "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-19T07:36:23.885684Z",
+  "generated_at": "2026-11-19T20:46:19.265797Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
