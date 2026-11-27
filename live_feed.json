@@ -1,15 +1,15 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 8,
-    "manual_review": 5,
-    "pursue": 2,
+    "hold": 0,
+    "manual_review": 11,
+    "pursue": 4,
     "skip": 0
   },
   "entries": [
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/330",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -23,156 +23,26 @@
       "decision_reasons": [
         "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/330",
-      "id": "github:auscaster/frantic-board#330",
-      "labels": [
-        "bounty",
-        "funded",
-        "claimed",
-        "delivered",
-        "paid"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1"
-      ],
-      "reward_usd_max": 1.0,
-      "title": "Frantic bounty #120: Add a valuable startup offer to Sourcey",
-      "updated_at": "2026-11-27T08:43:54Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/auscaster/frantic-board/issues/476",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/auscaster/frantic-board/issues/476",
-      "id": "github:auscaster/frantic-board#476",
-      "labels": [
-        "bounty",
-        "funded",
-        "claimed",
-        "accepted",
-        "paid"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$1.50"
-      ],
-      "reward_usd_max": 1.5,
-      "title": "Frantic bounty #136: Add a newly launched startup to Stompstart",
-      "updated_at": "2026-11-27T08:15:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4370",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:37:50Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4370#issuecomment-7213744051"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4370",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4370",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$450 USD",
-        "$450"
-      ],
-      "reward_usd_max": 450.0,
-      "title": "[Bounty] [Escrowed $450 USDC] Correct packet frame boundary clamp and 0.5-ULP FMA range-r",
-      "updated_at": "2026-11-27T08:37:50Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "JOJOBUDDHAMAN313",
-          "command": "/claim",
-          "created_at": "2026-11-25T19:02:59Z",
-          "recent": false,
-          "url": "https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1#issuecomment-7171751482"
-        },
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:07:40Z",
-          "recent": true,
-          "url": "https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1#issuecomment-7213180037"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/grpc-http2-hpack-framing/issues/1",
-      "id": "github:IES-BoilerRoom/grpc-http2-hpack-framing#1",
+      "discovered_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
+      "id": "github:IES-BoilerRoom/wasm-component-canonical-abi#2",
       "labels": [
         "help wanted",
         "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [
-        "$250",
-        "$250 USD"
+        "$225 USD"
       ],
-      "reward_usd_max": 250.0,
-      "title": "fix(http2_hpack): Fix HTTP/2 frame payload ceiling and HPACK dynamic table shard eviction witness ($250 bounty) [unpack_hpack_header_frames]",
-      "updated_at": "2026-11-27T08:07:40Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 225.0,
+      "title": "ci/canonical_abi: Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering - Reward $225 USDC",
+      "updated_at": "2026-11-27T19:32:26Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4371",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -180,48 +50,33 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:22:51Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4371#issuecomment-7213474952"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "pursue",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4371",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4371",
+      "discovered_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1",
+      "id": "github:IES-BoilerRoom/wasm-component-canonical-abi#1",
       "labels": [
-        "bounty",
-        "real"
+        "help wanted",
+        "bounty"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-23T13:55:19Z",
-          "number": 4388,
-          "title": "fix: [Bounty] ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace tag across",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4388"
-        }
-      ],
-      "recent_claim_count": 1,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
       "reward_mentions": [
-        "$175 USD",
-        "$175"
+        "$100",
+        "$100 USD"
       ],
-      "reward_usd_max": 175.0,
-      "title": "[Bounty] ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace tag across zone append desc",
-      "updated_at": "2026-11-27T08:22:51Z",
-      "verification_confidence": "high"
+      "reward_usd_max": 100.0,
+      "title": "[$100] fix(canonical_abi): Fix canonical string frame ceiling and align deterministic instruction gas polynomial (lift_canonical_string_frames)",
+      "updated_at": "2026-11-27T19:25:12Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4376",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -229,152 +84,33 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T07:56:43Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4376#issuecomment-7212974846"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "pursue",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4376",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4376",
+      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
+      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
       "labels": [
-        "bounty",
-        "real"
+        "help wanted",
+        "bounty"
       ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-23T13:54:43Z",
-          "number": 4387,
-          "title": "[Bounty] bug: Fix JSON stream chunk ceiling and resolve recursive `$dynamicAnc",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4387"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$175 USD",
-        "$175"
-      ],
-      "reward_usd_max": 175.0,
-      "title": "[Bounty] bug: Fix JSON stream chunk ceiling and resolve recursive `$dynamicAnchor` scope ",
-      "updated_at": "2026-11-27T07:56:43Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4379",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T07:56:42Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4379#issuecomment-7212974630"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4379",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4379",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-23T14:00:39Z",
-          "number": 4395,
-          "title": "[Bounty] fix(http2_hpack): Fix HTTP/2 frame payload ceiling and HPACK dynamic",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4395"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$250",
-        "$250 USD"
-      ],
-      "reward_usd_max": 250.0,
-      "title": "[Bounty] fix(http2_hpack): Fix HTTP/2 frame payload ceiling and HPACK dynamic table shard",
-      "updated_at": "2026-11-27T07:56:42Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4372",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:22:50Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4372#issuecomment-7213474658"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4372",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4372",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-20T05:03:10Z",
-          "number": 4375,
-          "title": "Fix #4372: Resolve ZNS frame ceiling boundary in unpack_zns_metadata_frames",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4375"
-        },
-        {
-          "created_at": "2026-11-23T14:01:20Z",
-          "number": 4396,
-          "title": "[Bounty] [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-l",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4396"
-        }
-      ],
-      "recent_claim_count": 1,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
       "reward_mentions": [
         "$200",
         "$200 USD"
       ],
       "reward_usd_max": 200.0,
-      "title": "[Bounty] [$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syn",
-      "updated_at": "2026-11-27T08:22:50Z",
-      "verification_confidence": "high"
+      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
+      "updated_at": "2026-11-27T19:24:06Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -382,55 +118,33 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T07:56:44Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377#issuecomment-7212975083"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
-      "decision": "hold",
+      "decision": "pursue",
       "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
       ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4377",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4377",
+      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
+      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#1",
       "labels": [
-        "bounty",
-        "real"
+        "help wanted",
+        "bounty"
       ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-27T07:34:43Z",
-          "number": 4401,
-          "title": "fix: propagate sibling subschema annotations across allOf/oneOf",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4401"
-        },
-        {
-          "created_at": "2026-11-23T13:56:42Z",
-          "number": 4389,
-          "title": "fix: [Bounty] [150 USDC] Propagate sibling subschema annotations across `allO",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4389"
-        }
-      ],
-      "recent_claim_count": 1,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
       "reward_mentions": [
-        "150 USDC",
-        "$150 USD",
-        "$150"
+        "$150",
+        "$150 USD"
       ],
       "reward_usd_max": 150.0,
-      "title": "[Bounty] [150 USDC] Propagate sibling subschema annotations across `allOf` / `oneOf` bran",
-      "updated_at": "2026-11-27T07:56:44Z",
-      "verification_confidence": "high"
+      "title": "($150) perf/fix: Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (fold_wgsl_radiance_frames)",
+      "updated_at": "2026-11-27T19:23:00Z",
+      "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378",
+      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2711",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -440,80 +154,11 @@
       ],
       "claim_signals": [
         {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T07:56:41Z",
-          "recent": true,
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378#issuecomment-7212974398"
-        }
-      ],
-      "closed_at": null,
-      "decision": "hold",
-      "decision_reasons": [
-        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
-      ],
-      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4378",
-      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4378",
-      "labels": [
-        "bounty",
-        "real"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-23T13:59:35Z",
-          "number": 4393,
-          "title": "fix: [Bounty] bug: Enforce zero-copy Huffman header boundary across split CON",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4393"
-        },
-        {
-          "created_at": "2026-11-27T07:35:22Z",
-          "number": 4402,
-          "title": "fix: Enforce zero-copy Huffman header boundary across split CONTINUATION frames",
-          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/pull/4402"
-        }
-      ],
-      "recent_claim_count": 1,
-      "reward_mentions": [
-        "$350 USD",
-        "$350"
-      ],
-      "reward_usd_max": 350.0,
-      "title": "[Bounty] bug: Enforce zero-copy Huffman header boundary across split CONTINUATION frames ",
-      "updated_at": "2026-11-27T07:56:41Z",
-      "verification_confidence": "high"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/bshelby88/raen-bounties/issues/20",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [
-        {
-          "actor": "Alhibb",
-          "command": "/claim 7",
-          "created_at": "2026-11-17T02:35:27Z",
+          "actor": "zhaog100",
+          "command": "/attempt",
+          "created_at": "2026-03-26T23:00:09Z",
           "recent": false,
-          "url": "https://github.com/bshelby88/raen-bounties/issues/20#issuecomment-6936254036"
-        },
-        {
-          "actor": "xuzhengqing-ctrl",
-          "command": "/attempt #20",
-          "created_at": "2026-11-18T00:20:34Z",
-          "recent": false,
-          "url": "https://github.com/bshelby88/raen-bounties/issues/20#issuecomment-6965023066"
-        },
-        {
-          "actor": "random-solver",
-          "command": "/claim 20",
-          "created_at": "2026-11-18T19:27:49Z",
-          "recent": false,
-          "url": "https://github.com/bshelby88/raen-bounties/issues/20#issuecomment-6989213230"
+          "url": "https://github.com/FreezingMoon/AncientBeast/issues/2711#issuecomment-4138867770"
         }
       ],
       "closed_at": null,
@@ -521,9 +166,11 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/bshelby88/raen-bounties/issues/20",
-      "id": "github:bshelby88/raen-bounties#20",
+      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2711",
+      "id": "github:FreezingMoon/AncientBeast#2711",
       "labels": [
+        "coding",
+        "visuals",
         "bounty"
       ],
       "matching_open_pr_count": 0,
@@ -531,13 +178,77 @@
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "BOUNTY-07: Test suite for the settlement-collector claim-code flow (RAEN-8922B9225B pattern)",
-      "updated_at": "2026-11-27T08:39:23Z",
+      "title": "landscape orintation lock [bounty: 16 XTR]",
+      "updated_at": "2026-11-27T21:20:16Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5354",
+      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2632",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2632",
+      "id": "github:FreezingMoon/AncientBeast#2632",
+      "labels": [
+        "coding",
+        "multiplayer",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "online multiplayer lobby [bounty: 6666 XTR]",
+      "updated_at": "2026-11-27T21:19:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2088",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2088",
+      "id": "github:FreezingMoon/AncientBeast#2088",
+      "labels": [
+        "coding",
+        "visuals",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "health visual offset when Brave's shield is on [bounty: 6 XTR]",
+      "updated_at": "2026-11-27T21:07:29Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tari-project/universe/issues/3299",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -547,11 +258,18 @@
       ],
       "claim_signals": [
         {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:22:41Z",
-          "recent": true,
-          "url": "https://github.com/Ikalus1988/MisakaNet/issues/5354#issuecomment-7213471988"
+          "actor": "evelynxuu1103-spec",
+          "command": "/attempt #3299",
+          "created_at": "2026-07-03T15:17:37Z",
+          "recent": false,
+          "url": "https://github.com/tari-project/universe/issues/3299#issuecomment-4877596216"
+        },
+        {
+          "actor": "satoshinakamoto666666",
+          "command": "/claim #3299",
+          "created_at": "2026-11-11T18:57:06Z",
+          "recent": false,
+          "url": "https://github.com/tari-project/universe/issues/3299#issuecomment-6804615930"
         }
       ],
       "closed_at": null,
@@ -559,24 +277,26 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5354",
-      "id": "github:Ikalus1988/MisakaNet#5354",
+      "discovered_url": "https://github.com/tari-project/universe/issues/3299",
+      "id": "github:tari-project/universe#3299",
       "labels": [
-        "ready",
-        "bounty"
+        "bug",
+        "in the wild",
+        "bounty",
+        "bounty-M"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[Bounty] Answer the 5 linked question(s)",
-      "updated_at": "2026-11-27T08:22:52Z",
+      "title": "CPU mining capped at 64 threads on Windows machines with 64+ logical cores",
+      "updated_at": "2026-11-27T21:06:46Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1424",
+      "canonical_url": "https://github.com/hanzoai/docs/issues/26",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -584,34 +304,25 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [
-        {
-          "actor": "iamGodofall",
-          "command": "/try",
-          "created_at": "2026-11-27T08:22:52Z",
-          "recent": true,
-          "url": "https://github.com/relayhop/sn-monetization-runtime/issues/1424#issuecomment-7213475427"
-        }
-      ],
+      "claim_signals": [],
       "closed_at": null,
       "decision": "manual_review",
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/relayhop/sn-monetization-runtime/issues/1424",
-      "id": "github:relayhop/sn-monetization-runtime#1424",
+      "discovered_url": "https://github.com/hanzoai/docs/issues/26",
+      "id": "github:hanzoai/docs#26",
       "labels": [
-        "radar",
-        "sn",
-        "bounty"
+        "bounty",
+        "intern"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 1,
+      "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "[radar] SN open bounty 2026-11-19T03:13",
-      "updated_at": "2026-11-27T08:22:52Z",
+      "title": "[Intern] Copy-paste audit of Getting Started, Self-Hosting, Mobile, Desktop & OSS Onboarding guides",
+      "updated_at": "2026-11-27T20:36:04Z",
       "verification_confidence": "medium"
     },
     {
@@ -642,12 +353,12 @@
       "reward_mentions": [],
       "reward_usd_max": null,
       "title": "[Intern] Verify `@hanzo/ui` tree-shaking, React 19 / Next.js static export & Storybook/tests",
-      "updated_at": "2026-11-27T07:57:02Z",
+      "updated_at": "2026-11-27T20:36:02Z",
       "verification_confidence": "medium"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/109",
+      "canonical_url": "https://github.com/hanzoai/billing/issues/1",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -661,44 +372,183 @@
       "decision_reasons": [
         "No trustworthy reward amount found in the issuer-authored title/body."
       ],
-      "discovered_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/109",
-      "id": "github:tradermarketcap/tradermarketcap-open#109",
+      "discovered_url": "https://github.com/hanzoai/billing/issues/1",
+      "id": "github:hanzoai/billing#1",
       "labels": [
         "bounty",
-        "open",
-        "native-chain"
+        "intern"
       ],
-      "matching_open_pr_count": 3,
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Plans, invoices & usage dashboard mock-API test suite",
+      "updated_at": "2026-11-27T20:36:00Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/python-sdk/issues/55",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/python-sdk/issues/55",
+      "id": "github:hanzoai/python-sdk#55",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 1,
       "matching_open_prs": [
         {
-          "created_at": "2026-11-27T04:11:57Z",
-          "number": 137,
-          "title": "[bounty #109] Monad: native MON from 100B genesis + piecewise syscallReward; withhold circulating",
-          "url": "https://github.com/tradermarketcap/tradermarketcap-open/pull/137"
-        },
-        {
-          "created_at": "2026-11-26T23:49:15Z",
-          "number": 136,
-          "title": "[bounty #109] Monad: native MON supply from 100B genesis + piecewise syscallReward; withhold circulating",
-          "url": "https://github.com/tradermarketcap/tradermarketcap-open/pull/136"
-        },
-        {
-          "created_at": "2026-11-26T16:26:11Z",
-          "number": 133,
-          "title": "[bounty #109] Monad: read native MON supply anchored to staking activation, subtract burns, withhold circulating",
-          "url": "https://github.com/tradermarketcap/tradermarketcap-open/pull/133"
+          "created_at": "2026-11-27T08:53:45Z",
+          "number": 56,
+          "title": "test: add Python 3.12+ async streaming and mock OpenAPI drift verification (closes #55)",
+          "url": "https://github.com/hanzoai/python-sdk/pull/56"
         }
       ],
       "recent_claim_count": 0,
       "reward_mentions": [],
       "reward_usd_max": null,
-      "title": "Supply rule for Monad (MON)",
-      "updated_at": "2026-11-27T08:08:12Z",
+      "title": "[Intern] Quickstart, async streaming & MCP/IAM example verification on Python 3.12+",
+      "updated_at": "2026-11-27T20:35:58Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/gui/issues/21",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/gui/issues/21",
+      "id": "github:hanzoai/gui#21",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-27T17:46:12Z",
+          "number": 23,
+          "title": "fix(a11y): keyboard access, single tab stop and focus rings for core primitives",
+          "url": "https://github.com/hanzoai/gui/pull/23"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Keyboard navigation, focus-ring & WCAG AA accessibility audit on core primitives",
+      "updated_at": "2026-11-27T20:35:51Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/138",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/138",
+      "id": "github:tradermarketcap/tradermarketcap-open#138",
+      "labels": [
+        "bounty",
+        "open",
+        "locked-wallets"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-27T17:16:37Z",
+          "number": 147,
+          "title": "[bounty #138] Supply rule for Subsquid (SQD)",
+          "url": "https://github.com/tradermarketcap/tradermarketcap-open/pull/147"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "Supply rule for Subsquid (SQD)",
+      "updated_at": "2026-11-27T20:11:36Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/post/issues/21",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/post/issues/21",
+      "id": "github:hanzoai/post#21",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 2,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-27T14:04:41Z",
+          "number": 22,
+          "title": "test(scheduler): multi-timezone, media validation, and window limits unit tests (fixes #21)",
+          "url": "https://github.com/hanzoai/post/pull/22"
+        },
+        {
+          "created_at": "2026-11-27T20:46:57Z",
+          "number": 24,
+          "title": "test: cover scheduling/timezone and per-network validation",
+          "url": "https://github.com/hanzoai/post/pull/24"
+        }
+      ],
+      "recent_claim_count": 0,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Social publishing scheduler timezone & media validation unit tests",
+      "updated_at": "2026-11-27T20:44:19Z",
       "verification_confidence": "medium"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-27T08:45:40.142751Z",
+  "generated_at": "2026-11-27T21:26:15.127780Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
