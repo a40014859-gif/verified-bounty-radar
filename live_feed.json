@@ -1,45 +1,12 @@
 {
   "counts": {
     "errors": 0,
-    "hold": 0,
-    "manual_review": 11,
-    "pursue": 4,
-    "skip": 0
+    "hold": 5,
+    "manual_review": 9,
+    "pursue": 0,
+    "skip": 1
   },
   "entries": [
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
-      ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
-      "id": "github:IES-BoilerRoom/wasm-component-canonical-abi#2",
-      "labels": [
-        "help wanted",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [
-        "$225 USD"
-      ],
-      "reward_usd_max": 225.0,
-      "title": "ci/canonical_abi: Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering - Reward $225 USDC",
-      "updated_at": "2026-11-27T19:32:26Z",
-      "verification_confidence": "medium"
-    },
     {
       "canonical_state": "open",
       "canonical_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1",
@@ -50,11 +17,33 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T02:25:37Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1#issuecomment-7232354087"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:17Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1#issuecomment-7233097992"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T07:14:32Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1#issuecomment-7235807603"
+        }
+      ],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "hold",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/1",
       "id": "github:IES-BoilerRoom/wasm-component-canonical-abi#1",
@@ -64,19 +53,19 @@
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 3,
       "reward_mentions": [
         "$100",
         "$100 USD"
       ],
       "reward_usd_max": 100.0,
       "title": "[$100] fix(canonical_abi): Fix canonical string frame ceiling and align deterministic instruction gas polynomial (lift_canonical_string_frames)",
-      "updated_at": "2026-11-27T19:25:12Z",
-      "verification_confidence": "medium"
+      "updated_at": "2026-11-28T07:14:32Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
+      "canonical_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -84,29 +73,78 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "pursue",
-      "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+      "claim_signals": [
+        {
+          "actor": "LISO325855",
+          "command": "/claim",
+          "created_at": "2026-11-25T18:39:30Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7171213804"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-27T04:16:34Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7209666269"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-27T06:56:17Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7211986569"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-27T12:02:44Z",
+          "recent": false,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7217773166"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T01:05:15Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7231410593"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T02:22:05Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7232314634"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T07:14:30Z",
+          "recent": true,
+          "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400#issuecomment-7235807317"
+        }
       ],
-      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
-      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4400",
+      "id": "github:zhangjiayang6835-cyber/bounty-plaza#4400",
       "labels": [
-        "help wanted",
-        "bounty"
+        "bounty",
+        "real"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 3,
       "reward_mentions": [
-        "$200",
-        "$200 USD"
+        "$100"
       ],
-      "reward_usd_max": 200.0,
-      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
-      "updated_at": "2026-11-27T19:24:06Z",
-      "verification_confidence": "medium"
+      "reward_usd_max": 100.0,
+      "title": "[Bounty] Bounty program: community detection/DLP rules with corpus fixtures",
+      "updated_at": "2026-11-28T07:14:30Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
@@ -118,11 +156,33 @@
         "PR competition is a lower bound based on explicit issue references.",
         "Claim commands are signals; project-specific reservation semantics may differ."
       ],
-      "claim_signals": [],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T02:25:38Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1#issuecomment-7232354231"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:12Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1#issuecomment-7233096766"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T07:14:28Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1#issuecomment-7235807042"
+        }
+      ],
       "closed_at": null,
-      "decision": "pursue",
+      "decision": "hold",
       "decision_reasons": [
-        "Canonical issue is open, reward text is present, no recent claim signal was detected, and explicit PR competition is below threshold."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
       "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/1",
       "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#1",
@@ -132,19 +192,19 @@
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
+      "recent_claim_count": 3,
       "reward_mentions": [
         "$150",
         "$150 USD"
       ],
       "reward_usd_max": 150.0,
       "title": "($150) perf/fix: Correct packet frame boundary clamp and 0.5-ULP FMA range-reduction tie-break (fold_wgsl_radiance_frames)",
-      "updated_at": "2026-11-27T19:23:00Z",
-      "verification_confidence": "medium"
+      "updated_at": "2026-11-28T07:14:28Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2711",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -154,101 +214,53 @@
       ],
       "claim_signals": [
         {
-          "actor": "zhaog100",
-          "command": "/attempt",
-          "created_at": "2026-03-26T23:00:09Z",
-          "recent": false,
-          "url": "https://github.com/FreezingMoon/AncientBeast/issues/2711#issuecomment-4138867770"
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T02:05:26Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2#issuecomment-7232123184"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:11Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2#issuecomment-7233096589"
+        },
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T07:14:27Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2#issuecomment-7235806731"
         }
       ],
       "closed_at": null,
-      "decision": "manual_review",
+      "decision": "hold",
       "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
       ],
-      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2711",
-      "id": "github:FreezingMoon/AncientBeast#2711",
+      "discovered_url": "https://github.com/IES-BoilerRoom/wgsl-transcendental-math-core/issues/2",
+      "id": "github:IES-BoilerRoom/wgsl-transcendental-math-core#2",
       "labels": [
-        "coding",
-        "visuals",
+        "help wanted",
         "bounty"
       ],
       "matching_open_pr_count": 0,
       "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "landscape orintation lock [bounty: 16 XTR]",
-      "updated_at": "2026-11-27T21:20:16Z",
-      "verification_confidence": "medium"
+      "recent_claim_count": 3,
+      "reward_mentions": [
+        "$200",
+        "$200 USD"
+      ],
+      "reward_usd_max": 200.0,
+      "title": "fix(shader_math): Align WGSL constant-eval Horner polynomial rounding with runtime pipeline ($200 bounty) [wgsl-transcendental-math-core]",
+      "updated_at": "2026-11-28T07:14:27Z",
+      "verification_confidence": "high"
     },
     {
       "canonical_state": "open",
-      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2632",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2632",
-      "id": "github:FreezingMoon/AncientBeast#2632",
-      "labels": [
-        "coding",
-        "multiplayer",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "online multiplayer lobby [bounty: 6666 XTR]",
-      "updated_at": "2026-11-27T21:19:29Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/FreezingMoon/AncientBeast/issues/2088",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/FreezingMoon/AncientBeast/issues/2088",
-      "id": "github:FreezingMoon/AncientBeast#2088",
-      "labels": [
-        "coding",
-        "visuals",
-        "bounty"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "health visual offset when Brave's shield is on [bounty: 6 XTR]",
-      "updated_at": "2026-11-27T21:07:29Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tari-project/universe/issues/3299",
+      "canonical_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
       "canonicalized_from_mirror": false,
       "caveats": [
         "Reward text is not proof of escrow, payment, or asset convertibility.",
@@ -258,297 +270,496 @@
       ],
       "claim_signals": [
         {
-          "actor": "evelynxuu1103-spec",
-          "command": "/attempt #3299",
-          "created_at": "2026-07-03T15:17:37Z",
-          "recent": false,
-          "url": "https://github.com/tari-project/universe/issues/3299#issuecomment-4877596216"
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T01:15:21Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2#issuecomment-7231534252"
         },
         {
-          "actor": "satoshinakamoto666666",
-          "command": "/claim #3299",
-          "created_at": "2026-11-11T18:57:06Z",
-          "recent": false,
-          "url": "https://github.com/tari-project/universe/issues/3299#issuecomment-6804615930"
-        }
-      ],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/tari-project/universe/issues/3299",
-      "id": "github:tari-project/universe#3299",
-      "labels": [
-        "bug",
-        "in the wild",
-        "bounty",
-        "bounty-M"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "CPU mining capped at 64 threads on Windows machines with 64+ logical cores",
-      "updated_at": "2026-11-27T21:06:46Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/docs/issues/26",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/docs/issues/26",
-      "id": "github:hanzoai/docs#26",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Copy-paste audit of Getting Started, Self-Hosting, Mobile, Desktop & OSS Onboarding guides",
-      "updated_at": "2026-11-27T20:36:04Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/ui/issues/337",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/ui/issues/337",
-      "id": "github:hanzoai/ui#337",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Verify `@hanzo/ui` tree-shaking, React 19 / Next.js static export & Storybook/tests",
-      "updated_at": "2026-11-27T20:36:02Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/billing/issues/1",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/billing/issues/1",
-      "id": "github:hanzoai/billing#1",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 0,
-      "matching_open_prs": [],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Plans, invoices & usage dashboard mock-API test suite",
-      "updated_at": "2026-11-27T20:36:00Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/python-sdk/issues/55",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/python-sdk/issues/55",
-      "id": "github:hanzoai/python-sdk#55",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-27T08:53:45Z",
-          "number": 56,
-          "title": "test: add Python 3.12+ async streaming and mock OpenAPI drift verification (closes #55)",
-          "url": "https://github.com/hanzoai/python-sdk/pull/56"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Quickstart, async streaming & MCP/IAM example verification on Python 3.12+",
-      "updated_at": "2026-11-27T20:35:58Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/gui/issues/21",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/gui/issues/21",
-      "id": "github:hanzoai/gui#21",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-27T17:46:12Z",
-          "number": 23,
-          "title": "fix(a11y): keyboard access, single tab stop and focus rings for core primitives",
-          "url": "https://github.com/hanzoai/gui/pull/23"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Keyboard navigation, focus-ring & WCAG AA accessibility audit on core primitives",
-      "updated_at": "2026-11-27T20:35:51Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/138",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/tradermarketcap/tradermarketcap-open/issues/138",
-      "id": "github:tradermarketcap/tradermarketcap-open#138",
-      "labels": [
-        "bounty",
-        "open",
-        "locked-wallets"
-      ],
-      "matching_open_pr_count": 1,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-27T17:16:37Z",
-          "number": 147,
-          "title": "[bounty #138] Supply rule for Subsquid (SQD)",
-          "url": "https://github.com/tradermarketcap/tradermarketcap-open/pull/147"
-        }
-      ],
-      "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "Supply rule for Subsquid (SQD)",
-      "updated_at": "2026-11-27T20:11:36Z",
-      "verification_confidence": "medium"
-    },
-    {
-      "canonical_state": "open",
-      "canonical_url": "https://github.com/hanzoai/post/issues/21",
-      "canonicalized_from_mirror": false,
-      "caveats": [
-        "Reward text is not proof of escrow, payment, or asset convertibility.",
-        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
-        "PR competition is a lower bound based on explicit issue references.",
-        "Claim commands are signals; project-specific reservation semantics may differ."
-      ],
-      "claim_signals": [],
-      "closed_at": null,
-      "decision": "manual_review",
-      "decision_reasons": [
-        "No trustworthy reward amount found in the issuer-authored title/body."
-      ],
-      "discovered_url": "https://github.com/hanzoai/post/issues/21",
-      "id": "github:hanzoai/post#21",
-      "labels": [
-        "bounty",
-        "intern"
-      ],
-      "matching_open_pr_count": 2,
-      "matching_open_prs": [
-        {
-          "created_at": "2026-11-27T14:04:41Z",
-          "number": 22,
-          "title": "test(scheduler): multi-timezone, media validation, and window limits unit tests (fixes #21)",
-          "url": "https://github.com/hanzoai/post/pull/22"
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:05Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2#issuecomment-7233095308"
         },
         {
-          "created_at": "2026-11-27T20:46:57Z",
-          "number": 24,
-          "title": "test: cover scheduling/timezone and per-network validation",
-          "url": "https://github.com/hanzoai/post/pull/24"
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T07:14:25Z",
+          "recent": true,
+          "url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2#issuecomment-7235806325"
+        }
+      ],
+      "closed_at": null,
+      "decision": "hold",
+      "decision_reasons": [
+        "A /claim, /try, or /attempt signal was posted within the last 8 hours."
+      ],
+      "discovered_url": "https://github.com/IES-BoilerRoom/wasm-component-canonical-abi/issues/2",
+      "id": "github:IES-BoilerRoom/wasm-component-canonical-abi#2",
+      "labels": [
+        "help wanted",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 3,
+      "reward_mentions": [
+        "$225 USD"
+      ],
+      "reward_usd_max": 225.0,
+      "title": "ci/canonical_abi: Verify zero-reallocation UTF-8 frame lifting under deterministic fuel metering - Reward $225 USDC",
+      "updated_at": "2026-11-28T07:14:25Z",
+      "verification_confidence": "high"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/node/issues/24",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:47Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/node/issues/24#issuecomment-7233104438"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/node/issues/24",
+      "id": "github:hanzoai/node#24",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Local `hanzod` daemon lifecycle & child-process crash recovery tests",
+      "updated_at": "2026-11-28T03:28:47Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/Ikalus1988/MisakaNet/issues/5849",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:41Z",
+          "recent": true,
+          "url": "https://github.com/Ikalus1988/MisakaNet/issues/5849#issuecomment-7233103251"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/Ikalus1988/MisakaNet/issues/5849",
+      "id": "github:Ikalus1988/MisakaNet#5849",
+      "labels": [
+        "ready",
+        "bounty"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Bounty] Answer the 2 linked question(s)",
+      "updated_at": "2026-11-28T03:28:44Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/base/issues/56",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:41Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/base/issues/56#issuecomment-7233103080"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/base/issues/56",
+      "id": "github:hanzoai/base#56",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] SQLCipher/age-encrypted WAL crash-recovery stress test",
+      "updated_at": "2026-11-28T03:28:41Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/iam/issues/56",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:40Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/iam/issues/56#issuecomment-7233102882"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/iam/issues/56",
+      "id": "github:hanzoai/iam#56",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Local OIDC PKCE + JWKS end-to-end integration test with `hanzoai/cloud`",
+      "updated_at": "2026-11-28T03:28:40Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/kms/issues/2",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:38Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/kms/issues/2#issuecomment-7233102514"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/kms/issues/2",
+      "id": "github:hanzoai/kms#2",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 0,
+      "matching_open_prs": [],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Key rotation, versioned secret reads & malformed ciphertext fuzz tests",
+      "updated_at": "2026-11-28T03:28:38Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/vfs/issues/132",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:46Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/vfs/issues/132#issuecomment-7233104238"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/vfs/issues/132",
+      "id": "github:hanzoai/vfs#132",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-28T04:36:41Z",
+          "number": 133,
+          "title": "test(parasync): add cryptographic fault-injection suite and bind pack digest in receipts",
+          "url": "https://github.com/hanzoai/vfs/pull/133"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Cryptographic integrity fault-injection tests for ParaSync delta restore (#126)",
+      "updated_at": "2026-11-28T03:28:46Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/vfs/issues/131",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:45Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/vfs/issues/131#issuecomment-7233104047"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/vfs/issues/131",
+      "id": "github:hanzoai/vfs#131",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-28T05:18:30Z",
+          "number": 134,
+          "title": "test(rask): independent -benchmem, pprof heap, and crossover qualification",
+          "url": "https://github.com/hanzoai/vfs/pull/134"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Independent benchmark & memory qualification of RASK sparse-range index (#129 vs shipping intervals)",
+      "updated_at": "2026-11-28T03:28:45Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/commerce/issues/86",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:39Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/commerce/issues/86#issuecomment-7233102698"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/commerce/issues/86",
+      "id": "github:hanzoai/commerce#86",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 1,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-28T04:00:33Z",
+          "number": 90,
+          "title": "test(billing): add concurrent credit-ledger and idempotency race suites",
+          "url": "https://github.com/hanzoai/commerce/pull/90"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Concurrent credit-ledger & idempotency-key race tests (`go test -race`)",
+      "updated_at": "2026-11-28T03:28:39Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/hanzoai/team/issues/43",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [
+        {
+          "actor": "iamGodofall",
+          "command": "/try",
+          "created_at": "2026-11-28T03:28:29Z",
+          "recent": true,
+          "url": "https://github.com/hanzoai/team/issues/43#issuecomment-7233100556"
+        }
+      ],
+      "closed_at": null,
+      "decision": "manual_review",
+      "decision_reasons": [
+        "No trustworthy reward amount found in the issuer-authored title/body."
+      ],
+      "discovered_url": "https://github.com/hanzoai/team/issues/43",
+      "id": "github:hanzoai/team#43",
+      "labels": [
+        "bounty",
+        "intern"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-28T07:28:29Z",
+          "number": 51,
+          "title": "test(team): add core workspace UI smoke tests",
+          "url": "https://github.com/hanzoai/team/pull/51"
+        },
+        {
+          "created_at": "2026-11-28T02:12:57Z",
+          "number": 49,
+          "title": "[Intern] Clean local build, @hanzo/gui peer check & core workspace UI smoke tests",
+          "url": "https://github.com/hanzoai/team/pull/49"
+        },
+        {
+          "created_at": "2026-11-28T07:32:16Z",
+          "number": 52,
+          "title": "fix: align peer catalog, cross-platform tests, and Playwright workspace UI smoke tests",
+          "url": "https://github.com/hanzoai/team/pull/52"
+        }
+      ],
+      "recent_claim_count": 1,
+      "reward_mentions": [],
+      "reward_usd_max": null,
+      "title": "[Intern] Clean local build, `@hanzo/gui` peer check & core workspace UI smoke tests",
+      "updated_at": "2026-11-28T07:47:44Z",
+      "verification_confidence": "medium"
+    },
+    {
+      "canonical_state": "open",
+      "canonical_url": "https://github.com/auscaster/frantic-board/issues/53",
+      "canonicalized_from_mirror": false,
+      "caveats": [
+        "Reward text is not proof of escrow, payment, or asset convertibility.",
+        "reward_usd_max is populated only for explicit $, USD or USDC amounts; non-USD assets are not converted.",
+        "PR competition is a lower bound based on explicit issue references.",
+        "Claim commands are signals; project-specific reservation semantics may differ."
+      ],
+      "claim_signals": [],
+      "closed_at": null,
+      "decision": "skip",
+      "decision_reasons": [
+        "At least 3 open PRs explicitly reference the canonical issue."
+      ],
+      "discovered_url": "https://github.com/auscaster/frantic-board/issues/53",
+      "id": "github:auscaster/frantic-board#53",
+      "labels": [
+        "bounty",
+        "funded",
+        "needs-work"
+      ],
+      "matching_open_pr_count": 3,
+      "matching_open_prs": [
+        {
+          "created_at": "2026-11-11T18:59:33Z",
+          "number": 593,
+          "title": "feat(bounty-33): Sourcey documentation bundle and friction report for permit2-rpc-manager (#53)",
+          "url": "https://github.com/auscaster/frantic-board/pull/593"
+        },
+        {
+          "created_at": "2026-09-15T00:48:23Z",
+          "number": 424,
+          "title": "Add Sourcey docs evidence for GitHub REST API (fixes #53)",
+          "url": "https://github.com/auscaster/frantic-board/pull/424"
+        },
+        {
+          "created_at": "2026-09-12T01:37:10Z",
+          "number": 418,
+          "title": "Fix #53: Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
+          "url": "https://github.com/auscaster/frantic-board/pull/418"
         }
       ],
       "recent_claim_count": 0,
-      "reward_mentions": [],
-      "reward_usd_max": null,
-      "title": "[Intern] Social publishing scheduler timezone & media validation unit tests",
-      "updated_at": "2026-11-27T20:44:19Z",
-      "verification_confidence": "medium"
+      "reward_mentions": [
+        "$20"
+      ],
+      "reward_usd_max": 20.0,
+      "title": "Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
+      "updated_at": "2026-11-28T04:23:52Z",
+      "verification_confidence": "high"
     }
   ],
   "errors": [],
-  "generated_at": "2026-11-27T21:26:15.127780Z",
+  "generated_at": "2026-11-28T07:59:40.835207Z",
   "policy": {
     "claim_hours": 8,
     "lookback_days": 3,
